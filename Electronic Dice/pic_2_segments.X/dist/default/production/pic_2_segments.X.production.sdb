@@ -1,0 +1,426 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1847 ]
+[d frameptr 6 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"70 E:\pic 7 sgments\pic_2_segments.X\main.c
+[v _timer2ISR timer2ISR `(v  1 e 1 0 ]
+"74
+[v _getStates getStates `(uc  1 e 1 0 ]
+"82
+[v _change_state change_state `(v  1 e 1 0 ]
+"97
+[v _reset_display reset_display `(v  1 e 1 0 ]
+"108
+[v _off_display off_display `(v  1 e 1 0 ]
+"119
+[v _display_U1 display_U1 `(v  1 e 1 0 ]
+"125
+[v _display_U2 display_U2 `(v  1 e 1 0 ]
+"135
+[v _main main `(v  1 e 1 0 ]
+"66 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"153
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"52 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"119
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+"130
+[v _TMR2_CallBack TMR2_CallBack `(v  1 e 1 0 ]
+"140
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+"144
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S392 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16f1847.h
+[s S401 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S406 . 1 `S392 1 . 1 0 `S401 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES406  1 e 1 @11 ]
+[s S484 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"446
+[u S493 . 1 `S484 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES493  1 e 1 @12 ]
+[s S463 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508
+[u S472 . 1 `S463 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES472  1 e 1 @13 ]
+[s S52 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"570
+[u S61 . 1 `S52 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES61  1 e 1 @17 ]
+"948
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"968
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"988
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S105 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1009
+[s S113 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S117 . 1 `S105 1 . 1 0 `S113 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES117  1 e 1 @28 ]
+"1165
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1227
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S73 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1306
+[u S82 . 1 `S73 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES82  1 e 1 @145 ]
+[s S191 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1491
+[s S200 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S205 . 1 `S191 1 . 1 0 `S200 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES205  1 e 1 @149 ]
+"1602
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1661
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1719
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2052
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S526 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2069
+[u S535 . 1 `S526 1 . 1 0 ]
+[v _LATAbits LATAbits `VES535  1 e 1 @268 ]
+"2109
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S505 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2126
+[u S514 . 1 `S505 1 . 1 0 ]
+[v _LATBbits LATBbits `VES514  1 e 1 @269 ]
+"2443
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2792
+[v _APFCON0 APFCON0 `VEuc  1 e 1 @285 ]
+"2854
+[v _APFCON1 APFCON1 `VEuc  1 e 1 @286 ]
+"2874
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2926
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3185
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3205
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3241
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"3291
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"3324
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S314 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3341
+[u S323 . 1 `S314 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES323  1 e 1 @413 ]
+"3386
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S293 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3403
+[u S302 . 1 `S293 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES302  1 e 1 @414 ]
+"3448
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"3500
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3529
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"66 E:\pic 7 sgments\pic_2_segments.X\main.c
+[v _B1_state B1_state `uc  1 e 1 0 ]
+"67
+[v _B2_state B2_state `uc  1 e 1 0 ]
+"68
+[v _tick tick `ul  1 e 4 0 ]
+[s S235 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/eusart.c
+[u S240 . 1 `S235 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES240  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"58 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/tmr2.c
+[v _TMR2_InterruptHandler TMR2_InterruptHandler `*.37(v  1 e 2 0 ]
+"135 E:\pic 7 sgments\pic_2_segments.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"139
+[v main@counter counter `uc  1 a 1 13 ]
+"137
+[v main@button_state button_state `uc  1 a 1 12 ]
+"138
+[v main@last_button_state last_button_state `uc  1 a 1 11 ]
+"213
+} 0
+"97
+[v _reset_display reset_display `(v  1 e 1 0 ]
+{
+"106
+} 0
+"108
+[v _off_display off_display `(v  1 e 1 0 ]
+{
+"117
+} 0
+"74
+[v _getStates getStates `(uc  1 e 1 0 ]
+{
+"81
+} 0
+"125
+[v _display_U2 display_U2 `(v  1 e 1 0 ]
+{
+[v display_U2@input input `uc  1 a 1 wreg ]
+[v display_U2@input input `uc  1 a 1 wreg ]
+[v display_U2@input input `uc  1 a 1 2 ]
+"130
+} 0
+"119
+[v _display_U1 display_U1 `(v  1 e 1 0 ]
+{
+[v display_U1@input input `uc  1 a 1 wreg ]
+[v display_U1@input input `uc  1 a 1 wreg ]
+[v display_U1@input input `uc  1 a 1 2 ]
+"124
+} 0
+"82
+[v _change_state change_state `(v  1 e 1 0 ]
+{
+[v change_state@state state `uc  1 a 1 wreg ]
+[v change_state@state state `uc  1 a 1 wreg ]
+[v change_state@state state `uc  1 a 1 2 ]
+"96
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"50 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"64 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"140
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"142
+} 0
+"55 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"60 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"66 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"172
+} 0
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"168
+} 0
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"176
+} 0
+"52 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"70
+} 0
+"119 E:\pic 7 sgments\pic_2_segments.X\mcc_generated_files/tmr2.c
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+{
+"128
+} 0
+"130
+[v _TMR2_CallBack TMR2_CallBack `(v  1 e 1 0 ]
+{
+"138
+} 0
+"144
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"147
+} 0
+"70 E:\pic 7 sgments\pic_2_segments.X\main.c
+[v _timer2ISR timer2ISR `(v  1 e 1 0 ]
+{
+"72
+} 0

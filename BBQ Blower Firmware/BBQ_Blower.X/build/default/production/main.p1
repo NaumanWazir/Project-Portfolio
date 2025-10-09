@@ -1,0 +1,3188 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"38 main.c
+[; ;main.c: 38: }currentButtState;
+[c E4535 1 2 3 .. ]
+[n E4535 ButtonState TOOSHORT SHORT LONG  ]
+"51
+[; ;main.c: 51:     StageLowBatt} currentState;
+[c E4540 1 2 3 4 5 6 7 8 9 10 11 .. ]
+[n E4540 State StageOff StageWakeUp StageOn StageASlow StageBNormal StageB1 StageB2 StageCEnd StageDOff StageShutdown StageLowBatt  ]
+"258 ./mcc_generated_files/adc1.h
+[; ;./mcc_generated_files/adc1.h: 258: adc_result_t ADC1_GetConversionResult(void);
+[v _ADC1_GetConversionResult `(us ~T0 @X0 0 ef ]
+"249 ./mcc_generated_files/pwm1.h
+[; ;./mcc_generated_files/pwm1.h: 249: void PWM1_DutyCycleSet(uint16_t dutyCycleCount);
+[v _PWM1_DutyCycleSet `(v ~T0 @X0 0 ef1`us ]
+"203
+[; ;./mcc_generated_files/pwm1.h: 203: void PWM1_LoadBufferSet(void);
+[v _PWM1_LoadBufferSet `(v ~T0 @X0 0 ef ]
+"123
+[; ;./mcc_generated_files/pwm1.h: 123: void PWM1_Start(void);
+[v _PWM1_Start `(v ~T0 @X0 0 ef ]
+"155
+[; ;./mcc_generated_files/pwm1.h: 155: void PWM1_Stop(void);
+[v _PWM1_Stop `(v ~T0 @X0 0 ef ]
+"1023 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1023: extern volatile unsigned char TRISC __attribute__((address(0x08E)));
+[v _TRISC `Vuc ~T0 @X0 0 e@142 ]
+"1876
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1876:     struct {
+[s S106 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S106 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 ]
+"1875
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1875: typedef union {
+[u S105 `S106 1 ]
+[n S105 . . ]
+"1885
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1885: extern volatile LATCbits_t LATCbits __attribute__((address(0x10E)));
+[v _LATCbits `VS105 ~T0 @X0 0 e@270 ]
+"249 ./mcc_generated_files/pwm2.h
+[; ;./mcc_generated_files/pwm2.h: 249: void PWM2_DutyCycleSet(uint16_t dutyCycleCount);
+[v _PWM2_DutyCycleSet `(v ~T0 @X0 0 ef1`us ]
+"203
+[; ;./mcc_generated_files/pwm2.h: 203: void PWM2_LoadBufferSet(void);
+[v _PWM2_LoadBufferSet `(v ~T0 @X0 0 ef ]
+"123
+[; ;./mcc_generated_files/pwm2.h: 123: void PWM2_Start(void);
+[v _PWM2_Start `(v ~T0 @X0 0 ef ]
+"155
+[; ;./mcc_generated_files/pwm2.h: 155: void PWM2_Stop(void);
+[v _PWM2_Stop `(v ~T0 @X0 0 ef ]
+"973 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 973: extern volatile unsigned char TRISA __attribute__((address(0x08C)));
+[v _TRISA `Vuc ~T0 @X0 0 e@140 ]
+"1831
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1831:     struct {
+[s S104 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S104 . LATA0 LATA1 LATA2 . LATA4 LATA5 ]
+"1830
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1830: typedef union {
+[u S103 `S104 1 ]
+[n S103 . . ]
+"1840
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1840: extern volatile LATAbits_t LATAbits __attribute__((address(0x10C)));
+[v _LATAbits `VS103 ~T0 @X0 0 e@268 ]
+"249 ./mcc_generated_files/pwm3.h
+[; ;./mcc_generated_files/pwm3.h: 249: void PWM3_DutyCycleSet(uint16_t dutyCycleCount);
+[v _PWM3_DutyCycleSet `(v ~T0 @X0 0 ef1`us ]
+"203
+[; ;./mcc_generated_files/pwm3.h: 203: void PWM3_LoadBufferSet(void);
+[v _PWM3_LoadBufferSet `(v ~T0 @X0 0 ef ]
+"123
+[; ;./mcc_generated_files/pwm3.h: 123: void PWM3_Start(void);
+[v _PWM3_Start `(v ~T0 @X0 0 ef ]
+"155
+[; ;./mcc_generated_files/pwm3.h: 155: void PWM3_Stop(void);
+[v _PWM3_Stop `(v ~T0 @X0 0 ef ]
+"249 ./mcc_generated_files/pwm4.h
+[; ;./mcc_generated_files/pwm4.h: 249: void PWM4_DutyCycleSet(uint16_t dutyCycleCount);
+[v _PWM4_DutyCycleSet `(v ~T0 @X0 0 ef1`us ]
+"203
+[; ;./mcc_generated_files/pwm4.h: 203: void PWM4_LoadBufferSet(void);
+[v _PWM4_LoadBufferSet `(v ~T0 @X0 0 ef ]
+"123
+[; ;./mcc_generated_files/pwm4.h: 123: void PWM4_Start(void);
+[v _PWM4_Start `(v ~T0 @X0 0 ef ]
+"155
+[; ;./mcc_generated_files/pwm4.h: 155: void PWM4_Stop(void);
+[v _PWM4_Stop `(v ~T0 @X0 0 ef ]
+"435 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 435:     struct {
+[s S34 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S34 . RA0 RA1 RA2 RA3 RA4 RA5 ]
+"434
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 434: typedef union {
+[u S33 `S34 1 ]
+[n S33 . . ]
+"444
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 444: extern volatile PORTAbits_t PORTAbits __attribute__((address(0x00C)));
+[v _PORTAbits `VS33 ~T0 @X0 0 e@12 ]
+[p mainexit ]
+"79 ./mcc_generated_files/mcc.h
+[; ;./mcc_generated_files/mcc.h: 79: void SYSTEM_Initialize(void);
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"127 ./mcc_generated_files/fvr.h
+[; ;./mcc_generated_files/fvr.h: 127: _Bool FVR_IsOutputReady(void);
+[v _FVR_IsOutputReady `(a ~T0 @X0 0 ef ]
+[v F4502 `(v ~T0 @X0 0 tf ]
+"350 ./mcc_generated_files/adc1.h
+[; ;./mcc_generated_files/adc1.h: 350:  void ADC1_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _ADC1_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F4502 ]
+"246 main.c
+[; ;main.c: 246:     ADC1_SelectChannel(channel_FVR);
+[c E4489 0 29 30 31 .. ]
+[n E4489 . channel_AN0 channel_Temp channel_DAC channel_FVR  ]
+"166 ./mcc_generated_files/adc1.h
+[; ;./mcc_generated_files/adc1.h: 166: void ADC1_SelectChannel(adc_channel_t channel);
+[v _ADC1_SelectChannel `(v ~T0 @X0 0 ef1`E4489 ]
+[v F4458 `(v ~T0 @X0 0 tf ]
+"261 ./mcc_generated_files/tmr0.h
+[; ;./mcc_generated_files/tmr0.h: 261:  void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _TMR0_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F4458 ]
+[v F4123 `(v ~T0 @X0 0 tf ]
+"308 ./mcc_generated_files/pin_manager.h
+[; ;./mcc_generated_files/pin_manager.h: 308: void IOCAF3_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _IOCAF3_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F4123 ]
+"193 ./mcc_generated_files/adc1.h
+[; ;./mcc_generated_files/adc1.h: 193: void ADC1_StartConversion(void);
+[v _ADC1_StartConversion `(v ~T0 @X0 0 ef ]
+"357 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 357:     struct {
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . IOCIF INTF TMR0IF IOCIE INTE TMR0IE PEIE GIE ]
+"367
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 367:     struct {
+[s S32 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S32 . . T0IF . T0IE ]
+"356
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 356: typedef union {
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"374
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 374: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"55 main.c
+[; ;main.c: 55: void programStates(enum State);
+[v _programStates `(v ~T0 @X0 0 ef1`E4540 ]
+[v F192 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\builtins.h
+[v __delay `JF192 ~T0 @X0 0 e ]
+[p i __delay ]
+"105 C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h: 105: int printf(const char *restrict, ...);
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"54 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"481
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 481: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"531
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 531: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"582
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 582: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"609
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 609: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"648
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 648: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"668
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 668: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"675
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 675: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"695
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 695: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"715
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 715: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"787
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 787: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"864
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 864: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"884
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 884: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"904
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 904: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"975
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 975: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1025
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1025: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1075
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1075: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1126
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1126: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1153
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1153: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1192
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1192: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1275
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1275: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1332
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1332: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1391
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1391: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1449
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1449: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1521
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1521: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1577
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1577: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1584
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1584: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1604
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1604: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1624
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1624: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1713
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1713: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1779
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1779: __asm("ADCON2 equ 09Fh");
+[; <" ADCON2 equ 09Fh ;# ">
+"1827
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1827: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1872
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1872: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"1922
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1922: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"1979
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 1979: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2051
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2051: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2108
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2108: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2180
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2180: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2206
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2206: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2239
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2239: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2315
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2315: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2370
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2370: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2422
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2422: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2469
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2469: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"2515
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2515: __asm("PMADR equ 0191h");
+[; <" PMADR equ 0191h ;# ">
+"2522
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2522: __asm("PMADRL equ 0191h");
+[; <" PMADRL equ 0191h ;# ">
+"2542
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2542: __asm("PMADRH equ 0192h");
+[; <" PMADRH equ 0192h ;# ">
+"2562
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2562: __asm("PMDAT equ 0193h");
+[; <" PMDAT equ 0193h ;# ">
+"2569
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2569: __asm("PMDATL equ 0193h");
+[; <" PMDATL equ 0193h ;# ">
+"2589
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2589: __asm("PMDATH equ 0194h");
+[; <" PMDATH equ 0194h ;# ">
+"2609
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2609: __asm("PMCON1 equ 0195h");
+[; <" PMCON1 equ 0195h ;# ">
+"2665
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2665: __asm("PMCON2 equ 0196h");
+[; <" PMCON2 equ 0196h ;# ">
+"2685
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2685: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"2705
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2705: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"2725
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2725: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"2732
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2732: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"2752
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2752: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"2772
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2772: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"2834
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2834: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"2896
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2896: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"2948
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 2948: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3006
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3006: __asm("WPUC equ 020Eh");
+[; <" WPUC equ 020Eh ;# ">
+"3064
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3064: __asm("ODCONA equ 028Ch");
+[; <" ODCONA equ 028Ch ;# ">
+"3117
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3117: __asm("ODCONC equ 028Eh");
+[; <" ODCONC equ 028Eh ;# ">
+"3175
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3175: __asm("SLRCONA equ 030Ch");
+[; <" SLRCONA equ 030Ch ;# ">
+"3228
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3228: __asm("SLRCONC equ 030Eh");
+[; <" SLRCONC equ 030Eh ;# ">
+"3286
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3286: __asm("INLVLA equ 038Ch");
+[; <" INLVLA equ 038Ch ;# ">
+"3344
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3344: __asm("INLVLC equ 038Eh");
+[; <" INLVLC equ 038Eh ;# ">
+"3402
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3402: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"3460
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3460: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"3518
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3518: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"3576
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3576: __asm("IOCCP equ 0397h");
+[; <" IOCCP equ 0397h ;# ">
+"3634
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3634: __asm("IOCCN equ 0398h");
+[; <" IOCCN equ 0398h ;# ">
+"3692
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3692: __asm("IOCCF equ 0399h");
+[; <" IOCCF equ 0399h ;# ">
+"3750
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3750: __asm("CWG1DBR equ 0691h");
+[; <" CWG1DBR equ 0691h ;# ">
+"3808
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3808: __asm("CWG1DBF equ 0692h");
+[; <" CWG1DBF equ 0692h ;# ">
+"3866
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3866: __asm("CWG1CON0 equ 0693h");
+[; <" CWG1CON0 equ 0693h ;# ">
+"3925
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 3925: __asm("CWG1CON1 equ 0694h");
+[; <" CWG1CON1 equ 0694h ;# ">
+"4002
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4002: __asm("CWG1CON2 equ 0695h");
+[; <" CWG1CON2 equ 0695h ;# ">
+"4048
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4048: __asm("PWMEN equ 0D8Eh");
+[; <" PWMEN equ 0D8Eh ;# ">
+"4106
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4106: __asm("PWMLD equ 0D8Fh");
+[; <" PWMLD equ 0D8Fh ;# ">
+"4164
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4164: __asm("PWMOUT equ 0D90h");
+[; <" PWMOUT equ 0D90h ;# ">
+"4222
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4222: __asm("PWM1PH equ 0D91h");
+[; <" PWM1PH equ 0D91h ;# ">
+"4229
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4229: __asm("PWM1PHL equ 0D91h");
+[; <" PWM1PHL equ 0D91h ;# ">
+"4307
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4307: __asm("PWM1PHH equ 0D92h");
+[; <" PWM1PHH equ 0D92h ;# ">
+"4385
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4385: __asm("PWM1DC equ 0D93h");
+[; <" PWM1DC equ 0D93h ;# ">
+"4392
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4392: __asm("PWM1DCL equ 0D93h");
+[; <" PWM1DCL equ 0D93h ;# ">
+"4470
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4470: __asm("PWM1DCH equ 0D94h");
+[; <" PWM1DCH equ 0D94h ;# ">
+"4548
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4548: __asm("PWM1PR equ 0D95h");
+[; <" PWM1PR equ 0D95h ;# ">
+"4555
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4555: __asm("PWM1PRL equ 0D95h");
+[; <" PWM1PRL equ 0D95h ;# ">
+"4633
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4633: __asm("PWM1PRH equ 0D96h");
+[; <" PWM1PRH equ 0D96h ;# ">
+"4711
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4711: __asm("PWM1OF equ 0D97h");
+[; <" PWM1OF equ 0D97h ;# ">
+"4718
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4718: __asm("PWM1OFL equ 0D97h");
+[; <" PWM1OFL equ 0D97h ;# ">
+"4796
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4796: __asm("PWM1OFH equ 0D98h");
+[; <" PWM1OFH equ 0D98h ;# ">
+"4874
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4874: __asm("PWM1TMR equ 0D99h");
+[; <" PWM1TMR equ 0D99h ;# ">
+"4881
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4881: __asm("PWM1TMRL equ 0D99h");
+[; <" PWM1TMRL equ 0D99h ;# ">
+"4959
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 4959: __asm("PWM1TMRH equ 0D9Ah");
+[; <" PWM1TMRH equ 0D9Ah ;# ">
+"5037
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5037: __asm("PWM1CON equ 0D9Bh");
+[; <" PWM1CON equ 0D9Bh ;# ">
+"5145
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5145: __asm("PWM1INTE equ 0D9Ch");
+[; <" PWM1INTE equ 0D9Ch ;# ">
+"5150
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5150: __asm("PWM1INTCON equ 0D9Ch");
+[; <" PWM1INTCON equ 0D9Ch ;# ">
+"5271
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5271: __asm("PWM1INTF equ 0D9Dh");
+[; <" PWM1INTF equ 0D9Dh ;# ">
+"5276
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5276: __asm("PWM1INTFLG equ 0D9Dh");
+[; <" PWM1INTFLG equ 0D9Dh ;# ">
+"5397
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5397: __asm("PWM1CLKCON equ 0D9Eh");
+[; <" PWM1CLKCON equ 0D9Eh ;# ">
+"5505
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5505: __asm("PWM1LDCON equ 0D9Fh");
+[; <" PWM1LDCON equ 0D9Fh ;# ">
+"5587
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5587: __asm("PWM1OFCON equ 0DA0h");
+[; <" PWM1OFCON equ 0DA0h ;# ">
+"5695
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5695: __asm("PWM2PH equ 0DA1h");
+[; <" PWM2PH equ 0DA1h ;# ">
+"5702
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5702: __asm("PWM2PHL equ 0DA1h");
+[; <" PWM2PHL equ 0DA1h ;# ">
+"5780
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5780: __asm("PWM2PHH equ 0DA2h");
+[; <" PWM2PHH equ 0DA2h ;# ">
+"5858
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5858: __asm("PWM2DC equ 0DA3h");
+[; <" PWM2DC equ 0DA3h ;# ">
+"5865
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5865: __asm("PWM2DCL equ 0DA3h");
+[; <" PWM2DCL equ 0DA3h ;# ">
+"5943
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 5943: __asm("PWM2DCH equ 0DA4h");
+[; <" PWM2DCH equ 0DA4h ;# ">
+"6021
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6021: __asm("PWM2PR equ 0DA5h");
+[; <" PWM2PR equ 0DA5h ;# ">
+"6028
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6028: __asm("PWM2PRL equ 0DA5h");
+[; <" PWM2PRL equ 0DA5h ;# ">
+"6106
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6106: __asm("PWM2PRH equ 0DA6h");
+[; <" PWM2PRH equ 0DA6h ;# ">
+"6184
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6184: __asm("PWM2OF equ 0DA7h");
+[; <" PWM2OF equ 0DA7h ;# ">
+"6191
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6191: __asm("PWM2OFL equ 0DA7h");
+[; <" PWM2OFL equ 0DA7h ;# ">
+"6269
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6269: __asm("PWM2OFH equ 0DA8h");
+[; <" PWM2OFH equ 0DA8h ;# ">
+"6347
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6347: __asm("PWM2TMR equ 0DA9h");
+[; <" PWM2TMR equ 0DA9h ;# ">
+"6354
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6354: __asm("PWM2TMRL equ 0DA9h");
+[; <" PWM2TMRL equ 0DA9h ;# ">
+"6432
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6432: __asm("PWM2TMRH equ 0DAAh");
+[; <" PWM2TMRH equ 0DAAh ;# ">
+"6510
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6510: __asm("PWM2CON equ 0DABh");
+[; <" PWM2CON equ 0DABh ;# ">
+"6618
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6618: __asm("PWM2INTE equ 0DACh");
+[; <" PWM2INTE equ 0DACh ;# ">
+"6623
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6623: __asm("PWM2INTCON equ 0DACh");
+[; <" PWM2INTCON equ 0DACh ;# ">
+"6744
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6744: __asm("PWM2INTF equ 0DADh");
+[; <" PWM2INTF equ 0DADh ;# ">
+"6749
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6749: __asm("PWM2INTFLG equ 0DADh");
+[; <" PWM2INTFLG equ 0DADh ;# ">
+"6870
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6870: __asm("PWM2CLKCON equ 0DAEh");
+[; <" PWM2CLKCON equ 0DAEh ;# ">
+"6978
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 6978: __asm("PWM2LDCON equ 0DAFh");
+[; <" PWM2LDCON equ 0DAFh ;# ">
+"7060
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7060: __asm("PWM2OFCON equ 0DB0h");
+[; <" PWM2OFCON equ 0DB0h ;# ">
+"7168
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7168: __asm("PWM3PH equ 0DB1h");
+[; <" PWM3PH equ 0DB1h ;# ">
+"7175
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7175: __asm("PWM3PHL equ 0DB1h");
+[; <" PWM3PHL equ 0DB1h ;# ">
+"7253
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7253: __asm("PWM3PHH equ 0DB2h");
+[; <" PWM3PHH equ 0DB2h ;# ">
+"7331
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7331: __asm("PWM3DC equ 0DB3h");
+[; <" PWM3DC equ 0DB3h ;# ">
+"7338
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7338: __asm("PWM3DCL equ 0DB3h");
+[; <" PWM3DCL equ 0DB3h ;# ">
+"7416
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7416: __asm("PWM3DCH equ 0DB4h");
+[; <" PWM3DCH equ 0DB4h ;# ">
+"7494
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7494: __asm("PWM3PR equ 0DB5h");
+[; <" PWM3PR equ 0DB5h ;# ">
+"7501
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7501: __asm("PWM3PRL equ 0DB5h");
+[; <" PWM3PRL equ 0DB5h ;# ">
+"7579
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7579: __asm("PWM3PRH equ 0DB6h");
+[; <" PWM3PRH equ 0DB6h ;# ">
+"7657
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7657: __asm("PWM3OF equ 0DB7h");
+[; <" PWM3OF equ 0DB7h ;# ">
+"7664
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7664: __asm("PWM3OFL equ 0DB7h");
+[; <" PWM3OFL equ 0DB7h ;# ">
+"7742
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7742: __asm("PWM3OFH equ 0DB8h");
+[; <" PWM3OFH equ 0DB8h ;# ">
+"7820
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7820: __asm("PWM3TMR equ 0DB9h");
+[; <" PWM3TMR equ 0DB9h ;# ">
+"7827
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7827: __asm("PWM3TMRL equ 0DB9h");
+[; <" PWM3TMRL equ 0DB9h ;# ">
+"7905
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7905: __asm("PWM3TMRH equ 0DBAh");
+[; <" PWM3TMRH equ 0DBAh ;# ">
+"7983
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 7983: __asm("PWM3CON equ 0DBBh");
+[; <" PWM3CON equ 0DBBh ;# ">
+"8091
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8091: __asm("PWM3INTE equ 0DBCh");
+[; <" PWM3INTE equ 0DBCh ;# ">
+"8096
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8096: __asm("PWM3INTCON equ 0DBCh");
+[; <" PWM3INTCON equ 0DBCh ;# ">
+"8217
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8217: __asm("PWM3INTF equ 0DBDh");
+[; <" PWM3INTF equ 0DBDh ;# ">
+"8222
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8222: __asm("PWM3INTFLG equ 0DBDh");
+[; <" PWM3INTFLG equ 0DBDh ;# ">
+"8343
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8343: __asm("PWM3CLKCON equ 0DBEh");
+[; <" PWM3CLKCON equ 0DBEh ;# ">
+"8451
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8451: __asm("PWM3LDCON equ 0DBFh");
+[; <" PWM3LDCON equ 0DBFh ;# ">
+"8533
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8533: __asm("PWM3OFCON equ 0DC0h");
+[; <" PWM3OFCON equ 0DC0h ;# ">
+"8641
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8641: __asm("PWM4PH equ 0DC1h");
+[; <" PWM4PH equ 0DC1h ;# ">
+"8648
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8648: __asm("PWM4PHL equ 0DC1h");
+[; <" PWM4PHL equ 0DC1h ;# ">
+"8726
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8726: __asm("PWM4PHH equ 0DC2h");
+[; <" PWM4PHH equ 0DC2h ;# ">
+"8804
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8804: __asm("PWM4DC equ 0DC3h");
+[; <" PWM4DC equ 0DC3h ;# ">
+"8811
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8811: __asm("PWM4DCL equ 0DC3h");
+[; <" PWM4DCL equ 0DC3h ;# ">
+"8889
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8889: __asm("PWM4DCH equ 0DC4h");
+[; <" PWM4DCH equ 0DC4h ;# ">
+"8967
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8967: __asm("PWM4PR equ 0DC5h");
+[; <" PWM4PR equ 0DC5h ;# ">
+"8974
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 8974: __asm("PWM4PRL equ 0DC5h");
+[; <" PWM4PRL equ 0DC5h ;# ">
+"9052
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9052: __asm("PWM4PRH equ 0DC6h");
+[; <" PWM4PRH equ 0DC6h ;# ">
+"9130
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9130: __asm("PWM4OF equ 0DC7h");
+[; <" PWM4OF equ 0DC7h ;# ">
+"9137
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9137: __asm("PWM4OFL equ 0DC7h");
+[; <" PWM4OFL equ 0DC7h ;# ">
+"9215
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9215: __asm("PWM4OFH equ 0DC8h");
+[; <" PWM4OFH equ 0DC8h ;# ">
+"9293
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9293: __asm("PWM4TMR equ 0DC9h");
+[; <" PWM4TMR equ 0DC9h ;# ">
+"9300
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9300: __asm("PWM4TMRL equ 0DC9h");
+[; <" PWM4TMRL equ 0DC9h ;# ">
+"9378
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9378: __asm("PWM4TMRH equ 0DCAh");
+[; <" PWM4TMRH equ 0DCAh ;# ">
+"9456
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9456: __asm("PWM4CON equ 0DCBh");
+[; <" PWM4CON equ 0DCBh ;# ">
+"9564
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9564: __asm("PWM4INTE equ 0DCCh");
+[; <" PWM4INTE equ 0DCCh ;# ">
+"9569
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9569: __asm("PWM4INTCON equ 0DCCh");
+[; <" PWM4INTCON equ 0DCCh ;# ">
+"9690
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9690: __asm("PWM4INTF equ 0DCDh");
+[; <" PWM4INTF equ 0DCDh ;# ">
+"9695
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9695: __asm("PWM4INTFLG equ 0DCDh");
+[; <" PWM4INTFLG equ 0DCDh ;# ">
+"9816
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9816: __asm("PWM4CLKCON equ 0DCEh");
+[; <" PWM4CLKCON equ 0DCEh ;# ">
+"9924
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 9924: __asm("PWM4LDCON equ 0DCFh");
+[; <" PWM4LDCON equ 0DCFh ;# ">
+"10006
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10006: __asm("PWM4OFCON equ 0DD0h");
+[; <" PWM4OFCON equ 0DD0h ;# ">
+"10114
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10114: __asm("PPSLOCK equ 0E0Fh");
+[; <" PPSLOCK equ 0E0Fh ;# ">
+"10134
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10134: __asm("INTPPS equ 0E10h");
+[; <" INTPPS equ 0E10h ;# ">
+"10186
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10186: __asm("T0CKIPPS equ 0E11h");
+[; <" T0CKIPPS equ 0E11h ;# ">
+"10238
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10238: __asm("T1CKIPPS equ 0E12h");
+[; <" T1CKIPPS equ 0E12h ;# ">
+"10290
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10290: __asm("T1GPPS equ 0E13h");
+[; <" T1GPPS equ 0E13h ;# ">
+"10342
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10342: __asm("CWG1INPPS equ 0E14h");
+[; <" CWG1INPPS equ 0E14h ;# ">
+"10394
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10394: __asm("RXPPS equ 0E15h");
+[; <" RXPPS equ 0E15h ;# ">
+"10446
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10446: __asm("CKPPS equ 0E16h");
+[; <" CKPPS equ 0E16h ;# ">
+"10498
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10498: __asm("ADCACTPPS equ 0E17h");
+[; <" ADCACTPPS equ 0E17h ;# ">
+"10550
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10550: __asm("RA0PPS equ 0E90h");
+[; <" RA0PPS equ 0E90h ;# ">
+"10596
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10596: __asm("RA1PPS equ 0E91h");
+[; <" RA1PPS equ 0E91h ;# ">
+"10642
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10642: __asm("RA2PPS equ 0E92h");
+[; <" RA2PPS equ 0E92h ;# ">
+"10688
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10688: __asm("RA4PPS equ 0E94h");
+[; <" RA4PPS equ 0E94h ;# ">
+"10734
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10734: __asm("RA5PPS equ 0E95h");
+[; <" RA5PPS equ 0E95h ;# ">
+"10780
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10780: __asm("RC0PPS equ 0EA0h");
+[; <" RC0PPS equ 0EA0h ;# ">
+"10826
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10826: __asm("RC1PPS equ 0EA1h");
+[; <" RC1PPS equ 0EA1h ;# ">
+"10872
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10872: __asm("RC2PPS equ 0EA2h");
+[; <" RC2PPS equ 0EA2h ;# ">
+"10918
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10918: __asm("RC3PPS equ 0EA3h");
+[; <" RC3PPS equ 0EA3h ;# ">
+"10964
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 10964: __asm("RC4PPS equ 0EA4h");
+[; <" RC4PPS equ 0EA4h ;# ">
+"11010
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11010: __asm("RC5PPS equ 0EA5h");
+[; <" RC5PPS equ 0EA5h ;# ">
+"11056
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11056: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"11088
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11088: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"11108
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11108: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"11128
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11128: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"11148
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11148: __asm("FSR0_SHAD equ 0FE8h");
+[; <" FSR0_SHAD equ 0FE8h ;# ">
+"11155
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11155: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"11175
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11175: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"11195
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11195: __asm("FSR1_SHAD equ 0FEAh");
+[; <" FSR1_SHAD equ 0FEAh ;# ">
+"11202
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11202: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"11222
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11222: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"11242
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11242: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"11262
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11262: __asm("TOS equ 0FEEh");
+[; <" TOS equ 0FEEh ;# ">
+"11269
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11269: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"11289
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h: 11289: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"38 main.c
+[; ;main.c: 38: }currentButtState;
+[v _currentButtState `E4535 ~T0 @X0 1 e ]
+"51
+[; ;main.c: 51:     StageLowBatt} currentState;
+[v _currentState `E4540 ~T0 @X0 1 e ]
+"52
+[; ;main.c: 52: enum State lastState;
+[v _lastState `E4540 ~T0 @X0 1 e ]
+"69
+[; ;main.c: 69: volatile uint64_t tick = 0;
+[v _tick `Vuo ~T0 @X0 1 e ]
+[i _tick
+-> -> -> 0 `i `o `uo
+]
+"70
+[; ;main.c: 70: _Bool button_state = 0;
+[v _button_state `a ~T0 @X0 1 e ]
+[i _button_state
+-> -> 0 `i `a
+]
+"71
+[; ;main.c: 71: uint8_t buttonStateUpdated = 0;
+[v _buttonStateUpdated `uc ~T0 @X0 1 e ]
+[i _buttonStateUpdated
+-> -> 0 `i `uc
+]
+"72
+[; ;main.c: 72: uint8_t firstTime = 1;
+[v _firstTime `uc ~T0 @X0 1 e ]
+[i _firstTime
+-> -> 1 `i `uc
+]
+"73
+[; ;main.c: 73: uint8_t firstTimeB = 0;
+[v _firstTimeB `uc ~T0 @X0 1 e ]
+[i _firstTimeB
+-> -> 0 `i `uc
+]
+"74
+[; ;main.c: 74: uint8_t firstTimeC = 0;
+[v _firstTimeC `uc ~T0 @X0 1 e ]
+[i _firstTimeC
+-> -> 0 `i `uc
+]
+"75
+[; ;main.c: 75: uint8_t run_buttonLoop = 0;
+[v _run_buttonLoop `uc ~T0 @X0 1 e ]
+[i _run_buttonLoop
+-> -> 0 `i `uc
+]
+"76
+[; ;main.c: 76: uint8_t run_mainloop = 0;
+[v _run_mainloop `uc ~T0 @X0 1 e ]
+[i _run_mainloop
+-> -> 0 `i `uc
+]
+"77
+[; ;main.c: 77: uint8_t buttonPressedInProg = 0;
+[v _buttonPressedInProg `uc ~T0 @X0 1 e ]
+[i _buttonPressedInProg
+-> -> 0 `i `uc
+]
+"78
+[; ;main.c: 78: uint64_t pressedTime = 0;
+[v _pressedTime `uo ~T0 @X0 1 e ]
+[i _pressedTime
+-> -> -> 0 `i `o `uo
+]
+"79
+[; ;main.c: 79: uint64_t StageWakeUpTimer = 0;
+[v _StageWakeUpTimer `uo ~T0 @X0 1 e ]
+[i _StageWakeUpTimer
+-> -> -> 0 `i `o `uo
+]
+"80
+[; ;main.c: 80: uint64_t stageA_counter = 0;
+[v _stageA_counter `uo ~T0 @X0 1 e ]
+[i _stageA_counter
+-> -> -> 0 `i `o `uo
+]
+"81
+[; ;main.c: 81: uint64_t stageB_counter = 0;
+[v _stageB_counter `uo ~T0 @X0 1 e ]
+[i _stageB_counter
+-> -> -> 0 `i `o `uo
+]
+"82
+[; ;main.c: 82: uint64_t stageB1_counter = 0;
+[v _stageB1_counter `uo ~T0 @X0 1 e ]
+[i _stageB1_counter
+-> -> -> 0 `i `o `uo
+]
+"83
+[; ;main.c: 83: uint64_t stageC_counter = 0;
+[v _stageC_counter `uo ~T0 @X0 1 e ]
+[i _stageC_counter
+-> -> -> 0 `i `o `uo
+]
+"84
+[; ;main.c: 84: uint64_t stageD_counter = 0;
+[v _stageD_counter `uo ~T0 @X0 1 e ]
+[i _stageD_counter
+-> -> -> 0 `i `o `uo
+]
+"85
+[; ;main.c: 85: uint64_t shutdown_counter = 0;
+[v _shutdown_counter `uo ~T0 @X0 1 e ]
+[i _shutdown_counter
+-> -> -> 0 `i `o `uo
+]
+"86
+[; ;main.c: 86: uint64_t battlow_counter = 0;
+[v _battlow_counter `uo ~T0 @X0 1 e ]
+[i _battlow_counter
+-> -> -> 0 `i `o `uo
+]
+"87
+[; ;main.c: 87: uint16_t adc_value;
+[v _adc_value `us ~T0 @X0 1 e ]
+"88
+[; ;main.c: 88: uint16_t battery_voltage = 0;
+[v _battery_voltage `us ~T0 @X0 1 e ]
+[i _battery_voltage
+-> -> 0 `i `us
+]
+"89
+[; ;main.c: 89: uint16_t battery_voltage_last = 0;
+[v _battery_voltage_last `us ~T0 @X0 1 e ]
+[i _battery_voltage_last
+-> -> 0 `i `us
+]
+"90
+[; ;main.c: 90: uint8_t battery_status = 1;
+[v _battery_status `uc ~T0 @X0 1 e ]
+[i _battery_status
+-> -> 1 `i `uc
+]
+"91
+[; ;main.c: 91: uint16_t battery_status_counter = 0;
+[v _battery_status_counter `us ~T0 @X0 1 e ]
+[i _battery_status_counter
+-> -> 0 `i `us
+]
+"92
+[; ;main.c: 92: uint8_t batteryStatusUpdated = 0;
+[v _batteryStatusUpdated `uc ~T0 @X0 1 e ]
+[i _batteryStatusUpdated
+-> -> 0 `i `uc
+]
+"93
+[; ;main.c: 93: uint8_t singleBeep = 0;
+[v _singleBeep `uc ~T0 @X0 1 e ]
+[i _singleBeep
+-> -> 0 `i `uc
+]
+"94
+[; ;main.c: 94: uint8_t doubleBeep = 0;
+[v _doubleBeep `uc ~T0 @X0 1 e ]
+[i _doubleBeep
+-> -> 0 `i `uc
+]
+"95
+[; ;main.c: 95: uint16_t singleBeepCounter = 0;
+[v _singleBeepCounter `us ~T0 @X0 1 e ]
+[i _singleBeepCounter
+-> -> 0 `i `us
+]
+"96
+[; ;main.c: 96: uint16_t doubleBeepCounter = 0;
+[v _doubleBeepCounter `us ~T0 @X0 1 e ]
+[i _doubleBeepCounter
+-> -> 0 `i `us
+]
+"97
+[; ;main.c: 97: uint8_t blinkRedThree = 0;
+[v _blinkRedThree `uc ~T0 @X0 1 e ]
+[i _blinkRedThree
+-> -> 0 `i `uc
+]
+"98
+[; ;main.c: 98: uint16_t blinkRedThreeCounter = 0;
+[v _blinkRedThreeCounter `us ~T0 @X0 1 e ]
+[i _blinkRedThreeCounter
+-> -> 0 `i `us
+]
+"99
+[; ;main.c: 99: uint16_t ledCounter = 0;
+[v _ledCounter `us ~T0 @X0 1 e ]
+[i _ledCounter
+-> -> 0 `i `us
+]
+"100
+[; ;main.c: 100: uint8_t enableGreen = 0;
+[v _enableGreen `uc ~T0 @X0 1 e ]
+[i _enableGreen
+-> -> 0 `i `uc
+]
+"101
+[; ;main.c: 101: uint8_t enableRed = 0;
+[v _enableRed `uc ~T0 @X0 1 e ]
+[i _enableRed
+-> -> 0 `i `uc
+]
+"102
+[; ;main.c: 102: uint8_t enableOrange = 0;
+[v _enableOrange `uc ~T0 @X0 1 e ]
+[i _enableOrange
+-> -> 0 `i `uc
+]
+"103
+[; ;main.c: 103: uint8_t enableYellow = 0;
+[v _enableYellow `uc ~T0 @X0 1 e ]
+[i _enableYellow
+-> -> 0 `i `uc
+]
+"107
+[; ;main.c: 107: void checkBattery(void)
+[v _checkBattery `(v ~T0 @X0 1 ef ]
+"108
+[; ;main.c: 108: {
+{
+[e :U _checkBattery ]
+[f ]
+"109
+[; ;main.c: 109:     uint16_t battery_voltage;
+[v _battery_voltage `us ~T0 @X0 1 a ]
+"110
+[; ;main.c: 110:     battery_voltage = adc_value;
+[e = _battery_voltage _adc_value ]
+"114
+[; ;main.c: 114:     if (battery_voltage >= 676)
+[e $ ! >= -> _battery_voltage `ui -> -> 676 `i `ui 602  ]
+"115
+[; ;main.c: 115:     {
+{
+"116
+[; ;main.c: 116:         battery_status = (uint16_t)4;
+[e = _battery_status -> -> -> 4 `i `us `uc ]
+"118
+[; ;main.c: 118:     }
+}
+[e $U 603  ]
+"119
+[; ;main.c: 119:     else if((battery_voltage < 676)&&(battery_voltage >= 635))
+[e :U 602 ]
+[e $ ! && < -> _battery_voltage `ui -> -> 676 `i `ui >= -> _battery_voltage `ui -> -> 635 `i `ui 604  ]
+"120
+[; ;main.c: 120:     {
+{
+"121
+[; ;main.c: 121:         battery_status = (uint8_t)3;
+[e = _battery_status -> -> 3 `i `uc ]
+"123
+[; ;main.c: 123:     }
+}
+[e $U 605  ]
+"124
+[; ;main.c: 124:     else if((battery_voltage < 635)&&(battery_voltage >= 583))
+[e :U 604 ]
+[e $ ! && < -> _battery_voltage `ui -> -> 635 `i `ui >= -> _battery_voltage `ui -> -> 583 `i `ui 606  ]
+"125
+[; ;main.c: 125:     {
+{
+"126
+[; ;main.c: 126:         battery_status = (uint8_t)2;
+[e = _battery_status -> -> 2 `i `uc ]
+"128
+[; ;main.c: 128:     }
+}
+[e $U 607  ]
+"129
+[; ;main.c: 129:     else
+[e :U 606 ]
+"130
+[; ;main.c: 130:     {
+{
+"131
+[; ;main.c: 131:         battery_status = (uint8_t)1;
+[e = _battery_status -> -> 1 `i `uc ]
+"133
+[; ;main.c: 133:     }
+}
+[e :U 607 ]
+[e :U 605 ]
+[e :U 603 ]
+"134
+[; ;main.c: 134:     batteryStatusUpdated = 1;
+[e = _batteryStatusUpdated -> -> 1 `i `uc ]
+"135
+[; ;main.c: 135: }
+[e :UE 601 ]
+}
+"137
+[; ;main.c: 137: void ADCISR(void)
+[v _ADCISR `(v ~T0 @X0 1 ef ]
+"138
+[; ;main.c: 138: {
+{
+[e :U _ADCISR ]
+[f ]
+"139
+[; ;main.c: 139:     adc_value = ADC1_GetConversionResult();
+[e = _adc_value ( _ADC1_GetConversionResult ..  ]
+"140
+[; ;main.c: 140: }
+[e :UE 608 ]
+}
+"141
+[; ;main.c: 141: void stopMotor(void)
+[v _stopMotor `(v ~T0 @X0 1 ef ]
+"142
+[; ;main.c: 142: {
+{
+[e :U _stopMotor ]
+[f ]
+"143
+[; ;main.c: 143:     PWM1_DutyCycleSet(0x00);
+[e ( _PWM1_DutyCycleSet (1 -> -> 0 `i `us ]
+"144
+[; ;main.c: 144:     PWM1_LoadBufferSet();
+[e ( _PWM1_LoadBufferSet ..  ]
+"145
+[; ;main.c: 145:     PWM1_Start();
+[e ( _PWM1_Start ..  ]
+"146
+[; ;main.c: 146:     PWM1_Stop();
+[e ( _PWM1_Stop ..  ]
+"147
+[; ;main.c: 147:     TRISC |= 0x08;
+[e =| _TRISC -> -> 8 `i `Vuc ]
+"148
+[; ;main.c: 148:     LATCbits.LATC3 = 0;
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+"149
+[; ;main.c: 149: }
+[e :UE 609 ]
+}
+"150
+[; ;main.c: 150: void setStartMotor(uint16_t duty)
+[v _setStartMotor `(v ~T0 @X0 1 ef1`us ]
+"151
+[; ;main.c: 151: {
+{
+[e :U _setStartMotor ]
+"150
+[; ;main.c: 150: void setStartMotor(uint16_t duty)
+[v _duty `us ~T0 @X0 1 r1 ]
+"151
+[; ;main.c: 151: {
+[f ]
+"152
+[; ;main.c: 152:     TRISC &= ~0x08;
+[e =& _TRISC -> ~ -> 8 `i `Vuc ]
+"153
+[; ;main.c: 153:     PWM1_DutyCycleSet(duty);
+[e ( _PWM1_DutyCycleSet (1 _duty ]
+"154
+[; ;main.c: 154:     PWM1_LoadBufferSet();
+[e ( _PWM1_LoadBufferSet ..  ]
+"155
+[; ;main.c: 155:     PWM1_Start();
+[e ( _PWM1_Start ..  ]
+"156
+[; ;main.c: 156: }
+[e :UE 610 ]
+}
+"157
+[; ;main.c: 157: void stopGreen(void)
+[v _stopGreen `(v ~T0 @X0 1 ef ]
+"158
+[; ;main.c: 158: {
+{
+[e :U _stopGreen ]
+[f ]
+"159
+[; ;main.c: 159:     PWM2_DutyCycleSet(0x00);
+[e ( _PWM2_DutyCycleSet (1 -> -> 0 `i `us ]
+"160
+[; ;main.c: 160:     PWM2_LoadBufferSet();
+[e ( _PWM2_LoadBufferSet ..  ]
+"161
+[; ;main.c: 161:     PWM2_Start();
+[e ( _PWM2_Start ..  ]
+"162
+[; ;main.c: 162:     PWM2_Stop();
+[e ( _PWM2_Stop ..  ]
+"163
+[; ;main.c: 163:     TRISA |= 0x04;
+[e =| _TRISA -> -> 4 `i `Vuc ]
+"164
+[; ;main.c: 164:     LATAbits.LATA2 = 0;
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+"165
+[; ;main.c: 165: }
+[e :UE 611 ]
+}
+"166
+[; ;main.c: 166: void setStartGreen(uint16_t duty)
+[v _setStartGreen `(v ~T0 @X0 1 ef1`us ]
+"167
+[; ;main.c: 167: {
+{
+[e :U _setStartGreen ]
+"166
+[; ;main.c: 166: void setStartGreen(uint16_t duty)
+[v _duty `us ~T0 @X0 1 r1 ]
+"167
+[; ;main.c: 167: {
+[f ]
+"168
+[; ;main.c: 168:     TRISA &= ~0x04;
+[e =& _TRISA -> ~ -> 4 `i `Vuc ]
+"169
+[; ;main.c: 169:     PWM2_DutyCycleSet(duty);
+[e ( _PWM2_DutyCycleSet (1 _duty ]
+"170
+[; ;main.c: 170:     PWM2_LoadBufferSet();
+[e ( _PWM2_LoadBufferSet ..  ]
+"171
+[; ;main.c: 171:     PWM2_Start();
+[e ( _PWM2_Start ..  ]
+"172
+[; ;main.c: 172: }
+[e :UE 612 ]
+}
+"173
+[; ;main.c: 173: void stopBlue(void)
+[v _stopBlue `(v ~T0 @X0 1 ef ]
+"174
+[; ;main.c: 174: {
+{
+[e :U _stopBlue ]
+[f ]
+"175
+[; ;main.c: 175:     PWM3_DutyCycleSet(0x00);
+[e ( _PWM3_DutyCycleSet (1 -> -> 0 `i `us ]
+"176
+[; ;main.c: 176:     PWM3_LoadBufferSet();
+[e ( _PWM3_LoadBufferSet ..  ]
+"177
+[; ;main.c: 177:     PWM3_Start();
+[e ( _PWM3_Start ..  ]
+"178
+[; ;main.c: 178:     PWM3_Stop();
+[e ( _PWM3_Stop ..  ]
+"179
+[; ;main.c: 179:     TRISA |= 0x02;
+[e =| _TRISA -> -> 2 `i `Vuc ]
+"180
+[; ;main.c: 180:     LATAbits.LATA1 = 0;
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+"181
+[; ;main.c: 181: }
+[e :UE 613 ]
+}
+"182
+[; ;main.c: 182: void setStartBlue(uint16_t duty)
+[v _setStartBlue `(v ~T0 @X0 1 ef1`us ]
+"183
+[; ;main.c: 183: {
+{
+[e :U _setStartBlue ]
+"182
+[; ;main.c: 182: void setStartBlue(uint16_t duty)
+[v _duty `us ~T0 @X0 1 r1 ]
+"183
+[; ;main.c: 183: {
+[f ]
+"184
+[; ;main.c: 184:     TRISA &= ~0x02;
+[e =& _TRISA -> ~ -> 2 `i `Vuc ]
+"185
+[; ;main.c: 185:     PWM3_DutyCycleSet(duty);
+[e ( _PWM3_DutyCycleSet (1 _duty ]
+"186
+[; ;main.c: 186:     PWM3_LoadBufferSet();
+[e ( _PWM3_LoadBufferSet ..  ]
+"187
+[; ;main.c: 187:     PWM3_Start();
+[e ( _PWM3_Start ..  ]
+"188
+[; ;main.c: 188: }
+[e :UE 614 ]
+}
+"190
+[; ;main.c: 190: void stopRed(void)
+[v _stopRed `(v ~T0 @X0 1 ef ]
+"191
+[; ;main.c: 191: {
+{
+[e :U _stopRed ]
+[f ]
+"192
+[; ;main.c: 192:     PWM4_DutyCycleSet(0x00);
+[e ( _PWM4_DutyCycleSet (1 -> -> 0 `i `us ]
+"193
+[; ;main.c: 193:     PWM4_LoadBufferSet();
+[e ( _PWM4_LoadBufferSet ..  ]
+"194
+[; ;main.c: 194:     PWM4_Start();
+[e ( _PWM4_Start ..  ]
+"195
+[; ;main.c: 195:     PWM4_Stop();
+[e ( _PWM4_Stop ..  ]
+"196
+[; ;main.c: 196:     TRISC |= 0x01;
+[e =| _TRISC -> -> 1 `i `Vuc ]
+"197
+[; ;main.c: 197:     LATCbits.LATC0 = 0;
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+"198
+[; ;main.c: 198: }
+[e :UE 615 ]
+}
+"199
+[; ;main.c: 199: void setStartRed(uint16_t duty)
+[v _setStartRed `(v ~T0 @X0 1 ef1`us ]
+"200
+[; ;main.c: 200: {
+{
+[e :U _setStartRed ]
+"199
+[; ;main.c: 199: void setStartRed(uint16_t duty)
+[v _duty `us ~T0 @X0 1 r1 ]
+"200
+[; ;main.c: 200: {
+[f ]
+"201
+[; ;main.c: 201:     TRISC &= ~0x01;
+[e =& _TRISC -> ~ -> 1 `i `Vuc ]
+"202
+[; ;main.c: 202:     PWM4_DutyCycleSet(duty);
+[e ( _PWM4_DutyCycleSet (1 _duty ]
+"203
+[; ;main.c: 203:     PWM4_LoadBufferSet();
+[e ( _PWM4_LoadBufferSet ..  ]
+"204
+[; ;main.c: 204:     PWM4_Start();
+[e ( _PWM4_Start ..  ]
+"205
+[; ;main.c: 205: }
+[e :UE 616 ]
+}
+"206
+[; ;main.c: 206: void setStartYellow(void){
+[v _setStartYellow `(v ~T0 @X0 1 ef ]
+{
+[e :U _setStartYellow ]
+[f ]
+"207
+[; ;main.c: 207:     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+"208
+[; ;main.c: 208:     setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+"209
+[; ;main.c: 209: }
+[e :UE 617 ]
+}
+"210
+[; ;main.c: 210: void stopYellow(void){
+[v _stopYellow `(v ~T0 @X0 1 ef ]
+{
+[e :U _stopYellow ]
+[f ]
+"211
+[; ;main.c: 211:     stopRed();
+[e ( _stopRed ..  ]
+"212
+[; ;main.c: 212:     stopGreen();
+[e ( _stopGreen ..  ]
+"213
+[; ;main.c: 213: }
+[e :UE 618 ]
+}
+"215
+[; ;main.c: 215: void stopAll(void){
+[v _stopAll `(v ~T0 @X0 1 ef ]
+{
+[e :U _stopAll ]
+[f ]
+"216
+[; ;main.c: 216:     stopRed();
+[e ( _stopRed ..  ]
+"217
+[; ;main.c: 217:     stopBlue();
+[e ( _stopBlue ..  ]
+"218
+[; ;main.c: 218:     stopGreen();
+[e ( _stopGreen ..  ]
+"219
+[; ;main.c: 219: }
+[e :UE 619 ]
+}
+"220
+[; ;main.c: 220: void iocISR(void)
+[v _iocISR `(v ~T0 @X0 1 ef ]
+"221
+[; ;main.c: 221: {
+{
+[e :U _iocISR ]
+[f ]
+"222
+[; ;main.c: 222:     button_state = PORTAbits.RA3;
+[e = _button_state -> . . _PORTAbits 0 3 `a ]
+"223
+[; ;main.c: 223:     run_buttonLoop = 1;
+[e = _run_buttonLoop -> -> 1 `i `uc ]
+"224
+[; ;main.c: 224: }
+[e :UE 620 ]
+}
+"227
+[; ;main.c: 227: void timer0ISR(void)
+[v _timer0ISR `(v ~T0 @X0 1 ef ]
+"228
+[; ;main.c: 228: {
+{
+[e :U _timer0ISR ]
+[f ]
+"229
+[; ;main.c: 229:     tick++;
+[e ++ _tick -> -> 1 `i `Vuo ]
+"230
+[; ;main.c: 230:     run_mainloop = 1;
+[e = _run_mainloop -> -> 1 `i `uc ]
+"231
+[; ;main.c: 231: }
+[e :UE 621 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"232
+[; ;main.c: 232: void main(void){
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"234
+[; ;main.c: 234:     SYSTEM_Initialize();
+[e ( _SYSTEM_Initialize ..  ]
+"235
+[; ;main.c: 235:     LATCbits.LATC5 = 1;
+[e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
+"236
+[; ;main.c: 236:     stopMotor();
+[e ( _stopMotor ..  ]
+"237
+[; ;main.c: 237:     LATCbits.LATC0 = 0;
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+"238
+[; ;main.c: 238:     LATAbits.LATA2 = 0;
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+"239
+[; ;main.c: 239:     LATAbits.LATA1 = 0;
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+"240
+[; ;main.c: 240:     LATAbits.LATA4 = 0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+"241
+[; ;main.c: 241:     LATCbits.LATC3 = 0;
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+"244
+[; ;main.c: 244:     while(!FVR_IsOutputReady());
+[e $U 623  ]
+[e :U 624 ]
+[e :U 623 ]
+[e $ ! != -> ( _FVR_IsOutputReady ..  `i -> 0 `i 624  ]
+[e :U 625 ]
+"245
+[; ;main.c: 245:     ADC1_SetInterruptHandler(ADCISR);
+[e ( _ADC1_SetInterruptHandler (1 &U _ADCISR ]
+"246
+[; ;main.c: 246:     ADC1_SelectChannel(channel_FVR);
+[e ( _ADC1_SelectChannel (1 . `E4489 3 ]
+"248
+[; ;main.c: 248:     TMR0_SetInterruptHandler(timer0ISR);
+[e ( _TMR0_SetInterruptHandler (1 &U _timer0ISR ]
+"249
+[; ;main.c: 249:     IOCAF3_SetInterruptHandler(iocISR);
+[e ( _IOCAF3_SetInterruptHandler (1 &U _iocISR ]
+"250
+[; ;main.c: 250:     ADC1_StartConversion();
+[e ( _ADC1_StartConversion ..  ]
+"251
+[; ;main.c: 251:     currentState = StageWakeUp;
+[e = _currentState . `E4540 1 ]
+"252
+[; ;main.c: 252:     currentButtState = LONG;
+[e = _currentButtState . `E4535 2 ]
+"255
+[; ;main.c: 255:     (INTCONbits.GIE = 1);
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"257
+[; ;main.c: 257:     (INTCONbits.PEIE = 1);
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"258
+[; ;main.c: 258:     if(PORTAbits.RA5 != 1)
+[e $ ! != -> . . _PORTAbits 0 5 `i -> 1 `i 626  ]
+"259
+[; ;main.c: 259:     {
+{
+"261
+[; ;main.c: 261:         button_state = 1;
+[e = _button_state -> -> 1 `i `a ]
+"262
+[; ;main.c: 262:         run_buttonLoop = 1;
+[e = _run_buttonLoop -> -> 1 `i `uc ]
+"263
+[; ;main.c: 263:     }
+}
+[e $U 627  ]
+"264
+[; ;main.c: 264:     else
+[e :U 626 ]
+"265
+[; ;main.c: 265:     {
+{
+"267
+[; ;main.c: 267:     }
+}
+[e :U 627 ]
+"269
+[; ;main.c: 269:     while(1)
+[e :U 629 ]
+"270
+[; ;main.c: 270:     {
+{
+"271
+[; ;main.c: 271:         if(run_buttonLoop)
+[e $ ! != -> _run_buttonLoop `i -> 0 `i 631  ]
+"272
+[; ;main.c: 272:         {
+{
+"274
+[; ;main.c: 274:             if(button_state)
+[e $ ! != -> _button_state `i -> 0 `i 632  ]
+"275
+[; ;main.c: 275:             {
+{
+"276
+[; ;main.c: 276:                 pressedTime = 0;
+[e = _pressedTime -> -> -> 0 `i `o `uo ]
+"277
+[; ;main.c: 277:                 buttonPressedInProg = 1;
+[e = _buttonPressedInProg -> -> 1 `i `uc ]
+"278
+[; ;main.c: 278:             }
+}
+[e $U 633  ]
+"279
+[; ;main.c: 279:             else
+[e :U 632 ]
+"280
+[; ;main.c: 280:             {
+{
+"283
+[; ;main.c: 283:                 if(pressedTime >= 100)
+[e $ ! >= _pressedTime -> -> -> 100 `i `o `uo 634  ]
+"284
+[; ;main.c: 284:                 {
+{
+"286
+[; ;main.c: 286:                     currentButtState = LONG;
+[e = _currentButtState . `E4535 2 ]
+"287
+[; ;main.c: 287:                 }
+}
+[e $U 635  ]
+"289
+[; ;main.c: 289:                 else if((pressedTime < 100)&&(pressedTime >= 50 ))
+[e :U 634 ]
+[e $ ! && < _pressedTime -> -> -> 100 `i `o `uo >= _pressedTime -> -> -> 50 `i `o `uo 636  ]
+"290
+[; ;main.c: 290:                 {
+{
+"292
+[; ;main.c: 292:                     currentButtState = SHORT;
+[e = _currentButtState . `E4535 1 ]
+"293
+[; ;main.c: 293:                 }
+}
+[e $U 637  ]
+"295
+[; ;main.c: 295:                 else
+[e :U 636 ]
+"296
+[; ;main.c: 296:                 {
+{
+"298
+[; ;main.c: 298:                     currentButtState = TOOSHORT;
+[e = _currentButtState . `E4535 0 ]
+"299
+[; ;main.c: 299:                 }
+}
+[e :U 637 ]
+[e :U 635 ]
+"300
+[; ;main.c: 300:                buttonPressedInProg = 0;
+[e = _buttonPressedInProg -> -> 0 `i `uc ]
+"301
+[; ;main.c: 301:                buttonStateUpdated = 1;
+[e = _buttonStateUpdated -> -> 1 `i `uc ]
+"302
+[; ;main.c: 302:             }
+}
+[e :U 633 ]
+"303
+[; ;main.c: 303:             run_buttonLoop = 0;
+[e = _run_buttonLoop -> -> 0 `i `uc ]
+"304
+[; ;main.c: 304:         }
+}
+[e :U 631 ]
+"305
+[; ;main.c: 305:         if(run_mainloop)
+[e $ ! != -> _run_mainloop `i -> 0 `i 638  ]
+"306
+[; ;main.c: 306:         {
+{
+"307
+[; ;main.c: 307:             if(buttonPressedInProg)
+[e $ ! != -> _buttonPressedInProg `i -> 0 `i 639  ]
+"308
+[; ;main.c: 308:             {
+{
+"309
+[; ;main.c: 309:                 pressedTime++;
+[e ++ _pressedTime -> -> -> 1 `i `o `uo ]
+"312
+[; ;main.c: 312:                 if(pressedTime == 50)
+[e $ ! == _pressedTime -> -> -> 50 `i `o `uo 640  ]
+"313
+[; ;main.c: 313:                     singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+[e :U 640 ]
+"316
+[; ;main.c: 316:                 if(pressedTime == 50 + 100 + 10)
+[e $ ! == _pressedTime -> -> + + -> 50 `i -> 100 `i -> 10 `i `o `uo 641  ]
+"317
+[; ;main.c: 317:                     doubleBeep = 1;
+[e = _doubleBeep -> -> 1 `i `uc ]
+[e :U 641 ]
+"319
+[; ;main.c: 319:             }
+}
+[e :U 639 ]
+"320
+[; ;main.c: 320:             if(singleBeep)
+[e $ ! != -> _singleBeep `i -> 0 `i 642  ]
+"321
+[; ;main.c: 321:             {
+{
+"322
+[; ;main.c: 322:                 singleBeepCounter++;
+[e ++ _singleBeepCounter -> -> 1 `i `us ]
+"323
+[; ;main.c: 323:                 if (singleBeepCounter == 1)
+[e $ ! == -> _singleBeepCounter `ui -> -> 1 `i `ui 643  ]
+"324
+[; ;main.c: 324:                 {
+{
+"325
+[; ;main.c: 325:                     LATAbits.LATA4 = 1;
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+"327
+[; ;main.c: 327:                 }
+}
+[e :U 643 ]
+"328
+[; ;main.c: 328:                 if (singleBeepCounter == 10)
+[e $ ! == -> _singleBeepCounter `ui -> -> 10 `i `ui 644  ]
+"329
+[; ;main.c: 329:                 {
+{
+"330
+[; ;main.c: 330:                     LATAbits.LATA4 = 0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+"331
+[; ;main.c: 331:                     singleBeep = 0;
+[e = _singleBeep -> -> 0 `i `uc ]
+"332
+[; ;main.c: 332:                     singleBeepCounter = 0;
+[e = _singleBeepCounter -> -> 0 `i `us ]
+"333
+[; ;main.c: 333:                 }
+}
+[e :U 644 ]
+"334
+[; ;main.c: 334:             }
+}
+[e :U 642 ]
+"335
+[; ;main.c: 335:             if(doubleBeep)
+[e $ ! != -> _doubleBeep `i -> 0 `i 645  ]
+"336
+[; ;main.c: 336:             {
+{
+"337
+[; ;main.c: 337:                 doubleBeepCounter++;
+[e ++ _doubleBeepCounter -> -> 1 `i `us ]
+"338
+[; ;main.c: 338:                 if (doubleBeepCounter == 1)
+[e $ ! == -> _doubleBeepCounter `ui -> -> 1 `i `ui 646  ]
+"339
+[; ;main.c: 339:                     LATAbits.LATA4 = 1;
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+[e :U 646 ]
+"340
+[; ;main.c: 340:                 if (doubleBeepCounter == 5)
+[e $ ! == -> _doubleBeepCounter `ui -> -> 5 `i `ui 647  ]
+"341
+[; ;main.c: 341:                     LATAbits.LATA4 = 0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+[e :U 647 ]
+"342
+[; ;main.c: 342:                 if (doubleBeepCounter == 2*5)
+[e $ ! == -> _doubleBeepCounter `ui -> * -> 2 `i -> 5 `i `ui 648  ]
+"343
+[; ;main.c: 343:                     LATAbits.LATA4 = 1;
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+[e :U 648 ]
+"344
+[; ;main.c: 344:                 if (doubleBeepCounter == 3*5)
+[e $ ! == -> _doubleBeepCounter `ui -> * -> 3 `i -> 5 `i `ui 649  ]
+"345
+[; ;main.c: 345:                 {
+{
+"346
+[; ;main.c: 346:                     LATAbits.LATA4 = 0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+"347
+[; ;main.c: 347:                     doubleBeep = 0;
+[e = _doubleBeep -> -> 0 `i `uc ]
+"348
+[; ;main.c: 348:                     doubleBeepCounter = 0;
+[e = _doubleBeepCounter -> -> 0 `i `us ]
+"349
+[; ;main.c: 349:                 }
+}
+[e :U 649 ]
+"350
+[; ;main.c: 350:             }
+}
+[e :U 645 ]
+"351
+[; ;main.c: 351:             if(blinkRedThree)
+[e $ ! != -> _blinkRedThree `i -> 0 `i 650  ]
+"352
+[; ;main.c: 352:             {
+{
+"353
+[; ;main.c: 353:                 blinkRedThreeCounter++;
+[e ++ _blinkRedThreeCounter -> -> 1 `i `us ]
+"354
+[; ;main.c: 354:                 if (blinkRedThreeCounter == 1)
+[e $ ! == -> _blinkRedThreeCounter `ui -> -> 1 `i `ui 651  ]
+"355
+[; ;main.c: 355:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 651 ]
+"356
+[; ;main.c: 356:                 if (blinkRedThreeCounter == 100)
+[e $ ! == -> _blinkRedThreeCounter `ui -> -> 100 `i `ui 652  ]
+"357
+[; ;main.c: 357:                     stopRed();
+[e ( _stopRed ..  ]
+[e :U 652 ]
+"358
+[; ;main.c: 358:                 if (blinkRedThreeCounter == 2*100)
+[e $ ! == -> _blinkRedThreeCounter `ui -> * -> 2 `i -> 100 `i `ui 653  ]
+"359
+[; ;main.c: 359:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 653 ]
+"360
+[; ;main.c: 360:                 if (blinkRedThreeCounter == 3*100)
+[e $ ! == -> _blinkRedThreeCounter `ui -> * -> 3 `i -> 100 `i `ui 654  ]
+"361
+[; ;main.c: 361:                     stopRed();
+[e ( _stopRed ..  ]
+[e :U 654 ]
+"362
+[; ;main.c: 362:                 if (blinkRedThreeCounter == 4*100)
+[e $ ! == -> _blinkRedThreeCounter `ui -> * -> 4 `i -> 100 `i `ui 655  ]
+"363
+[; ;main.c: 363:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 655 ]
+"364
+[; ;main.c: 364:                 if (blinkRedThreeCounter == 5*100)
+[e $ ! == -> _blinkRedThreeCounter `ui -> * -> 5 `i -> 100 `i `ui 656  ]
+"365
+[; ;main.c: 365:                 {
+{
+"366
+[; ;main.c: 366:                     stopRed();
+[e ( _stopRed ..  ]
+"367
+[; ;main.c: 367:                     blinkRedThree= 0;
+[e = _blinkRedThree -> -> 0 `i `uc ]
+"368
+[; ;main.c: 368:                     blinkRedThreeCounter = 0;
+[e = _blinkRedThreeCounter -> -> 0 `i `us ]
+"369
+[; ;main.c: 369:                 }
+}
+[e :U 656 ]
+"370
+[; ;main.c: 370:             }
+}
+[e :U 650 ]
+"372
+[; ;main.c: 372:             programStates(currentState);
+[e ( _programStates (1 _currentState ]
+"376
+[; ;main.c: 376:             run_mainloop = 0;
+[e = _run_mainloop -> -> 0 `i `uc ]
+"377
+[; ;main.c: 377:         }
+}
+[e :U 638 ]
+"378
+[; ;main.c: 378:     }
+}
+[e :U 628 ]
+[e $U 629  ]
+[e :U 630 ]
+"379
+[; ;main.c: 379: }
+[e :UE 622 ]
+}
+"381
+[; ;main.c: 381: void programStates(enum State cases){
+[v _programStates `(v ~T0 @X0 1 ef1`E4540 ]
+{
+[e :U _programStates ]
+[v _cases `E4540 ~T0 @X0 1 r1 ]
+[f ]
+"383
+[; ;main.c: 383:    switch(cases){
+[e $U 659  ]
+{
+"384
+[; ;main.c: 384:         case StageWakeUp:
+[e :U 660 ]
+"385
+[; ;main.c: 385:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 661  ]
+"386
+[; ;main.c: 386:             {
+{
+"388
+[; ;main.c: 388:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"389
+[; ;main.c: 389:                 StageWakeUpTimer = 0;
+[e = _StageWakeUpTimer -> -> -> 0 `i `o `uo ]
+"390
+[; ;main.c: 390:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"391
+[; ;main.c: 391:                 checkBattery();
+[e ( _checkBattery ..  ]
+"392
+[; ;main.c: 392:                 if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 662  ]
+"393
+[; ;main.c: 393:                     setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 662 ]
+"394
+[; ;main.c: 394:                 if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 663  ]
+"395
+[; ;main.c: 395:                     setStartYellow();
+[e ( _setStartYellow ..  ]
+[e :U 663 ]
+"396
+[; ;main.c: 396:                 if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 664  ]
+"397
+[; ;main.c: 397:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 664 ]
+"398
+[; ;main.c: 398:                 if(battery_status != (uint16_t)1)
+[e $ ! != -> _battery_status `ui -> -> -> 1 `i `us `ui 665  ]
+"399
+[; ;main.c: 399:                     singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+[e :U 665 ]
+"400
+[; ;main.c: 400:             }
+}
+[e :U 661 ]
+"401
+[; ;main.c: 401:             if(buttonStateUpdated)
+[e $ ! != -> _buttonStateUpdated `i -> 0 `i 666  ]
+"402
+[; ;main.c: 402:             {
+{
+"403
+[; ;main.c: 403:                 buttonStateUpdated = 0;
+[e = _buttonStateUpdated -> -> 0 `i `uc ]
+"404
+[; ;main.c: 404:                 if((battery_status != (uint16_t)3)&&(battery_status != (uint16_t)4))
+[e $ ! && != -> _battery_status `ui -> -> -> 3 `i `us `ui != -> _battery_status `ui -> -> -> 4 `i `us `ui 667  ]
+"405
+[; ;main.c: 405:                 {
+{
+"406
+[; ;main.c: 406:                     if(currentButtState == SHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 1 `ui 668  ]
+"407
+[; ;main.c: 407:                         currentState = StageASlow;
+[e = _currentState . `E4540 3 ]
+[e :U 668 ]
+"408
+[; ;main.c: 408:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"409
+[; ;main.c: 409:                 }
+}
+[e :U 667 ]
+"410
+[; ;main.c: 410:             }
+}
+[e :U 666 ]
+"412
+[; ;main.c: 412:             if(StageWakeUpTimer == 5*100)
+[e $ ! == _StageWakeUpTimer -> -> * -> 5 `i -> 100 `i `o `uo 669  ]
+"413
+[; ;main.c: 413:             {
+{
+"414
+[; ;main.c: 414:                 if((battery_status == (uint16_t)1)||(battery_status == (uint16_t)2))
+[e $ ! || == -> _battery_status `ui -> -> -> 1 `i `us `ui == -> _battery_status `ui -> -> -> 2 `i `us `ui 670  ]
+"415
+[; ;main.c: 415:                 {
+{
+"417
+[; ;main.c: 417:                     currentState = StageShutdown;
+[e = _currentState . `E4540 9 ]
+"418
+[; ;main.c: 418:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"419
+[; ;main.c: 419:                 }else
+}
+[e $U 671  ]
+[e :U 670 ]
+"420
+[; ;main.c: 420:                 {
+{
+"421
+[; ;main.c: 421:                     LATCbits.LATC5 = 0;
+[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
+"422
+[; ;main.c: 422:                     _delay((unsigned long)((100)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"423
+[; ;main.c: 423:                 }
+}
+[e :U 671 ]
+"424
+[; ;main.c: 424:             }
+}
+[e :U 669 ]
+"426
+[; ;main.c: 426:             StageWakeUpTimer++;
+[e ++ _StageWakeUpTimer -> -> -> 1 `i `o `uo ]
+"427
+[; ;main.c: 427:             break;
+[e $U 658  ]
+"428
+[; ;main.c: 428:         case StageASlow:
+[e :U 672 ]
+"429
+[; ;main.c: 429:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 673  ]
+"430
+[; ;main.c: 430:             {
+{
+"431
+[; ;main.c: 431:                 printf("Stage A\n\r");
+[e ( _printf :s 1C ]
+"433
+[; ;main.c: 433:                 stageA_counter = 0;
+[e = _stageA_counter -> -> -> 0 `i `o `uo ]
+"434
+[; ;main.c: 434:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"435
+[; ;main.c: 435:                 ledCounter = 1;
+[e = _ledCounter -> -> 1 `i `us ]
+"436
+[; ;main.c: 436:                 stopAll();
+[e ( _stopAll ..  ]
+"437
+[; ;main.c: 437:             }
+}
+[e :U 673 ]
+"438
+[; ;main.c: 438:             if(stageA_counter == 2*100)
+[e $ ! == _stageA_counter -> -> * -> 2 `i -> 100 `i `o `uo 674  ]
+"439
+[; ;main.c: 439:             {
+{
+"440
+[; ;main.c: 440:                 checkBattery();
+[e ( _checkBattery ..  ]
+"441
+[; ;main.c: 441:                 if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 675  ]
+"442
+[; ;main.c: 442:                     enableGreen = 1;
+[e = _enableGreen -> -> 1 `i `uc ]
+[e :U 675 ]
+"443
+[; ;main.c: 443:                 if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 676  ]
+"444
+[; ;main.c: 444:                     enableYellow = 1;
+[e = _enableYellow -> -> 1 `i `uc ]
+[e :U 676 ]
+"445
+[; ;main.c: 445:                 if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 677  ]
+"446
+[; ;main.c: 446:                     enableRed = 1;
+[e = _enableRed -> -> 1 `i `uc ]
+[e :U 677 ]
+"447
+[; ;main.c: 447:             }
+}
+[e :U 674 ]
+"448
+[; ;main.c: 448:             if(ledCounter == 1)
+[e $ ! == -> _ledCounter `ui -> -> 1 `i `ui 678  ]
+"449
+[; ;main.c: 449:             { if(enableGreen)
+{
+[e $ ! != -> _enableGreen `i -> 0 `i 679  ]
+"450
+[; ;main.c: 450:                     setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 679 ]
+"451
+[; ;main.c: 451:                 if(enableYellow)
+[e $ ! != -> _enableYellow `i -> 0 `i 680  ]
+"452
+[; ;main.c: 452:                     setStartYellow();
+[e ( _setStartYellow ..  ]
+[e :U 680 ]
+"453
+[; ;main.c: 453:                 if(enableRed)
+[e $ ! != -> _enableRed `i -> 0 `i 681  ]
+"454
+[; ;main.c: 454:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 681 ]
+"455
+[; ;main.c: 455:             }
+}
+[e :U 678 ]
+"456
+[; ;main.c: 456:             if(ledCounter == 100)
+[e $ ! == -> _ledCounter `ui -> -> 100 `i `ui 682  ]
+"457
+[; ;main.c: 457:             {
+{
+"458
+[; ;main.c: 458:                 stopAll();
+[e ( _stopAll ..  ]
+"459
+[; ;main.c: 459:             }
+}
+[e :U 682 ]
+"460
+[; ;main.c: 460:             if(ledCounter == 2*100)
+[e $ ! == -> _ledCounter `ui -> * -> 2 `i -> 100 `i `ui 683  ]
+"461
+[; ;main.c: 461:                 ledCounter = 0;
+[e = _ledCounter -> -> 0 `i `us ]
+[e :U 683 ]
+"462
+[; ;main.c: 462:             if(buttonStateUpdated)
+[e $ ! != -> _buttonStateUpdated `i -> 0 `i 684  ]
+"463
+[; ;main.c: 463:             {
+{
+"464
+[; ;main.c: 464:                 buttonStateUpdated = 0;
+[e = _buttonStateUpdated -> -> 0 `i `uc ]
+"465
+[; ;main.c: 465:                 stopGreen();
+[e ( _stopGreen ..  ]
+"466
+[; ;main.c: 466:                 if(currentButtState == LONG)
+[e $ ! == -> _currentButtState `ui -> . `E4535 2 `ui 685  ]
+"467
+[; ;main.c: 467:                 {
+{
+"469
+[; ;main.c: 469:                     currentState = StageShutdown;
+[e = _currentState . `E4540 9 ]
+"470
+[; ;main.c: 470:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"471
+[; ;main.c: 471:                 }
+}
+[e :U 685 ]
+"472
+[; ;main.c: 472:                 if(currentButtState == SHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 1 `ui 686  ]
+"473
+[; ;main.c: 473:                 {
+{
+"475
+[; ;main.c: 475:                     currentState = StageBNormal;
+[e = _currentState . `E4540 4 ]
+"476
+[; ;main.c: 476:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"477
+[; ;main.c: 477:                 }
+}
+[e :U 686 ]
+"478
+[; ;main.c: 478:                 if(currentButtState == TOOSHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 0 `ui 687  ]
+"479
+[; ;main.c: 479:                 {
+{
+"480
+[; ;main.c: 480:                 }
+}
+[e :U 687 ]
+"481
+[; ;main.c: 481:             }
+}
+[e :U 684 ]
+"482
+[; ;main.c: 482:             if(stageA_counter == 6000)
+[e $ ! == _stageA_counter -> -> -> 6000 `i `o `uo 688  ]
+"483
+[; ;main.c: 483:             {
+{
+"485
+[; ;main.c: 485:                 currentState = StageBNormal;
+[e = _currentState . `E4540 4 ]
+"486
+[; ;main.c: 486:                 firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"487
+[; ;main.c: 487:             }
+}
+[e :U 688 ]
+"488
+[; ;main.c: 488:             ledCounter++;
+[e ++ _ledCounter -> -> 1 `i `us ]
+"489
+[; ;main.c: 489:             stageA_counter++;
+[e ++ _stageA_counter -> -> -> 1 `i `o `uo ]
+"490
+[; ;main.c: 490:             break;
+[e $U 658  ]
+"491
+[; ;main.c: 491:         case StageBNormal:
+[e :U 689 ]
+"492
+[; ;main.c: 492:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 690  ]
+"493
+[; ;main.c: 493:             {
+{
+"494
+[; ;main.c: 494:                 printf("Stage B \n\r");
+[e ( _printf :s 2C ]
+"496
+[; ;main.c: 496:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"497
+[; ;main.c: 497:                 firstTimeB = 1;
+[e = _firstTimeB -> -> 1 `i `uc ]
+"498
+[; ;main.c: 498:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"499
+[; ;main.c: 499:             }
+}
+[e :U 690 ]
+"500
+[; ;main.c: 500:             if(firstTimeB)
+[e $ ! != -> _firstTimeB `i -> 0 `i 691  ]
+"501
+[; ;main.c: 501:             {
+{
+"502
+[; ;main.c: 502:                 if(battery_status_counter == 2*100)
+[e $ ! == -> _battery_status_counter `ui -> * -> 2 `i -> 100 `i `ui 692  ]
+"503
+[; ;main.c: 503:                 {
+{
+"504
+[; ;main.c: 504:                     checkBattery();
+[e ( _checkBattery ..  ]
+"505
+[; ;main.c: 505:                     battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"506
+[; ;main.c: 506:                     firstTimeB = 0;
+[e = _firstTimeB -> -> 0 `i `uc ]
+"507
+[; ;main.c: 507:                     if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 693  ]
+"508
+[; ;main.c: 508:                         setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 693 ]
+"509
+[; ;main.c: 509:                     if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 694  ]
+"510
+[; ;main.c: 510:                         setStartYellow();
+[e ( _setStartYellow ..  ]
+[e :U 694 ]
+"511
+[; ;main.c: 511:                     if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 695  ]
+"512
+[; ;main.c: 512:                     {
+{
+"513
+[; ;main.c: 513:                         stopYellow();
+[e ( _stopYellow ..  ]
+"514
+[; ;main.c: 514:                         setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+"515
+[; ;main.c: 515:                         currentState = StageB1;
+[e = _currentState . `E4540 5 ]
+"516
+[; ;main.c: 516:                         firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"517
+[; ;main.c: 517:                     }
+}
+[e :U 695 ]
+"518
+[; ;main.c: 518:                 }
+}
+[e :U 692 ]
+"519
+[; ;main.c: 519:             }
+}
+[e $U 696  ]
+"520
+[; ;main.c: 520:             else
+[e :U 691 ]
+"521
+[; ;main.c: 521:             {
+{
+"522
+[; ;main.c: 522:                 if(battery_status_counter == 6000)
+[e $ ! == -> _battery_status_counter `ui -> -> 6000 `i `ui 697  ]
+"523
+[; ;main.c: 523:                 {
+{
+"524
+[; ;main.c: 524:                     checkBattery();
+[e ( _checkBattery ..  ]
+"525
+[; ;main.c: 525:                     battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"526
+[; ;main.c: 526:                     if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 698  ]
+"527
+[; ;main.c: 527:                         setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 698 ]
+"528
+[; ;main.c: 528:                     if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 699  ]
+"529
+[; ;main.c: 529:                         setStartYellow();
+[e ( _setStartYellow ..  ]
+[e :U 699 ]
+"530
+[; ;main.c: 530:                     if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 700  ]
+"531
+[; ;main.c: 531:                     {
+{
+"532
+[; ;main.c: 532:                         stopYellow();
+[e ( _stopYellow ..  ]
+"533
+[; ;main.c: 533:                         setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+"534
+[; ;main.c: 534:                         currentState = StageB1;
+[e = _currentState . `E4540 5 ]
+"535
+[; ;main.c: 535:                         firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"536
+[; ;main.c: 536:                     }
+}
+[e :U 700 ]
+"537
+[; ;main.c: 537:                 }
+}
+[e :U 697 ]
+"538
+[; ;main.c: 538:             }
+}
+[e :U 696 ]
+"540
+[; ;main.c: 540:             if(buttonStateUpdated)
+[e $ ! != -> _buttonStateUpdated `i -> 0 `i 701  ]
+"541
+[; ;main.c: 541:             {
+{
+"542
+[; ;main.c: 542:                 buttonStateUpdated = 0;
+[e = _buttonStateUpdated -> -> 0 `i `uc ]
+"543
+[; ;main.c: 543:                 if(currentButtState == LONG)
+[e $ ! == -> _currentButtState `ui -> . `E4535 2 `ui 702  ]
+"544
+[; ;main.c: 544:                 {
+{
+"546
+[; ;main.c: 546:                     currentState = StageShutdown;
+[e = _currentState . `E4540 9 ]
+"547
+[; ;main.c: 547:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"548
+[; ;main.c: 548:                 }
+}
+[e :U 702 ]
+"549
+[; ;main.c: 549:                 if(currentButtState == SHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 1 `ui 703  ]
+"550
+[; ;main.c: 550:                 {
+{
+"551
+[; ;main.c: 551:                     stopMotor();
+[e ( _stopMotor ..  ]
+"554
+[; ;main.c: 554:                     currentState = StageCEnd;
+[e = _currentState . `E4540 7 ]
+"555
+[; ;main.c: 555:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"556
+[; ;main.c: 556:                 }
+}
+[e :U 703 ]
+"557
+[; ;main.c: 557:                 if(currentButtState == TOOSHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 0 `ui 704  ]
+"558
+[; ;main.c: 558:                 {
+{
+"559
+[; ;main.c: 559:                 }
+}
+[e :U 704 ]
+"560
+[; ;main.c: 560:             }
+}
+[e :U 701 ]
+"561
+[; ;main.c: 561:             battery_status_counter++;
+[e ++ _battery_status_counter -> -> 1 `i `us ]
+"563
+[; ;main.c: 563:             break;
+[e $U 658  ]
+"564
+[; ;main.c: 564:         case StageB1:
+[e :U 705 ]
+"565
+[; ;main.c: 565:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 706  ]
+"566
+[; ;main.c: 566:             {
+{
+"569
+[; ;main.c: 569:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"570
+[; ;main.c: 570:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"571
+[; ;main.c: 571:             }
+}
+[e :U 706 ]
+"572
+[; ;main.c: 572:             if(battery_status_counter == 6000)
+[e $ ! == -> _battery_status_counter `ui -> -> 6000 `i `ui 707  ]
+"573
+[; ;main.c: 573:             {
+{
+"574
+[; ;main.c: 574:                 checkBattery();
+[e ( _checkBattery ..  ]
+"575
+[; ;main.c: 575:                 singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+"576
+[; ;main.c: 576:                 if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 708  ]
+"577
+[; ;main.c: 577:                     setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 708 ]
+"578
+[; ;main.c: 578:                 if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 709  ]
+"579
+[; ;main.c: 579:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 709 ]
+"580
+[; ;main.c: 580:                 if(battery_status == (uint16_t)3)
+[e $ ! == -> _battery_status `ui -> -> -> 3 `i `us `ui 710  ]
+"581
+[; ;main.c: 581:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 710 ]
+"582
+[; ;main.c: 582:                 if(battery_status == (uint16_t)4)
+[e $ ! == -> _battery_status `ui -> -> -> 4 `i `us `ui 711  ]
+"583
+[; ;main.c: 583:                 {
+{
+"584
+[; ;main.c: 584:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+"585
+[; ;main.c: 585:                     currentState = StageB2;
+[e = _currentState . `E4540 6 ]
+"586
+[; ;main.c: 586:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"587
+[; ;main.c: 587:                 }
+}
+[e :U 711 ]
+"588
+[; ;main.c: 588:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"589
+[; ;main.c: 589:             }
+}
+[e :U 707 ]
+"590
+[; ;main.c: 590:             if(stageB1_counter == (uint64_t)(6000*10))
+[e $ ! == _stageB1_counter -> * -> 6000 `i -> 10 `i `uo 712  ]
+"591
+[; ;main.c: 591:             {
+{
+"593
+[; ;main.c: 593:                 currentState = StageB2;
+[e = _currentState . `E4540 6 ]
+"594
+[; ;main.c: 594:                 firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"595
+[; ;main.c: 595:             }
+}
+[e :U 712 ]
+"596
+[; ;main.c: 596:             if(buttonStateUpdated)
+[e $ ! != -> _buttonStateUpdated `i -> 0 `i 713  ]
+"597
+[; ;main.c: 597:             {
+{
+"598
+[; ;main.c: 598:                 buttonStateUpdated = 0;
+[e = _buttonStateUpdated -> -> 0 `i `uc ]
+"599
+[; ;main.c: 599:                 if(currentButtState == LONG)
+[e $ ! == -> _currentButtState `ui -> . `E4535 2 `ui 714  ]
+"600
+[; ;main.c: 600:                 {
+{
+"602
+[; ;main.c: 602:                     currentState = StageShutdown;
+[e = _currentState . `E4540 9 ]
+"603
+[; ;main.c: 603:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"604
+[; ;main.c: 604:                 }
+}
+[e :U 714 ]
+"605
+[; ;main.c: 605:                 if(currentButtState == SHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 1 `ui 715  ]
+"606
+[; ;main.c: 606:                 {
+{
+"607
+[; ;main.c: 607:                     stopMotor();
+[e ( _stopMotor ..  ]
+"610
+[; ;main.c: 610:                     currentState = StageCEnd;
+[e = _currentState . `E4540 7 ]
+"611
+[; ;main.c: 611:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"612
+[; ;main.c: 612:                 }
+}
+[e :U 715 ]
+"613
+[; ;main.c: 613:                 if(currentButtState == TOOSHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 0 `ui 716  ]
+"614
+[; ;main.c: 614:                 {
+{
+"615
+[; ;main.c: 615:                 }
+}
+[e :U 716 ]
+"616
+[; ;main.c: 616:             }
+}
+[e :U 713 ]
+"617
+[; ;main.c: 617:             battery_status_counter++;
+[e ++ _battery_status_counter -> -> 1 `i `us ]
+"618
+[; ;main.c: 618:             stageB1_counter++;
+[e ++ _stageB1_counter -> -> -> 1 `i `o `uo ]
+"619
+[; ;main.c: 619:             break;
+[e $U 658  ]
+"620
+[; ;main.c: 620:         case StageB2:
+[e :U 717 ]
+"621
+[; ;main.c: 621:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 718  ]
+"622
+[; ;main.c: 622:             {
+{
+"626
+[; ;main.c: 626:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"629
+[; ;main.c: 629:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"630
+[; ;main.c: 630:                 ledCounter = 0;
+[e = _ledCounter -> -> 0 `i `us ]
+"631
+[; ;main.c: 631:             }
+}
+[e :U 718 ]
+"632
+[; ;main.c: 632:             if(battery_status_counter == 6000)
+[e $ ! == -> _battery_status_counter `ui -> -> 6000 `i `ui 719  ]
+"633
+[; ;main.c: 633:             {
+{
+"634
+[; ;main.c: 634:                 checkBattery();
+[e ( _checkBattery ..  ]
+"635
+[; ;main.c: 635:                 if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 720  ]
+"636
+[; ;main.c: 636:                     setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 720 ]
+"637
+[; ;main.c: 637:                 if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 721  ]
+"638
+[; ;main.c: 638:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 721 ]
+"639
+[; ;main.c: 639:                 if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 722  ]
+"640
+[; ;main.c: 640:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 722 ]
+"641
+[; ;main.c: 641:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"642
+[; ;main.c: 642:             }
+}
+[e :U 719 ]
+"644
+[; ;main.c: 644:             if(ledCounter == 1)
+[e $ ! == -> _ledCounter `ui -> -> 1 `i `ui 723  ]
+"645
+[; ;main.c: 645:                 setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 723 ]
+"646
+[; ;main.c: 646:             if(ledCounter == 100)
+[e $ ! == -> _ledCounter `ui -> -> 100 `i `ui 724  ]
+"647
+[; ;main.c: 647:             {
+{
+"648
+[; ;main.c: 648:                 stopRed();
+[e ( _stopRed ..  ]
+"649
+[; ;main.c: 649:             }
+}
+[e :U 724 ]
+"650
+[; ;main.c: 650:             if(ledCounter == 2*100)
+[e $ ! == -> _ledCounter `ui -> * -> 2 `i -> 100 `i `ui 725  ]
+"651
+[; ;main.c: 651:             {
+{
+"652
+[; ;main.c: 652:                 ledCounter = 0;
+[e = _ledCounter -> -> 0 `i `us ]
+"653
+[; ;main.c: 653:                 singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+"654
+[; ;main.c: 654:             }
+}
+[e :U 725 ]
+"655
+[; ;main.c: 655:             if(buttonStateUpdated)
+[e $ ! != -> _buttonStateUpdated `i -> 0 `i 726  ]
+"656
+[; ;main.c: 656:             {
+{
+"657
+[; ;main.c: 657:                 buttonStateUpdated = 0;
+[e = _buttonStateUpdated -> -> 0 `i `uc ]
+"658
+[; ;main.c: 658:                 if(currentButtState == LONG)
+[e $ ! == -> _currentButtState `ui -> . `E4535 2 `ui 727  ]
+"659
+[; ;main.c: 659:                 {
+{
+"661
+[; ;main.c: 661:                     currentState = StageShutdown;
+[e = _currentState . `E4540 9 ]
+"662
+[; ;main.c: 662:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"663
+[; ;main.c: 663:                 }
+}
+[e :U 727 ]
+"664
+[; ;main.c: 664:                 if(currentButtState == SHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 1 `ui 728  ]
+"665
+[; ;main.c: 665:                 {
+{
+"666
+[; ;main.c: 666:                     stopMotor();
+[e ( _stopMotor ..  ]
+"669
+[; ;main.c: 669:                     currentState = StageCEnd;
+[e = _currentState . `E4540 7 ]
+"670
+[; ;main.c: 670:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"671
+[; ;main.c: 671:                 }
+}
+[e :U 728 ]
+"672
+[; ;main.c: 672:                 if(currentButtState == TOOSHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 0 `ui 729  ]
+"673
+[; ;main.c: 673:                 {
+{
+"674
+[; ;main.c: 674:                 }
+}
+[e :U 729 ]
+"675
+[; ;main.c: 675:             }
+}
+[e :U 726 ]
+"676
+[; ;main.c: 676:             battery_status_counter++;
+[e ++ _battery_status_counter -> -> 1 `i `us ]
+"677
+[; ;main.c: 677:             ledCounter++;
+[e ++ _ledCounter -> -> 1 `i `us ]
+"678
+[; ;main.c: 678:             break;
+[e $U 658  ]
+"679
+[; ;main.c: 679:         case StageCEnd:
+[e :U 730 ]
+"680
+[; ;main.c: 680:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 731  ]
+"681
+[; ;main.c: 681:             {
+{
+"682
+[; ;main.c: 682:                 printf("Stage C \n\r");
+[e ( _printf :s 3C ]
+"684
+[; ;main.c: 684:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"685
+[; ;main.c: 685:                 stageC_counter = 0;
+[e = _stageC_counter -> -> -> 0 `i `o `uo ]
+"687
+[; ;main.c: 687:                 battery_status_counter = 6000;
+[e = _battery_status_counter -> -> 6000 `i `us ]
+"688
+[; ;main.c: 688:                 ledCounter = 0;
+[e = _ledCounter -> -> 0 `i `us ]
+"689
+[; ;main.c: 689:                 firstTimeC = 1;
+[e = _firstTimeC -> -> 1 `i `uc ]
+"690
+[; ;main.c: 690:             }
+}
+[e :U 731 ]
+"691
+[; ;main.c: 691:             if(battery_status_counter == 6000)
+[e $ ! == -> _battery_status_counter `ui -> -> 6000 `i `ui 732  ]
+"692
+[; ;main.c: 692:             {
+{
+"693
+[; ;main.c: 693:                 checkBattery();
+[e ( _checkBattery ..  ]
+"694
+[; ;main.c: 694:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"695
+[; ;main.c: 695:                 if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 733  ]
+"696
+[; ;main.c: 696:                     setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 733 ]
+"697
+[; ;main.c: 697:                 if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 734  ]
+"698
+[; ;main.c: 698:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 734 ]
+"699
+[; ;main.c: 699:                 if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 735  ]
+"700
+[; ;main.c: 700:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 735 ]
+"702
+[; ;main.c: 702:                 if(battery_status != (uint16_t)1)
+[e $ ! != -> _battery_status `ui -> -> -> 1 `i `us `ui 736  ]
+"703
+[; ;main.c: 703:                     singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+[e :U 736 ]
+"704
+[; ;main.c: 704:                 battery_status_counter = 0;
+[e = _battery_status_counter -> -> 0 `i `us ]
+"705
+[; ;main.c: 705:                 stopBlue();
+[e ( _stopBlue ..  ]
+"706
+[; ;main.c: 706:                 ledCounter = 0;
+[e = _ledCounter -> -> 0 `i `us ]
+"707
+[; ;main.c: 707:             }
+}
+[e :U 732 ]
+"708
+[; ;main.c: 708:             if(firstTimeC)
+[e $ ! != -> _firstTimeC `i -> 0 `i 737  ]
+"709
+[; ;main.c: 709:             {
+{
+"710
+[; ;main.c: 710:                 if(ledCounter == 5*100)
+[e $ ! == -> _ledCounter `ui -> * -> 5 `i -> 100 `i `ui 738  ]
+"711
+[; ;main.c: 711:                 {
+{
+"712
+[; ;main.c: 712:                     stopAll();
+[e ( _stopAll ..  ]
+"713
+[; ;main.c: 713:                     setStartBlue(32000);
+[e ( _setStartBlue (1 -> -> 32000 `i `us ]
+"714
+[; ;main.c: 714:                     firstTimeC = 0;
+[e = _firstTimeC -> -> 0 `i `uc ]
+"715
+[; ;main.c: 715:                 }
+}
+[e :U 738 ]
+"716
+[; ;main.c: 716:             }
+}
+[e $U 739  ]
+"717
+[; ;main.c: 717:             else
+[e :U 737 ]
+"718
+[; ;main.c: 718:             {
+{
+"719
+[; ;main.c: 719:                 if(ledCounter == 2*100)
+[e $ ! == -> _ledCounter `ui -> * -> 2 `i -> 100 `i `ui 740  ]
+"720
+[; ;main.c: 720:                 {
+{
+"721
+[; ;main.c: 721:                     stopAll();
+[e ( _stopAll ..  ]
+"722
+[; ;main.c: 722:                     setStartBlue(32000);
+[e ( _setStartBlue (1 -> -> 32000 `i `us ]
+"724
+[; ;main.c: 724:                 }
+}
+[e :U 740 ]
+"727
+[; ;main.c: 727:             }
+}
+[e :U 739 ]
+"728
+[; ;main.c: 728:             if(stageC_counter == 2*6000)
+[e $ ! == _stageC_counter -> -> * -> 2 `i -> 6000 `i `o `uo 741  ]
+"729
+[; ;main.c: 729:             {
+{
+"731
+[; ;main.c: 731:                 lastState = currentState;
+[e = _lastState _currentState ]
+"732
+[; ;main.c: 732:                 currentState = StageDOff;
+[e = _currentState . `E4540 8 ]
+"733
+[; ;main.c: 733:                 firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"734
+[; ;main.c: 734:             }
+}
+[e :U 741 ]
+"735
+[; ;main.c: 735:             if(buttonStateUpdated)
+[e $ ! != -> _buttonStateUpdated `i -> 0 `i 742  ]
+"736
+[; ;main.c: 736:             {
+{
+"737
+[; ;main.c: 737:                 buttonStateUpdated = 0;
+[e = _buttonStateUpdated -> -> 0 `i `uc ]
+"738
+[; ;main.c: 738:                 if(currentButtState == LONG)
+[e $ ! == -> _currentButtState `ui -> . `E4535 2 `ui 743  ]
+"739
+[; ;main.c: 739:                 {
+{
+"741
+[; ;main.c: 741:                     currentState = StageShutdown;
+[e = _currentState . `E4540 9 ]
+"742
+[; ;main.c: 742:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"743
+[; ;main.c: 743:                 }
+}
+[e :U 743 ]
+"744
+[; ;main.c: 744:                 if(currentButtState == SHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 1 `ui 744  ]
+"745
+[; ;main.c: 745:                 {
+{
+"746
+[; ;main.c: 746:                     stopMotor();
+[e ( _stopMotor ..  ]
+"750
+[; ;main.c: 750:                     currentState = StageDOff;
+[e = _currentState . `E4540 8 ]
+"751
+[; ;main.c: 751:                     firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"752
+[; ;main.c: 752:                 }
+}
+[e :U 744 ]
+"753
+[; ;main.c: 753:                 if(currentButtState == TOOSHORT)
+[e $ ! == -> _currentButtState `ui -> . `E4535 0 `ui 745  ]
+"754
+[; ;main.c: 754:                 {
+{
+"755
+[; ;main.c: 755:                     checkBattery();
+[e ( _checkBattery ..  ]
+"756
+[; ;main.c: 756:                     if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 746  ]
+"757
+[; ;main.c: 757:                         setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 746 ]
+"758
+[; ;main.c: 758:                     if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 747  ]
+"759
+[; ;main.c: 759:                         setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 747 ]
+"760
+[; ;main.c: 760:                     if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 748  ]
+"761
+[; ;main.c: 761:                         setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 748 ]
+"763
+[; ;main.c: 763:                     if(battery_status != (uint16_t)1)
+[e $ ! != -> _battery_status `ui -> -> -> 1 `i `us `ui 749  ]
+"764
+[; ;main.c: 764:                         singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+[e :U 749 ]
+"765
+[; ;main.c: 765:                     ledCounter = 0;
+[e = _ledCounter -> -> 0 `i `us ]
+"766
+[; ;main.c: 766:                     stopBlue();
+[e ( _stopBlue ..  ]
+"767
+[; ;main.c: 767:                 }
+}
+[e :U 745 ]
+"768
+[; ;main.c: 768:             }
+}
+[e :U 742 ]
+"769
+[; ;main.c: 769:             stageC_counter++;
+[e ++ _stageC_counter -> -> -> 1 `i `o `uo ]
+"770
+[; ;main.c: 770:             battery_status_counter++;
+[e ++ _battery_status_counter -> -> 1 `i `us ]
+"771
+[; ;main.c: 771:             ledCounter++;
+[e ++ _ledCounter -> -> 1 `i `us ]
+"772
+[; ;main.c: 772:             break;
+[e $U 658  ]
+"773
+[; ;main.c: 773:         case StageDOff:
+[e :U 750 ]
+"774
+[; ;main.c: 774:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 751  ]
+"775
+[; ;main.c: 775:             {
+{
+"776
+[; ;main.c: 776:                 stopMotor();
+[e ( _stopMotor ..  ]
+"778
+[; ;main.c: 778:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"779
+[; ;main.c: 779:                 singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+"780
+[; ;main.c: 780:                 stageD_counter = 0;
+[e = _stageD_counter -> -> -> 0 `i `o `uo ]
+"781
+[; ;main.c: 781:                 checkBattery();
+[e ( _checkBattery ..  ]
+"782
+[; ;main.c: 782:                 if(battery_status == (uint16_t)1)
+[e $ ! == -> _battery_status `ui -> -> -> 1 `i `us `ui 752  ]
+"783
+[; ;main.c: 783:                     setStartGreen(32000);
+[e ( _setStartGreen (1 -> -> 32000 `i `us ]
+[e :U 752 ]
+"784
+[; ;main.c: 784:                 if(battery_status == (uint16_t)2)
+[e $ ! == -> _battery_status `ui -> -> -> 2 `i `us `ui 753  ]
+"785
+[; ;main.c: 785:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 753 ]
+"786
+[; ;main.c: 786:                 if((battery_status == (uint16_t)3)||(battery_status == (uint16_t)4))
+[e $ ! || == -> _battery_status `ui -> -> -> 3 `i `us `ui == -> _battery_status `ui -> -> -> 4 `i `us `ui 754  ]
+"787
+[; ;main.c: 787:                     setStartRed(32000);
+[e ( _setStartRed (1 -> -> 32000 `i `us ]
+[e :U 754 ]
+"789
+[; ;main.c: 789:                 if(battery_status != 1)
+[e $ ! != -> _battery_status `i -> 1 `i 755  ]
+"790
+[; ;main.c: 790:                     singleBeep = 1;
+[e = _singleBeep -> -> 1 `i `uc ]
+[e :U 755 ]
+"792
+[; ;main.c: 792:             }
+}
+[e :U 751 ]
+"793
+[; ;main.c: 793:             if(stageD_counter == 5*100)
+[e $ ! == _stageD_counter -> -> * -> 5 `i -> 100 `i `o `uo 756  ]
+"794
+[; ;main.c: 794:             {
+{
+"795
+[; ;main.c: 795:                 stopAll();
+[e ( _stopAll ..  ]
+"797
+[; ;main.c: 797:                 currentState = StageShutdown;
+[e = _currentState . `E4540 9 ]
+"798
+[; ;main.c: 798:                 firstTime = 1;
+[e = _firstTime -> -> 1 `i `uc ]
+"799
+[; ;main.c: 799:             }
+}
+[e :U 756 ]
+"800
+[; ;main.c: 800:             stageD_counter++;
+[e ++ _stageD_counter -> -> -> 1 `i `o `uo ]
+"801
+[; ;main.c: 801:             break;
+[e $U 658  ]
+"802
+[; ;main.c: 802:         case StageShutdown:
+[e :U 757 ]
+"803
+[; ;main.c: 803:             if(firstTime)
+[e $ ! != -> _firstTime `i -> 0 `i 758  ]
+"804
+[; ;main.c: 804:             {
+{
+"806
+[; ;main.c: 806:                 stopMotor();
+[e ( _stopMotor ..  ]
+"807
+[; ;main.c: 807:                 stopAll();
+[e ( _stopAll ..  ]
+"808
+[; ;main.c: 808:                 shutdown_counter = 0;
+[e = _shutdown_counter -> -> -> 0 `i `o `uo ]
+"809
+[; ;main.c: 809:                 firstTime = 0;
+[e = _firstTime -> -> 0 `i `uc ]
+"810
+[; ;main.c: 810:             }
+}
+[e :U 758 ]
+"811
+[; ;main.c: 811:             shutdown_counter++;
+[e ++ _shutdown_counter -> -> -> 1 `i `o `uo ]
+"812
+[; ;main.c: 812:             if (shutdown_counter == 1)
+[e $ ! == _shutdown_counter -> -> -> 1 `i `o `uo 759  ]
+"813
+[; ;main.c: 813:                 LATAbits.LATA4 = 1;
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+[e :U 759 ]
+"814
+[; ;main.c: 814:             if (shutdown_counter == 5)
+[e $ ! == _shutdown_counter -> -> -> 5 `i `o `uo 760  ]
+"815
+[; ;main.c: 815:                 LATAbits.LATA4 = 0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+[e :U 760 ]
+"816
+[; ;main.c: 816:             if (shutdown_counter == 2*5)
+[e $ ! == _shutdown_counter -> -> * -> 2 `i -> 5 `i `o `uo 761  ]
+"817
+[; ;main.c: 817:                 LATAbits.LATA4 = 1;
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+[e :U 761 ]
+"818
+[; ;main.c: 818:             if (shutdown_counter == 3*5)
+[e $ ! == _shutdown_counter -> -> * -> 3 `i -> 5 `i `o `uo 762  ]
+"819
+[; ;main.c: 819:                 LATAbits.LATA4 = 0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+[e :U 762 ]
+"820
+[; ;main.c: 820:             if (shutdown_counter == 4*5)
+[e $ ! == _shutdown_counter -> -> * -> 4 `i -> 5 `i `o `uo 763  ]
+"821
+[; ;main.c: 821:                 LATAbits.LATA4 = 1;
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+[e :U 763 ]
+"822
+[; ;main.c: 822:             if (shutdown_counter == 5*5)
+[e $ ! == _shutdown_counter -> -> * -> 5 `i -> 5 `i `o `uo 764  ]
+"823
+[; ;main.c: 823:             {
+{
+"824
+[; ;main.c: 824:                 LATAbits.LATA4 = 0;
+[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+"826
+[; ;main.c: 826:                 LATCbits.LATC5 = 0;
+[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
+"827
+[; ;main.c: 827:                 _delay((unsigned long)((100)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"828
+[; ;main.c: 828:             }
+}
+[e :U 764 ]
+"829
+[; ;main.c: 829:             break;
+[e $U 658  ]
+"830
+[; ;main.c: 830:         case StageLowBatt:
+[e :U 765 ]
+"831
+[; ;main.c: 831:             break;
+[e $U 658  ]
+"832
+[; ;main.c: 832:        default:
+[e :U 766 ]
+"833
+[; ;main.c: 833:            break;
+[e $U 658  ]
+"834
+[; ;main.c: 834:    }
+}
+[e $U 658  ]
+[e :U 659 ]
+[e [\ -> _cases `ui , $ -> . `E4540 1 `ui 660
+ , $ -> . `E4540 3 `ui 672
+ , $ -> . `E4540 4 `ui 689
+ , $ -> . `E4540 5 `ui 705
+ , $ -> . `E4540 6 `ui 717
+ , $ -> . `E4540 7 `ui 730
+ , $ -> . `E4540 8 `ui 750
+ , $ -> . `E4540 9 `ui 757
+ , $ -> . `E4540 10 `ui 765
+ 766 ]
+[e :U 658 ]
+"835
+[; ;main.c: 835: }
+[e :UE 657 ]
+}
+[p f _printf 8388608 ]
+[a 1C 83 116 97 103 101 32 65 10 13 0 ]
+[a 3C 83 116 97 103 101 32 67 32 10 13 0 ]
+[a 2C 83 116 97 103 101 32 66 32 10 13 0 ]

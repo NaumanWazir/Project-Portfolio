@@ -1,0 +1,1175 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF1574 ]
+[d frameptr 6 ]
+"93 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/adc1.c
+[e E4124 . `uc
+channel_AN0 0
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"38 E:\4 stages motor control\motor_control_lf.X\main.c
+[e E4535 ButtonState `uc
+TOOSHORT 1
+SHORT 2
+LONG 3
+]
+"51
+[e E4540 State `uc
+StageOff 1
+StageWakeUp 2
+StageOn 3
+StageASlow 4
+StageBNormal 5
+StageB1 6
+StageB2 7
+StageCEnd 8
+StageDOff 9
+StageShutdown 10
+StageLowBatt 11
+]
+"246
+[e E4489 . `uc
+channel_AN0 0
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"1007 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1520
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"107 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _checkBattery checkBattery `(v  1 e 1 0 ]
+"137
+[v _ADCISR ADCISR `(v  1 e 1 0 ]
+"141
+[v _stopMotor stopMotor `(v  1 e 1 0 ]
+"157
+[v _stopGreen stopGreen `(v  1 e 1 0 ]
+"166
+[v _setStartGreen setStartGreen `(v  1 e 1 0 ]
+"173
+[v _stopBlue stopBlue `(v  1 e 1 0 ]
+"182
+[v _setStartBlue setStartBlue `(v  1 e 1 0 ]
+"190
+[v _stopRed stopRed `(v  1 e 1 0 ]
+"199
+[v _setStartRed setStartRed `(v  1 e 1 0 ]
+"206
+[v _setStartYellow setStartYellow `(v  1 e 1 0 ]
+"210
+[v _stopYellow stopYellow `(v  1 e 1 0 ]
+"215
+[v _stopAll stopAll `(v  1 e 1 0 ]
+"220
+[v _iocISR iocISR `(v  1 e 1 0 ]
+"227
+[v _timer0ISR timer0ISR `(v  1 e 1 0 ]
+"232
+[v _main main `(v  1 e 1 0 ]
+"381
+[v _programStates programStates `(v  1 e 1 0 ]
+"67 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/adc1.c
+[v _ADC1_Initialize ADC1_Initialize `(v  1 e 1 0 ]
+"93
+[v _ADC1_SelectChannel ADC1_SelectChannel `(v  1 e 1 0 ]
+"101
+[v _ADC1_StartConversion ADC1_StartConversion `(v  1 e 1 0 ]
+"114
+[v _ADC1_GetConversionResult ADC1_GetConversionResult `(us  1 e 2 0 ]
+"148
+[v _ADC1_ISR ADC1_ISR `(v  1 e 1 0 ]
+"159
+[v _ADC1_SetInterruptHandler ADC1_SetInterruptHandler `(v  1 e 1 0 ]
+"163
+[v _ADC1_DefaultInterruptHandler ADC1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"66 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"64
+[v _FVR_IsOutputReady FVR_IsOutputReady `(a  1 e 1 0 ]
+"52 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"67
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"77
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"57 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"130
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"142
+[v _IOCAF3_ISR IOCAF3_ISR `(v  1 e 1 0 ]
+"157
+[v _IOCAF3_SetInterruptHandler IOCAF3_SetInterruptHandler `(v  1 e 1 0 ]
+"164
+[v _IOCAF3_DefaultInterruptHandler IOCAF3_DefaultInterruptHandler `(v  1 e 1 0 ]
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"113
+[v _PWM1_Start PWM1_Start `(v  1 e 1 0 ]
+"118
+[v _PWM1_Stop PWM1_Stop `(v  1 e 1 0 ]
+"128
+[v _PWM1_LoadBufferSet PWM1_LoadBufferSet `(v  1 e 1 0 ]
+"139
+[v _PWM1_DutyCycleSet PWM1_DutyCycleSet `(v  1 e 1 0 ]
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"113
+[v _PWM2_Start PWM2_Start `(v  1 e 1 0 ]
+"118
+[v _PWM2_Stop PWM2_Stop `(v  1 e 1 0 ]
+"128
+[v _PWM2_LoadBufferSet PWM2_LoadBufferSet `(v  1 e 1 0 ]
+"139
+[v _PWM2_DutyCycleSet PWM2_DutyCycleSet `(v  1 e 1 0 ]
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+"113
+[v _PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+"118
+[v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
+"128
+[v _PWM3_LoadBufferSet PWM3_LoadBufferSet `(v  1 e 1 0 ]
+"139
+[v _PWM3_DutyCycleSet PWM3_DutyCycleSet `(v  1 e 1 0 ]
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 1 0 ]
+"113
+[v _PWM4_Start PWM4_Start `(v  1 e 1 0 ]
+"118
+[v _PWM4_Stop PWM4_Stop `(v  1 e 1 0 ]
+"128
+[v _PWM4_LoadBufferSet PWM4_LoadBufferSet `(v  1 e 1 0 ]
+"139
+[v _PWM4_DutyCycleSet PWM4_DutyCycleSet `(v  1 e 1 0 ]
+"64 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"108
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"123
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"133
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"137
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"63 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+[s S331 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:/Users/nauma/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\include\proc\pic16lf1574.h
+[s S340 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S345 . 1 `S331 1 . 1 0 `S340 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES345  1 e 1 @11 ]
+[s S1246 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"444
+[u S1253 . 1 `S1246 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES1253  1 e 1 @12 ]
+[s S68 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"545
+[u S76 . 1 `S68 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES76  1 e 1 @17 ]
+"646
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"673
+[v _TMR1L TMR1L `VEuc  1 e 1 @22 ]
+"693
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+"713
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+"785
+[v _T1GCON T1GCON `VEuc  1 e 1 @25 ]
+"973
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1023
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S475 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1089
+[u S483 . 1 `S475 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES483  1 e 1 @145 ]
+"1190
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S217 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1213
+[s S226 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S231 . 1 `S217 1 . 1 0 `S226 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES231  1 e 1 @149 ]
+"1330
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1389
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1447
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1582
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1602
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1622
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S509 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1651
+[s S517 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S521 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S524 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S527 . 1 `S509 1 . 1 0 `S517 1 . 1 0 `S521 1 . 1 0 `S524 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES527  1 e 1 @157 ]
+"1711
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1777
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
+"1825
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S1221 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1840
+[u S1228 . 1 `S1221 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1228  1 e 1 @268 ]
+"1870
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S1199 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+]
+"1885
+[u S1206 . 1 `S1199 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1206  1 e 1 @270 ]
+"2204
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2237
+[v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
+[s S645 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2258
+[s S654 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+]
+[u S657 . 1 `S645 1 . 1 0 `S654 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES657  1 e 1 @279 ]
+"2420
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2467
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2703
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"2730
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2750
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"2770
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"2832
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"2894
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"2946
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3004
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"3062
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"3115
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"3173
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"3226
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"3284
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"3342
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+[s S299 . 1 `uc 1 IOCAP0 1 0 :1:0 
+`uc 1 IOCAP1 1 0 :1:1 
+`uc 1 IOCAP2 1 0 :1:2 
+`uc 1 IOCAP3 1 0 :1:3 
+`uc 1 IOCAP4 1 0 :1:4 
+`uc 1 IOCAP5 1 0 :1:5 
+]
+"3418
+[s S306 . 1 `uc 1 IOCAP 1 0 :6:0 
+]
+[u S308 . 1 `S299 1 . 1 0 `S306 1 . 1 0 ]
+[v _IOCAPbits IOCAPbits `VES308  1 e 1 @913 ]
+[s S277 . 1 `uc 1 IOCAN0 1 0 :1:0 
+`uc 1 IOCAN1 1 0 :1:1 
+`uc 1 IOCAN2 1 0 :1:2 
+`uc 1 IOCAN3 1 0 :1:3 
+`uc 1 IOCAN4 1 0 :1:4 
+`uc 1 IOCAN5 1 0 :1:5 
+]
+"3476
+[s S284 . 1 `uc 1 IOCAN 1 0 :6:0 
+]
+[u S286 . 1 `S277 1 . 1 0 `S284 1 . 1 0 ]
+[v _IOCANbits IOCANbits `VES286  1 e 1 @914 ]
+[s S255 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"3534
+[s S262 . 1 `uc 1 IOCAF 1 0 :6:0 
+]
+[u S264 . 1 `S255 1 . 1 0 `S262 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES264  1 e 1 @915 ]
+"4227
+[v _PWM1PHL PWM1PHL `VEuc  1 e 1 @3473 ]
+"4305
+[v _PWM1PHH PWM1PHH `VEuc  1 e 1 @3474 ]
+"4390
+[v _PWM1DCL PWM1DCL `VEuc  1 e 1 @3475 ]
+"4468
+[v _PWM1DCH PWM1DCH `VEuc  1 e 1 @3476 ]
+"4553
+[v _PWM1PRL PWM1PRL `VEuc  1 e 1 @3477 ]
+"4631
+[v _PWM1PRH PWM1PRH `VEuc  1 e 1 @3478 ]
+"4716
+[v _PWM1OFL PWM1OFL `VEuc  1 e 1 @3479 ]
+"4794
+[v _PWM1OFH PWM1OFH `VEuc  1 e 1 @3480 ]
+"4879
+[v _PWM1TMRL PWM1TMRL `VEuc  1 e 1 @3481 ]
+"4957
+[v _PWM1TMRH PWM1TMRH `VEuc  1 e 1 @3482 ]
+"5035
+[v _PWM1CON PWM1CON `VEuc  1 e 1 @3483 ]
+[s S698 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 OE 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"5068
+[s S1063 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM1MODE0 1 0 :1:2 
+`uc 1 PWM1MODE1 1 0 :1:3 
+]
+[s S1067 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM1MODE 1 0 :2:2 
+`uc 1 PWM1POL 1 0 :1:4 
+`uc 1 PWM1OUT 1 0 :1:5 
+`uc 1 PWM1OE 1 0 :1:6 
+`uc 1 PWM1EN 1 0 :1:7 
+]
+[s S716 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE0 1 0 :1:2 
+`uc 1 MODE1 1 0 :1:3 
+]
+[u S1078 . 1 `S698 1 . 1 0 `S1063 1 . 1 0 `S1067 1 . 1 0 `S716 1 . 1 0 ]
+[v _PWM1CONbits PWM1CONbits `VES1078  1 e 1 @3483 ]
+"5143
+[v _PWM1INTE PWM1INTE `VEuc  1 e 1 @3484 ]
+"5269
+[v _PWM1INTF PWM1INTF `VEuc  1 e 1 @3485 ]
+"5395
+[v _PWM1CLKCON PWM1CLKCON `VEuc  1 e 1 @3486 ]
+"5503
+[v _PWM1LDCON PWM1LDCON `VEuc  1 e 1 @3487 ]
+[s S748 . 1 `uc 1 LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 LDT 1 0 :1:6 
+`uc 1 LDA 1 0 :1:7 
+]
+"5530
+[s S1111 . 1 `uc 1 PWM1LDS0 1 0 :1:0 
+`uc 1 PWM1LDS1 1 0 :1:1 
+]
+[s S1114 . 1 `uc 1 PWM1LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM1LDM 1 0 :1:6 
+`uc 1 PWM1LD 1 0 :1:7 
+]
+[s S761 . 1 `uc 1 LDS0 1 0 :1:0 
+`uc 1 LDS1 1 0 :1:1 
+]
+[u S1122 . 1 `S748 1 . 1 0 `S1111 1 . 1 0 `S1114 1 . 1 0 `S761 1 . 1 0 ]
+[v _PWM1LDCONbits PWM1LDCONbits `VES1122  1 e 1 @3487 ]
+"5585
+[v _PWM1OFCON PWM1OFCON `VEuc  1 e 1 @3488 ]
+"5700
+[v _PWM2PHL PWM2PHL `VEuc  1 e 1 @3489 ]
+"5778
+[v _PWM2PHH PWM2PHH `VEuc  1 e 1 @3490 ]
+"5863
+[v _PWM2DCL PWM2DCL `VEuc  1 e 1 @3491 ]
+"5941
+[v _PWM2DCH PWM2DCH `VEuc  1 e 1 @3492 ]
+"6026
+[v _PWM2PRL PWM2PRL `VEuc  1 e 1 @3493 ]
+"6104
+[v _PWM2PRH PWM2PRH `VEuc  1 e 1 @3494 ]
+"6189
+[v _PWM2OFL PWM2OFL `VEuc  1 e 1 @3495 ]
+"6267
+[v _PWM2OFH PWM2OFH `VEuc  1 e 1 @3496 ]
+"6352
+[v _PWM2TMRL PWM2TMRL `VEuc  1 e 1 @3497 ]
+"6430
+[v _PWM2TMRH PWM2TMRH `VEuc  1 e 1 @3498 ]
+"6541
+[s S824 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM2MODE0 1 0 :1:2 
+`uc 1 PWM2MODE1 1 0 :1:3 
+]
+[s S828 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM2MODE 1 0 :2:2 
+`uc 1 PWM2POL 1 0 :1:4 
+`uc 1 PWM2OUT 1 0 :1:5 
+`uc 1 PWM2OE 1 0 :1:6 
+`uc 1 PWM2EN 1 0 :1:7 
+]
+[u S839 . 1 `S698 1 . 1 0 `S824 1 . 1 0 `S828 1 . 1 0 `S716 1 . 1 0 ]
+[v _PWM2CONbits PWM2CONbits `VES839  1 e 1 @3499 ]
+"6616
+[v _PWM2INTE PWM2INTE `VEuc  1 e 1 @3500 ]
+"6742
+[v _PWM2INTF PWM2INTF `VEuc  1 e 1 @3501 ]
+"6868
+[v _PWM2CLKCON PWM2CLKCON `VEuc  1 e 1 @3502 ]
+"6976
+[v _PWM2LDCON PWM2LDCON `VEuc  1 e 1 @3503 ]
+"7003
+[s S872 . 1 `uc 1 PWM2LDS0 1 0 :1:0 
+`uc 1 PWM2LDS1 1 0 :1:1 
+]
+[s S875 . 1 `uc 1 PWM2LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM2LDM 1 0 :1:6 
+`uc 1 PWM2LD 1 0 :1:7 
+]
+[u S883 . 1 `S748 1 . 1 0 `S872 1 . 1 0 `S875 1 . 1 0 `S761 1 . 1 0 ]
+[v _PWM2LDCONbits PWM2LDCONbits `VES883  1 e 1 @3503 ]
+"7058
+[v _PWM2OFCON PWM2OFCON `VEuc  1 e 1 @3504 ]
+"7173
+[v _PWM3PHL PWM3PHL `VEuc  1 e 1 @3505 ]
+"7251
+[v _PWM3PHH PWM3PHH `VEuc  1 e 1 @3506 ]
+"7336
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @3507 ]
+"7414
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @3508 ]
+"7499
+[v _PWM3PRL PWM3PRL `VEuc  1 e 1 @3509 ]
+"7577
+[v _PWM3PRH PWM3PRH `VEuc  1 e 1 @3510 ]
+"7662
+[v _PWM3OFL PWM3OFL `VEuc  1 e 1 @3511 ]
+"7740
+[v _PWM3OFH PWM3OFH `VEuc  1 e 1 @3512 ]
+"7825
+[v _PWM3TMRL PWM3TMRL `VEuc  1 e 1 @3513 ]
+"7903
+[v _PWM3TMRH PWM3TMRH `VEuc  1 e 1 @3514 ]
+"8014
+[s S943 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM3MODE0 1 0 :1:2 
+`uc 1 PWM3MODE1 1 0 :1:3 
+]
+[s S947 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM3MODE 1 0 :2:2 
+`uc 1 PWM3POL 1 0 :1:4 
+`uc 1 PWM3OUT 1 0 :1:5 
+`uc 1 PWM3OE 1 0 :1:6 
+`uc 1 PWM3EN 1 0 :1:7 
+]
+[u S958 . 1 `S698 1 . 1 0 `S943 1 . 1 0 `S947 1 . 1 0 `S716 1 . 1 0 ]
+[v _PWM3CONbits PWM3CONbits `VES958  1 e 1 @3515 ]
+"8089
+[v _PWM3INTE PWM3INTE `VEuc  1 e 1 @3516 ]
+"8215
+[v _PWM3INTF PWM3INTF `VEuc  1 e 1 @3517 ]
+"8341
+[v _PWM3CLKCON PWM3CLKCON `VEuc  1 e 1 @3518 ]
+"8449
+[v _PWM3LDCON PWM3LDCON `VEuc  1 e 1 @3519 ]
+"8476
+[s S991 . 1 `uc 1 PWM3LDS0 1 0 :1:0 
+`uc 1 PWM3LDS1 1 0 :1:1 
+]
+[s S994 . 1 `uc 1 PWM3LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM3LDM 1 0 :1:6 
+`uc 1 PWM3LD 1 0 :1:7 
+]
+[u S1002 . 1 `S748 1 . 1 0 `S991 1 . 1 0 `S994 1 . 1 0 `S761 1 . 1 0 ]
+[v _PWM3LDCONbits PWM3LDCONbits `VES1002  1 e 1 @3519 ]
+"8531
+[v _PWM3OFCON PWM3OFCON `VEuc  1 e 1 @3520 ]
+"8646
+[v _PWM4PHL PWM4PHL `VEuc  1 e 1 @3521 ]
+"8724
+[v _PWM4PHH PWM4PHH `VEuc  1 e 1 @3522 ]
+"8809
+[v _PWM4DCL PWM4DCL `VEuc  1 e 1 @3523 ]
+"8887
+[v _PWM4DCH PWM4DCH `VEuc  1 e 1 @3524 ]
+"8972
+[v _PWM4PRL PWM4PRL `VEuc  1 e 1 @3525 ]
+"9050
+[v _PWM4PRH PWM4PRH `VEuc  1 e 1 @3526 ]
+"9135
+[v _PWM4OFL PWM4OFL `VEuc  1 e 1 @3527 ]
+"9213
+[v _PWM4OFH PWM4OFH `VEuc  1 e 1 @3528 ]
+"9298
+[v _PWM4TMRL PWM4TMRL `VEuc  1 e 1 @3529 ]
+"9376
+[v _PWM4TMRH PWM4TMRH `VEuc  1 e 1 @3530 ]
+"9487
+[s S705 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM4MODE0 1 0 :1:2 
+`uc 1 PWM4MODE1 1 0 :1:3 
+]
+[s S709 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM4MODE 1 0 :2:2 
+`uc 1 PWM4POL 1 0 :1:4 
+`uc 1 PWM4OUT 1 0 :1:5 
+`uc 1 PWM4OE 1 0 :1:6 
+`uc 1 PWM4EN 1 0 :1:7 
+]
+[u S720 . 1 `S698 1 . 1 0 `S705 1 . 1 0 `S709 1 . 1 0 `S716 1 . 1 0 ]
+[v _PWM4CONbits PWM4CONbits `VES720  1 e 1 @3531 ]
+"9562
+[v _PWM4INTE PWM4INTE `VEuc  1 e 1 @3532 ]
+"9688
+[v _PWM4INTF PWM4INTF `VEuc  1 e 1 @3533 ]
+"9814
+[v _PWM4CLKCON PWM4CLKCON `VEuc  1 e 1 @3534 ]
+"9922
+[v _PWM4LDCON PWM4LDCON `VEuc  1 e 1 @3535 ]
+"9949
+[s S753 . 1 `uc 1 PWM4LDS0 1 0 :1:0 
+`uc 1 PWM4LDS1 1 0 :1:1 
+]
+[s S756 . 1 `uc 1 PWM4LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM4LDM 1 0 :1:6 
+`uc 1 PWM4LD 1 0 :1:7 
+]
+[u S764 . 1 `S748 1 . 1 0 `S753 1 . 1 0 `S756 1 . 1 0 `S761 1 . 1 0 ]
+[v _PWM4LDCONbits PWM4LDCONbits `VES764  1 e 1 @3535 ]
+"10004
+[v _PWM4OFCON PWM4OFCON `VEuc  1 e 1 @3536 ]
+"10496
+[v _ADCACTPPS ADCACTPPS `VEuc  1 e 1 @3607 ]
+"10594
+[v _RA1PPS RA1PPS `VEuc  1 e 1 @3729 ]
+"10640
+[v _RA2PPS RA2PPS `VEuc  1 e 1 @3730 ]
+"10778
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3744 ]
+"10916
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3747 ]
+"10962
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3748 ]
+"99 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"100
+[v _flags flags `uc  1 s 1 flags ]
+"38 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _currentButtState currentButtState `E4535  1 e 1 0 ]
+"51
+[v _currentState currentState `E4540  1 e 1 0 ]
+"52
+[v _lastState lastState `E4540  1 e 1 0 ]
+"69
+[v _tick tick `VEuo  1 e 8 0 ]
+"70
+[v _button_state button_state `a  1 e 1 0 ]
+"71
+[v _buttonStateUpdated buttonStateUpdated `uc  1 e 1 0 ]
+"72
+[v _firstTime firstTime `uc  1 e 1 0 ]
+"73
+[v _firstTimeB firstTimeB `uc  1 e 1 0 ]
+"74
+[v _firstTimeC firstTimeC `uc  1 e 1 0 ]
+"75
+[v _run_buttonLoop run_buttonLoop `uc  1 e 1 0 ]
+"76
+[v _run_mainloop run_mainloop `uc  1 e 1 0 ]
+"77
+[v _buttonPressedInProg buttonPressedInProg `uc  1 e 1 0 ]
+"78
+[v _pressedTime pressedTime `uo  1 e 8 0 ]
+"79
+[v _StageWakeUpTimer StageWakeUpTimer `uo  1 e 8 0 ]
+"80
+[v _stageA_counter stageA_counter `uo  1 e 8 0 ]
+"82
+[v _stageB1_counter stageB1_counter `uo  1 e 8 0 ]
+"83
+[v _stageC_counter stageC_counter `uo  1 e 8 0 ]
+"84
+[v _stageD_counter stageD_counter `uo  1 e 8 0 ]
+"85
+[v _shutdown_counter shutdown_counter `uo  1 e 8 0 ]
+"87
+[v _adc_value adc_value `us  1 e 2 0 ]
+"90
+[v _battery_status battery_status `uc  1 e 1 0 ]
+"91
+[v _battery_status_counter battery_status_counter `us  1 e 2 0 ]
+"92
+[v _batteryStatusUpdated batteryStatusUpdated `uc  1 e 1 0 ]
+"93
+[v _singleBeep singleBeep `uc  1 e 1 0 ]
+"94
+[v _doubleBeep doubleBeep `uc  1 e 1 0 ]
+"95
+[v _singleBeepCounter singleBeepCounter `us  1 e 2 0 ]
+"96
+[v _doubleBeepCounter doubleBeepCounter `us  1 e 2 0 ]
+"97
+[v _blinkRedThree blinkRedThree `uc  1 e 1 0 ]
+"98
+[v _blinkRedThreeCounter blinkRedThreeCounter `us  1 e 2 0 ]
+"99
+[v _ledCounter ledCounter `us  1 e 2 0 ]
+"100
+[v _enableGreen enableGreen `uc  1 e 1 0 ]
+"101
+[v _enableRed enableRed `uc  1 e 1 0 ]
+"103
+[v _enableYellow enableYellow `uc  1 e 1 0 ]
+"61 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/adc1.c
+[v _ADC1_InterruptHandler ADC1_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S22 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/eusart.c
+[u S27 . 1 `S22 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES27  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"54 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pin_manager.c
+[v _IOCAF3_InterruptHandler IOCAF3_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"59
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"57 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"232 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"379
+} 0
+"381
+[v _programStates programStates `(v  1 e 1 0 ]
+{
+[v programStates@cases cases `E4540  1 a 1 wreg ]
+[v programStates@cases cases `E4540  1 a 1 wreg ]
+[v programStates@cases cases `E4540  1 a 1 0 ]
+"835
+} 0
+"210
+[v _stopYellow stopYellow `(v  1 e 1 0 ]
+{
+"213
+} 0
+"141
+[v _stopMotor stopMotor `(v  1 e 1 0 ]
+{
+"149
+} 0
+"118 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm1.c
+[v _PWM1_Stop PWM1_Stop `(v  1 e 1 0 ]
+{
+"121
+} 0
+"113
+[v _PWM1_Start PWM1_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"128
+[v _PWM1_LoadBufferSet PWM1_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM1_DutyCycleSet PWM1_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM1_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 2 ]
+"143
+} 0
+"215 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _stopAll stopAll `(v  1 e 1 0 ]
+{
+"219
+} 0
+"190
+[v _stopRed stopRed `(v  1 e 1 0 ]
+{
+"198
+} 0
+"118 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm4.c
+[v _PWM4_Stop PWM4_Stop `(v  1 e 1 0 ]
+{
+"121
+} 0
+"157 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _stopGreen stopGreen `(v  1 e 1 0 ]
+{
+"165
+} 0
+"118 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm2.c
+[v _PWM2_Stop PWM2_Stop `(v  1 e 1 0 ]
+{
+"121
+} 0
+"173 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _stopBlue stopBlue `(v  1 e 1 0 ]
+{
+"181
+} 0
+"118 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm3.c
+[v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
+{
+"121
+} 0
+"206 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _setStartYellow setStartYellow `(v  1 e 1 0 ]
+{
+"209
+} 0
+"199
+[v _setStartRed setStartRed `(v  1 e 1 0 ]
+{
+[v setStartRed@duty duty `us  1 p 2 4 ]
+"205
+} 0
+"113 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm4.c
+[v _PWM4_Start PWM4_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"128
+[v _PWM4_LoadBufferSet PWM4_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM4_DutyCycleSet PWM4_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM4_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 2 ]
+"143
+} 0
+"166 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _setStartGreen setStartGreen `(v  1 e 1 0 ]
+{
+[v setStartGreen@duty duty `us  1 p 2 4 ]
+"172
+} 0
+"113 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm2.c
+[v _PWM2_Start PWM2_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"128
+[v _PWM2_LoadBufferSet PWM2_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM2_DutyCycleSet PWM2_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM2_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 2 ]
+"143
+} 0
+"182 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _setStartBlue setStartBlue `(v  1 e 1 0 ]
+{
+[v setStartBlue@duty duty `us  1 p 2 4 ]
+"188
+} 0
+"113 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm3.c
+[v _PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"128
+[v _PWM3_LoadBufferSet PWM3_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM3_DutyCycleSet PWM3_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM3_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 2 ]
+"143
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 9 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 17 ]
+"13
+} 0
+"1520 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S1768 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1768  1 a 1 wreg ]
+"1523
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 15 ]
+"1520
+[v vfprintf@fp fp `*.1S1768  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 11 ]
+[v vfprintf@ap ap `*.1*.4v  1 p 1 13 ]
+"1525
+"1520
+[v vfprintf@fp fp `*.1S1768  1 a 1 14 ]
+"1543
+} 0
+"1007
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S1768 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1768  1 a 1 wreg ]
+[v vfpfcnvrt@fp fp `*.1S1768  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 5 ]
+[v vfpfcnvrt@ap ap `*.1*.4v  1 p 1 6 ]
+"1019
+"1007
+[v vfpfcnvrt@fp fp `*.1S1768  1 a 1 7 ]
+"1517
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 4 ]
+[u S1746 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1749 _IO_FILE 10 `S1746 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputc@fp fp `*.1S1749  1 p 1 6 ]
+"24
+} 0
+"146 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/eusart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 3 ]
+"149
+} 0
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 2 ]
+"139
+} 0
+"107 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _checkBattery checkBattery `(v  1 e 1 0 ]
+{
+"109
+[v checkBattery@battery_voltage battery_voltage `us  1 a 2 2 ]
+"135
+} 0
+"50 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"65
+} 0
+"77
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"63 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"64 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"133
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"135
+} 0
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm4.c
+[v _PWM4_Initialize PWM4_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"57 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"128
+} 0
+"157
+[v _IOCAF3_SetInterruptHandler IOCAF3_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCAF3_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"159
+} 0
+"67 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"58 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"66 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"172
+} 0
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"168
+} 0
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"176
+} 0
+"67 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/adc1.c
+[v _ADC1_Initialize ADC1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"159
+[v _ADC1_SetInterruptHandler ADC1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADC1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"161
+} 0
+"64 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/fvr.c
+[v _FVR_IsOutputReady FVR_IsOutputReady `(a  1 e 1 0 ]
+{
+"67
+} 0
+"101 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/adc1.c
+[v _ADC1_StartConversion ADC1_StartConversion `(v  1 e 1 0 ]
+{
+"105
+} 0
+"93
+[v _ADC1_SelectChannel ADC1_SelectChannel `(v  1 e 1 0 ]
+{
+[v ADC1_SelectChannel@channel channel `E4124  1 a 1 wreg ]
+[v ADC1_SelectChannel@channel channel `E4124  1 a 1 wreg ]
+"96
+[v ADC1_SelectChannel@channel channel `E4124  1 a 1 3 ]
+"99
+} 0
+"52 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"78
+} 0
+"108 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"121
+} 0
+"123
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"131
+} 0
+"137
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"140
+} 0
+"227 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _timer0ISR timer0ISR `(v  1 e 1 0 ]
+{
+"231
+} 0
+"130 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"137
+} 0
+"142
+[v _IOCAF3_ISR IOCAF3_ISR `(v  1 e 1 0 ]
+{
+"152
+} 0
+"164
+[v _IOCAF3_DefaultInterruptHandler IOCAF3_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"167
+} 0
+"220 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _iocISR iocISR `(v  1 e 1 0 ]
+{
+"224
+} 0
+"148 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/adc1.c
+[v _ADC1_ISR ADC1_ISR `(v  1 e 1 0 ]
+{
+"157
+} 0
+"163
+[v _ADC1_DefaultInterruptHandler ADC1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"166
+} 0
+"137 E:\4 stages motor control\motor_control_lf.X\main.c
+[v _ADCISR ADCISR `(v  1 e 1 0 ]
+{
+"140
+} 0
+"114 E:\4 stages motor control\motor_control_lf.X\mcc_generated_files/adc1.c
+[v _ADC1_GetConversionResult ADC1_GetConversionResult `(us  1 e 2 0 ]
+{
+"118
+} 0
