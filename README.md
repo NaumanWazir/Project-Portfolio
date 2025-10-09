@@ -34,7 +34,7 @@ Each project has its own folder with a dedicated **README.md** outlining:
 ## Project Categories
 
 ### On-Job Projects
-- [Control Card & Power Supply Design for Dynamically Tuned Gyroscopes](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
+- [Control Card & Power Supply Design for Dynamically Tuned Gyroscopes](./Control%20card%20%26%20Power%20Supply%20design%20for%20Dynamically%20Tune%20Gyroscopes)  
 - [GSM-Based Power Monitoring and Control Unit](./GSM%20Based%20Power%20Monitoring%20and%20Control%20Unit)  
 - [Fault-Tolerant Integrated Navigation System](./Fault%20Tolerant%20Integrated%20Navigation%20System)  
 - [FOG-Based INS for Sub Orbital Flight](./FOG%20Based%20INS%20for%20Sub%20Orbital%20Flight)  
@@ -55,7 +55,7 @@ Each project has its own folder with a dedicated **README.md** outlining:
 - [EEZIMOVER (NDA)](./EEZIMOVER%20(NDA))  
 - [Temperature Regulator with Feedback Control](./Temperature%20with%20Feedback%20Control)  
 - [Footpod Firmware Development (NDA)](./Footpod%20Firmware%20Development%20(NDA))  
-- [Automatic Pill Dispenser](./Automatic%20Pill%20Dispenser)  
+- [Automatic Pill Dispenser](./Automatic%20Pill%20Dispensor)  
 - [Movesense Custom Firmware (NDA)](./Movesense%20Custom%20Firmware%20(NDA))  
 - [Motor PID Control](./Motor%20PID%20Control)  
 - [Prototype Testing for CurveAssure (NDA)](./Prototype%20Testing%20for%20CurveAssure%20(NDA))  
