@@ -1,0 +1,317 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"14 slave_service.c
+[; ;slave_service.c: 14: extern float temperature;
+[v _temperature `f ~T0 @X0 0 e ]
+"19
+[; ;slave_service.c: 19: extern float Tol_min;
+[v _Tol_min `f ~T0 @X0 0 e ]
+"13
+[; ;slave_service.c: 13: extern uint16_t speed;
+[v _speed `us ~T0 @X0 0 e ]
+"20
+[; ;slave_service.c: 20: extern float Tol_1;
+[v _Tol_1 `f ~T0 @X0 0 e ]
+"21
+[; ;slave_service.c: 21: extern float Tol_2;
+[v _Tol_2 `f ~T0 @X0 0 e ]
+"24
+[; ;slave_service.c: 24: extern uint8_t MaxFanSpeed;
+[v _MaxFanSpeed `uc ~T0 @X0 0 e ]
+"15
+[; ;slave_service.c: 15: extern uint8_t rxBuf[13 + 1];
+[v _rxBuf `uc ~T0 @X0 -> 0 `x e ]
+"18
+[; ;slave_service.c: 18: extern float Tol_max;
+[v _Tol_max `f ~T0 @X0 0 e ]
+"22
+[; ;slave_service.c: 22: extern float percent;
+[v _percent `f ~T0 @X0 0 e ]
+"58 ./pid.h
+[; ;./pid.h: 58: extern void set_pid_target(float);
+[v _set_pid_target `(v ~T0 @X0 0 ef1`f ]
+"10 slave_service.c
+[; ;slave_service.c: 10: uint8_t slave_reg[17 + 1] = {0};
+[v _slave_reg `uc ~T0 @X0 -> 18 `i e ]
+[i _slave_reg
+:U ..
+-> -> 0 `i `uc
+..
+]
+"16
+[; ;slave_service.c: 16: float offset_temp,offFan_temp;
+[v _offset_temp `f ~T0 @X0 1 e ]
+[v _offFan_temp `f ~T0 @X0 1 e ]
+"25
+[; ;slave_service.c: 25: float SetTemp = 70;
+[v _SetTemp `f ~T0 @X0 1 e ]
+[i _SetTemp
+-> -> 70 `i `f
+]
+"28
+[; ;slave_service.c: 28: void update_slave_reg(void)
+[v _update_slave_reg `(v ~T0 @X0 1 ef ]
+"29
+[; ;slave_service.c: 29: {
+{
+[e :U _update_slave_reg ]
+[f ]
+"30
+[; ;slave_service.c: 30:     float temp;
+[v _temp `f ~T0 @X0 1 a ]
+"31
+[; ;slave_service.c: 31:     int temp_storage;
+[v _temp_storage `i ~T0 @X0 1 a ]
+"32
+[; ;slave_service.c: 32:     int temp_storage1;
+[v _temp_storage1 `i ~T0 @X0 1 a ]
+"34
+[; ;slave_service.c: 34:     if(temperature < Tol_min)
+[e $ ! < _temperature _Tol_min 9  ]
+"35
+[; ;slave_service.c: 35:     {speed = 0;}
+{
+[e = _speed -> -> 0 `i `us ]
+}
+[e :U 9 ]
+"38
+[; ;slave_service.c: 38:     temp_storage =(int)temperature;
+[e = _temp_storage -> _temperature `i ]
+"39
+[; ;slave_service.c: 39:     slave_reg[0]= (uint8_t)(temp_storage/16);
+[e = *U + &U _slave_reg * -> -> -> 0 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> / _temp_storage -> 16 `i `uc ]
+"40
+[; ;slave_service.c: 40:     temp_storage1= temp_storage%16;
+[e = _temp_storage1 % _temp_storage -> 16 `i ]
+"41
+[; ;slave_service.c: 41:     slave_reg[1]= (uint8_t)((temperature-temp_storage+temp_storage1)*16);
+[e = *U + &U _slave_reg * -> -> -> 1 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> * + - _temperature -> _temp_storage `f -> _temp_storage1 `f -> -> 16 `i `f `uc ]
+"44
+[; ;slave_service.c: 44:     slave_reg[2]= (speed&0xFF00)>>8;
+[e = *U + &U _slave_reg * -> -> -> 2 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> >> & -> _speed `ui -> 65280 `ui -> 8 `i `uc ]
+"45
+[; ;slave_service.c: 45:     slave_reg[3]= speed&0x00FF;
+[e = *U + &U _slave_reg * -> -> -> 3 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> & -> _speed `ui -> -> 255 `i `ui `uc ]
+"48
+[; ;slave_service.c: 48:     temp_storage =(int)offset_temp;
+[e = _temp_storage -> _offset_temp `i ]
+"49
+[; ;slave_service.c: 49:     slave_reg[4]= (uint8_t)(temp_storage/16);
+[e = *U + &U _slave_reg * -> -> -> 4 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> / _temp_storage -> 16 `i `uc ]
+"50
+[; ;slave_service.c: 50:     temp_storage1= temp_storage%16;
+[e = _temp_storage1 % _temp_storage -> 16 `i ]
+"51
+[; ;slave_service.c: 51:     slave_reg[5]= (uint8_t)((offset_temp-temp_storage+temp_storage1)*16);
+[e = *U + &U _slave_reg * -> -> -> 5 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> * + - _offset_temp -> _temp_storage `f -> _temp_storage1 `f -> -> 16 `i `f `uc ]
+"54
+[; ;slave_service.c: 54:     temp_storage =(int)offFan_temp;
+[e = _temp_storage -> _offFan_temp `i ]
+"55
+[; ;slave_service.c: 55:     slave_reg[6]= (uint8_t)(temp_storage/16);
+[e = *U + &U _slave_reg * -> -> -> 6 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> / _temp_storage -> 16 `i `uc ]
+"56
+[; ;slave_service.c: 56:     temp_storage1= temp_storage%16;
+[e = _temp_storage1 % _temp_storage -> 16 `i ]
+"57
+[; ;slave_service.c: 57:     slave_reg[7]= (uint8_t)((offFan_temp-temp_storage+temp_storage1)*16);
+[e = *U + &U _slave_reg * -> -> -> 7 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> * + - _offFan_temp -> _temp_storage `f -> _temp_storage1 `f -> -> 16 `i `f `uc ]
+"60
+[; ;slave_service.c: 60:     temp_storage =(int)SetTemp;
+[e = _temp_storage -> _SetTemp `i ]
+"61
+[; ;slave_service.c: 61:     slave_reg[8]= (uint8_t)(temp_storage/16);
+[e = *U + &U _slave_reg * -> -> -> 8 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> / _temp_storage -> 16 `i `uc ]
+"62
+[; ;slave_service.c: 62:     temp_storage1= temp_storage%16;
+[e = _temp_storage1 % _temp_storage -> 16 `i ]
+"63
+[; ;slave_service.c: 63:     slave_reg[9]= (uint8_t)((SetTemp-temp_storage+temp_storage1)*16);
+[e = *U + &U _slave_reg * -> -> -> 9 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> * + - _SetTemp -> _temp_storage `f -> _temp_storage1 `f -> -> 16 `i `f `uc ]
+"66
+[; ;slave_service.c: 66:     temp_storage =(int)Tol_1;
+[e = _temp_storage -> _Tol_1 `i ]
+"67
+[; ;slave_service.c: 67:     slave_reg[10]= (uint8_t)(temp_storage/16);
+[e = *U + &U _slave_reg * -> -> -> 10 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> / _temp_storage -> 16 `i `uc ]
+"68
+[; ;slave_service.c: 68:     temp_storage1= temp_storage%16;
+[e = _temp_storage1 % _temp_storage -> 16 `i ]
+"69
+[; ;slave_service.c: 69:     slave_reg[11]= (uint8_t)((Tol_1-temp_storage+temp_storage1)*16);
+[e = *U + &U _slave_reg * -> -> -> 11 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> * + - _Tol_1 -> _temp_storage `f -> _temp_storage1 `f -> -> 16 `i `f `uc ]
+"71
+[; ;slave_service.c: 71:     temp = Tol_2;
+[e = _temp _Tol_2 ]
+"72
+[; ;slave_service.c: 72:     if(temp < 0.0) temp = -Tol_2;
+[e $ ! < -> _temp `d .0.0 10  ]
+[e = _temp -U _Tol_2 ]
+[e :U 10 ]
+"74
+[; ;slave_service.c: 74:     temp_storage =(int)temp;
+[e = _temp_storage -> _temp `i ]
+"75
+[; ;slave_service.c: 75:     slave_reg[12]= (uint8_t)(temp_storage/16);
+[e = *U + &U _slave_reg * -> -> -> 12 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> / _temp_storage -> 16 `i `uc ]
+"76
+[; ;slave_service.c: 76:     temp_storage1= temp_storage%16;
+[e = _temp_storage1 % _temp_storage -> 16 `i ]
+"77
+[; ;slave_service.c: 77:     slave_reg[13]= (uint8_t)((temp-temp_storage+temp_storage1)*16);
+[e = *U + &U _slave_reg * -> -> -> 13 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> * + - _temp -> _temp_storage `f -> _temp_storage1 `f -> -> 16 `i `f `uc ]
+"80
+[; ;slave_service.c: 80:     slave_reg[14] = MaxFanSpeed;
+[e = *U + &U _slave_reg * -> -> -> 14 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux _MaxFanSpeed ]
+"101
+[; ;slave_service.c: 101:     slave_reg[15]= 0x00;
+[e = *U + &U _slave_reg * -> -> -> 15 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> -> 0 `i `uc ]
+"102
+[; ;slave_service.c: 102:     slave_reg[16]= slave_reg[0]^slave_reg[1]^slave_reg[2]^slave_reg[3]^slave_reg[4]^slave_reg[5]^slave_reg[6]^slave_reg[7]^slave_reg[8]^slave_reg[9]^slave_reg[10]^slave_reg[11]^slave_reg[12]^slave_reg[13]^slave_reg[14];
+[e = *U + &U _slave_reg * -> -> -> 16 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux -> ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ -> *U + &U _slave_reg * -> -> -> 0 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 1 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 2 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 3 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 4 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 5 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 6 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 7 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 8 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 9 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 10 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 11 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 12 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 13 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i -> *U + &U _slave_reg * -> -> -> 14 `i `ui `ux -> -> # *U &U _slave_reg `ui `ux `i `uc ]
+"103
+[; ;slave_service.c: 103: }
+[e :UE 8 ]
+}
+"106
+[; ;slave_service.c: 106: void update_offset_n_offFan_value(void)
+[v _update_offset_n_offFan_value `(v ~T0 @X0 1 ef ]
+"107
+[; ;slave_service.c: 107: {
+{
+[e :U _update_offset_n_offFan_value ]
+[f ]
+"108
+[; ;slave_service.c: 108:     uint8_t temp = rxBuf[0]^rxBuf[1]^rxBuf[2]^rxBuf[3]^rxBuf[4]^rxBuf[5]^rxBuf[6]^rxBuf[7]^rxBuf[8]^rxBuf[9]^rxBuf[10];
+[v _temp `uc ~T0 @X0 1 a ]
+[e = _temp -> ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ -> *U + &U _rxBuf * -> -> -> 0 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 1 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 2 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 3 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 4 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 5 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 6 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 7 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 8 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 9 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> *U + &U _rxBuf * -> -> -> 10 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i `uc ]
+"110
+[; ;slave_service.c: 110:     if((temp == rxBuf[12]) &&(rxBuf[11] == 0))
+[e $ ! && == -> _temp `i -> *U + &U _rxBuf * -> -> -> 12 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i == -> *U + &U _rxBuf * -> -> -> 11 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 0 `i 12  ]
+"111
+[; ;slave_service.c: 111:     {
+{
+"113
+[; ;slave_service.c: 113:         if((rxBuf[0]&0x10)==0x10)
+[e $ ! == & -> *U + &U _rxBuf * -> -> -> 0 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 16 `i -> 16 `i 13  ]
+"114
+[; ;slave_service.c: 114:         {
+{
+"115
+[; ;slave_service.c: 115:             temp=rxBuf[0]&0x0F;
+[e = _temp -> & -> *U + &U _rxBuf * -> -> -> 0 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 15 `i `uc ]
+"116
+[; ;slave_service.c: 116:             offset_temp = 256-(temp*16+((float)(rxBuf[1])/16));
+[e = _offset_temp - -> -> 256 `i `f + -> * -> _temp `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 1 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"117
+[; ;slave_service.c: 117:         }
+}
+[e $U 14  ]
+"118
+[; ;slave_service.c: 118:         else{
+[e :U 13 ]
+{
+"119
+[; ;slave_service.c: 119:             temp=rxBuf[0]&0x0F;
+[e = _temp -> & -> *U + &U _rxBuf * -> -> -> 0 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 15 `i `uc ]
+"120
+[; ;slave_service.c: 120:             offset_temp = temp*16+((float)(rxBuf[1])/16);
+[e = _offset_temp + -> * -> _temp `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 1 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"121
+[; ;slave_service.c: 121:         }
+}
+[e :U 14 ]
+"126
+[; ;slave_service.c: 126:         if((rxBuf[2]&0x10)==0x10)
+[e $ ! == & -> *U + &U _rxBuf * -> -> -> 2 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 16 `i -> 16 `i 15  ]
+"127
+[; ;slave_service.c: 127:         {
+{
+"128
+[; ;slave_service.c: 128:             temp=rxBuf[2]&0x0F;
+[e = _temp -> & -> *U + &U _rxBuf * -> -> -> 2 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 15 `i `uc ]
+"129
+[; ;slave_service.c: 129:             offFan_temp = 256-(temp*16+((float)(rxBuf[3])/16));
+[e = _offFan_temp - -> -> 256 `i `f + -> * -> _temp `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 3 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"130
+[; ;slave_service.c: 130:         }
+}
+[e $U 16  ]
+"131
+[; ;slave_service.c: 131:         else{
+[e :U 15 ]
+{
+"132
+[; ;slave_service.c: 132:             temp=rxBuf[2]&0x0F;
+[e = _temp -> & -> *U + &U _rxBuf * -> -> -> 2 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 15 `i `uc ]
+"133
+[; ;slave_service.c: 133:             offFan_temp = temp*16+((float)(rxBuf[3])/16);
+[e = _offFan_temp + -> * -> _temp `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 3 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"134
+[; ;slave_service.c: 134:         }
+}
+[e :U 16 ]
+"137
+[; ;slave_service.c: 137:         if((rxBuf[4]&0x10)==0x10)
+[e $ ! == & -> *U + &U _rxBuf * -> -> -> 4 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 16 `i -> 16 `i 17  ]
+"138
+[; ;slave_service.c: 138:         {
+{
+"139
+[; ;slave_service.c: 139:             temp=rxBuf[4]&0x0F;
+[e = _temp -> & -> *U + &U _rxBuf * -> -> -> 4 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 15 `i `uc ]
+"140
+[; ;slave_service.c: 140:             SetTemp = 256-(temp*16+((float)(rxBuf[5])/16));
+[e = _SetTemp - -> -> 256 `i `f + -> * -> _temp `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 5 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"141
+[; ;slave_service.c: 141:         }
+}
+[e $U 18  ]
+"142
+[; ;slave_service.c: 142:         else{
+[e :U 17 ]
+{
+"143
+[; ;slave_service.c: 143:             temp=rxBuf[4]&0x0F;
+[e = _temp -> & -> *U + &U _rxBuf * -> -> -> 4 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 15 `i `uc ]
+"144
+[; ;slave_service.c: 144:             SetTemp = temp*16+((float)(rxBuf[5])/16);
+[e = _SetTemp + -> * -> _temp `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 5 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"145
+[; ;slave_service.c: 145:         }
+}
+[e :U 18 ]
+"147
+[; ;slave_service.c: 147:         Tol_1 = (float)(rxBuf[6]*16)+((float)(rxBuf[7])/16);
+[e = _Tol_1 + -> * -> *U + &U _rxBuf * -> -> -> 6 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 7 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"148
+[; ;slave_service.c: 148:         Tol_2 = (float)(rxBuf[8]*16)+((float)(rxBuf[9])/16);
+[e = _Tol_2 + -> * -> *U + &U _rxBuf * -> -> -> 8 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `i -> 16 `i `f / -> *U + &U _rxBuf * -> -> -> 9 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux `f -> -> 16 `i `f ]
+"150
+[; ;slave_service.c: 150:         Tol_2 = -Tol_2;
+[e = _Tol_2 -U _Tol_2 ]
+"151
+[; ;slave_service.c: 151:         Tol_max = SetTemp + Tol_1;
+[e = _Tol_max + _SetTemp _Tol_1 ]
+"152
+[; ;slave_service.c: 152:         Tol_min = SetTemp + Tol_2;
+[e = _Tol_min + _SetTemp _Tol_2 ]
+"154
+[; ;slave_service.c: 154:         MaxFanSpeed = rxBuf[10];
+[e = _MaxFanSpeed *U + &U _rxBuf * -> -> -> 10 `i `ui `ux -> -> # *U &U _rxBuf `ui `ux ]
+"155
+[; ;slave_service.c: 155:         percent = ((float)MaxFanSpeed/(float)100.0);
+[e = _percent / -> _MaxFanSpeed `f -> .100.0 `f ]
+"157
+[; ;slave_service.c: 157:         set_pid_target(SetTemp);
+[e ( _set_pid_target (1 _SetTemp ]
+"158
+[; ;slave_service.c: 158:     }
+}
+[e :U 12 ]
+"159
+[; ;slave_service.c: 159:     update_slave_reg();
+[e ( _update_slave_reg ..  ]
+"160
+[; ;slave_service.c: 160: }
+[e :UE 11 ]
+}

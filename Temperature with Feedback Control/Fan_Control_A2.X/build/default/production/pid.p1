@@ -1,0 +1,258 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"26 ./pid.h
+[; ;./pid.h: 26: {
+[s S6 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 ]
+[n S6 . setpoint proportiongain integralgain derivativegain lasterror result integral errorabsmax errorabsmin ]
+"162 C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\math.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\math.h: 162: float fabsf(float);
+[v _fabsf `(f ~T0 @X0 0 ef1`f ]
+"40 ./pid.h
+[; ;./pid.h: 40: {
+[s S7 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 `f 1 ]
+[n S7 . setpoint proportiongain integralgain derivativegain lasterror preerror deadband result errorabsmax errorabsmin ]
+"3 pid.c
+[; ;pid.c: 3: POSPID temp_ctrl;
+[v _temp_ctrl `S6 ~T0 @X0 1 e ]
+"14
+[; ;pid.c: 14: float VariableIntergralCoefficient(float error,float absmax,float absmin)
+[v _VariableIntergralCoefficient `(f ~T0 @X0 1 ef3`f`f`f ]
+"15
+[; ;pid.c: 15: {
+{
+[e :U _VariableIntergralCoefficient ]
+"14
+[; ;pid.c: 14: float VariableIntergralCoefficient(float error,float absmax,float absmin)
+[v _error `f ~T0 @X0 1 r1 ]
+[v _absmax `f ~T0 @X0 1 r2 ]
+[v _absmin `f ~T0 @X0 1 r3 ]
+"15
+[; ;pid.c: 15: {
+[f ]
+"16
+[; ;pid.c: 16:     float factor=0.0;
+[v _factor `f ~T0 @X0 1 a ]
+[e = _factor -> .0.0 `f ]
+"18
+[; ;pid.c: 18:     if(fabsf(error)<=absmin)
+[e $ ! <= ( _fabsf (1 _error _absmin 9  ]
+"19
+[; ;pid.c: 19:  {
+{
+"20
+[; ;pid.c: 20:   factor=1.0;
+[e = _factor -> .1.0 `f ]
+"21
+[; ;pid.c: 21:  }
+}
+[e $U 10  ]
+"22
+[; ;pid.c: 22:  else if(fabsf(error)>absmax)
+[e :U 9 ]
+[e $ ! > ( _fabsf (1 _error _absmax 11  ]
+"23
+[; ;pid.c: 23:  {
+{
+"24
+[; ;pid.c: 24:   factor=0.0;
+[e = _factor -> .0.0 `f ]
+"25
+[; ;pid.c: 25:  }
+}
+[e $U 12  ]
+"26
+[; ;pid.c: 26:  else
+[e :U 11 ]
+"27
+[; ;pid.c: 27:  {
+{
+"28
+[; ;pid.c: 28:  factor=(absmax-fabsf(error))/(absmax-absmin);
+[e = _factor / - _absmax ( _fabsf (1 _error - _absmax _absmin ]
+"29
+[; ;pid.c: 29:  }
+}
+[e :U 12 ]
+[e :U 10 ]
+"31
+[; ;pid.c: 31:  return factor;
+[e ) _factor ]
+[e $UE 8  ]
+"32
+[; ;pid.c: 32: }
+[e :UE 8 ]
+}
+"35
+[; ;pid.c: 35: void pos_PIDRegulation(POSPID *vPID,float processValue)
+[v _pos_PIDRegulation `(v ~T0 @X0 1 ef2`*S6`f ]
+"36
+[; ;pid.c: 36: {
+{
+[e :U _pos_PIDRegulation ]
+"35
+[; ;pid.c: 35: void pos_PIDRegulation(POSPID *vPID,float processValue)
+[v _vPID `*S6 ~T0 @X0 1 r1 ]
+[v _processValue `f ~T0 @X0 1 r2 ]
+"36
+[; ;pid.c: 36: {
+[f ]
+"37
+[; ;pid.c: 37:  float thisError;
+[v _thisError `f ~T0 @X0 1 a ]
+"38
+[; ;pid.c: 38:  float factor;
+[v _factor `f ~T0 @X0 1 a ]
+"40
+[; ;pid.c: 40:  thisError=vPID->setpoint-processValue;
+[e = _thisError - . *U _vPID 0 _processValue ]
+"41
+[; ;pid.c: 41:  factor= VariableIntergralCoefficient(thisError, vPID->errorabsmax,vPID->errorabsmin);
+[e = _factor ( _VariableIntergralCoefficient (3 , , _thisError . *U _vPID 7 . *U _vPID 8 ]
+"43
+[; ;pid.c: 43:  vPID->integral+= factor*thisError;
+[e =+ . *U _vPID 6 * _factor _thisError ]
+"45
+[; ;pid.c: 45:  vPID->result=vPID->proportiongain*thisError+vPID->integralgain*vPID->integral-vPID->derivativegain*(processValue-vPID->lasterror);
+[e = . *U _vPID 5 - + * . *U _vPID 1 _thisError * . *U _vPID 2 . *U _vPID 6 * . *U _vPID 3 - _processValue . *U _vPID 4 ]
+"46
+[; ;pid.c: 46:  vPID->lasterror=processValue;
+[e = . *U _vPID 4 _processValue ]
+"47
+[; ;pid.c: 47: }
+[e :UE 13 ]
+}
+"50
+[; ;pid.c: 50: void inc_PIDRegulation(INCPID *vPID, float processValue)
+[v _inc_PIDRegulation `(v ~T0 @X0 1 ef2`*S7`f ]
+"51
+[; ;pid.c: 51: {
+{
+[e :U _inc_PIDRegulation ]
+"50
+[; ;pid.c: 50: void inc_PIDRegulation(INCPID *vPID, float processValue)
+[v _vPID `*S7 ~T0 @X0 1 r1 ]
+[v _processValue `f ~T0 @X0 1 r2 ]
+"51
+[; ;pid.c: 51: {
+[f ]
+"52
+[; ;pid.c: 52:  float thisError;
+[v _thisError `f ~T0 @X0 1 a ]
+"53
+[; ;pid.c: 53:  float increment;
+[v _increment `f ~T0 @X0 1 a ]
+"54
+[; ;pid.c: 54:  float pError,dError,iError;
+[v _pError `f ~T0 @X0 1 a ]
+[v _dError `f ~T0 @X0 1 a ]
+[v _iError `f ~T0 @X0 1 a ]
+"55
+[; ;pid.c: 55:  float factor;
+[v _factor `f ~T0 @X0 1 a ]
+"57
+[; ;pid.c: 57:  thisError=vPID->setpoint-processValue;
+[e = _thisError - . *U _vPID 0 _processValue ]
+"58
+[; ;pid.c: 58:  factor=VariableIntergralCoefficient(thisError, vPID->errorabsmax,vPID->errorabsmin);
+[e = _factor ( _VariableIntergralCoefficient (3 , , _thisError . *U _vPID 8 . *U _vPID 9 ]
+"60
+[; ;pid.c: 60:  pError=thisError-vPID->lasterror;
+[e = _pError - _thisError . *U _vPID 4 ]
+"61
+[; ;pid.c: 61:  iError=factor*thisError;
+[e = _iError * _factor _thisError ]
+"63
+[; ;pid.c: 63:  dError=thisError-2*(vPID->lasterror)+vPID->preerror;
+[e = _dError + - _thisError * -> -> 2 `i `f . *U _vPID 4 . *U _vPID 5 ]
+"64
+[; ;pid.c: 64:  increment=vPID->proportiongain*pError+vPID->integralgain*iError+vPID->derivativegain*dError;
+[e = _increment + + * . *U _vPID 1 _pError * . *U _vPID 2 _iError * . *U _vPID 3 _dError ]
+"66
+[; ;pid.c: 66:  vPID->preerror=vPID->lasterror;
+[e = . *U _vPID 5 . *U _vPID 4 ]
+"67
+[; ;pid.c: 67:  vPID->lasterror=thisError;
+[e = . *U _vPID 4 _thisError ]
+"68
+[; ;pid.c: 68:  vPID->result+=increment;
+[e =+ . *U _vPID 7 _increment ]
+"69
+[; ;pid.c: 69: }
+[e :UE 14 ]
+}
+"71
+[; ;pid.c: 71: void set_pid_target(float settemp)
+[v _set_pid_target `(v ~T0 @X0 1 ef1`f ]
+"72
+[; ;pid.c: 72: {
+{
+[e :U _set_pid_target ]
+"71
+[; ;pid.c: 71: void set_pid_target(float settemp)
+[v _settemp `f ~T0 @X0 1 r1 ]
+"72
+[; ;pid.c: 72: {
+[f ]
+"73
+[; ;pid.c: 73:     temp_ctrl.setpoint = settemp;
+[e = . _temp_ctrl 0 _settemp ]
+"74
+[; ;pid.c: 74: }
+[e :UE 15 ]
+}
+"76
+[; ;pid.c: 76: void init_pid(void)
+[v _init_pid `(v ~T0 @X0 1 ef ]
+"77
+[; ;pid.c: 77: {
+{
+[e :U _init_pid ]
+[f ]
+"79
+[; ;pid.c: 79:    temp_ctrl.proportiongain = 1000;
+[e = . _temp_ctrl 1 -> -> 1000 `i `f ]
+"80
+[; ;pid.c: 80:    temp_ctrl.integralgain = 50;
+[e = . _temp_ctrl 2 -> -> 50 `i `f ]
+"81
+[; ;pid.c: 81:    temp_ctrl.derivativegain = 0.2;
+[e = . _temp_ctrl 3 -> .0.2 `f ]
+"82
+[; ;pid.c: 82:    temp_ctrl.errorabsmax= 0.9;
+[e = . _temp_ctrl 7 -> .0.9 `f ]
+"83
+[; ;pid.c: 83:    temp_ctrl.errorabsmin= 0.1;
+[e = . _temp_ctrl 8 -> .0.1 `f ]
+"84
+[; ;pid.c: 84:    set_pid_target(70);
+[e ( _set_pid_target (1 -> -> 70 `i `f ]
+"86
+[; ;pid.c: 86: }
+[e :UE 16 ]
+}
+"88
+[; ;pid.c: 88: void dinit_pid(void)
+[v _dinit_pid `(v ~T0 @X0 1 ef ]
+"89
+[; ;pid.c: 89: {
+{
+[e :U _dinit_pid ]
+[f ]
+"90
+[; ;pid.c: 90:    temp_ctrl.proportiongain= 0;
+[e = . _temp_ctrl 1 -> -> 0 `i `f ]
+"91
+[; ;pid.c: 91:    temp_ctrl.integralgain =0;
+[e = . _temp_ctrl 2 -> -> 0 `i `f ]
+"92
+[; ;pid.c: 92:    temp_ctrl.derivativegain =0;
+[e = . _temp_ctrl 3 -> -> 0 `i `f ]
+"93
+[; ;pid.c: 93:    temp_ctrl.errorabsmax= 0;
+[e = . _temp_ctrl 7 -> -> 0 `i `f ]
+"94
+[; ;pid.c: 94:    temp_ctrl.errorabsmin= 0;
+[e = . _temp_ctrl 8 -> -> 0 `i `f ]
+"95
+[; ;pid.c: 95: }
+[e :UE 17 ]
+}

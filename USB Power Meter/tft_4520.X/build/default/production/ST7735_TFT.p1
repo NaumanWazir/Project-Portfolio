@@ -1,0 +1,2690 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1096 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1096:     struct {
+[s S51 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S51 . LATB0 LATB1 LATB2 LATB3 LATB4 LATB5 LATB6 LATB7 ]
+"1106
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1106:     struct {
+[s S52 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S52 . LB0 LB1 LB2 LB3 LB4 LB5 LB6 LB7 ]
+"1095
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1095: typedef union {
+[u S50 `S51 1 `S52 1 ]
+[n S50 . . . ]
+"1117
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1117: extern volatile LATBbits_t LATBbits __attribute__((address(0xF8A)));
+[v _LATBbits `VS50 ~T0 @X0 0 e@3978 ]
+[v F516 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\builtins.h
+[v __delay `JF516 ~T0 @X0 0 e ]
+[p i __delay ]
+"20 ./spi.h
+[; ;./spi.h: 20: uint8_t SPI_ExchangeByte(uint8_t data);
+[v _SPI_ExchangeByte `(uc ~T0 @X0 0 ef1`uc ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdlib.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdlib.h: 62: int abs (int);
+[v _abs `(i ~T0 @X0 0 ef1`i ]
+"196 ./ST7735_TFT.h
+[; ;./ST7735_TFT.h: 196: typedef struct {
+[s S7 `us 1 `uc 1 `uc 1 `uc 1 `c 1 `c 1 ]
+[n S7 . bitmapOffset width height xAdvance xOffset yOffset ]
+"206
+[; ;./ST7735_TFT.h: 206: typedef struct {
+[s S8 `*uc 1 `*S7 1 `us 1 `us 1 `uc 1 `*Cuc 1 ]
+[n S8 . bitmap glyph first last yAdvance subset ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\string.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\string.h: 54: size_t strlen (const char *);
+[v _strlen `(ui ~T0 @X0 0 ef1`*Cuc ]
+"185 ./ST7735_TFT.h
+[; ;./ST7735_TFT.h: 185: void drawChar(uint8_t x, uint8_t y, uint8_t c, uint16_t color, uint16_t bg, uint8_t size);
+[v _drawChar `(v ~T0 @X0 0 ef6`uc`uc`uc`us`us`uc ]
+"55 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 55: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"274
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 274: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"453
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 453: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"635
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 635: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"777
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 777: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"980
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 980: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1092
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1092: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1204
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1204: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1316
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1316: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1428
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1428: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1480
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1480: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1485
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1485: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1702
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1702: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1707
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1707: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1924
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1924: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1929
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1929: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2146
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2146: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2151
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2151: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2368
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2368: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2373
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2373: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2532
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2532: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2597
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2597: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2674
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2674: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2751
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2751: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2828
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2828: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2894
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2894: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2960
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2960: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3026
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3026: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3092
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3092: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3099
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3099: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3106
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3106: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3113
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3113: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3118
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3118: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3323
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3323: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3328
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3328: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3579
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3579: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3584
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3584: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3591
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3591: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3596
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3596: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3603
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3603: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3608
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3608: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3615
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3615: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3622
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3622: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3734
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3734: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3741
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3741: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3748
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3748: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3755
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3755: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3845
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3845: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3924
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3924: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3929
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3929: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"4086
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4086: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4091
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4091: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4224
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4224: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4229
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4229: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4404
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4404: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4483
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4483: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4490
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4490: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4497
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4497: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4504
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4504: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4601
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4601: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4608
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4608: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4615
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4615: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4622
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4622: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4693
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4693: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4778
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4778: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4897
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4897: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4904
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4904: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4911
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4911: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4918
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4918: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5013
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5013: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5083
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5083: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5304
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5304: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5311
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5311: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5318
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5318: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5416
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5416: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5421
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5421: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5526
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5526: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5533
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5533: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5636
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5636: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5643
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5643: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5650
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5650: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5657
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5657: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5790
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5790: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5818
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5818: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5823
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5823: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6088
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6088: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6171
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6171: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6254
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6254: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6261
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6261: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6268
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6268: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6275
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6275: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6346
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6346: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6353
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6353: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6360
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6360: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6367
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6367: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6374
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6374: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6381
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6381: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6388
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6388: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6395
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6395: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6402
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6402: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6409
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6409: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6416
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6416: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6423
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6423: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6430
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6430: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6437
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6437: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6444
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6444: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6451
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6451: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6458
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6458: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6465
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6465: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6477
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6477: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6484
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6484: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6491
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6491: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6498
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6498: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6505
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6505: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6512
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6512: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6519
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6519: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6526
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6526: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6533
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6533: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6625
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6625: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6695
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6695: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6812
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6812: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6819
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6819: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6826
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6826: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6833
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6833: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6842
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6842: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6849
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6849: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6856
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6856: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6863
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6863: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6872
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6872: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6879
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6879: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6886
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6886: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6893
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6893: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6900
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6900: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6907
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6907: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6981
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6981: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6988
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6988: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6995
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6995: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7002
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 7002: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"34 ST7735_TFT.c
+[; ;ST7735_TFT.c: 34: _Bool _wrap = 1;
+[v __wrap `a ~T0 @X0 1 e ]
+[i __wrap
+-> -> 1 `i `a
+]
+"35
+[; ;ST7735_TFT.c: 35: uint8_t _colstart = 0, _rowstart = 0, _tft_type, _rotation = 0, _xstart = 0, _ystart = 0;
+[v __colstart `uc ~T0 @X0 1 e ]
+[i __colstart
+-> -> 0 `i `uc
+]
+[v __rowstart `uc ~T0 @X0 1 e ]
+[i __rowstart
+-> -> 0 `i `uc
+]
+[v __tft_type `uc ~T0 @X0 1 e ]
+[v __rotation `uc ~T0 @X0 1 e ]
+[i __rotation
+-> -> 0 `i `uc
+]
+[v __xstart `uc ~T0 @X0 1 e ]
+[i __xstart
+-> -> 0 `i `uc
+]
+[v __ystart `uc ~T0 @X0 1 e ]
+[i __ystart
+-> -> 0 `i `uc
+]
+"38
+[; ;ST7735_TFT.c: 38: uint8_t tft_width = 128, tft_height = 160;
+[v _tft_width `uc ~T0 @X0 1 e ]
+[i _tft_width
+-> -> 128 `i `uc
+]
+[v _tft_height `uc ~T0 @X0 1 e ]
+[i _tft_height
+-> -> 160 `i `uc
+]
+"45
+[; ;ST7735_TFT.c: 45: void write_command(uint8_t cmd){
+[v _write_command `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _write_command ]
+[v _cmd `uc ~T0 @X0 1 r1 ]
+[f ]
+"46
+[; ;ST7735_TFT.c: 46:   int dummy;
+[v _dummy `i ~T0 @X0 1 a ]
+"47
+[; ;ST7735_TFT.c: 47:   LATBbits.LATB1 = 0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"48
+[; ;ST7735_TFT.c: 48:   LATBbits.LATB3 = 0;
+[e = . . _LATBbits 0 3 -> -> 0 `i `uc ]
+"49
+[; ;ST7735_TFT.c: 49:   _delay((unsigned long)((1)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"50
+[; ;ST7735_TFT.c: 50:   dummy = SPI_ExchangeByte(cmd);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _cmd `i ]
+"51
+[; ;ST7735_TFT.c: 51:   LATBbits.LATB3 = 1;
+[e = . . _LATBbits 0 3 -> -> 1 `i `uc ]
+"52
+[; ;ST7735_TFT.c: 52: }
+[e :UE 286 ]
+}
+"55
+[; ;ST7735_TFT.c: 55: void write_data(uint8_t data){
+[v _write_data `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _write_data ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"56
+[; ;ST7735_TFT.c: 56:   int dummy;
+[v _dummy `i ~T0 @X0 1 a ]
+"58
+[; ;ST7735_TFT.c: 58:   LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"59
+[; ;ST7735_TFT.c: 59:   LATBbits.LATB3 = 0;
+[e = . . _LATBbits 0 3 -> -> 0 `i `uc ]
+"60
+[; ;ST7735_TFT.c: 60:   _delay((unsigned long)((1)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"61
+[; ;ST7735_TFT.c: 61:   dummy = SPI_ExchangeByte(data);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _data `i ]
+"62
+[; ;ST7735_TFT.c: 62:   LATBbits.LATB3 = 1;
+[e = . . _LATBbits 0 3 -> -> 1 `i `uc ]
+"63
+[; ;ST7735_TFT.c: 63: }
+[e :UE 287 ]
+}
+"126
+[; ;ST7735_TFT.c: 126: void Rcmd1(){
+[v _Rcmd1 `(v ~T0 @X0 1 ef ]
+{
+[e :U _Rcmd1 ]
+[f ]
+"128
+[; ;ST7735_TFT.c: 128:   write_command(0x01);
+[e ( _write_command (1 -> -> 1 `i `uc ]
+"129
+[; ;ST7735_TFT.c: 129:   _delay((unsigned long)((150)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"130
+[; ;ST7735_TFT.c: 130:   write_command(0x11);
+[e ( _write_command (1 -> -> 17 `i `uc ]
+"131
+[; ;ST7735_TFT.c: 131:   _delay((unsigned long)((250)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"132
+[; ;ST7735_TFT.c: 132:   _delay((unsigned long)((250)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"133
+[; ;ST7735_TFT.c: 133:   write_command(0xB1);
+[e ( _write_command (1 -> -> 177 `i `uc ]
+"137
+[; ;ST7735_TFT.c: 137:   write_data(0x01);
+[e ( _write_data (1 -> -> 1 `i `uc ]
+"138
+[; ;ST7735_TFT.c: 138:   write_data(0x2C);
+[e ( _write_data (1 -> -> 44 `i `uc ]
+"139
+[; ;ST7735_TFT.c: 139:   write_data(0x2D);
+[e ( _write_data (1 -> -> 45 `i `uc ]
+"140
+[; ;ST7735_TFT.c: 140:   write_command(0xB2);
+[e ( _write_command (1 -> -> 178 `i `uc ]
+"141
+[; ;ST7735_TFT.c: 141:   write_data(0x01);
+[e ( _write_data (1 -> -> 1 `i `uc ]
+"142
+[; ;ST7735_TFT.c: 142:   write_data(0x2C);
+[e ( _write_data (1 -> -> 44 `i `uc ]
+"143
+[; ;ST7735_TFT.c: 143:   write_data(0x2D);
+[e ( _write_data (1 -> -> 45 `i `uc ]
+"147
+[; ;ST7735_TFT.c: 147:   write_command(0xB3);
+[e ( _write_command (1 -> -> 179 `i `uc ]
+"150
+[; ;ST7735_TFT.c: 150:   write_data(0x01); write_data(0x2C); write_data(0x2D);
+[e ( _write_data (1 -> -> 1 `i `uc ]
+[e ( _write_data (1 -> -> 44 `i `uc ]
+[e ( _write_data (1 -> -> 45 `i `uc ]
+"151
+[; ;ST7735_TFT.c: 151:   write_data(0x01); write_data(0x2C); write_data(0x2D);
+[e ( _write_data (1 -> -> 1 `i `uc ]
+[e ( _write_data (1 -> -> 44 `i `uc ]
+[e ( _write_data (1 -> -> 45 `i `uc ]
+"152
+[; ;ST7735_TFT.c: 152:   write_command(0xB4);
+[e ( _write_command (1 -> -> 180 `i `uc ]
+"153
+[; ;ST7735_TFT.c: 153:   write_data(0x07);
+[e ( _write_data (1 -> -> 7 `i `uc ]
+"154
+[; ;ST7735_TFT.c: 154:   write_command(0xC0);
+[e ( _write_command (1 -> -> 192 `i `uc ]
+"155
+[; ;ST7735_TFT.c: 155:   write_data(0xA2);
+[e ( _write_data (1 -> -> 162 `i `uc ]
+"156
+[; ;ST7735_TFT.c: 156:   write_data(0x02);
+[e ( _write_data (1 -> -> 2 `i `uc ]
+"157
+[; ;ST7735_TFT.c: 157:   write_data(0x84);
+[e ( _write_data (1 -> -> 132 `i `uc ]
+"158
+[; ;ST7735_TFT.c: 158:   write_command(0xC1);
+[e ( _write_command (1 -> -> 193 `i `uc ]
+"159
+[; ;ST7735_TFT.c: 159:   write_data(0xC5);
+[e ( _write_data (1 -> -> 197 `i `uc ]
+"160
+[; ;ST7735_TFT.c: 160:   write_command(0xC2);
+[e ( _write_command (1 -> -> 194 `i `uc ]
+"161
+[; ;ST7735_TFT.c: 161:   write_data(0x0A);
+[e ( _write_data (1 -> -> 10 `i `uc ]
+"162
+[; ;ST7735_TFT.c: 162:   write_data(0x00);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"163
+[; ;ST7735_TFT.c: 163:   write_command(0xC3);
+[e ( _write_command (1 -> -> 195 `i `uc ]
+"164
+[; ;ST7735_TFT.c: 164:   write_data(0x8A);
+[e ( _write_data (1 -> -> 138 `i `uc ]
+"165
+[; ;ST7735_TFT.c: 165:   write_data(0x2A);
+[e ( _write_data (1 -> -> 42 `i `uc ]
+"166
+[; ;ST7735_TFT.c: 166:   write_command(0xC4);
+[e ( _write_command (1 -> -> 196 `i `uc ]
+"167
+[; ;ST7735_TFT.c: 167:   write_data(0x8A);
+[e ( _write_data (1 -> -> 138 `i `uc ]
+"168
+[; ;ST7735_TFT.c: 168:   write_data(0xEE);
+[e ( _write_data (1 -> -> 238 `i `uc ]
+"169
+[; ;ST7735_TFT.c: 169:   write_command(0xC5);
+[e ( _write_command (1 -> -> 197 `i `uc ]
+"170
+[; ;ST7735_TFT.c: 170:   write_data(0x0E);
+[e ( _write_data (1 -> -> 14 `i `uc ]
+"171
+[; ;ST7735_TFT.c: 171:   write_command(0x20);
+[e ( _write_command (1 -> -> 32 `i `uc ]
+"172
+[; ;ST7735_TFT.c: 172:   write_command(0x36);
+[e ( _write_command (1 -> -> 54 `i `uc ]
+"173
+[; ;ST7735_TFT.c: 173:   write_data(0xC8);
+[e ( _write_data (1 -> -> 200 `i `uc ]
+"174
+[; ;ST7735_TFT.c: 174:   write_command(0x3A);
+[e ( _write_command (1 -> -> 58 `i `uc ]
+"175
+[; ;ST7735_TFT.c: 175:   write_data(0x05);
+[e ( _write_data (1 -> -> 5 `i `uc ]
+"176
+[; ;ST7735_TFT.c: 176: }
+[e :UE 288 ]
+}
+"191
+[; ;ST7735_TFT.c: 191: void Rcmd2red(){
+[v _Rcmd2red `(v ~T0 @X0 1 ef ]
+{
+[e :U _Rcmd2red ]
+[f ]
+"192
+[; ;ST7735_TFT.c: 192:   write_command(0x2A);
+[e ( _write_command (1 -> -> 42 `i `uc ]
+"193
+[; ;ST7735_TFT.c: 193:   write_data(0x00); write_data(0x00);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"194
+[; ;ST7735_TFT.c: 194:   write_data(0x00); write_data(0x7F);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+[e ( _write_data (1 -> -> 127 `i `uc ]
+"195
+[; ;ST7735_TFT.c: 195:   write_command(0x2B);
+[e ( _write_command (1 -> -> 43 `i `uc ]
+"196
+[; ;ST7735_TFT.c: 196:   write_data(0x00); write_data(0x00);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"197
+[; ;ST7735_TFT.c: 197:   write_data(0x00); write_data(0x9F);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+[e ( _write_data (1 -> -> 159 `i `uc ]
+"198
+[; ;ST7735_TFT.c: 198: }
+[e :UE 289 ]
+}
+"201
+[; ;ST7735_TFT.c: 201: void Rcmd3(){
+[v _Rcmd3 `(v ~T0 @X0 1 ef ]
+{
+[e :U _Rcmd3 ]
+[f ]
+"202
+[; ;ST7735_TFT.c: 202:   write_command(0xE0);
+[e ( _write_command (1 -> -> 224 `i `uc ]
+"203
+[; ;ST7735_TFT.c: 203:   write_data(0x02); write_data(0x1C); write_data(0x07); write_data(0x12);
+[e ( _write_data (1 -> -> 2 `i `uc ]
+[e ( _write_data (1 -> -> 28 `i `uc ]
+[e ( _write_data (1 -> -> 7 `i `uc ]
+[e ( _write_data (1 -> -> 18 `i `uc ]
+"204
+[; ;ST7735_TFT.c: 204:   write_data(0x37); write_data(0x32); write_data(0x29); write_data(0x2D);
+[e ( _write_data (1 -> -> 55 `i `uc ]
+[e ( _write_data (1 -> -> 50 `i `uc ]
+[e ( _write_data (1 -> -> 41 `i `uc ]
+[e ( _write_data (1 -> -> 45 `i `uc ]
+"205
+[; ;ST7735_TFT.c: 205:   write_data(0x29); write_data(0x25); write_data(0x2B); write_data(0x39);
+[e ( _write_data (1 -> -> 41 `i `uc ]
+[e ( _write_data (1 -> -> 37 `i `uc ]
+[e ( _write_data (1 -> -> 43 `i `uc ]
+[e ( _write_data (1 -> -> 57 `i `uc ]
+"206
+[; ;ST7735_TFT.c: 206:   write_data(0x00); write_data(0x01); write_data(0x03); write_data(0x10);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+[e ( _write_data (1 -> -> 1 `i `uc ]
+[e ( _write_data (1 -> -> 3 `i `uc ]
+[e ( _write_data (1 -> -> 16 `i `uc ]
+"207
+[; ;ST7735_TFT.c: 207:   write_command(0xE1);
+[e ( _write_command (1 -> -> 225 `i `uc ]
+"208
+[; ;ST7735_TFT.c: 208:   write_data(0x03); write_data(0x1D); write_data(0x07); write_data(0x06);
+[e ( _write_data (1 -> -> 3 `i `uc ]
+[e ( _write_data (1 -> -> 29 `i `uc ]
+[e ( _write_data (1 -> -> 7 `i `uc ]
+[e ( _write_data (1 -> -> 6 `i `uc ]
+"209
+[; ;ST7735_TFT.c: 209:   write_data(0x2E); write_data(0x2C); write_data(0x29); write_data(0x2D);
+[e ( _write_data (1 -> -> 46 `i `uc ]
+[e ( _write_data (1 -> -> 44 `i `uc ]
+[e ( _write_data (1 -> -> 41 `i `uc ]
+[e ( _write_data (1 -> -> 45 `i `uc ]
+"210
+[; ;ST7735_TFT.c: 210:   write_data(0x2E); write_data(0x2E); write_data(0x37); write_data(0x3F);
+[e ( _write_data (1 -> -> 46 `i `uc ]
+[e ( _write_data (1 -> -> 46 `i `uc ]
+[e ( _write_data (1 -> -> 55 `i `uc ]
+[e ( _write_data (1 -> -> 63 `i `uc ]
+"211
+[; ;ST7735_TFT.c: 211:   write_data(0x00); write_data(0x00); write_data(0x02); write_data(0x10);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+[e ( _write_data (1 -> -> 0 `i `uc ]
+[e ( _write_data (1 -> -> 2 `i `uc ]
+[e ( _write_data (1 -> -> 16 `i `uc ]
+"212
+[; ;ST7735_TFT.c: 212:   write_command(0x13);
+[e ( _write_command (1 -> -> 19 `i `uc ]
+"213
+[; ;ST7735_TFT.c: 213:   _delay((unsigned long)((10)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"214
+[; ;ST7735_TFT.c: 214:   write_command(0x29);
+[e ( _write_command (1 -> -> 41 `i `uc ]
+"215
+[; ;ST7735_TFT.c: 215:   _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"216
+[; ;ST7735_TFT.c: 216: }
+[e :UE 290 ]
+}
+"227
+[; ;ST7735_TFT.c: 227: void setAddrWindow(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1){
+[v _setAddrWindow `(v ~T0 @X0 1 ef4`uc`uc`uc`uc ]
+{
+[e :U _setAddrWindow ]
+[v _x0 `uc ~T0 @X0 1 r1 ]
+[v _y0 `uc ~T0 @X0 1 r2 ]
+[v _x1 `uc ~T0 @X0 1 r3 ]
+[v _y1 `uc ~T0 @X0 1 r4 ]
+[f ]
+"228
+[; ;ST7735_TFT.c: 228:   write_command(0x2A);
+[e ( _write_command (1 -> -> 42 `i `uc ]
+"229
+[; ;ST7735_TFT.c: 229:   write_data(0);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"230
+[; ;ST7735_TFT.c: 230:   write_data(x0 + _xstart);
+[e ( _write_data (1 -> + -> _x0 `i -> __xstart `i `uc ]
+"231
+[; ;ST7735_TFT.c: 231:   write_data(0);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"232
+[; ;ST7735_TFT.c: 232:   write_data(x1 + _xstart);
+[e ( _write_data (1 -> + -> _x1 `i -> __xstart `i `uc ]
+"233
+[; ;ST7735_TFT.c: 233:   write_command(0x2B);
+[e ( _write_command (1 -> -> 43 `i `uc ]
+"234
+[; ;ST7735_TFT.c: 234:   write_data(0);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"235
+[; ;ST7735_TFT.c: 235:   write_data(y0 + _ystart);
+[e ( _write_data (1 -> + -> _y0 `i -> __ystart `i `uc ]
+"236
+[; ;ST7735_TFT.c: 236:   write_data(0);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"237
+[; ;ST7735_TFT.c: 237:   write_data(y1 + _ystart);
+[e ( _write_data (1 -> + -> _y1 `i -> __ystart `i `uc ]
+"238
+[; ;ST7735_TFT.c: 238:   write_command(0x2C);
+[e ( _write_command (1 -> -> 44 `i `uc ]
+"239
+[; ;ST7735_TFT.c: 239: }
+[e :UE 291 ]
+}
+"241
+[; ;ST7735_TFT.c: 241: void fillRectangle(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint16_t color){
+[v _fillRectangle `(v ~T0 @X0 1 ef5`uc`uc`uc`uc`us ]
+{
+[e :U _fillRectangle ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _h `uc ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+[f ]
+"242
+[; ;ST7735_TFT.c: 242:   uint8_t hi, lo;
+[v _hi `uc ~T0 @X0 1 a ]
+[v _lo `uc ~T0 @X0 1 a ]
+"243
+[; ;ST7735_TFT.c: 243:   int dummy;
+[v _dummy `i ~T0 @X0 1 a ]
+"244
+[; ;ST7735_TFT.c: 244:   if((x >= tft_width) || (y >= tft_height))
+[e $ ! || >= -> _x `i -> _tft_width `i >= -> _y `i -> _tft_height `i 293  ]
+"245
+[; ;ST7735_TFT.c: 245:     return;
+[e $UE 292  ]
+[e :U 293 ]
+"246
+[; ;ST7735_TFT.c: 246:   if((x + w - 1) >= tft_width)
+[e $ ! >= - + -> _x `i -> _w `i -> 1 `i -> _tft_width `i 294  ]
+"247
+[; ;ST7735_TFT.c: 247:     w = tft_width - x;
+[e = _w -> - -> _tft_width `i -> _x `i `uc ]
+[e :U 294 ]
+"248
+[; ;ST7735_TFT.c: 248:   if((y + h - 1) >= tft_height)
+[e $ ! >= - + -> _y `i -> _h `i -> 1 `i -> _tft_height `i 295  ]
+"249
+[; ;ST7735_TFT.c: 249:     h = tft_height - y;
+[e = _h -> - -> _tft_height `i -> _y `i `uc ]
+[e :U 295 ]
+"250
+[; ;ST7735_TFT.c: 250:   setAddrWindow(x, y, x+w-1, y+h-1);
+[e ( _setAddrWindow (4 , , , _x _y -> - + -> _x `i -> _w `i -> 1 `i `uc -> - + -> _y `i -> _h `i -> 1 `i `uc ]
+"251
+[; ;ST7735_TFT.c: 251:   hi = color >> 8; lo = color;
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[e = _lo -> _color `uc ]
+"252
+[; ;ST7735_TFT.c: 252:   LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"253
+[; ;ST7735_TFT.c: 253:   LATBbits.LATB3 = 0;
+[e = . . _LATBbits 0 3 -> -> 0 `i `uc ]
+"254
+[; ;ST7735_TFT.c: 254:   for(y=h; y>0; y--) {
+{
+[e = _y _h ]
+[e $ > -> _y `i -> 0 `i 296  ]
+[e $U 297  ]
+[e :U 296 ]
+{
+"255
+[; ;ST7735_TFT.c: 255:     for(x = w; x > 0; x--) {
+{
+[e = _x _w ]
+[e $ > -> _x `i -> 0 `i 299  ]
+[e $U 300  ]
+[e :U 299 ]
+{
+"256
+[; ;ST7735_TFT.c: 256:       dummy = SPI_ExchangeByte(hi);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _hi `i ]
+"257
+[; ;ST7735_TFT.c: 257:       dummy = SPI_ExchangeByte(lo);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _lo `i ]
+"258
+[; ;ST7735_TFT.c: 258:     }
+}
+[e -- _x -> -> 1 `i `uc ]
+[e $ > -> _x `i -> 0 `i 299  ]
+[e :U 300 ]
+}
+"259
+[; ;ST7735_TFT.c: 259:   }
+}
+[e -- _y -> -> 1 `i `uc ]
+[e $ > -> _y `i -> 0 `i 296  ]
+[e :U 297 ]
+}
+"260
+[; ;ST7735_TFT.c: 260:   LATBbits.LATB3 = 1 ;
+[e = . . _LATBbits 0 3 -> -> 1 `i `uc ]
+"261
+[; ;ST7735_TFT.c: 261: }
+[e :UE 292 ]
+}
+"263
+[; ;ST7735_TFT.c: 263: void fillScreen(uint16_t color) {
+[v _fillScreen `(v ~T0 @X0 1 ef1`us ]
+{
+[e :U _fillScreen ]
+[v _color `us ~T0 @X0 1 r1 ]
+[f ]
+"264
+[; ;ST7735_TFT.c: 264:   fillRectangle(0, 0, tft_width, tft_height, color);
+[e ( _fillRectangle (4 , , , , -> -> 0 `i `uc -> -> 0 `i `uc _tft_width _tft_height _color ]
+"265
+[; ;ST7735_TFT.c: 265: }
+[e :UE 302 ]
+}
+"267
+[; ;ST7735_TFT.c: 267: void drawFastHLine(uint8_t x, uint8_t y, uint8_t w, uint16_t color){
+[v _drawFastHLine `(v ~T0 @X0 1 ef4`uc`uc`uc`us ]
+{
+[e :U _drawFastHLine ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+[f ]
+"268
+[; ;ST7735_TFT.c: 268:   uint8_t hi, lo;
+[v _hi `uc ~T0 @X0 1 a ]
+[v _lo `uc ~T0 @X0 1 a ]
+"269
+[; ;ST7735_TFT.c: 269:   int dummy;
+[v _dummy `i ~T0 @X0 1 a ]
+"270
+[; ;ST7735_TFT.c: 270:   if((x >= tft_width) || (y >= tft_height))
+[e $ ! || >= -> _x `i -> _tft_width `i >= -> _y `i -> _tft_height `i 304  ]
+"271
+[; ;ST7735_TFT.c: 271:     return;
+[e $UE 303  ]
+[e :U 304 ]
+"272
+[; ;ST7735_TFT.c: 272:   if((x + w - 1) >= tft_width)
+[e $ ! >= - + -> _x `i -> _w `i -> 1 `i -> _tft_width `i 305  ]
+"273
+[; ;ST7735_TFT.c: 273:     w = tft_width - x;
+[e = _w -> - -> _tft_width `i -> _x `i `uc ]
+[e :U 305 ]
+"274
+[; ;ST7735_TFT.c: 274:   hi = color >> 8; lo = color;
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[e = _lo -> _color `uc ]
+"275
+[; ;ST7735_TFT.c: 275:   setAddrWindow(x, y, x + w - 1, y);
+[e ( _setAddrWindow (4 , , , _x _y -> - + -> _x `i -> _w `i -> 1 `i `uc _y ]
+"276
+[; ;ST7735_TFT.c: 276:   LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"277
+[; ;ST7735_TFT.c: 277:   LATBbits.LATB3 = 0;
+[e = . . _LATBbits 0 3 -> -> 0 `i `uc ]
+"278
+[; ;ST7735_TFT.c: 278:   while (w--) {
+[e $U 306  ]
+[e :U 307 ]
+{
+"279
+[; ;ST7735_TFT.c: 279:     dummy = SPI_ExchangeByte(hi);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _hi `i ]
+"280
+[; ;ST7735_TFT.c: 280:     dummy = SPI_ExchangeByte(lo);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _lo `i ]
+"281
+[; ;ST7735_TFT.c: 281:   }
+}
+[e :U 306 ]
+"278
+[; ;ST7735_TFT.c: 278:   while (w--) {
+[e $ != -> -- _w -> -> 1 `i `uc `i -> 0 `i 307  ]
+[e :U 308 ]
+"282
+[; ;ST7735_TFT.c: 282:   LATBbits.LATB3 = 1 ;
+[e = . . _LATBbits 0 3 -> -> 1 `i `uc ]
+"283
+[; ;ST7735_TFT.c: 283: }
+[e :UE 303 ]
+}
+"285
+[; ;ST7735_TFT.c: 285: void drawFastVLine(uint8_t x, uint8_t y, uint8_t h, uint16_t color){
+[v _drawFastVLine `(v ~T0 @X0 1 ef4`uc`uc`uc`us ]
+{
+[e :U _drawFastVLine ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _h `uc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+[f ]
+"286
+[; ;ST7735_TFT.c: 286:   uint8_t hi, lo;
+[v _hi `uc ~T0 @X0 1 a ]
+[v _lo `uc ~T0 @X0 1 a ]
+"287
+[; ;ST7735_TFT.c: 287:   int dummy;
+[v _dummy `i ~T0 @X0 1 a ]
+"288
+[; ;ST7735_TFT.c: 288:   if((x >= tft_width) || (y >= tft_height))
+[e $ ! || >= -> _x `i -> _tft_width `i >= -> _y `i -> _tft_height `i 310  ]
+"289
+[; ;ST7735_TFT.c: 289:     return;
+[e $UE 309  ]
+[e :U 310 ]
+"290
+[; ;ST7735_TFT.c: 290:   if((y + h - 1) >= tft_height)
+[e $ ! >= - + -> _y `i -> _h `i -> 1 `i -> _tft_height `i 311  ]
+"291
+[; ;ST7735_TFT.c: 291:     h = tft_height - y;
+[e = _h -> - -> _tft_height `i -> _y `i `uc ]
+[e :U 311 ]
+"292
+[; ;ST7735_TFT.c: 292:   hi = color >> 8; lo = color;
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[e = _lo -> _color `uc ]
+"293
+[; ;ST7735_TFT.c: 293:   setAddrWindow(x, y, x, y + h - 1);
+[e ( _setAddrWindow (4 , , , _x _y _x -> - + -> _y `i -> _h `i -> 1 `i `uc ]
+"294
+[; ;ST7735_TFT.c: 294:   LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"295
+[; ;ST7735_TFT.c: 295:   LATBbits.LATB3 = 0;
+[e = . . _LATBbits 0 3 -> -> 0 `i `uc ]
+"296
+[; ;ST7735_TFT.c: 296:   while (h--) {
+[e $U 312  ]
+[e :U 313 ]
+{
+"297
+[; ;ST7735_TFT.c: 297:   dummy = SPI_ExchangeByte(hi);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _hi `i ]
+"298
+[; ;ST7735_TFT.c: 298:   dummy = SPI_ExchangeByte(lo);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _lo `i ]
+"299
+[; ;ST7735_TFT.c: 299:   }
+}
+[e :U 312 ]
+"296
+[; ;ST7735_TFT.c: 296:   while (h--) {
+[e $ != -> -- _h -> -> 1 `i `uc `i -> 0 `i 313  ]
+[e :U 314 ]
+"300
+[; ;ST7735_TFT.c: 300:   LATBbits.LATB3 = 1 ;
+[e = . . _LATBbits 0 3 -> -> 1 `i `uc ]
+"301
+[; ;ST7735_TFT.c: 301: }
+[e :UE 309 ]
+}
+"303
+[; ;ST7735_TFT.c: 303: void fillRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint16_t color) {
+[v _fillRect `(v ~T0 @X0 1 ef5`uc`uc`uc`uc`us ]
+{
+[e :U _fillRect ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _h `uc ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+[f ]
+"304
+[; ;ST7735_TFT.c: 304:   uint8_t i;
+[v _i `uc ~T0 @X0 1 a ]
+"305
+[; ;ST7735_TFT.c: 305:   for (i = x; i < x + w; i++) {
+{
+[e = _i _x ]
+[e $U 319  ]
+[e :U 316 ]
+{
+"306
+[; ;ST7735_TFT.c: 306:     drawFastVLine(i, y, h, color);
+[e ( _drawFastVLine (4 , , , _i _y _h _color ]
+"307
+[; ;ST7735_TFT.c: 307:   }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 319 ]
+[e $ < -> _i `i + -> _x `i -> _w `i 316  ]
+[e :U 317 ]
+}
+"308
+[; ;ST7735_TFT.c: 308: }
+[e :UE 315 ]
+}
+"310
+[; ;ST7735_TFT.c: 310: void drawPixel(uint8_t x, uint8_t y, uint16_t color){
+[v _drawPixel `(v ~T0 @X0 1 ef3`uc`uc`us ]
+{
+[e :U _drawPixel ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _color `us ~T0 @X0 1 r3 ]
+[f ]
+"311
+[; ;ST7735_TFT.c: 311:   if((x >= tft_width) || (y >= tft_height))
+[e $ ! || >= -> _x `i -> _tft_width `i >= -> _y `i -> _tft_height `i 321  ]
+"312
+[; ;ST7735_TFT.c: 312:     return;
+[e $UE 320  ]
+[e :U 321 ]
+"313
+[; ;ST7735_TFT.c: 313:   setAddrWindow(x,y,x+1,y+1);
+[e ( _setAddrWindow (4 , , , _x _y -> + -> _x `i -> 1 `i `uc -> + -> _y `i -> 1 `i `uc ]
+"314
+[; ;ST7735_TFT.c: 314:   write_data(color >> 8);
+[e ( _write_data (1 -> >> -> _color `ui -> 8 `i `uc ]
+"315
+[; ;ST7735_TFT.c: 315:   write_data(color & 0xFF);
+[e ( _write_data (1 -> & -> _color `ui -> -> 255 `i `ui `uc ]
+"316
+[; ;ST7735_TFT.c: 316: }
+[e :UE 320 ]
+}
+"319
+[; ;ST7735_TFT.c: 319: void drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color) {
+[v _drawCircle `(v ~T0 @X0 1 ef4`s`s`s`us ]
+{
+[e :U _drawCircle ]
+[v _x0 `s ~T0 @X0 1 r1 ]
+[v _y0 `s ~T0 @X0 1 r2 ]
+[v _r `s ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+[f ]
+"320
+[; ;ST7735_TFT.c: 320:   int16_t f, ddF_x, ddF_y, x, y;
+[v _f `s ~T0 @X0 1 a ]
+[v _ddF_x `s ~T0 @X0 1 a ]
+[v _ddF_y `s ~T0 @X0 1 a ]
+[v _x `s ~T0 @X0 1 a ]
+[v _y `s ~T0 @X0 1 a ]
+"321
+[; ;ST7735_TFT.c: 321:   f = 1 - r, ddF_x = 1, ddF_y = -2 * r, x = 0, y = r;
+[e ; ; ; ; = _f -> - -> 1 `i -> _r `i `s = _ddF_x -> -> 1 `i `s = _ddF_y -> * -U -> 2 `i -> _r `i `s = _x -> -> 0 `i `s = _y _r ]
+"322
+[; ;ST7735_TFT.c: 322:   drawPixel(x0 , y0 + r, color);
+[e ( _drawPixel (3 , , -> _x0 `uc -> + -> _y0 `i -> _r `i `uc _color ]
+"323
+[; ;ST7735_TFT.c: 323:   drawPixel(x0 , y0 - r, color);
+[e ( _drawPixel (3 , , -> _x0 `uc -> - -> _y0 `i -> _r `i `uc _color ]
+"324
+[; ;ST7735_TFT.c: 324:   drawPixel(x0+r, y0 , color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _r `i `uc -> _y0 `uc _color ]
+"325
+[; ;ST7735_TFT.c: 325:   drawPixel(x0-r, y0 , color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _r `i `uc -> _y0 `uc _color ]
+"326
+[; ;ST7735_TFT.c: 326:   while (x < y) {
+[e $U 323  ]
+[e :U 324 ]
+{
+"327
+[; ;ST7735_TFT.c: 327:     if (f >= 0) {
+[e $ ! >= -> _f `i -> 0 `i 326  ]
+{
+"328
+[; ;ST7735_TFT.c: 328:       y--;
+[e -- _y -> -> 1 `i `s ]
+"329
+[; ;ST7735_TFT.c: 329:       ddF_y += 2;
+[e =+ _ddF_y -> -> 2 `i `s ]
+"330
+[; ;ST7735_TFT.c: 330:       f += ddF_y;
+[e =+ _f -> _ddF_y `s ]
+"331
+[; ;ST7735_TFT.c: 331:     }
+}
+[e :U 326 ]
+"332
+[; ;ST7735_TFT.c: 332:     x++;
+[e ++ _x -> -> 1 `i `s ]
+"333
+[; ;ST7735_TFT.c: 333:     ddF_x += 2;
+[e =+ _ddF_x -> -> 2 `i `s ]
+"334
+[; ;ST7735_TFT.c: 334:     f += ddF_x;
+[e =+ _f -> _ddF_x `s ]
+"335
+[; ;ST7735_TFT.c: 335:     drawPixel(x0 + x, y0 + y, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _x `i `uc -> + -> _y0 `i -> _y `i `uc _color ]
+"336
+[; ;ST7735_TFT.c: 336:     drawPixel(x0 - x, y0 + y, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _x `i `uc -> + -> _y0 `i -> _y `i `uc _color ]
+"337
+[; ;ST7735_TFT.c: 337:     drawPixel(x0 + x, y0 - y, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _x `i `uc -> - -> _y0 `i -> _y `i `uc _color ]
+"338
+[; ;ST7735_TFT.c: 338:     drawPixel(x0 - x, y0 - y, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _x `i `uc -> - -> _y0 `i -> _y `i `uc _color ]
+"339
+[; ;ST7735_TFT.c: 339:     drawPixel(x0 + y, y0 + x, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _y `i `uc -> + -> _y0 `i -> _x `i `uc _color ]
+"340
+[; ;ST7735_TFT.c: 340:     drawPixel(x0 - y, y0 + x, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _y `i `uc -> + -> _y0 `i -> _x `i `uc _color ]
+"341
+[; ;ST7735_TFT.c: 341:     drawPixel(x0 + y, y0 - x, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _y `i `uc -> - -> _y0 `i -> _x `i `uc _color ]
+"342
+[; ;ST7735_TFT.c: 342:     drawPixel(x0 - y, y0 - x, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _y `i `uc -> - -> _y0 `i -> _x `i `uc _color ]
+"343
+[; ;ST7735_TFT.c: 343:   }
+}
+[e :U 323 ]
+"326
+[; ;ST7735_TFT.c: 326:   while (x < y) {
+[e $ < -> _x `i -> _y `i 324  ]
+[e :U 325 ]
+"344
+[; ;ST7735_TFT.c: 344: }
+[e :UE 322 ]
+}
+"346
+[; ;ST7735_TFT.c: 346: void drawCircleHelper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t color) {
+[v _drawCircleHelper `(v ~T0 @X0 1 ef5`s`s`s`uc`us ]
+{
+[e :U _drawCircleHelper ]
+[v _x0 `s ~T0 @X0 1 r1 ]
+[v _y0 `s ~T0 @X0 1 r2 ]
+[v _r `s ~T0 @X0 1 r3 ]
+[v _cornername `uc ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+[f ]
+"347
+[; ;ST7735_TFT.c: 347:   int16_t f, ddF_x, ddF_y, x, y;
+[v _f `s ~T0 @X0 1 a ]
+[v _ddF_x `s ~T0 @X0 1 a ]
+[v _ddF_y `s ~T0 @X0 1 a ]
+[v _x `s ~T0 @X0 1 a ]
+[v _y `s ~T0 @X0 1 a ]
+"348
+[; ;ST7735_TFT.c: 348:   f = 1 - r, ddF_x = 1, ddF_y = -2 * r, x = 0, y = r;
+[e ; ; ; ; = _f -> - -> 1 `i -> _r `i `s = _ddF_x -> -> 1 `i `s = _ddF_y -> * -U -> 2 `i -> _r `i `s = _x -> -> 0 `i `s = _y _r ]
+"349
+[; ;ST7735_TFT.c: 349:   while (x<y) {
+[e $U 328  ]
+[e :U 329 ]
+{
+"350
+[; ;ST7735_TFT.c: 350:     if (f >= 0) {
+[e $ ! >= -> _f `i -> 0 `i 331  ]
+{
+"351
+[; ;ST7735_TFT.c: 351:       y--;
+[e -- _y -> -> 1 `i `s ]
+"352
+[; ;ST7735_TFT.c: 352:       ddF_y += 2;
+[e =+ _ddF_y -> -> 2 `i `s ]
+"353
+[; ;ST7735_TFT.c: 353:       f += ddF_y;
+[e =+ _f -> _ddF_y `s ]
+"354
+[; ;ST7735_TFT.c: 354:     }
+}
+[e :U 331 ]
+"355
+[; ;ST7735_TFT.c: 355:     x++;
+[e ++ _x -> -> 1 `i `s ]
+"356
+[; ;ST7735_TFT.c: 356:     ddF_x += 2;
+[e =+ _ddF_x -> -> 2 `i `s ]
+"357
+[; ;ST7735_TFT.c: 357:     f += ddF_x;
+[e =+ _f -> _ddF_x `s ]
+"358
+[; ;ST7735_TFT.c: 358:     if (cornername & 0x4) {
+[e $ ! != & -> _cornername `i -> 4 `i -> 0 `i 332  ]
+{
+"359
+[; ;ST7735_TFT.c: 359:       drawPixel(x0 + x, y0 + y, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _x `i `uc -> + -> _y0 `i -> _y `i `uc _color ]
+"360
+[; ;ST7735_TFT.c: 360:       drawPixel(x0 + y, y0 + x, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _y `i `uc -> + -> _y0 `i -> _x `i `uc _color ]
+"361
+[; ;ST7735_TFT.c: 361:     }
+}
+[e :U 332 ]
+"362
+[; ;ST7735_TFT.c: 362:     if (cornername & 0x2) {
+[e $ ! != & -> _cornername `i -> 2 `i -> 0 `i 333  ]
+{
+"363
+[; ;ST7735_TFT.c: 363:       drawPixel(x0 + x, y0 - y, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _x `i `uc -> - -> _y0 `i -> _y `i `uc _color ]
+"364
+[; ;ST7735_TFT.c: 364:       drawPixel(x0 + y, y0 - x, color);
+[e ( _drawPixel (3 , , -> + -> _x0 `i -> _y `i `uc -> - -> _y0 `i -> _x `i `uc _color ]
+"365
+[; ;ST7735_TFT.c: 365:     }
+}
+[e :U 333 ]
+"366
+[; ;ST7735_TFT.c: 366:     if (cornername & 0x8) {
+[e $ ! != & -> _cornername `i -> 8 `i -> 0 `i 334  ]
+{
+"367
+[; ;ST7735_TFT.c: 367:       drawPixel(x0 - y, y0 + x, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _y `i `uc -> + -> _y0 `i -> _x `i `uc _color ]
+"368
+[; ;ST7735_TFT.c: 368:       drawPixel(x0 - x, y0 + y, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _x `i `uc -> + -> _y0 `i -> _y `i `uc _color ]
+"369
+[; ;ST7735_TFT.c: 369:     }
+}
+[e :U 334 ]
+"370
+[; ;ST7735_TFT.c: 370:     if (cornername & 0x1) {
+[e $ ! != & -> _cornername `i -> 1 `i -> 0 `i 335  ]
+{
+"371
+[; ;ST7735_TFT.c: 371:       drawPixel(x0 - y, y0 - x, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _y `i `uc -> - -> _y0 `i -> _x `i `uc _color ]
+"372
+[; ;ST7735_TFT.c: 372:       drawPixel(x0 - x, y0 - y, color);
+[e ( _drawPixel (3 , , -> - -> _x0 `i -> _x `i `uc -> - -> _y0 `i -> _y `i `uc _color ]
+"373
+[; ;ST7735_TFT.c: 373:     }
+}
+[e :U 335 ]
+"374
+[; ;ST7735_TFT.c: 374:   }
+}
+[e :U 328 ]
+"349
+[; ;ST7735_TFT.c: 349:   while (x<y) {
+[e $ < -> _x `i -> _y `i 329  ]
+[e :U 330 ]
+"375
+[; ;ST7735_TFT.c: 375: }
+[e :UE 327 ]
+}
+"377
+[; ;ST7735_TFT.c: 377: void fillCircleHelper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, int16_t delta, uint16_t color) {
+[v _fillCircleHelper `(v ~T0 @X0 1 ef6`s`s`s`uc`s`us ]
+{
+[e :U _fillCircleHelper ]
+[v _x0 `s ~T0 @X0 1 r1 ]
+[v _y0 `s ~T0 @X0 1 r2 ]
+[v _r `s ~T0 @X0 1 r3 ]
+[v _cornername `uc ~T0 @X0 1 r4 ]
+[v _delta `s ~T0 @X0 1 r5 ]
+[v _color `us ~T0 @X0 1 r6 ]
+[f ]
+"378
+[; ;ST7735_TFT.c: 378:   int16_t f, ddF_x, ddF_y, x, y;
+[v _f `s ~T0 @X0 1 a ]
+[v _ddF_x `s ~T0 @X0 1 a ]
+[v _ddF_y `s ~T0 @X0 1 a ]
+[v _x `s ~T0 @X0 1 a ]
+[v _y `s ~T0 @X0 1 a ]
+"379
+[; ;ST7735_TFT.c: 379:   f = 1 - r, ddF_x = 1, ddF_y = -2 * r, x = 0, y = r;
+[e ; ; ; ; = _f -> - -> 1 `i -> _r `i `s = _ddF_x -> -> 1 `i `s = _ddF_y -> * -U -> 2 `i -> _r `i `s = _x -> -> 0 `i `s = _y _r ]
+"380
+[; ;ST7735_TFT.c: 380:   while (x<y) {
+[e $U 337  ]
+[e :U 338 ]
+{
+"381
+[; ;ST7735_TFT.c: 381:     if (f >= 0) {
+[e $ ! >= -> _f `i -> 0 `i 340  ]
+{
+"382
+[; ;ST7735_TFT.c: 382:       y--;
+[e -- _y -> -> 1 `i `s ]
+"383
+[; ;ST7735_TFT.c: 383:       ddF_y += 2;
+[e =+ _ddF_y -> -> 2 `i `s ]
+"384
+[; ;ST7735_TFT.c: 384:       f += ddF_y;
+[e =+ _f -> _ddF_y `s ]
+"385
+[; ;ST7735_TFT.c: 385:     }
+}
+[e :U 340 ]
+"386
+[; ;ST7735_TFT.c: 386:     x++;
+[e ++ _x -> -> 1 `i `s ]
+"387
+[; ;ST7735_TFT.c: 387:     ddF_x += 2;
+[e =+ _ddF_x -> -> 2 `i `s ]
+"388
+[; ;ST7735_TFT.c: 388:     f += ddF_x;
+[e =+ _f -> _ddF_x `s ]
+"390
+[; ;ST7735_TFT.c: 390:     if (cornername & 0x1) {
+[e $ ! != & -> _cornername `i -> 1 `i -> 0 `i 341  ]
+{
+"391
+[; ;ST7735_TFT.c: 391:       drawFastVLine(x0+x, y0-y, 2*y+1+delta, color);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> _x `i `uc -> - -> _y0 `i -> _y `i `uc -> + + * -> 2 `i -> _y `i -> 1 `i -> _delta `i `uc _color ]
+"392
+[; ;ST7735_TFT.c: 392:       drawFastVLine(x0+y, y0-x, 2*x+1+delta, color);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> _y `i `uc -> - -> _y0 `i -> _x `i `uc -> + + * -> 2 `i -> _x `i -> 1 `i -> _delta `i `uc _color ]
+"393
+[; ;ST7735_TFT.c: 393:     }
+}
+[e :U 341 ]
+"394
+[; ;ST7735_TFT.c: 394:     if (cornername & 0x2) {
+[e $ ! != & -> _cornername `i -> 2 `i -> 0 `i 342  ]
+{
+"395
+[; ;ST7735_TFT.c: 395:       drawFastVLine(x0-x, y0-y, 2*y+1+delta, color);
+[e ( _drawFastVLine (4 , , , -> - -> _x0 `i -> _x `i `uc -> - -> _y0 `i -> _y `i `uc -> + + * -> 2 `i -> _y `i -> 1 `i -> _delta `i `uc _color ]
+"396
+[; ;ST7735_TFT.c: 396:       drawFastVLine(x0-y, y0-x, 2*x+1+delta, color);
+[e ( _drawFastVLine (4 , , , -> - -> _x0 `i -> _y `i `uc -> - -> _y0 `i -> _x `i `uc -> + + * -> 2 `i -> _x `i -> 1 `i -> _delta `i `uc _color ]
+"397
+[; ;ST7735_TFT.c: 397:     }
+}
+[e :U 342 ]
+"398
+[; ;ST7735_TFT.c: 398:   }
+}
+[e :U 337 ]
+"380
+[; ;ST7735_TFT.c: 380:   while (x<y) {
+[e $ < -> _x `i -> _y `i 338  ]
+[e :U 339 ]
+"399
+[; ;ST7735_TFT.c: 399: }
+[e :UE 336 ]
+}
+"401
+[; ;ST7735_TFT.c: 401: void fillCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color) {
+[v _fillCircle `(v ~T0 @X0 1 ef4`s`s`s`us ]
+{
+[e :U _fillCircle ]
+[v _x0 `s ~T0 @X0 1 r1 ]
+[v _y0 `s ~T0 @X0 1 r2 ]
+[v _r `s ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+[f ]
+"402
+[; ;ST7735_TFT.c: 402:   drawFastVLine(x0, y0 - r, 2 * r + 1, color);
+[e ( _drawFastVLine (4 , , , -> _x0 `uc -> - -> _y0 `i -> _r `i `uc -> + * -> 2 `i -> _r `i -> 1 `i `uc _color ]
+"403
+[; ;ST7735_TFT.c: 403:   fillCircleHelper(x0, y0, r, 3, 0, color);
+[e ( _fillCircleHelper (4 , , , , , _x0 _y0 _r -> -> 3 `i `uc -> -> 0 `i `s _color ]
+"404
+[; ;ST7735_TFT.c: 404: }
+[e :UE 343 ]
+}
+"406
+[; ;ST7735_TFT.c: 406: void drawRectWH(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint16_t color){
+[v _drawRectWH `(v ~T0 @X0 1 ef5`uc`uc`uc`uc`us ]
+{
+[e :U _drawRectWH ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _h `uc ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+[f ]
+"407
+[; ;ST7735_TFT.c: 407:   drawFastHLine(x, y, w, color);
+[e ( _drawFastHLine (4 , , , _x _y _w _color ]
+"408
+[; ;ST7735_TFT.c: 408:   drawFastHLine(x, y + h - 1, w, color);
+[e ( _drawFastHLine (4 , , , _x -> - + -> _y `i -> _h `i -> 1 `i `uc _w _color ]
+"409
+[; ;ST7735_TFT.c: 409:   drawFastVLine(x, y, h, color);
+[e ( _drawFastVLine (4 , , , _x _y _h _color ]
+"410
+[; ;ST7735_TFT.c: 410:   drawFastVLine(x + w - 1, y, h, color);
+[e ( _drawFastVLine (4 , , , -> - + -> _x `i -> _w `i -> 1 `i `uc _y _h _color ]
+"411
+[; ;ST7735_TFT.c: 411: }
+[e :UE 344 ]
+}
+"413
+[; ;ST7735_TFT.c: 413: void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color){
+[v _drawLine `(v ~T0 @X0 1 ef5`s`s`s`s`us ]
+{
+[e :U _drawLine ]
+[v _x0 `s ~T0 @X0 1 r1 ]
+[v _y0 `s ~T0 @X0 1 r2 ]
+[v _x1 `s ~T0 @X0 1 r3 ]
+[v _y1 `s ~T0 @X0 1 r4 ]
+[v _color `us ~T0 @X0 1 r5 ]
+[f ]
+"414
+[; ;ST7735_TFT.c: 414:   int16_t steep, dx, dy, err, ystep;
+[v _steep `s ~T0 @X0 1 a ]
+[v _dx `s ~T0 @X0 1 a ]
+[v _dy `s ~T0 @X0 1 a ]
+[v _err `s ~T0 @X0 1 a ]
+[v _ystep `s ~T0 @X0 1 a ]
+"415
+[; ;ST7735_TFT.c: 415:   steep = abs(y1 - y0) > abs(x1 - x0);
+[e = _steep -> -> > ( _abs (1 - -> _y1 `i -> _y0 `i ( _abs (1 - -> _x1 `i -> _x0 `i `i `s ]
+"416
+[; ;ST7735_TFT.c: 416:   if (steep) {
+[e $ ! != -> _steep `i -> 0 `i 346  ]
+{
+"417
+[; ;ST7735_TFT.c: 417:     { int16_t t; t = x0; x0 = y0; y0 = t;};
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _x0 ]
+[e = _x0 _y0 ]
+[e = _y0 _t ]
+}
+"418
+[; ;ST7735_TFT.c: 418:     { int16_t t; t = x1; x1 = y1; y1 = t;};
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _x1 ]
+[e = _x1 _y1 ]
+[e = _y1 _t ]
+}
+"419
+[; ;ST7735_TFT.c: 419:   }
+}
+[e :U 346 ]
+"420
+[; ;ST7735_TFT.c: 420:   if (x0 > x1) {
+[e $ ! > -> _x0 `i -> _x1 `i 347  ]
+{
+"421
+[; ;ST7735_TFT.c: 421:     { int16_t t; t = x0; x0 = x1; x1 = t;};
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _x0 ]
+[e = _x0 _x1 ]
+[e = _x1 _t ]
+}
+"422
+[; ;ST7735_TFT.c: 422:     { int16_t t; t = y0; y0 = y1; y1 = t;};
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _y0 ]
+[e = _y0 _y1 ]
+[e = _y1 _t ]
+}
+"423
+[; ;ST7735_TFT.c: 423:   }
+}
+[e :U 347 ]
+"424
+[; ;ST7735_TFT.c: 424:   dx = x1 - x0;
+[e = _dx -> - -> _x1 `i -> _x0 `i `s ]
+"425
+[; ;ST7735_TFT.c: 425:   dy = abs(y1-y0);
+[e = _dy -> ( _abs (1 - -> _y1 `i -> _y0 `i `s ]
+"427
+[; ;ST7735_TFT.c: 427:   err = dx / 2;
+[e = _err -> / -> _dx `i -> 2 `i `s ]
+"428
+[; ;ST7735_TFT.c: 428:   if (y0 < y1) {
+[e $ ! < -> _y0 `i -> _y1 `i 348  ]
+{
+"429
+[; ;ST7735_TFT.c: 429:     ystep = 1;
+[e = _ystep -> -> 1 `i `s ]
+"430
+[; ;ST7735_TFT.c: 430:   } else {
+}
+[e $U 349  ]
+[e :U 348 ]
+{
+"431
+[; ;ST7735_TFT.c: 431:     ystep = -1;
+[e = _ystep -> -U -> 1 `i `s ]
+"432
+[; ;ST7735_TFT.c: 432:   }
+}
+[e :U 349 ]
+"434
+[; ;ST7735_TFT.c: 434:   for (; x0<=x1; x0++) {
+{
+[e $U 353  ]
+[e :U 350 ]
+{
+"435
+[; ;ST7735_TFT.c: 435:     if (steep) {
+[e $ ! != -> _steep `i -> 0 `i 354  ]
+{
+"436
+[; ;ST7735_TFT.c: 436:       drawPixel(y0, x0, color);
+[e ( _drawPixel (3 , , -> _y0 `uc -> _x0 `uc _color ]
+"437
+[; ;ST7735_TFT.c: 437:     } else {
+}
+[e $U 355  ]
+[e :U 354 ]
+{
+"438
+[; ;ST7735_TFT.c: 438:       drawPixel(x0, y0, color);
+[e ( _drawPixel (3 , , -> _x0 `uc -> _y0 `uc _color ]
+"439
+[; ;ST7735_TFT.c: 439:     }
+}
+[e :U 355 ]
+"440
+[; ;ST7735_TFT.c: 440:     err -= dy;
+[e =- _err -> _dy `s ]
+"441
+[; ;ST7735_TFT.c: 441:     if (err < 0) {
+[e $ ! < -> _err `i -> 0 `i 356  ]
+{
+"442
+[; ;ST7735_TFT.c: 442:       y0 += ystep;
+[e =+ _y0 -> _ystep `s ]
+"443
+[; ;ST7735_TFT.c: 443:       err += dx;
+[e =+ _err -> _dx `s ]
+"444
+[; ;ST7735_TFT.c: 444:     }
+}
+[e :U 356 ]
+"445
+[; ;ST7735_TFT.c: 445:   }
+}
+[e ++ _x0 -> -> 1 `i `s ]
+[e :U 353 ]
+[e $ <= -> _x0 `i -> _x1 `i 350  ]
+[e :U 351 ]
+}
+"446
+[; ;ST7735_TFT.c: 446: }
+[e :UE 345 ]
+}
+"448
+[; ;ST7735_TFT.c: 448: void drawRoundRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint8_t r, uint16_t color) {
+[v _drawRoundRect `(v ~T0 @X0 1 ef6`uc`uc`uc`uc`uc`us ]
+{
+[e :U _drawRoundRect ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _h `uc ~T0 @X0 1 r4 ]
+[v _r `uc ~T0 @X0 1 r5 ]
+[v _color `us ~T0 @X0 1 r6 ]
+[f ]
+"449
+[; ;ST7735_TFT.c: 449:   drawFastHLine(x+r , y , w-2*r, color);
+[e ( _drawFastHLine (4 , , , -> + -> _x `i -> _r `i `uc _y -> - -> _w `i * -> 2 `i -> _r `i `uc _color ]
+"450
+[; ;ST7735_TFT.c: 450:   drawFastHLine(x+r , y+h-1, w-2*r, color);
+[e ( _drawFastHLine (4 , , , -> + -> _x `i -> _r `i `uc -> - + -> _y `i -> _h `i -> 1 `i `uc -> - -> _w `i * -> 2 `i -> _r `i `uc _color ]
+"451
+[; ;ST7735_TFT.c: 451:   drawFastVLine(x , y+r , h-2*r, color);
+[e ( _drawFastVLine (4 , , , _x -> + -> _y `i -> _r `i `uc -> - -> _h `i * -> 2 `i -> _r `i `uc _color ]
+"452
+[; ;ST7735_TFT.c: 452:   drawFastVLine(x+w-1, y+r , h-2*r, color);
+[e ( _drawFastVLine (4 , , , -> - + -> _x `i -> _w `i -> 1 `i `uc -> + -> _y `i -> _r `i `uc -> - -> _h `i * -> 2 `i -> _r `i `uc _color ]
+"453
+[; ;ST7735_TFT.c: 453:   drawCircleHelper(x+r , y+r , r, 1, color);
+[e ( _drawCircleHelper (4 , , , , -> + -> _x `i -> _r `i `s -> + -> _y `i -> _r `i `s -> _r `s -> -> 1 `i `uc _color ]
+"454
+[; ;ST7735_TFT.c: 454:   drawCircleHelper(x+w-r-1, y+r , r, 2, color);
+[e ( _drawCircleHelper (4 , , , , -> - - + -> _x `i -> _w `i -> _r `i -> 1 `i `s -> + -> _y `i -> _r `i `s -> _r `s -> -> 2 `i `uc _color ]
+"455
+[; ;ST7735_TFT.c: 455:   drawCircleHelper(x+w-r-1, y+h-r-1, r, 4, color);
+[e ( _drawCircleHelper (4 , , , , -> - - + -> _x `i -> _w `i -> _r `i -> 1 `i `s -> - - + -> _y `i -> _h `i -> _r `i -> 1 `i `s -> _r `s -> -> 4 `i `uc _color ]
+"456
+[; ;ST7735_TFT.c: 456:   drawCircleHelper(x+r , y+h-r-1, r, 8, color);
+[e ( _drawCircleHelper (4 , , , , -> + -> _x `i -> _r `i `s -> - - + -> _y `i -> _h `i -> _r `i -> 1 `i `s -> _r `s -> -> 8 `i `uc _color ]
+"457
+[; ;ST7735_TFT.c: 457: }
+[e :UE 357 ]
+}
+"459
+[; ;ST7735_TFT.c: 459: void fillRoundRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint8_t r, uint16_t color) {
+[v _fillRoundRect `(v ~T0 @X0 1 ef6`uc`uc`uc`uc`uc`us ]
+{
+[e :U _fillRoundRect ]
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _w `uc ~T0 @X0 1 r3 ]
+[v _h `uc ~T0 @X0 1 r4 ]
+[v _r `uc ~T0 @X0 1 r5 ]
+[v _color `us ~T0 @X0 1 r6 ]
+[f ]
+"460
+[; ;ST7735_TFT.c: 460:   fillRect(x+r, y, w-2*r, h, color);
+[e ( _fillRect (4 , , , , -> + -> _x `i -> _r `i `uc _y -> - -> _w `i * -> 2 `i -> _r `i `uc _h _color ]
+"461
+[; ;ST7735_TFT.c: 461:   fillCircleHelper(x+w-r-1, y+r, r, 1, h-2*r-1, color);
+[e ( _fillCircleHelper (4 , , , , , -> - - + -> _x `i -> _w `i -> _r `i -> 1 `i `s -> + -> _y `i -> _r `i `s -> _r `s -> -> 1 `i `uc -> - - -> _h `i * -> 2 `i -> _r `i -> 1 `i `s _color ]
+"462
+[; ;ST7735_TFT.c: 462:   fillCircleHelper(x+r , y+r, r, 2, h-2*r-1, color);
+[e ( _fillCircleHelper (4 , , , , , -> + -> _x `i -> _r `i `s -> + -> _y `i -> _r `i `s -> _r `s -> -> 2 `i `uc -> - - -> _h `i * -> 2 `i -> _r `i -> 1 `i `s _color ]
+"463
+[; ;ST7735_TFT.c: 463: }
+[e :UE 358 ]
+}
+"466
+[; ;ST7735_TFT.c: 466: void drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color) {
+[v _drawTriangle `(v ~T0 @X0 1 ef7`s`s`s`s`s`s`us ]
+{
+[e :U _drawTriangle ]
+[v _x0 `s ~T0 @X0 1 r1 ]
+[v _y0 `s ~T0 @X0 1 r2 ]
+[v _x1 `s ~T0 @X0 1 r3 ]
+[v _y1 `s ~T0 @X0 1 r4 ]
+[v _x2 `s ~T0 @X0 1 r5 ]
+[v _y2 `s ~T0 @X0 1 r6 ]
+[v _color `us ~T0 @X0 1 r7 ]
+[f ]
+"467
+[; ;ST7735_TFT.c: 467:   drawLine(x0, y0, x1, y1, color);
+[e ( _drawLine (4 , , , , _x0 _y0 _x1 _y1 _color ]
+"468
+[; ;ST7735_TFT.c: 468:   drawLine(x1, y1, x2, y2, color);
+[e ( _drawLine (4 , , , , _x1 _y1 _x2 _y2 _color ]
+"469
+[; ;ST7735_TFT.c: 469:   drawLine(x2, y2, x0, y0, color);
+[e ( _drawLine (4 , , , , _x2 _y2 _x0 _y0 _color ]
+"470
+[; ;ST7735_TFT.c: 470: }
+[e :UE 359 ]
+}
+"471
+[; ;ST7735_TFT.c: 471: void fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color) {
+[v _fillTriangle `(v ~T0 @X0 1 ef7`s`s`s`s`s`s`us ]
+{
+[e :U _fillTriangle ]
+[v _x0 `s ~T0 @X0 1 r1 ]
+[v _y0 `s ~T0 @X0 1 r2 ]
+[v _x1 `s ~T0 @X0 1 r3 ]
+[v _y1 `s ~T0 @X0 1 r4 ]
+[v _x2 `s ~T0 @X0 1 r5 ]
+[v _y2 `s ~T0 @X0 1 r6 ]
+[v _color `us ~T0 @X0 1 r7 ]
+[f ]
+"472
+[; ;ST7735_TFT.c: 472:   int16_t a, b, y, last, dx01, dy01, dx02, dy02, dx12, dy12, sa, sb;
+[v _a `s ~T0 @X0 1 a ]
+[v _b `s ~T0 @X0 1 a ]
+[v _y `s ~T0 @X0 1 a ]
+[v _last `s ~T0 @X0 1 a ]
+[v _dx01 `s ~T0 @X0 1 a ]
+[v _dy01 `s ~T0 @X0 1 a ]
+[v _dx02 `s ~T0 @X0 1 a ]
+[v _dy02 `s ~T0 @X0 1 a ]
+[v _dx12 `s ~T0 @X0 1 a ]
+[v _dy12 `s ~T0 @X0 1 a ]
+[v _sa `s ~T0 @X0 1 a ]
+[v _sb `s ~T0 @X0 1 a ]
+"474
+[; ;ST7735_TFT.c: 474:   if (y0 > y1) {
+[e $ ! > -> _y0 `i -> _y1 `i 361  ]
+{
+"475
+[; ;ST7735_TFT.c: 475:     { int16_t t; t = y0; y0 = y1; y1 = t;}; { int16_t t; t = x0; x0 = x1; x1 = t;};
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _y0 ]
+[e = _y0 _y1 ]
+[e = _y1 _t ]
+}
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _x0 ]
+[e = _x0 _x1 ]
+[e = _x1 _t ]
+}
+"476
+[; ;ST7735_TFT.c: 476:   }
+}
+[e :U 361 ]
+"477
+[; ;ST7735_TFT.c: 477:   if (y1 > y2) {
+[e $ ! > -> _y1 `i -> _y2 `i 362  ]
+{
+"478
+[; ;ST7735_TFT.c: 478:     { int16_t t; t = y2; y2 = y1; y1 = t;}; { int16_t t; t = x2; x2 = x1; x1 = t;};
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _y2 ]
+[e = _y2 _y1 ]
+[e = _y1 _t ]
+}
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _x2 ]
+[e = _x2 _x1 ]
+[e = _x1 _t ]
+}
+"479
+[; ;ST7735_TFT.c: 479:   }
+}
+[e :U 362 ]
+"480
+[; ;ST7735_TFT.c: 480:   if (y0 > y1) {
+[e $ ! > -> _y0 `i -> _y1 `i 363  ]
+{
+"481
+[; ;ST7735_TFT.c: 481:     { int16_t t; t = y0; y0 = y1; y1 = t;}; { int16_t t; t = x0; x0 = x1; x1 = t;};
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _y0 ]
+[e = _y0 _y1 ]
+[e = _y1 _t ]
+}
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _x0 ]
+[e = _x0 _x1 ]
+[e = _x1 _t ]
+}
+"482
+[; ;ST7735_TFT.c: 482:   }
+}
+[e :U 363 ]
+"483
+[; ;ST7735_TFT.c: 483:   if(y0 == y2) {
+[e $ ! == -> _y0 `i -> _y2 `i 364  ]
+{
+"484
+[; ;ST7735_TFT.c: 484:     a = b = x0;
+[e = _a = _b _x0 ]
+"485
+[; ;ST7735_TFT.c: 485:     if(x1 < a) a = x1;
+[e $ ! < -> _x1 `i -> _a `i 365  ]
+[e = _a _x1 ]
+[e $U 366  ]
+"486
+[; ;ST7735_TFT.c: 486:     else if(x1 > b) b = x1;
+[e :U 365 ]
+[e $ ! > -> _x1 `i -> _b `i 367  ]
+[e = _b _x1 ]
+[e :U 367 ]
+[e :U 366 ]
+"487
+[; ;ST7735_TFT.c: 487:     if(x2 < a) a = x2;
+[e $ ! < -> _x2 `i -> _a `i 368  ]
+[e = _a _x2 ]
+[e $U 369  ]
+"488
+[; ;ST7735_TFT.c: 488:     else if(x2 > b) b = x2;
+[e :U 368 ]
+[e $ ! > -> _x2 `i -> _b `i 370  ]
+[e = _b _x2 ]
+[e :U 370 ]
+[e :U 369 ]
+"489
+[; ;ST7735_TFT.c: 489:     drawFastHLine(a, y0, b-a+1, color);
+[e ( _drawFastHLine (4 , , , -> _a `uc -> _y0 `uc -> + - -> _b `i -> _a `i -> 1 `i `uc _color ]
+"490
+[; ;ST7735_TFT.c: 490:     return;
+[e $UE 360  ]
+"491
+[; ;ST7735_TFT.c: 491:   }
+}
+[e :U 364 ]
+"492
+[; ;ST7735_TFT.c: 492:     dx01 = x1 - x0;
+[e = _dx01 -> - -> _x1 `i -> _x0 `i `s ]
+"493
+[; ;ST7735_TFT.c: 493:     dy01 = y1 - y0;
+[e = _dy01 -> - -> _y1 `i -> _y0 `i `s ]
+"494
+[; ;ST7735_TFT.c: 494:     dx02 = x2 - x0;
+[e = _dx02 -> - -> _x2 `i -> _x0 `i `s ]
+"495
+[; ;ST7735_TFT.c: 495:     dy02 = y2 - y0;
+[e = _dy02 -> - -> _y2 `i -> _y0 `i `s ]
+"496
+[; ;ST7735_TFT.c: 496:     dx12 = x2 - x1;
+[e = _dx12 -> - -> _x2 `i -> _x1 `i `s ]
+"497
+[; ;ST7735_TFT.c: 497:     dy12 = y2 - y1;
+[e = _dy12 -> - -> _y2 `i -> _y1 `i `s ]
+"498
+[; ;ST7735_TFT.c: 498:     sa = 0;
+[e = _sa -> -> 0 `i `s ]
+"499
+[; ;ST7735_TFT.c: 499:     sb = 0;
+[e = _sb -> -> 0 `i `s ]
+"500
+[; ;ST7735_TFT.c: 500:   if(y1 == y2) last = y1;
+[e $ ! == -> _y1 `i -> _y2 `i 371  ]
+[e = _last _y1 ]
+[e $U 372  ]
+"501
+[; ;ST7735_TFT.c: 501:   else last = y1-1;
+[e :U 371 ]
+[e = _last -> - -> _y1 `i -> 1 `i `s ]
+[e :U 372 ]
+"502
+[; ;ST7735_TFT.c: 502:   for(y=y0; y<=last; y++) {
+{
+[e = _y _y0 ]
+[e $U 376  ]
+[e :U 373 ]
+{
+"503
+[; ;ST7735_TFT.c: 503:     a = x0 + sa / dy01;
+[e = _a -> + -> _x0 `i / -> _sa `i -> _dy01 `i `s ]
+"504
+[; ;ST7735_TFT.c: 504:     b = x0 + sb / dy02;
+[e = _b -> + -> _x0 `i / -> _sb `i -> _dy02 `i `s ]
+"505
+[; ;ST7735_TFT.c: 505:     sa += dx01;
+[e =+ _sa -> _dx01 `s ]
+"506
+[; ;ST7735_TFT.c: 506:     sb += dx02;
+[e =+ _sb -> _dx02 `s ]
+"507
+[; ;ST7735_TFT.c: 507:     if(a > b) { int16_t t; t = a; a = b; b = t;};
+[e $ ! > -> _a `i -> _b `i 377  ]
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _a ]
+[e = _a _b ]
+[e = _b _t ]
+}
+[e :U 377 ]
+"508
+[; ;ST7735_TFT.c: 508:     drawFastHLine(a, y, b - a + 1, color);
+[e ( _drawFastHLine (4 , , , -> _a `uc -> _y `uc -> + - -> _b `i -> _a `i -> 1 `i `uc _color ]
+"509
+[; ;ST7735_TFT.c: 509:   }
+}
+[e ++ _y -> -> 1 `i `s ]
+[e :U 376 ]
+[e $ <= -> _y `i -> _last `i 373  ]
+[e :U 374 ]
+}
+"511
+[; ;ST7735_TFT.c: 511:   sa = dx12 * (y - y1);
+[e = _sa -> * -> _dx12 `i - -> _y `i -> _y1 `i `s ]
+"512
+[; ;ST7735_TFT.c: 512:   sb = dx02 * (y - y0);
+[e = _sb -> * -> _dx02 `i - -> _y `i -> _y0 `i `s ]
+"513
+[; ;ST7735_TFT.c: 513:   for(; y<=y2; y++) {
+{
+[e $U 381  ]
+[e :U 378 ]
+{
+"514
+[; ;ST7735_TFT.c: 514:     a = x1 + sa / dy12;
+[e = _a -> + -> _x1 `i / -> _sa `i -> _dy12 `i `s ]
+"515
+[; ;ST7735_TFT.c: 515:     b = x0 + sb / dy02;
+[e = _b -> + -> _x0 `i / -> _sb `i -> _dy02 `i `s ]
+"516
+[; ;ST7735_TFT.c: 516:     sa += dx12;
+[e =+ _sa -> _dx12 `s ]
+"517
+[; ;ST7735_TFT.c: 517:     sb += dx02;
+[e =+ _sb -> _dx02 `s ]
+"518
+[; ;ST7735_TFT.c: 518:     if(a > b) { int16_t t; t = a; a = b; b = t;};
+[e $ ! > -> _a `i -> _b `i 382  ]
+{
+[v _t `s ~T0 @X0 1 a ]
+[e = _t _a ]
+[e = _a _b ]
+[e = _b _t ]
+}
+[e :U 382 ]
+"519
+[; ;ST7735_TFT.c: 519:     drawFastHLine(a, y, b-a+1, color);
+[e ( _drawFastHLine (4 , , , -> _a `uc -> _y `uc -> + - -> _b `i -> _a `i -> 1 `i `uc _color ]
+"520
+[; ;ST7735_TFT.c: 520:   }
+}
+[e ++ _y -> -> 1 `i `s ]
+[e :U 381 ]
+[e $ <= -> _y `i -> _y2 `i 378  ]
+[e :U 379 ]
+}
+"521
+[; ;ST7735_TFT.c: 521: }
+[e :UE 360 ]
+}
+"526
+[; ;ST7735_TFT.c: 526: void setTextWrap(_Bool w){
+[v _setTextWrap `(v ~T0 @X0 1 ef1`a ]
+{
+[e :U _setTextWrap ]
+[v _w `a ~T0 @X0 1 r1 ]
+[f ]
+"527
+[; ;ST7735_TFT.c: 527:   _wrap = w;
+[e = __wrap _w ]
+"528
+[; ;ST7735_TFT.c: 528: }
+[e :UE 383 ]
+}
+"580
+[; ;ST7735_TFT.c: 580: void invertDisplay(_Bool i) {
+[v _invertDisplay `(v ~T0 @X0 1 ef1`a ]
+{
+[e :U _invertDisplay ]
+[v _i `a ~T0 @X0 1 r1 ]
+[f ]
+"581
+[; ;ST7735_TFT.c: 581:   if(i)
+[e $ ! != -> _i `i -> 0 `i 385  ]
+"582
+[; ;ST7735_TFT.c: 582:     write_command(0x21);
+[e ( _write_command (1 -> -> 33 `i `uc ]
+[e $U 386  ]
+"583
+[; ;ST7735_TFT.c: 583:   else
+[e :U 385 ]
+"584
+[; ;ST7735_TFT.c: 584:     write_command(0x20);
+[e ( _write_command (1 -> -> 32 `i `uc ]
+[e :U 386 ]
+"585
+[; ;ST7735_TFT.c: 585: }
+[e :UE 384 ]
+}
+"588
+[; ;ST7735_TFT.c: 588: void setScrollDefinition(uint8_t top_fix_height, uint8_t bottom_fix_height, _Bool _scroll_direction){
+[v _setScrollDefinition `(v ~T0 @X0 1 ef3`uc`uc`a ]
+{
+[e :U _setScrollDefinition ]
+[v _top_fix_height `uc ~T0 @X0 1 r1 ]
+[v _bottom_fix_height `uc ~T0 @X0 1 r2 ]
+[v __scroll_direction `a ~T0 @X0 1 r3 ]
+[f ]
+"589
+[; ;ST7735_TFT.c: 589:   uint8_t scroll_height;
+[v _scroll_height `uc ~T0 @X0 1 a ]
+"590
+[; ;ST7735_TFT.c: 590:   scroll_height = tft_height - top_fix_height - bottom_fix_height;
+[e = _scroll_height -> - - -> _tft_height `i -> _top_fix_height `i -> _bottom_fix_height `i `uc ]
+"591
+[; ;ST7735_TFT.c: 591:   write_command(0x33);
+[e ( _write_command (1 -> -> 51 `i `uc ]
+"592
+[; ;ST7735_TFT.c: 592:   write_data(0x00);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"593
+[; ;ST7735_TFT.c: 593:   write_data(top_fix_height);
+[e ( _write_data (1 _top_fix_height ]
+"594
+[; ;ST7735_TFT.c: 594:   write_data(0x00);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"595
+[; ;ST7735_TFT.c: 595:   write_data(scroll_height);
+[e ( _write_data (1 _scroll_height ]
+"596
+[; ;ST7735_TFT.c: 596:   write_data(0x00);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"597
+[; ;ST7735_TFT.c: 597:   write_data(bottom_fix_height);
+[e ( _write_data (1 _bottom_fix_height ]
+"598
+[; ;ST7735_TFT.c: 598:   write_command(0x36);
+[e ( _write_command (1 -> -> 54 `i `uc ]
+"599
+[; ;ST7735_TFT.c: 599:   if(_scroll_direction){
+[e $ ! != -> __scroll_direction `i -> 0 `i 388  ]
+{
+"600
+[; ;ST7735_TFT.c: 600:     if(_tft_type == 0){
+[e $ ! == -> __tft_type `i -> 0 `i 389  ]
+{
+"601
+[; ;ST7735_TFT.c: 601:       write_data(0xD8);
+[e ( _write_data (1 -> -> 216 `i `uc ]
+"602
+[; ;ST7735_TFT.c: 602:     }
+}
+[e :U 389 ]
+"603
+[; ;ST7735_TFT.c: 603:     if(_tft_type == 1){
+[e $ ! == -> __tft_type `i -> 1 `i 390  ]
+{
+"604
+[; ;ST7735_TFT.c: 604:       write_data(0xD0);
+[e ( _write_data (1 -> -> 208 `i `uc ]
+"605
+[; ;ST7735_TFT.c: 605:     }
+}
+[e :U 390 ]
+"606
+[; ;ST7735_TFT.c: 606:     if(_tft_type == 2){
+[e $ ! == -> __tft_type `i -> 2 `i 391  ]
+{
+"607
+[; ;ST7735_TFT.c: 607:       write_data(0x18);
+[e ( _write_data (1 -> -> 24 `i `uc ]
+"608
+[; ;ST7735_TFT.c: 608:     }
+}
+[e :U 391 ]
+"609
+[; ;ST7735_TFT.c: 609:   }
+}
+[e $U 392  ]
+"610
+[; ;ST7735_TFT.c: 610:   else{
+[e :U 388 ]
+{
+"611
+[; ;ST7735_TFT.c: 611:     if(_tft_type == 0){
+[e $ ! == -> __tft_type `i -> 0 `i 393  ]
+{
+"612
+[; ;ST7735_TFT.c: 612:       write_data(0xC8);
+[e ( _write_data (1 -> -> 200 `i `uc ]
+"613
+[; ;ST7735_TFT.c: 613:     }
+}
+[e :U 393 ]
+"614
+[; ;ST7735_TFT.c: 614:     if(_tft_type == 1){
+[e $ ! == -> __tft_type `i -> 1 `i 394  ]
+{
+"615
+[; ;ST7735_TFT.c: 615:       write_data(0xC0);
+[e ( _write_data (1 -> -> 192 `i `uc ]
+"616
+[; ;ST7735_TFT.c: 616:     }
+}
+[e :U 394 ]
+"617
+[; ;ST7735_TFT.c: 617:     if(_tft_type == 2){
+[e $ ! == -> __tft_type `i -> 2 `i 395  ]
+{
+"618
+[; ;ST7735_TFT.c: 618:       write_data(0x08);
+[e ( _write_data (1 -> -> 8 `i `uc ]
+"619
+[; ;ST7735_TFT.c: 619:     }
+}
+[e :U 395 ]
+"620
+[; ;ST7735_TFT.c: 620:   }
+}
+[e :U 392 ]
+"621
+[; ;ST7735_TFT.c: 621: }
+[e :UE 387 ]
+}
+"623
+[; ;ST7735_TFT.c: 623: void VerticalScroll(uint8_t _vsp) {
+[v _VerticalScroll `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _VerticalScroll ]
+[v __vsp `uc ~T0 @X0 1 r1 ]
+[f ]
+"624
+[; ;ST7735_TFT.c: 624:   write_command(0x37);
+[e ( _write_command (1 -> -> 55 `i `uc ]
+"625
+[; ;ST7735_TFT.c: 625:   write_data(0x00);
+[e ( _write_data (1 -> -> 0 `i `uc ]
+"626
+[; ;ST7735_TFT.c: 626:   write_data(_vsp);
+[e ( _write_data (1 __vsp ]
+"627
+[; ;ST7735_TFT.c: 627: }
+[e :UE 396 ]
+}
+"630
+[; ;ST7735_TFT.c: 630: void NormalDisplay(){
+[v _NormalDisplay `(v ~T0 @X0 1 ef ]
+{
+[e :U _NormalDisplay ]
+[f ]
+"631
+[; ;ST7735_TFT.c: 631:   write_command(0x13);
+[e ( _write_command (1 -> -> 19 `i `uc ]
+"632
+[; ;ST7735_TFT.c: 632: }
+[e :UE 397 ]
+}
+"635
+[; ;ST7735_TFT.c: 635: int16_t Color565(int16_t r, int16_t g, int16_t b){
+[v _Color565 `(s ~T0 @X0 1 ef3`s`s`s ]
+{
+[e :U _Color565 ]
+[v _r `s ~T0 @X0 1 r1 ]
+[v _g `s ~T0 @X0 1 r2 ]
+[v _b `s ~T0 @X0 1 r3 ]
+[f ]
+"636
+[; ;ST7735_TFT.c: 636:   return ((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3);
+[e ) -> | | << & -> _r `i -> 248 `i -> 8 `i << & -> _g `i -> 252 `i -> 3 `i >> -> _b `i -> 3 `i `s ]
+[e $UE 398  ]
+"637
+[; ;ST7735_TFT.c: 637: }
+[e :UE 398 ]
+}
+"640
+[; ;ST7735_TFT.c: 640: void pushColor(uint16_t color){
+[v _pushColor `(v ~T0 @X0 1 ef1`us ]
+{
+[e :U _pushColor ]
+[v _color `us ~T0 @X0 1 r1 ]
+[f ]
+"641
+[; ;ST7735_TFT.c: 641:   uint8_t hi, lo;
+[v _hi `uc ~T0 @X0 1 a ]
+[v _lo `uc ~T0 @X0 1 a ]
+"642
+[; ;ST7735_TFT.c: 642:   int dummy;
+[v _dummy `i ~T0 @X0 1 a ]
+"643
+[; ;ST7735_TFT.c: 643:   hi = color >> 8; lo = color;
+[e = _hi -> >> -> _color `ui -> 8 `i `uc ]
+[e = _lo -> _color `uc ]
+"644
+[; ;ST7735_TFT.c: 644:   LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"645
+[; ;ST7735_TFT.c: 645:   LATBbits.LATB3 = 0;
+[e = . . _LATBbits 0 3 -> -> 0 `i `uc ]
+"646
+[; ;ST7735_TFT.c: 646:   dummy = SPI_ExchangeByte(hi);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _hi `i ]
+"647
+[; ;ST7735_TFT.c: 647:   dummy = SPI_ExchangeByte(lo);
+[e = _dummy -> ( _SPI_ExchangeByte (1 _lo `i ]
+"648
+[; ;ST7735_TFT.c: 648:   LATBbits.LATB3 = 1 ;
+[e = . . _LATBbits 0 3 -> -> 1 `i `uc ]
+"649
+[; ;ST7735_TFT.c: 649: }
+[e :UE 399 ]
+}
+"696
+[; ;ST7735_TFT.c: 696: void TFT_BlackTab_Initialize(){
+[v _TFT_BlackTab_Initialize `(v ~T0 @X0 1 ef ]
+{
+[e :U _TFT_BlackTab_Initialize ]
+[f ]
+"700
+[; ;ST7735_TFT.c: 700:   LATBbits.LATB1 = 0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"701
+[; ;ST7735_TFT.c: 701:   Rcmd1();
+[e ( _Rcmd1 ..  ]
+"702
+[; ;ST7735_TFT.c: 702:   Rcmd2red();
+[e ( _Rcmd2red ..  ]
+"703
+[; ;ST7735_TFT.c: 703:   Rcmd3();
+[e ( _Rcmd3 ..  ]
+"704
+[; ;ST7735_TFT.c: 704:   write_command(0x36);
+[e ( _write_command (1 -> -> 54 `i `uc ]
+"705
+[; ;ST7735_TFT.c: 705:   write_data(0xC0);
+[e ( _write_data (1 -> -> 192 `i `uc ]
+"706
+[; ;ST7735_TFT.c: 706:   _tft_type = 1;
+[e = __tft_type -> -> 1 `i `uc ]
+"707
+[; ;ST7735_TFT.c: 707: }
+[e :UE 400 ]
+}
+"723
+[; ;ST7735_TFT.c: 723: void setRotation(uint8_t m) {
+[v _setRotation `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _setRotation ]
+[v _m `uc ~T0 @X0 1 r1 ]
+[f ]
+"725
+[; ;ST7735_TFT.c: 725:   uint8_t madctl = 0;
+[v _madctl `uc ~T0 @X0 1 a ]
+[e = _madctl -> -> 0 `i `uc ]
+"727
+[; ;ST7735_TFT.c: 727:   _rotation = m % 4;
+[e = __rotation -> % -> _m `i -> 4 `i `uc ]
+"729
+[; ;ST7735_TFT.c: 729:   switch (_rotation) {
+[e $U 403  ]
+{
+"730
+[; ;ST7735_TFT.c: 730:   case 0:
+[e :U 404 ]
+"731
+[; ;ST7735_TFT.c: 731:     madctl = 0x40 | 0x80 | 0x00;
+[e = _madctl -> | | -> 64 `i -> 128 `i -> 0 `i `uc ]
+"732
+[; ;ST7735_TFT.c: 732:     _xstart = _colstart;
+[e = __xstart __colstart ]
+"733
+[; ;ST7735_TFT.c: 733:     _ystart = _rowstart;
+[e = __ystart __rowstart ]
+"734
+[; ;ST7735_TFT.c: 734:     tft_width = 128,
+[e ; = _tft_width -> -> 128 `i `uc = _tft_height -> -> 160 `i `uc ]
+"736
+[; ;ST7735_TFT.c: 736:     break;
+[e $U 402  ]
+"737
+[; ;ST7735_TFT.c: 737:   case 1:
+[e :U 405 ]
+"738
+[; ;ST7735_TFT.c: 738:     madctl = 0x80 | 0x20 | 0x00;
+[e = _madctl -> | | -> 128 `i -> 32 `i -> 0 `i `uc ]
+"739
+[; ;ST7735_TFT.c: 739:     _ystart = _colstart;
+[e = __ystart __colstart ]
+"740
+[; ;ST7735_TFT.c: 740:     _xstart = _rowstart;
+[e = __xstart __rowstart ]
+"741
+[; ;ST7735_TFT.c: 741:     tft_width = 160,
+[e ; = _tft_width -> -> 160 `i `uc = _tft_height -> -> 128 `i `uc ]
+"743
+[; ;ST7735_TFT.c: 743:     break;
+[e $U 402  ]
+"744
+[; ;ST7735_TFT.c: 744:   case 2:
+[e :U 406 ]
+"745
+[; ;ST7735_TFT.c: 745:     madctl = 0x00;
+[e = _madctl -> -> 0 `i `uc ]
+"746
+[; ;ST7735_TFT.c: 746:     _xstart = _colstart;
+[e = __xstart __colstart ]
+"747
+[; ;ST7735_TFT.c: 747:     _ystart = _rowstart;
+[e = __ystart __rowstart ]
+"748
+[; ;ST7735_TFT.c: 748:     tft_width = 128,
+[e ; = _tft_width -> -> 128 `i `uc = _tft_height -> -> 160 `i `uc ]
+"750
+[; ;ST7735_TFT.c: 750:     break;
+[e $U 402  ]
+"751
+[; ;ST7735_TFT.c: 751:   case 3:
+[e :U 407 ]
+"752
+[; ;ST7735_TFT.c: 752:     madctl = 0x40 | 0x20 | 0x00;
+[e = _madctl -> | | -> 64 `i -> 32 `i -> 0 `i `uc ]
+"753
+[; ;ST7735_TFT.c: 753:     _ystart = _colstart;
+[e = __ystart __colstart ]
+"754
+[; ;ST7735_TFT.c: 754:     _xstart = _rowstart;
+[e = __xstart __rowstart ]
+"755
+[; ;ST7735_TFT.c: 755:     tft_width = 160,
+[e ; = _tft_width -> -> 160 `i `uc = _tft_height -> -> 128 `i `uc ]
+"757
+[; ;ST7735_TFT.c: 757:     break;
+[e $U 402  ]
+"758
+[; ;ST7735_TFT.c: 758:   }
+}
+[e $U 402  ]
+[e :U 403 ]
+[e [\ -> __rotation `i , $ -> 0 `i 404
+ , $ -> 1 `i 405
+ , $ -> 2 `i 406
+ , $ -> 3 `i 407
+ 402 ]
+[e :U 402 ]
+"759
+[; ;ST7735_TFT.c: 759:   write_command(0x36);
+[e ( _write_command (1 -> -> 54 `i `uc ]
+"760
+[; ;ST7735_TFT.c: 760:   write_data(madctl);
+[e ( _write_data (1 _madctl ]
+"761
+[; ;ST7735_TFT.c: 761: }
+[e :UE 401 ]
+}
+"765
+[; ;ST7735_TFT.c: 765: GFXfont *_gfxFont;
+[v __gfxFont `*S8 ~T0 @X0 1 e ]
+"766
+[; ;ST7735_TFT.c: 766: void setFont(const GFXfont *f) {
+[v _setFont `(v ~T0 @X0 1 ef1`*CS8 ]
+{
+[e :U _setFont ]
+[v _f `*CS8 ~T0 @X0 1 r1 ]
+[f ]
+"767
+[; ;ST7735_TFT.c: 767:   _gfxFont = (GFXfont *)f;
+[e = __gfxFont -> _f `*S8 ]
+"768
+[; ;ST7735_TFT.c: 768: }
+[e :UE 408 ]
+}
+"771
+[; ;ST7735_TFT.c: 771: void drawText(uint8_t x, uint8_t y, const char *_text,
+[v _drawText `(v ~T0 @X0 1 ef6`uc`uc`*Cuc`us`us`uc ]
+"772
+[; ;ST7735_TFT.c: 772:                          uint16_t color, uint16_t bg, uint8_t size) {
+{
+[e :U _drawText ]
+"771
+[; ;ST7735_TFT.c: 771: void drawText(uint8_t x, uint8_t y, const char *_text,
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v __text `*Cuc ~T0 @X0 1 r3 ]
+"772
+[; ;ST7735_TFT.c: 772:                          uint16_t color, uint16_t bg, uint8_t size) {
+[v _color `us ~T0 @X0 1 r4 ]
+[v _bg `us ~T0 @X0 1 r5 ]
+[v _size `uc ~T0 @X0 1 r6 ]
+[f ]
+"773
+[; ;ST7735_TFT.c: 773:   uint8_t cursor_x, cursor_y, first_char, last_char;
+[v _cursor_x `uc ~T0 @X0 1 a ]
+[v _cursor_y `uc ~T0 @X0 1 a ]
+[v _first_char `uc ~T0 @X0 1 a ]
+[v _last_char `uc ~T0 @X0 1 a ]
+"774
+[; ;ST7735_TFT.c: 774:   uint16_t textlen, i;
+[v _textlen `us ~T0 @X0 1 a ]
+[v _i `us ~T0 @X0 1 a ]
+"776
+[; ;ST7735_TFT.c: 776:   cursor_x = x, cursor_y = y;
+[e ; = _cursor_x _x = _cursor_y _y ]
+"777
+[; ;ST7735_TFT.c: 777:   first_char = _gfxFont->first;
+[e = _first_char -> . *U __gfxFont 2 `uc ]
+"778
+[; ;ST7735_TFT.c: 778:   last_char = _gfxFont->last;
+[e = _last_char -> . *U __gfxFont 3 `uc ]
+"779
+[; ;ST7735_TFT.c: 779:   textlen = strlen(_text);
+[e = _textlen -> ( _strlen (1 __text `us ]
+"781
+[; ;ST7735_TFT.c: 781:   for(i = 0; i < textlen; i++){
+{
+[e = _i -> -> 0 `i `us ]
+[e $U 413  ]
+[e :U 410 ]
+{
+"782
+[; ;ST7735_TFT.c: 782:     uint8_t c = _text[i];
+[v _c `uc ~T0 @X0 1 a ]
+[e = _c -> *U + __text * -> _i `ux -> -> # *U __text `ui `ux `uc ]
+"783
+[; ;ST7735_TFT.c: 783:     if (c<first_char || c>last_char) {
+[e $ ! || < -> _c `i -> _first_char `i > -> _c `i -> _last_char `i 414  ]
+{
+"784
+[; ;ST7735_TFT.c: 784:       continue;
+[e $U 412  ]
+"785
+[; ;ST7735_TFT.c: 785:     }
+}
+[e :U 414 ]
+"787
+[; ;ST7735_TFT.c: 787:     GFXglyph *glyph = &(_gfxFont->glyph[c-first_char]);
+[v _glyph `*S7 ~T0 @X0 1 a ]
+[e = _glyph &U *U + . *U __gfxFont 1 * -> - -> _c `i -> _first_char `i `x -> -> # *U . *U __gfxFont 1 `i `x ]
+"788
+[; ;ST7735_TFT.c: 788:     uint8_t w = glyph->width, h = glyph->height;
+[v _w `uc ~T0 @X0 1 a ]
+[e = _w . *U _glyph 1 ]
+[v _h `uc ~T0 @X0 1 a ]
+[e = _h . *U _glyph 2 ]
+"790
+[; ;ST7735_TFT.c: 790:     if((w > 0) && (h > 0)) {
+[e $ ! && > -> _w `i -> 0 `i > -> _h `i -> 0 `i 415  ]
+{
+"791
+[; ;ST7735_TFT.c: 791:       int16_t xo = glyph->xOffset;
+[v _xo `s ~T0 @X0 1 a ]
+[e = _xo -> . *U _glyph 4 `s ]
+"792
+[; ;ST7735_TFT.c: 792:       if(_wrap && ((cursor_x + size * (xo + w)) > tft_width)) {
+[e $ ! && != -> __wrap `i -> 0 `i > + -> _cursor_x `i * -> _size `i + -> _xo `i -> _w `i -> _tft_width `i 416  ]
+{
+"793
+[; ;ST7735_TFT.c: 793:         cursor_x = 0;
+[e = _cursor_x -> -> 0 `i `uc ]
+"794
+[; ;ST7735_TFT.c: 794:         cursor_y += (int16_t)size * _gfxFont->yAdvance;
+[e =+ _cursor_y -> * -> -> _size `s `i -> . *U __gfxFont 4 `i `uc ]
+"795
+[; ;ST7735_TFT.c: 795:       }
+}
+[e :U 416 ]
+"796
+[; ;ST7735_TFT.c: 796:       drawChar(cursor_x,cursor_y,c,color,bg,size);
+[e ( _drawChar (4 , , , , , _cursor_x _cursor_y _c _color _bg _size ]
+"797
+[; ;ST7735_TFT.c: 797:     }
+}
+[e :U 415 ]
+"798
+[; ;ST7735_TFT.c: 798:     cursor_x += glyph->xAdvance * (int16_t)size;
+[e =+ _cursor_x -> * -> . *U _glyph 3 `i -> -> _size `s `i `uc ]
+"799
+[; ;ST7735_TFT.c: 799:   }
+}
+[e :U 412 ]
+[e ++ _i -> -> 1 `i `us ]
+[e :U 413 ]
+[e $ < -> _i `ui -> _textlen `ui 410  ]
+[e :U 411 ]
+}
+"800
+[; ;ST7735_TFT.c: 800: }
+[e :UE 409 ]
+}
+"802
+[; ;ST7735_TFT.c: 802: void drawChar(uint8_t x, uint8_t y, uint8_t c, uint16_t color,
+[v _drawChar `(v ~T0 @X0 1 ef6`uc`uc`uc`us`us`uc ]
+"803
+[; ;ST7735_TFT.c: 803:               uint16_t bg, uint8_t size) {
+{
+[e :U _drawChar ]
+"802
+[; ;ST7735_TFT.c: 802: void drawChar(uint8_t x, uint8_t y, uint8_t c, uint16_t color,
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _c `uc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+"803
+[; ;ST7735_TFT.c: 803:               uint16_t bg, uint8_t size) {
+[v _bg `us ~T0 @X0 1 r5 ]
+[v _size `uc ~T0 @X0 1 r6 ]
+[f ]
+"804
+[; ;ST7735_TFT.c: 804:   c -= (uint8_t) (_gfxFont->first);
+[e =- _c -> -> . *U __gfxFont 2 `uc `uc ]
+"805
+[; ;ST7735_TFT.c: 805:   GFXglyph *glyph = _gfxFont->glyph + c;
+[v _glyph `*S7 ~T0 @X0 1 a ]
+[e = _glyph + . *U __gfxFont 1 * -> -> _c `i `x -> -> # *U . *U __gfxFont 1 `i `x ]
+"806
+[; ;ST7735_TFT.c: 806:   uint8_t *bitmap = _gfxFont->bitmap;
+[v _bitmap `*uc ~T0 @X0 1 a ]
+[e = _bitmap . *U __gfxFont 0 ]
+"808
+[; ;ST7735_TFT.c: 808:   uint16_t bo = glyph->bitmapOffset;
+[v _bo `us ~T0 @X0 1 a ]
+[e = _bo . *U _glyph 0 ]
+"809
+[; ;ST7735_TFT.c: 809:   uint8_t w = glyph->width, h = glyph->height;
+[v _w `uc ~T0 @X0 1 a ]
+[e = _w . *U _glyph 1 ]
+[v _h `uc ~T0 @X0 1 a ]
+[e = _h . *U _glyph 2 ]
+"810
+[; ;ST7735_TFT.c: 810:   int8_t xo = glyph->xOffset, yo = glyph->yOffset;
+[v _xo `c ~T0 @X0 1 a ]
+[e = _xo . *U _glyph 4 ]
+[v _yo `c ~T0 @X0 1 a ]
+[e = _yo . *U _glyph 5 ]
+"811
+[; ;ST7735_TFT.c: 811:   uint8_t xx, yy, bits = 0, abit = 0;
+[v _xx `uc ~T0 @X0 1 a ]
+[v _yy `uc ~T0 @X0 1 a ]
+[v _bits `uc ~T0 @X0 1 a ]
+[e = _bits -> -> 0 `i `uc ]
+[v _abit `uc ~T0 @X0 1 a ]
+[e = _abit -> -> 0 `i `uc ]
+"812
+[; ;ST7735_TFT.c: 812:   int16_t xo16 = 0, yo16 = 0;
+[v _xo16 `s ~T0 @X0 1 a ]
+[e = _xo16 -> -> 0 `i `s ]
+[v _yo16 `s ~T0 @X0 1 a ]
+[e = _yo16 -> -> 0 `i `s ]
+"814
+[; ;ST7735_TFT.c: 814:   if (size > 1) {
+[e $ ! > -> _size `i -> 1 `i 418  ]
+{
+"815
+[; ;ST7735_TFT.c: 815:     xo16 = xo;
+[e = _xo16 -> _xo `s ]
+"816
+[; ;ST7735_TFT.c: 816:     yo16 = yo;
+[e = _yo16 -> _yo `s ]
+"817
+[; ;ST7735_TFT.c: 817:   }
+}
+[e :U 418 ]
+"819
+[; ;ST7735_TFT.c: 819:   for (yy = 0; yy < h; yy++) {
+{
+[e = _yy -> -> 0 `i `uc ]
+[e $U 422  ]
+[e :U 419 ]
+{
+"820
+[; ;ST7735_TFT.c: 820:     for (xx = 0; xx < w; xx++) {
+{
+[e = _xx -> -> 0 `i `uc ]
+[e $U 426  ]
+[e :U 423 ]
+{
+"821
+[; ;ST7735_TFT.c: 821:       if (!(abit++ & 7)) {
+[e $ ! ! != & -> ++ _abit -> -> 1 `i `uc `i -> 7 `i -> 0 `i 427  ]
+{
+"822
+[; ;ST7735_TFT.c: 822:         bits = bitmap[bo++];
+[e = _bits *U + _bitmap * -> ++ _bo -> -> 1 `i `us `ux -> -> # *U _bitmap `ui `ux ]
+"823
+[; ;ST7735_TFT.c: 823:       }
+}
+[e :U 427 ]
+"824
+[; ;ST7735_TFT.c: 824:       if (bits & 0x80) {
+[e $ ! != & -> _bits `i -> 128 `i -> 0 `i 428  ]
+{
+"825
+[; ;ST7735_TFT.c: 825:         if (size == 1) {
+[e $ ! == -> _size `i -> 1 `i 429  ]
+{
+"826
+[; ;ST7735_TFT.c: 826:           drawPixel(x+xo+xx, y+yo+yy,color);
+[e ( _drawPixel (3 , , -> + + -> _x `i -> _xo `i -> _xx `i `uc -> + + -> _y `i -> _yo `i -> _yy `i `uc _color ]
+"827
+[; ;ST7735_TFT.c: 827:         } else {
+}
+[e $U 430  ]
+[e :U 429 ]
+{
+"828
+[; ;ST7735_TFT.c: 828:           fillRect(x+(xo16+xx)*size,y+(yo16+yy)*size,size,size,color);
+[e ( _fillRect (4 , , , , -> + -> _x `i * + -> _xo16 `i -> _xx `i -> _size `i `uc -> + -> _y `i * + -> _yo16 `i -> _yy `i -> _size `i `uc _size _size _color ]
+"829
+[; ;ST7735_TFT.c: 829:         }
+}
+[e :U 430 ]
+"830
+[; ;ST7735_TFT.c: 830:       }
+}
+[e :U 428 ]
+"831
+[; ;ST7735_TFT.c: 831:       bits <<= 1;
+[e =<< _bits -> -> 1 `i `uc ]
+"832
+[; ;ST7735_TFT.c: 832:     }
+}
+[e ++ _xx -> -> 1 `i `uc ]
+[e :U 426 ]
+[e $ < -> _xx `i -> _w `i 423  ]
+[e :U 424 ]
+}
+"833
+[; ;ST7735_TFT.c: 833:   }
+}
+[e ++ _yy -> -> 1 `i `uc ]
+[e :U 422 ]
+[e $ < -> _yy `i -> _h `i 419  ]
+[e :U 420 ]
+}
+"834
+[; ;ST7735_TFT.c: 834: }
+[e :UE 417 ]
+}

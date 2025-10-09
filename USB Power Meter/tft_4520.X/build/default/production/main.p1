@@ -1,0 +1,6027 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"196 ./ST7735_TFT.h
+[; ;./ST7735_TFT.h: 196: typedef struct {
+[s S286 `us 1 `uc 1 `uc 1 `uc 1 `c 1 `c 1 ]
+[n S286 . bitmapOffset width height xAdvance xOffset yOffset ]
+"206
+[; ;./ST7735_TFT.h: 206: typedef struct {
+[s S287 `*uc 1 `*S286 1 `us 1 `us 1 `uc 1 `*Cuc 1 ]
+[n S287 . bitmap glyph first last yAdvance subset ]
+"59 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 59:     struct {
+[s S7 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S7 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"69
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 69:     struct {
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . AN0 AN1 AN2 AN3 T0CKI AN4 OSC2 OSC1 ]
+"79
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 79:     struct {
+[s S9 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S9 . . VREFN VREFP . SS CLKO CLKI ]
+"88
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 88:     struct {
+[s S10 :5 `uc 1 :1 `uc 1 ]
+[n S10 . . NOT_SS ]
+"92
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 92:     struct {
+[s S11 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S11 . . CVREF . nSS ]
+"98
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 98:     struct {
+[s S12 :5 `uc 1 :1 `uc 1 ]
+[n S12 . . LVDIN ]
+"102
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 102:     struct {
+[s S13 :5 `uc 1 :1 `uc 1 ]
+[n S13 . . HLVDIN ]
+"106
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 106:     struct {
+[s S14 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . . C1OUT C2OUT ]
+"111
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 111:     struct {
+[s S15 :1 `uc 1 :6 `uc 1 :1 `uc 1 ]
+[n S15 . ULPWUIN . RJPU ]
+"58
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 58: typedef union {
+[u S6 `S7 1 `S8 1 `S9 1 `S10 1 `S11 1 `S12 1 `S13 1 `S14 1 `S15 1 ]
+[n S6 . . . . . . . . . . ]
+"117
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 117: extern volatile PORTAbits_t PORTAbits __attribute__((address(0xF80)));
+[v _PORTAbits `VS6 ~T0 @X0 0 e@3968 ]
+"457
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 457:     struct {
+[s S23 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"467
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 467:     struct {
+[s S24 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S24 . T1OSO T1OSI CCP1 SCK SDI SDO TX RX ]
+"477
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 477:     struct {
+[s S25 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S25 . T13CKI CCP2 . SCL SDA . CK DT ]
+"487
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 487:     struct {
+[s S26 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S26 . T1CKI . P1A ]
+"492
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 492:     struct {
+[s S27 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S27 . . PA2 PA1 ]
+"456
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 456: typedef union {
+[u S22 `S23 1 `S24 1 `S25 1 `S26 1 `S27 1 ]
+[n S22 . . . . . . ]
+"498
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 498: extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
+[v _PORTCbits `VS22 ~T0 @X0 0 e@3970 ]
+"105 C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h: 105: int printf(const char *restrict, ...);
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"46 main.c
+[; ;main.c: 46: void display_page1(void);
+[v _display_page1 `(v ~T0 @X0 0 ef ]
+"47
+[; ;main.c: 47: void display_page2(void);
+[v _display_page2 `(v ~T0 @X0 0 ef ]
+"48
+[; ;main.c: 48: void display_page3(void);
+[v _display_page3 `(v ~T0 @X0 0 ef ]
+"49
+[; ;main.c: 49: void display_page4(void);
+[v _display_page4 `(v ~T0 @X0 0 ef ]
+[p mainexit ]
+"6086 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6086: extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
+[v _OSCCON `Vuc ~T0 @X0 0 e@4051 ]
+"1700
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1700: extern volatile unsigned char TRISB __attribute__((address(0xF93)));
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"1711
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1711:     struct {
+[s S66 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S66 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"1721
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1721:     struct {
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"1710
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1710: typedef union {
+[u S65 `S66 1 `S67 1 ]
+[n S65 . . . ]
+"1732
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1732: extern volatile TRISBbits_t TRISBbits __attribute__((address(0xF93)));
+[v _TRISBbits `VS65 ~T0 @X0 0 e@3987 ]
+"1489
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1489:     struct {
+[s S60 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S60 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"1499
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1499:     struct {
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"1488
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1488: typedef union {
+[u S59 `S60 1 `S61 1 ]
+[n S59 . . . ]
+"1510
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1510: extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF92)));
+[v _TRISAbits `VS59 ~T0 @X0 0 e@3986 ]
+"1933
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1933:     struct {
+[s S72 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S72 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1943
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1943:     struct {
+[s S73 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S73 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"1932
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1932: typedef union {
+[u S71 `S72 1 `S73 1 ]
+[n S71 . . . ]
+"1954
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1954: extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF94)));
+[v _TRISCbits `VS71 ~T0 @X0 0 e@3988 ]
+"1096
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1096:     struct {
+[s S48 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S48 . LATB0 LATB1 LATB2 LATB3 LATB4 LATB5 LATB6 LATB7 ]
+"1106
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1106:     struct {
+[s S49 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . LB0 LB1 LB2 LB3 LB4 LB5 LB6 LB7 ]
+"1095
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1095: typedef union {
+[u S47 `S48 1 `S49 1 ]
+[n S47 . . . ]
+"1117
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1117: extern volatile LATBbits_t LATBbits __attribute__((address(0xF8A)));
+[v _LATBbits `VS47 ~T0 @X0 0 e@3978 ]
+"1208
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1208:     struct {
+[s S51 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S51 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"1218
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1218:     struct {
+[s S52 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S52 . LC0 LC1 LC2 LC3 LC4 LC5 LC6 LC7 ]
+"1207
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1207: typedef union {
+[u S50 `S51 1 `S52 1 ]
+[n S50 . . . ]
+"1229
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1229: extern volatile LATCbits_t LATCbits __attribute__((address(0xF8B)));
+[v _LATCbits `VS50 ~T0 @X0 0 e@3979 ]
+"66 ./eusart1.h
+[; ;./eusart1.h: 66: void EUSART1_Initialize(void);
+[v _EUSART1_Initialize `(v ~T0 @X0 0 ef ]
+"133 ./adc.h
+[; ;./adc.h: 133: void ADC_Initialize(void);
+[v _ADC_Initialize `(v ~T0 @X0 0 ef ]
+"17 ./spi.h
+[; ;./spi.h: 17: void SPI_Initialize(void);
+[v _SPI_Initialize `(v ~T0 @X0 0 ef ]
+"171 main.c
+[; ;main.c: 171:     SPI_Open(SPI_DEFAULT);
+[c E2952 0 .. ]
+[n E2952 . SPI_DEFAULT  ]
+"18 ./spi.h
+[; ;./spi.h: 18: _Bool SPI_Open(spi_modes_t spiUniqueConfiguration);
+[v _SPI_Open `(a ~T0 @X0 0 ef1`E2952 ]
+"110 ./interrupt_manager.h
+[; ;./interrupt_manager.h: 110: void INTERRUPT_Initialize (void);
+[v _INTERRUPT_Initialize `(v ~T0 @X0 0 ef ]
+"103 ./tmr2.h
+[; ;./tmr2.h: 103: void TMR2_Initialize(void);
+[v _TMR2_Initialize `(v ~T0 @X0 0 ef ]
+[v F2926 `(v ~T0 @X0 0 tf ]
+"343
+[; ;./tmr2.h: 343:  void TMR2_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _TMR2_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F2926 ]
+"130 ./ST7735_TFT.h
+[; ;./ST7735_TFT.h: 130: void TFT_BlackTab_Initialize(void);
+[v _TFT_BlackTab_Initialize `(v ~T0 @X0 0 ef ]
+"152
+[; ;./ST7735_TFT.h: 152: void fillScreen(uint16_t color);
+[v _fillScreen `(v ~T0 @X0 0 ef1`us ]
+"191
+[; ;./ST7735_TFT.h: 191: void setRotation(uint8_t m);
+[v _setRotation `(v ~T0 @X0 0 ef1`uc ]
+"186
+[; ;./ST7735_TFT.h: 186: void setTextWrap(_Bool w);
+[v _setTextWrap `(v ~T0 @X0 0 ef1`a ]
+"216
+[; ;./ST7735_TFT.h: 216: void setFont(const GFXfont *f);
+[v _setFont `(v ~T0 @X0 0 ef1`*CS287 ]
+"45 main.c
+[; ;main.c: 45: void display_default(void);
+[v _display_default `(v ~T0 @X0 0 ef ]
+"6699 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6699:     struct {
+[s S275 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S275 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"6709
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6709:     struct {
+[s S276 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S276 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"6719
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6719:     struct {
+[s S277 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S277 . . GIEL GIEH ]
+"6698
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6698: typedef union {
+[u S274 `S275 1 `S276 1 `S277 1 ]
+[n S274 . . . . ]
+"6725
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6725: extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
+[v _INTCONbits `VS274 ~T0 @X0 0 e@4082 ]
+"210 main.c
+[; ;main.c: 210:             result = ADC_GetConversion(channel_AN4);
+[c E2933 28 29 30 31 0 1 2 3 4 .. ]
+[n E2933 . channel_CTMU channel_Temp_diode channel_Vdd_core channel_1_024V_bandgap channel_AN0 channel_AN1 channel_AN2 channel_AN3 channel_AN4  ]
+"257 ./adc.h
+[; ;./adc.h: 257: adc_result_t ADC_GetConversion(adc_channel_t channel);
+[v _ADC_GetConversion `(us ~T0 @X0 0 ef1`E2933 ]
+"174 ./ST7735_TFT.h
+[; ;./ST7735_TFT.h: 174: void fillRoundRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint8_t r, uint16_t color);
+[v _fillRoundRect `(v ~T0 @X0 0 ef6`uc`uc`uc`uc`uc`us ]
+"51
+[; ;./ST7735_TFT.h: 51: extern uint8_t tft_width, tft_height;
+[v _tft_width `uc ~T0 @X0 0 e ]
+"173
+[; ;./ST7735_TFT.h: 173: void drawRoundRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint8_t r, uint16_t color);
+[v _drawRoundRect `(v ~T0 @X0 0 ef6`uc`uc`uc`uc`uc`us ]
+"153
+[; ;./ST7735_TFT.h: 153: void drawFastVLine(uint8_t x, uint8_t y, uint8_t h, uint16_t color);
+[v _drawFastVLine `(v ~T0 @X0 0 ef4`uc`uc`uc`us ]
+"180
+[; ;./ST7735_TFT.h: 180: void fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
+[v _fillTriangle `(v ~T0 @X0 0 ef7`s`s`s`s`s`s`us ]
+"51
+[; ;./ST7735_TFT.h: 51: extern uint8_t tft_width, tft_height;
+[v _tft_height `uc ~T0 @X0 0 e ]
+"187
+[; ;./ST7735_TFT.h: 187: void drawText(uint8_t x, uint8_t y, const char *_text, uint16_t color, uint16_t bg, uint8_t size);
+[v _drawText `(v ~T0 @X0 0 ef6`uc`uc`*Cuc`us`us`uc ]
+"53 main.c
+[; ;main.c: 53: void clean_writable_area(void);
+[v _clean_writable_area `(v ~T0 @X0 0 ef ]
+"185 ./ST7735_TFT.h
+[; ;./ST7735_TFT.h: 185: void drawChar(uint8_t x, uint8_t y, uint8_t c, uint16_t color, uint16_t bg, uint8_t size);
+[v _drawChar `(v ~T0 @X0 0 ef6`uc`uc`uc`us`us`uc ]
+"175
+[; ;./ST7735_TFT.h: 175: void drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
+[v _drawCircle `(v ~T0 @X0 0 ef4`s`s`s`us ]
+"178
+[; ;./ST7735_TFT.h: 178: void fillCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
+[v _fillCircle `(v ~T0 @X0 0 ef4`s`s`s`us ]
+"157
+[; ;./ST7735_TFT.h: 157: void fillRect(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint16_t color);
+[v _fillRect `(v ~T0 @X0 0 ef5`uc`uc`uc`uc`us ]
+"154
+[; ;./ST7735_TFT.h: 154: void drawFastHLine(uint8_t x, uint8_t y, uint8_t w, uint16_t color);
+[v _drawFastHLine `(v ~T0 @X0 0 ef4`uc`uc`uc`us ]
+"52 main.c
+[; ;main.c: 52: void text2_display(uint8_t,uint8_t,uint8_t,uint16_t);
+[v _text2_display `(v ~T0 @X0 0 ef4`uc`uc`uc`us ]
+"51
+[; ;main.c: 51: void text6_display(uint8_t,uint8_t,float,uint16_t);
+[v _text6_display `(v ~T0 @X0 0 ef4`uc`uc`f`us ]
+[v F192 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\builtins.h
+[v __delay `JF192 ~T0 @X0 0 e ]
+[p i __delay ]
+"172 ./ST7735_TFT.h
+[; ;./ST7735_TFT.h: 172: void drawRectWH(uint8_t x, uint8_t y, uint8_t w, uint8_t h, uint16_t color);
+[v _drawRectWH `(v ~T0 @X0 0 ef5`uc`uc`uc`uc`us ]
+"171
+[; ;./ST7735_TFT.h: 171: void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
+[v _drawLine `(v ~T0 @X0 0 ef5`s`s`s`s`us ]
+"111 C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h: 111: int snprintf(char *restrict, size_t, const char *restrict, ...);
+[v _snprintf `(i ~T0 @X0 0 e2v`*uc`ui`*Cuc ]
+"50 main.c
+[; ;main.c: 50: int map(float,float,float,float,float);
+[v _map `(i ~T0 @X0 0 ef5`f`f`f`f`f ]
+"55 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 55: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"274
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 274: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"453
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 453: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"635
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 635: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"777
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 777: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"980
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 980: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1092
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1092: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1204
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1204: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1316
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1316: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1428
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1428: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1480
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1480: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1485
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1485: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1702
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1702: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1707
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1707: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1924
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1924: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1929
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 1929: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2146
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2146: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2151
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2151: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2368
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2368: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2373
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2373: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2532
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2532: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2597
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2597: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2674
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2674: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2751
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2751: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2828
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2828: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2894
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2894: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2960
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 2960: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3026
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3026: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3092
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3092: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3099
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3099: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3106
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3106: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3113
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3113: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3118
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3118: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3323
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3323: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3328
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3328: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3579
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3579: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3584
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3584: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3591
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3591: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3596
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3596: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3603
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3603: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3608
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3608: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3615
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3615: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3622
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3622: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3734
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3734: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3741
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3741: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3748
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3748: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3755
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3755: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3845
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3845: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3924
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3924: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3929
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 3929: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"4086
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4086: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4091
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4091: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4224
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4224: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4229
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4229: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4404
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4404: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4483
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4483: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4490
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4490: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4497
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4497: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4504
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4504: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4601
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4601: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4608
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4608: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4615
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4615: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4622
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4622: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4693
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4693: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4778
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4778: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4897
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4897: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4904
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4904: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4911
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4911: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4918
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 4918: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5013
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5013: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5083
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5083: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5304
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5304: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5311
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5311: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5318
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5318: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5416
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5416: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5421
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5421: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5526
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5526: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5533
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5533: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5636
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5636: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5643
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5643: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5650
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5650: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5657
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5657: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5790
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5790: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5818
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5818: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5823
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 5823: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6088
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6088: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6171
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6171: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6254
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6254: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6261
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6261: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6268
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6268: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6275
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6275: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6346
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6346: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6353
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6353: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6360
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6360: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6367
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6367: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6374
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6374: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6381
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6381: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6388
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6388: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6395
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6395: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6402
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6402: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6409
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6409: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6416
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6416: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6423
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6423: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6430
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6430: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6437
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6437: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6444
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6444: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6451
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6451: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6458
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6458: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6465
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6465: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6477
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6477: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6484
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6484: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6491
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6491: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6498
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6498: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6505
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6505: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6512
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6512: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6519
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6519: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6526
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6526: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6533
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6533: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6625
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6625: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6695
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6695: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6812
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6812: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6819
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6819: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6826
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6826: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6833
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6833: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6842
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6842: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6849
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6849: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6856
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6856: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6863
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6863: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6872
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6872: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6879
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6879: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6886
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6886: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6893
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6893: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6900
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6900: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6907
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6907: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6981
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6981: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6988
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6988: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6995
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 6995: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7002
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4520.h: 7002: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"1 ./FreeSansBold9pt7b.h
+[; ;./FreeSansBold9pt7b.h: 1: const uint8_t FreeSansBold9pt7bBitmaps[] = {
+[v _FreeSansBold9pt7bBitmaps `Cuc ~T0 @X0 -> 1230 `i e ]
+[i _FreeSansBold9pt7bBitmaps
+:U ..
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 254 `i `uc
+-> -> 72 `i `uc
+-> -> 126 `i `uc
+-> -> 239 `i `uc
+-> -> 223 `i `uc
+-> -> 191 `i `uc
+-> -> 116 `i `uc
+-> -> 64 `i `uc
+-> -> 25 `i `uc
+-> -> 134 `i `uc
+-> -> 103 `i `uc
+-> -> 253 `i `uc
+-> -> 255 `i `uc
+-> -> 51 `i `uc
+-> -> 12 `i `uc
+-> -> 195 `i `uc
+-> -> 51 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 153 `i `uc
+-> -> 134 `i `uc
+-> -> 97 `i `uc
+-> -> 144 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 222 `i `uc
+-> -> 255 `i `uc
+-> -> 63 `i `uc
+-> -> 131 `i `uc
+-> -> 192 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+-> -> 9 `i `uc
+-> -> 252 `i `uc
+-> -> 254 `i `uc
+-> -> 247 `i `uc
+-> -> 241 `i `uc
+-> -> 224 `i `uc
+-> -> 64 `i `uc
+-> -> 56 `i `uc
+-> -> 16 `i `uc
+-> -> 124 `i `uc
+-> -> 48 `i `uc
+-> -> 198 `i `uc
+-> -> 32 `i `uc
+-> -> 198 `i `uc
+-> -> 64 `i `uc
+-> -> 198 `i `uc
+-> -> 64 `i `uc
+-> -> 124 `i `uc
+-> -> 128 `i `uc
+-> -> 57 `i `uc
+-> -> 156 `i `uc
+-> -> 1 `i `uc
+-> -> 62 `i `uc
+-> -> 3 `i `uc
+-> -> 99 `i `uc
+-> -> 2 `i `uc
+-> -> 99 `i `uc
+-> -> 4 `i `uc
+-> -> 99 `i `uc
+-> -> 12 `i `uc
+-> -> 62 `i `uc
+-> -> 8 `i `uc
+-> -> 28 `i `uc
+-> -> 14 `i `uc
+-> -> 1 `i `uc
+-> -> 248 `i `uc
+-> -> 59 `i `uc
+-> -> 131 `i `uc
+-> -> 184 `i `uc
+-> -> 63 `i `uc
+-> -> 1 `i `uc
+-> -> 224 `i `uc
+-> -> 62 `i `uc
+-> -> 103 `i `uc
+-> -> 118 `i `uc
+-> -> 227 `i `uc
+-> -> 238 `i `uc
+-> -> 28 `i `uc
+-> -> 243 `i `uc
+-> -> 199 `i `uc
+-> -> 254 `i `uc
+-> -> 63 `i `uc
+-> -> 112 `i `uc
+-> -> 255 `i `uc
+-> -> 244 `i `uc
+-> -> 24 `i `uc
+-> -> 99 `i `uc
+-> -> 28 `i `uc
+-> -> 115 `i `uc
+-> -> 142 `i `uc
+-> -> 56 `i `uc
+-> -> 227 `i `uc
+-> -> 142 `i `uc
+-> -> 24 `i `uc
+-> -> 112 `i `uc
+-> -> 195 `i `uc
+-> -> 6 `i `uc
+-> -> 8 `i `uc
+-> -> 97 `i `uc
+-> -> 131 `i `uc
+-> -> 14 `i `uc
+-> -> 56 `i `uc
+-> -> 113 `i `uc
+-> -> 199 `i `uc
+-> -> 28 `i `uc
+-> -> 113 `i `uc
+-> -> 198 `i `uc
+-> -> 56 `i `uc
+-> -> 227 `i `uc
+-> -> 24 `i `uc
+-> -> 64 `i `uc
+-> -> 33 `i `uc
+-> -> 62 `i `uc
+-> -> 69 `i `uc
+-> -> 40 `i `uc
+-> -> 56 `i `uc
+-> -> 112 `i `uc
+-> -> 231 `i `uc
+-> -> 255 `i `uc
+-> -> 231 `i `uc
+-> -> 14 `i `uc
+-> -> 28 `i `uc
+-> -> 252 `i `uc
+-> -> 156 `i `uc
+-> -> 255 `i `uc
+-> -> 192 `i `uc
+-> -> 252 `i `uc
+-> -> 8 `i `uc
+-> -> 196 `i `uc
+-> -> 35 `i `uc
+-> -> 16 `i `uc
+-> -> 132 `i `uc
+-> -> 98 `i `uc
+-> -> 17 `i `uc
+-> -> 136 `i `uc
+-> -> 0 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 157 `i `uc
+-> -> 220 `i `uc
+-> -> 126 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 143 `i `uc
+-> -> 199 `i `uc
+-> -> 227 `i `uc
+-> -> 241 `i `uc
+-> -> 221 `i `uc
+-> -> 207 `i `uc
+-> -> 227 `i `uc
+-> -> 224 `i `uc
+-> -> 8 `i `uc
+-> -> 255 `i `uc
+-> -> 243 `i `uc
+-> -> 156 `i `uc
+-> -> 231 `i `uc
+-> -> 57 `i `uc
+-> -> 206 `i `uc
+-> -> 115 `i `uc
+-> -> 128 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 184 `i `uc
+-> -> 252 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 15 `i `uc
+-> -> 247 `i `uc
+-> -> 248 `i `uc
+-> -> 60 `i `uc
+-> -> 127 `i `uc
+-> -> 231 `i `uc
+-> -> 231 `i `uc
+-> -> 7 `i `uc
+-> -> 12 `i `uc
+-> -> 14 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 231 `i `uc
+-> -> 231 `i `uc
+-> -> 126 `i `uc
+-> -> 60 `i `uc
+-> -> 14 `i `uc
+-> -> 30 `i `uc
+-> -> 30 `i `uc
+-> -> 46 `i `uc
+-> -> 46 `i `uc
+-> -> 78 `i `uc
+-> -> 78 `i `uc
+-> -> 142 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 14 `i `uc
+-> -> 14 `i `uc
+-> -> 14 `i `uc
+-> -> 127 `i `uc
+-> -> 63 `i `uc
+-> -> 144 `i `uc
+-> -> 24 `i `uc
+-> -> 13 `i `uc
+-> -> 231 `i `uc
+-> -> 251 `i `uc
+-> -> 158 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 129 `i `uc
+-> -> 241 `i `uc
+-> -> 255 `i `uc
+-> -> 231 `i `uc
+-> -> 192 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 156 `i `uc
+-> -> 252 `i `uc
+-> -> 14 `i `uc
+-> -> 231 `i `uc
+-> -> 251 `i `uc
+-> -> 223 `i `uc
+-> -> 199 `i `uc
+-> -> 227 `i `uc
+-> -> 241 `i `uc
+-> -> 221 `i `uc
+-> -> 239 `i `uc
+-> -> 227 `i `uc
+-> -> 224 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 96 `i `uc
+-> -> 112 `i `uc
+-> -> 48 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 12 `i `uc
+-> -> 14 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 128 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 238 `i `uc
+-> -> 63 `i `uc
+-> -> 135 `i `uc
+-> -> 227 `i `uc
+-> -> 207 `i `uc
+-> -> 199 `i `uc
+-> -> 251 `i `uc
+-> -> 207 `i `uc
+-> -> 225 `i `uc
+-> -> 248 `i `uc
+-> -> 127 `i `uc
+-> -> 61 `i `uc
+-> -> 254 `i `uc
+-> -> 63 `i `uc
+-> -> 0 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 189 `i `uc
+-> -> 220 `i `uc
+-> -> 126 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 222 `i `uc
+-> -> 255 `i `uc
+-> -> 59 `i `uc
+-> -> 129 `i `uc
+-> -> 249 `i `uc
+-> -> 207 `i `uc
+-> -> 227 `i `uc
+-> -> 192 `i `uc
+-> -> 252 `i `uc
+-> -> 0 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 0 `i `uc
+-> -> 7 `i `uc
+-> -> 229 `i `uc
+-> -> 224 `i `uc
+-> -> 0 `i `uc
+-> -> 131 `i `uc
+-> -> 199 `i `uc
+-> -> 223 `i `uc
+-> -> 12 `i `uc
+-> -> 7 `i `uc
+-> -> 128 `i `uc
+-> -> 248 `i `uc
+-> -> 31 `i `uc
+-> -> 1 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 192 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 255 `i `uc
+-> -> 252 `i `uc
+-> -> 0 `i `uc
+-> -> 112 `i `uc
+-> -> 63 `i `uc
+-> -> 3 `i `uc
+-> -> 224 `i `uc
+-> -> 56 `i `uc
+-> -> 125 `i `uc
+-> -> 241 `i `uc
+-> -> 224 `i `uc
+-> -> 128 `i `uc
+-> -> 0 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 184 `i `uc
+-> -> 252 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 129 `i `uc
+-> -> 192 `i `uc
+-> -> 3 `i `uc
+-> -> 240 `i `uc
+-> -> 15 `i `uc
+-> -> 252 `i `uc
+-> -> 30 `i `uc
+-> -> 14 `i `uc
+-> -> 56 `i `uc
+-> -> 2 `i `uc
+-> -> 112 `i `uc
+-> -> 233 `i `uc
+-> -> 99 `i `uc
+-> -> 25 `i `uc
+-> -> 194 `i `uc
+-> -> 25 `i `uc
+-> -> 198 `i `uc
+-> -> 17 `i `uc
+-> -> 198 `i `uc
+-> -> 51 `i `uc
+-> -> 198 `i `uc
+-> -> 50 `i `uc
+-> -> 99 `i `uc
+-> -> 254 `i `uc
+-> -> 115 `i `uc
+-> -> 220 `i `uc
+-> -> 60 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 248 `i `uc
+-> -> 7 `i `uc
+-> -> 240 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 15 `i `uc
+-> -> 128 `i `uc
+-> -> 248 `i `uc
+-> -> 29 `i `uc
+-> -> 129 `i `uc
+-> -> 156 `i `uc
+-> -> 25 `i `uc
+-> -> 195 `i `uc
+-> -> 140 `i `uc
+-> -> 63 `i `uc
+-> -> 231 `i `uc
+-> -> 254 `i `uc
+-> -> 112 `i `uc
+-> -> 102 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 112 `i `uc
+-> -> 255 `i `uc
+-> -> 159 `i `uc
+-> -> 251 `i `uc
+-> -> 131 `i `uc
+-> -> 240 `i `uc
+-> -> 126 `i `uc
+-> -> 15 `i `uc
+-> -> 255 `i `uc
+-> -> 63 `i `uc
+-> -> 247 `i `uc
+-> -> 6 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+-> -> 131 `i `uc
+-> -> 255 `i `uc
+-> -> 239 `i `uc
+-> -> 248 `i `uc
+-> -> 31 `i `uc
+-> -> 131 `i `uc
+-> -> 254 `i `uc
+-> -> 120 `i `uc
+-> -> 231 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 120 `i `uc
+-> -> 243 `i `uc
+-> -> 254 `i `uc
+-> -> 31 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 143 `i `uc
+-> -> 252 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 14 `i `uc
+-> -> 224 `i `uc
+-> -> 126 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 126 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 126 `i `uc
+-> -> 14 `i `uc
+-> -> 224 `i `uc
+-> -> 239 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 248 `i `uc
+-> -> 28 `i `uc
+-> -> 14 `i `uc
+-> -> 7 `i `uc
+-> -> 251 `i `uc
+-> -> 253 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 31 `i `uc
+-> -> 255 `i `uc
+-> -> 248 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 248 `i `uc
+-> -> 28 `i `uc
+-> -> 14 `i `uc
+-> -> 7 `i `uc
+-> -> 251 `i `uc
+-> -> 253 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 135 `i `uc
+-> -> 249 `i `uc
+-> -> 227 `i `uc
+-> -> 184 `i `uc
+-> -> 62 `i `uc
+-> -> 1 `i `uc
+-> -> 192 `i `uc
+-> -> 56 `i `uc
+-> -> 255 `i `uc
+-> -> 31 `i `uc
+-> -> 224 `i `uc
+-> -> 110 `i `uc
+-> -> 13 `i `uc
+-> -> 227 `i `uc
+-> -> 159 `i `uc
+-> -> 208 `i `uc
+-> -> 242 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+-> -> 131 `i `uc
+-> -> 240 `i `uc
+-> -> 126 `i `uc
+-> -> 15 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+-> -> 131 `i `uc
+-> -> 240 `i `uc
+-> -> 126 `i `uc
+-> -> 14 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 254 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 231 `i `uc
+-> -> 231 `i `uc
+-> -> 231 `i `uc
+-> -> 126 `i `uc
+-> -> 60 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 28 `i `uc
+-> -> 227 `i `uc
+-> -> 142 `i `uc
+-> -> 112 `i `uc
+-> -> 238 `i `uc
+-> -> 15 `i `uc
+-> -> 192 `i `uc
+-> -> 254 `i `uc
+-> -> 15 `i `uc
+-> -> 112 `i `uc
+-> -> 231 `i `uc
+-> -> 14 `i `uc
+-> -> 56 `i `uc
+-> -> 225 `i `uc
+-> -> 206 `i `uc
+-> -> 14 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 248 `i `uc
+-> -> 127 `i `uc
+-> -> 225 `i `uc
+-> -> 255 `i `uc
+-> -> 135 `i `uc
+-> -> 254 `i `uc
+-> -> 31 `i `uc
+-> -> 236 `i `uc
+-> -> 127 `i `uc
+-> -> 179 `i `uc
+-> -> 126 `i `uc
+-> -> 205 `i `uc
+-> -> 251 `i `uc
+-> -> 55 `i `uc
+-> -> 236 `i `uc
+-> -> 223 `i `uc
+-> -> 158 `i `uc
+-> -> 126 `i `uc
+-> -> 121 `i `uc
+-> -> 249 `i `uc
+-> -> 231 `i `uc
+-> -> 231 `i `uc
+-> -> 156 `i `uc
+-> -> 224 `i `uc
+-> -> 254 `i `uc
+-> -> 31 `i `uc
+-> -> 195 `i `uc
+-> -> 252 `i `uc
+-> -> 127 `i `uc
+-> -> 207 `i `uc
+-> -> 217 `i `uc
+-> -> 251 `i `uc
+-> -> 191 `i `uc
+-> -> 55 `i `uc
+-> -> 231 `i `uc
+-> -> 252 `i `uc
+-> -> 127 `i `uc
+-> -> 135 `i `uc
+-> -> 240 `i `uc
+-> -> 254 `i `uc
+-> -> 14 `i `uc
+-> -> 15 `i `uc
+-> -> 129 `i `uc
+-> -> 255 `i `uc
+-> -> 30 `i `uc
+-> -> 60 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 3 `i `uc
+-> -> 240 `i `uc
+-> -> 31 `i `uc
+-> -> 128 `i `uc
+-> -> 252 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 59 `i `uc
+-> -> 131 `i `uc
+-> -> 158 `i `uc
+-> -> 60 `i `uc
+-> -> 127 `i `uc
+-> -> 192 `i `uc
+-> -> 248 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 159 `i `uc
+-> -> 251 `i `uc
+-> -> 135 `i `uc
+-> -> 240 `i `uc
+-> -> 126 `i `uc
+-> -> 15 `i `uc
+-> -> 195 `i `uc
+-> -> 255 `i `uc
+-> -> 247 `i `uc
+-> -> 252 `i `uc
+-> -> 224 `i `uc
+-> -> 28 `i `uc
+-> -> 3 `i `uc
+-> -> 128 `i `uc
+-> -> 112 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 129 `i `uc
+-> -> 255 `i `uc
+-> -> 30 `i `uc
+-> -> 60 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 3 `i `uc
+-> -> 240 `i `uc
+-> -> 31 `i `uc
+-> -> 128 `i `uc
+-> -> 252 `i `uc
+-> -> 7 `i `uc
+-> -> 225 `i `uc
+-> -> 187 `i `uc
+-> -> 143 `i `uc
+-> -> 158 `i `uc
+-> -> 60 `i `uc
+-> -> 127 `i `uc
+-> -> 224 `i `uc
+-> -> 251 `i `uc
+-> -> 128 `i `uc
+-> -> 8 `i `uc
+-> -> 255 `i `uc
+-> -> 143 `i `uc
+-> -> 252 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 14 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 14 `i `uc
+-> -> 255 `i `uc
+-> -> 207 `i `uc
+-> -> 252 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 14 `i `uc
+-> -> 224 `i `uc
+-> -> 238 `i `uc
+-> -> 14 `i `uc
+-> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 63 `i `uc
+-> -> 15 `i `uc
+-> -> 251 `i `uc
+-> -> 199 `i `uc
+-> -> 240 `i `uc
+-> -> 126 `i `uc
+-> -> 1 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+-> -> 240 `i `uc
+-> -> 63 `i `uc
+-> -> 0 `i `uc
+-> -> 252 `i `uc
+-> -> 29 `i `uc
+-> -> 199 `i `uc
+-> -> 191 `i `uc
+-> -> 225 `i `uc
+-> -> 248 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 199 `i `uc
+-> -> 3 `i `uc
+-> -> 129 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 14 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 129 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+-> -> 131 `i `uc
+-> -> 240 `i `uc
+-> -> 126 `i `uc
+-> -> 15 `i `uc
+-> -> 193 `i `uc
+-> -> 248 `i `uc
+-> -> 63 `i `uc
+-> -> 7 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+-> -> 199 `i `uc
+-> -> 191 `i `uc
+-> -> 225 `i `uc
+-> -> 240 `i `uc
+-> -> 96 `i `uc
+-> -> 103 `i `uc
+-> -> 14 `i `uc
+-> -> 112 `i `uc
+-> -> 227 `i `uc
+-> -> 12 `i `uc
+-> -> 48 `i `uc
+-> -> 195 `i `uc
+-> -> 156 `i `uc
+-> -> 25 `i `uc
+-> -> 129 `i `uc
+-> -> 152 `i `uc
+-> -> 31 `i `uc
+-> -> 128 `i `uc
+-> -> 240 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `uc
+-> -> 97 `i `uc
+-> -> 195 `i `uc
+-> -> 184 `i `uc
+-> -> 225 `i `uc
+-> -> 156 `i `uc
+-> -> 112 `i `uc
+-> -> 206 `i `uc
+-> -> 60 `i `uc
+-> -> 227 `i `uc
+-> -> 54 `i `uc
+-> -> 113 `i `uc
+-> -> 155 `i `uc
+-> -> 48 `i `uc
+-> -> 237 `i `uc
+-> -> 152 `i `uc
+-> -> 54 `i `uc
+-> -> 124 `i `uc
+-> -> 27 `i `uc
+-> -> 60 `i `uc
+-> -> 15 `i `uc
+-> -> 30 `i `uc
+-> -> 7 `i `uc
+-> -> 143 `i `uc
+-> -> 1 `i `uc
+-> -> 195 `i `uc
+-> -> 128 `i `uc
+-> -> 225 `i `uc
+-> -> 128 `i `uc
+-> -> 112 `i `uc
+-> -> 231 `i `uc
+-> -> 142 `i `uc
+-> -> 57 `i `uc
+-> -> 193 `i `uc
+-> -> 248 `i `uc
+-> -> 31 `i `uc
+-> -> 128 `i `uc
+-> -> 240 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 31 `i `uc
+-> -> 129 `i `uc
+-> -> 156 `i `uc
+-> -> 57 `i `uc
+-> -> 199 `i `uc
+-> -> 14 `i `uc
+-> -> 112 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 57 `i `uc
+-> -> 199 `i `uc
+-> -> 24 `i `uc
+-> -> 195 `i `uc
+-> -> 184 `i `uc
+-> -> 54 `i `uc
+-> -> 7 `i `uc
+-> -> 192 `i `uc
+-> -> 112 `i `uc
+-> -> 14 `i `uc
+-> -> 1 `i `uc
+-> -> 192 `i `uc
+-> -> 56 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 112 `i `uc
+-> -> 112 `i `uc
+-> -> 112 `i `uc
+-> -> 120 `i `uc
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 31 `i `uc
+-> -> 255 `i `uc
+-> -> 248 `i `uc
+-> -> 255 `i `uc
+-> -> 238 `i `uc
+-> -> 238 `i `uc
+-> -> 238 `i `uc
+-> -> 238 `i `uc
+-> -> 238 `i `uc
+-> -> 238 `i `uc
+-> -> 239 `i `uc
+-> -> 240 `i `uc
+-> -> 134 `i `uc
+-> -> 16 `i `uc
+-> -> 134 `i `uc
+-> -> 16 `i `uc
+-> -> 132 `i `uc
+-> -> 48 `i `uc
+-> -> 132 `i `uc
+-> -> 48 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 127 `i `uc
+-> -> 240 `i `uc
+-> -> 24 `i `uc
+-> -> 28 `i `uc
+-> -> 60 `i `uc
+-> -> 62 `i `uc
+-> -> 54 `i `uc
+-> -> 102 `i `uc
+-> -> 99 `i `uc
+-> -> 195 `i `uc
+-> -> 255 `i `uc
+-> -> 192 `i `uc
+-> -> 204 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 238 `i `uc
+-> -> 56 `i `uc
+-> -> 14 `i `uc
+-> -> 63 `i `uc
+-> -> 158 `i `uc
+-> -> 238 `i `uc
+-> -> 59 `i `uc
+-> -> 158 `i `uc
+-> -> 255 `i `uc
+-> -> 158 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 56 `i `uc
+-> -> 14 `i `uc
+-> -> 3 `i `uc
+-> -> 188 `i `uc
+-> -> 255 `i `uc
+-> -> 188 `i `uc
+-> -> 238 `i `uc
+-> -> 31 `i `uc
+-> -> 135 `i `uc
+-> -> 225 `i `uc
+-> -> 248 `i `uc
+-> -> 127 `i `uc
+-> -> 59 `i `uc
+-> -> 254 `i `uc
+-> -> 239 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 63 `i `uc
+-> -> 220 `i `uc
+-> -> 124 `i `uc
+-> -> 14 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 128 `i `uc
+-> -> 227 `i `uc
+-> -> 127 `i `uc
+-> -> 143 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 129 `i `uc
+-> -> 192 `i `uc
+-> -> 231 `i `uc
+-> -> 119 `i `uc
+-> -> 251 `i `uc
+-> -> 191 `i `uc
+-> -> 143 `i `uc
+-> -> 199 `i `uc
+-> -> 227 `i `uc
+-> -> 241 `i `uc
+-> -> 253 `i `uc
+-> -> 239 `i `uc
+-> -> 243 `i `uc
+-> -> 184 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 156 `i `uc
+-> -> 220 `i `uc
+-> -> 63 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 129 `i `uc
+-> -> 195 `i `uc
+-> -> 127 `i `uc
+-> -> 143 `i `uc
+-> -> 0 `i `uc
+-> -> 59 `i `uc
+-> -> 221 `i `uc
+-> -> 255 `i `uc
+-> -> 185 `i `uc
+-> -> 206 `i `uc
+-> -> 115 `i `uc
+-> -> 156 `i `uc
+-> -> 231 `i `uc
+-> -> 0 `i `uc
+-> -> 59 `i `uc
+-> -> 191 `i `uc
+-> -> 221 `i `uc
+-> -> 252 `i `uc
+-> -> 126 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 143 `i `uc
+-> -> 239 `i `uc
+-> -> 127 `i `uc
+-> -> 157 `i `uc
+-> -> 192 `i `uc
+-> -> 252 `i `uc
+-> -> 119 `i `uc
+-> -> 241 `i `uc
+-> -> 240 `i `uc
+-> -> 224 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 29 `i `uc
+-> -> 239 `i `uc
+-> -> 255 `i `uc
+-> -> 159 `i `uc
+-> -> 143 `i `uc
+-> -> 199 `i `uc
+-> -> 227 `i `uc
+-> -> 241 `i `uc
+-> -> 248 `i `uc
+-> -> 252 `i `uc
+-> -> 126 `i `uc
+-> -> 56 `i `uc
+-> -> 252 `i `uc
+-> -> 127 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 254 `i `uc
+-> -> 119 `i `uc
+-> -> 7 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 127 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 126 `i `uc
+-> -> 119 `i `uc
+-> -> 115 `i `uc
+-> -> 241 `i `uc
+-> -> 248 `i `uc
+-> -> 254 `i `uc
+-> -> 119 `i `uc
+-> -> 57 `i `uc
+-> -> 220 `i `uc
+-> -> 110 `i `uc
+-> -> 56 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 254 `i `uc
+-> -> 239 `i `uc
+-> -> 123 `i `uc
+-> -> 255 `i `uc
+-> -> 254 `i `uc
+-> -> 57 `i `uc
+-> -> 248 `i `uc
+-> -> 231 `i `uc
+-> -> 227 `i `uc
+-> -> 159 `i `uc
+-> -> 142 `i `uc
+-> -> 126 `i `uc
+-> -> 57 `i `uc
+-> -> 248 `i `uc
+-> -> 231 `i `uc
+-> -> 227 `i `uc
+-> -> 159 `i `uc
+-> -> 142 `i `uc
+-> -> 112 `i `uc
+-> -> 239 `i `uc
+-> -> 127 `i `uc
+-> -> 248 `i `uc
+-> -> 252 `i `uc
+-> -> 126 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 143 `i `uc
+-> -> 199 `i `uc
+-> -> 227 `i `uc
+-> -> 241 `i `uc
+-> -> 192 `i `uc
+-> -> 30 `i `uc
+-> -> 31 `i `uc
+-> -> 231 `i `uc
+-> -> 59 `i `uc
+-> -> 135 `i `uc
+-> -> 225 `i `uc
+-> -> 248 `i `uc
+-> -> 126 `i `uc
+-> -> 29 `i `uc
+-> -> 206 `i `uc
+-> -> 127 `i `uc
+-> -> 135 `i `uc
+-> -> 128 `i `uc
+-> -> 239 `i `uc
+-> -> 63 `i `uc
+-> -> 239 `i `uc
+-> -> 59 `i `uc
+-> -> 135 `i `uc
+-> -> 225 `i `uc
+-> -> 248 `i `uc
+-> -> 126 `i `uc
+-> -> 31 `i `uc
+-> -> 206 `i `uc
+-> -> 255 `i `uc
+-> -> 187 `i `uc
+-> -> 206 `i `uc
+-> -> 3 `i `uc
+-> -> 128 `i `uc
+-> -> 224 `i `uc
+-> -> 56 `i `uc
+-> -> 0 `i `uc
+-> -> 59 `i `uc
+-> -> 191 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 126 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 143 `i `uc
+-> -> 239 `i `uc
+-> -> 127 `i `uc
+-> -> 157 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 239 `i `uc
+-> -> 255 `i `uc
+-> -> 56 `i `uc
+-> -> 227 `i `uc
+-> -> 142 `i `uc
+-> -> 56 `i `uc
+-> -> 227 `i `uc
+-> -> 128 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 184 `i `uc
+-> -> 252 `i `uc
+-> -> 15 `i `uc
+-> -> 195 `i `uc
+-> -> 252 `i `uc
+-> -> 63 `i `uc
+-> -> 199 `i `uc
+-> -> 255 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 115 `i `uc
+-> -> 191 `i `uc
+-> -> 247 `i `uc
+-> -> 57 `i `uc
+-> -> 206 `i `uc
+-> -> 115 `i `uc
+-> -> 158 `i `uc
+-> -> 112 `i `uc
+-> -> 227 `i `uc
+-> -> 241 `i `uc
+-> -> 248 `i `uc
+-> -> 252 `i `uc
+-> -> 126 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 143 `i `uc
+-> -> 199 `i `uc
+-> -> 255 `i `uc
+-> -> 189 `i `uc
+-> -> 192 `i `uc
+-> -> 225 `i `uc
+-> -> 152 `i `uc
+-> -> 103 `i `uc
+-> -> 57 `i `uc
+-> -> 204 `i `uc
+-> -> 51 `i `uc
+-> -> 13 `i `uc
+-> -> 195 `i `uc
+-> -> 224 `i `uc
+-> -> 120 `i `uc
+-> -> 30 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 227 `i `uc
+-> -> 29 `i `uc
+-> -> 158 `i `uc
+-> -> 102 `i `uc
+-> -> 121 `i `uc
+-> -> 153 `i `uc
+-> -> 230 `i `uc
+-> -> 119 `i `uc
+-> -> 184 `i `uc
+-> -> 210 `i `uc
+-> -> 195 `i `uc
+-> -> 207 `i `uc
+-> -> 15 `i `uc
+-> -> 60 `i `uc
+-> -> 60 `i `uc
+-> -> 240 `i `uc
+-> -> 115 `i `uc
+-> -> 128 `i `uc
+-> -> 115 `i `uc
+-> -> 156 `i `uc
+-> -> 227 `i `uc
+-> -> 240 `i `uc
+-> -> 120 `i `uc
+-> -> 30 `i `uc
+-> -> 7 `i `uc
+-> -> 129 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 115 `i `uc
+-> -> 156 `i `uc
+-> -> 224 `i `uc
+-> -> 225 `i `uc
+-> -> 216 `i `uc
+-> -> 103 `i `uc
+-> -> 57 `i `uc
+-> -> 206 `i `uc
+-> -> 51 `i `uc
+-> -> 14 `i `uc
+-> -> 195 `i `uc
+-> -> 224 `i `uc
+-> -> 120 `i `uc
+-> -> 30 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 14 `i `uc
+-> -> 28 `i `uc
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 112 `i `uc
+-> -> 224 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 55 `i `uc
+-> -> 102 `i `uc
+-> -> 102 `i `uc
+-> -> 110 `i `uc
+-> -> 230 `i `uc
+-> -> 102 `i `uc
+-> -> 102 `i `uc
+-> -> 103 `i `uc
+-> -> 48 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 128 `i `uc
+-> -> 206 `i `uc
+-> -> 102 `i `uc
+-> -> 102 `i `uc
+-> -> 103 `i `uc
+-> -> 118 `i `uc
+-> -> 102 `i `uc
+-> -> 102 `i `uc
+-> -> 110 `i `uc
+-> -> 192 `i `uc
+-> -> 113 `i `uc
+-> -> 142 `i `uc
+..
+]
+"106
+[; ;./FreeSansBold9pt7b.h: 106: const GFXglyph FreeSansBold9pt7bGlyphs[] = {
+[v _FreeSansBold9pt7bGlyphs `CS286 ~T0 @X0 -> 95 `i e ]
+[i _FreeSansBold9pt7bGlyphs
+:U ..
+:U ..
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -> 1 `i `c
+..
+:U ..
+-> -> 0 `i `us
+-> -> 3 `i `uc
+-> -> 13 `i `uc
+-> -> 6 `i `uc
+-> -> 2 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 5 `i `us
+-> -> 7 `i `uc
+-> -> 5 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 10 `i `us
+-> -> 10 `i `uc
+-> -> 12 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `c
+-> -U -> 11 `i `c
+..
+:U ..
+-> -> 25 `i `us
+-> -> 9 `i `uc
+-> -> 15 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 13 `i `c
+..
+:U ..
+-> -> 42 `i `us
+-> -> 16 `i `uc
+-> -> 13 `i `uc
+-> -> 16 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 68 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 88 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 90 `i `us
+-> -> 6 `i `uc
+-> -> 17 `i `uc
+-> -> 6 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 103 `i `us
+-> -> 6 `i `uc
+-> -> 17 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 116 `i `us
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 120 `i `us
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 11 `i `uc
+-> -> 2 `i `c
+-> -U -> 7 `i `c
+..
+:U ..
+-> -> 127 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `c
+-> -U -> 1 `i `c
+..
+:U ..
+-> -> 129 `i `us
+-> -> 5 `i `uc
+-> -> 2 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 5 `i `c
+..
+:U ..
+-> -> 131 `i `us
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `c
+-> -U -> 1 `i `c
+..
+:U ..
+-> -> 132 `i `us
+-> -> 5 `i `uc
+-> -> 13 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 141 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 156 `i `us
+-> -> 5 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 2 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 165 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 180 `i `us
+-> -> 8 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 193 `i `us
+-> -> 8 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 2 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 206 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 221 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 236 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 251 `i `us
+-> -> 10 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 268 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 283 `i `us
+-> -> 3 `i `uc
+-> -> 9 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `c
+-> -U -> 8 `i `c
+..
+:U ..
+-> -> 287 `i `us
+-> -> 3 `i `uc
+-> -> 12 `i `uc
+-> -> 4 `i `uc
+-> -> 1 `i `c
+-> -U -> 8 `i `c
+..
+:U ..
+-> -> 292 `i `us
+-> -> 9 `i `uc
+-> -> 9 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 8 `i `c
+..
+:U ..
+-> -> 303 `i `us
+-> -> 9 `i `uc
+-> -> 6 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 6 `i `c
+..
+:U ..
+-> -> 310 `i `us
+-> -> 9 `i `uc
+-> -> 9 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 8 `i `c
+..
+:U ..
+-> -> 321 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 336 `i `us
+-> -> 16 `i `uc
+-> -> 15 `i `uc
+-> -> 18 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 366 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 386 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 404 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 424 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 444 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 12 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 459 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 474 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 14 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 492 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 510 `i `us
+-> -> 3 `i `uc
+-> -> 13 `i `uc
+-> -> 6 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 515 `i `us
+-> -> 8 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 528 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 548 `i `us
+-> -> 8 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 561 `i `us
+-> -> 14 `i `uc
+-> -> 13 `i `uc
+-> -> 16 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 584 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 14 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 602 `i `us
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 14 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 624 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 12 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 642 `i `us
+-> -> 13 `i `uc
+-> -> 14 `i `uc
+-> -> 14 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 665 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 685 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 12 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 703 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 12 `i `uc
+-> -> 2 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 718 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 736 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 756 `i `us
+-> -> 17 `i `uc
+-> -> 13 `i `uc
+-> -> 17 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 784 `i `us
+-> -> 12 `i `uc
+-> -> 13 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 804 `i `us
+-> -> 11 `i `uc
+-> -> 13 `i `uc
+-> -> 12 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 822 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 837 `i `us
+-> -> 4 `i `uc
+-> -> 17 `i `uc
+-> -> 6 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 846 `i `us
+-> -> 5 `i `uc
+-> -> 13 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 855 `i `us
+-> -> 4 `i `uc
+-> -> 17 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 864 `i `us
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 872 `i `us
+-> -> 10 `i `uc
+-> -> 1 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `c
+-> -> 4 `i `c
+..
+:U ..
+-> -> 874 `i `us
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 875 `i `us
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 888 `i `us
+-> -> 10 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 905 `i `us
+-> -> 9 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 917 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 932 `i `us
+-> -> 9 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 944 `i `us
+-> -> 5 `i `uc
+-> -> 13 `i `uc
+-> -> 6 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 953 `i `us
+-> -> 9 `i `uc
+-> -> 14 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 969 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 984 `i `us
+-> -> 3 `i `uc
+-> -> 13 `i `uc
+-> -> 5 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 989 `i `us
+-> -> 4 `i `uc
+-> -> 17 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 998 `i `us
+-> -> 9 `i `uc
+-> -> 13 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 1013 `i `us
+-> -> 3 `i `uc
+-> -> 13 `i `uc
+-> -> 5 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 1018 `i `us
+-> -> 14 `i `uc
+-> -> 10 `i `uc
+-> -> 16 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1036 `i `us
+-> -> 9 `i `uc
+-> -> 10 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1048 `i `us
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1061 `i `us
+-> -> 10 `i `uc
+-> -> 14 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1079 `i `us
+-> -> 9 `i `uc
+-> -> 14 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1095 `i `us
+-> -> 6 `i `uc
+-> -> 10 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1103 `i `us
+-> -> 9 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1115 `i `us
+-> -> 5 `i `uc
+-> -> 12 `i `uc
+-> -> 6 `i `uc
+-> -> 1 `i `c
+-> -U -> 11 `i `c
+..
+:U ..
+-> -> 1123 `i `us
+-> -> 9 `i `uc
+-> -> 10 `i `uc
+-> -> 11 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1135 `i `us
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1148 `i `us
+-> -> 14 `i `uc
+-> -> 10 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1166 `i `us
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1179 `i `us
+-> -> 10 `i `uc
+-> -> 14 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1197 `i `us
+-> -> 8 `i `uc
+-> -> 10 `i `uc
+-> -> 9 `i `uc
+-> -> 1 `i `c
+-> -U -> 9 `i `c
+..
+:U ..
+-> -> 1207 `i `us
+-> -> 4 `i `uc
+-> -> 17 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 1216 `i `us
+-> -> 1 `i `uc
+-> -> 17 `i `uc
+-> -> 5 `i `uc
+-> -> 2 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 1219 `i `us
+-> -> 4 `i `uc
+-> -> 17 `i `uc
+-> -> 7 `i `uc
+-> -> 2 `i `c
+-> -U -> 12 `i `c
+..
+:U ..
+-> -> 1228 `i `us
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 9 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+..
+]
+"203
+[; ;./FreeSansBold9pt7b.h: 203: const GFXfont FreeSansBold9pt7b = {(uint8_t *)FreeSansBold9pt7bBitmaps,
+[v _FreeSansBold9pt7b `CS287 ~T0 @X0 1 e ]
+[i _FreeSansBold9pt7b
+:U ..
+:U ..
+-> &U _FreeSansBold9pt7bBitmaps `*uc
+-> &U _FreeSansBold9pt7bGlyphs `*S286
+-> -> 32 `i `us
+-> -> 126 `i `us
+-> -> 22 `i `uc
+..
+..
+]
+"4 ./Picopixel.h
+[; ;./Picopixel.h: 4: const uint8_t PicopixelBitmaps[] = {
+[v _PicopixelBitmaps `Cuc ~T0 @X0 -> 180 `i e ]
+[i _PicopixelBitmaps
+:U ..
+-> -> 232 `i `uc
+-> -> 180 `i `uc
+-> -> 87 `i `uc
+-> -> 213 `i `uc
+-> -> 245 `i `uc
+-> -> 0 `i `uc
+-> -> 78 `i `uc
+-> -> 62 `i `uc
+-> -> 128 `i `uc
+-> -> 165 `i `uc
+-> -> 74 `i `uc
+-> -> 74 `i `uc
+-> -> 90 `i `uc
+-> -> 80 `i `uc
+-> -> 192 `i `uc
+-> -> 106 `i `uc
+-> -> 64 `i `uc
+-> -> 149 `i `uc
+-> -> 128 `i `uc
+-> -> 170 `i `uc
+-> -> 128 `i `uc
+-> -> 93 `i `uc
+-> -> 0 `i `uc
+-> -> 96 `i `uc
+-> -> 224 `i `uc
+-> -> 128 `i `uc
+-> -> 37 `i `uc
+-> -> 72 `i `uc
+-> -> 86 `i `uc
+-> -> 212 `i `uc
+-> -> 117 `i `uc
+-> -> 64 `i `uc
+-> -> 197 `i `uc
+-> -> 78 `i `uc
+-> -> 197 `i `uc
+-> -> 28 `i `uc
+-> -> 151 `i `uc
+-> -> 146 `i `uc
+-> -> 243 `i `uc
+-> -> 28 `i `uc
+-> -> 83 `i `uc
+-> -> 84 `i `uc
+-> -> 229 `i `uc
+-> -> 72 `i `uc
+-> -> 85 `i `uc
+-> -> 84 `i `uc
+-> -> 85 `i `uc
+-> -> 148 `i `uc
+-> -> 160 `i `uc
+-> -> 70 `i `uc
+-> -> 100 `i `uc
+-> -> 227 `i `uc
+-> -> 128 `i `uc
+-> -> 152 `i `uc
+-> -> 197 `i `uc
+-> -> 4 `i `uc
+-> -> 86 `i `uc
+-> -> 198 `i `uc
+-> -> 87 `i `uc
+-> -> 218 `i `uc
+-> -> 215 `i `uc
+-> -> 92 `i `uc
+-> -> 114 `i `uc
+-> -> 70 `i `uc
+-> -> 214 `i `uc
+-> -> 220 `i `uc
+-> -> 243 `i `uc
+-> -> 206 `i `uc
+-> -> 243 `i `uc
+-> -> 72 `i `uc
+-> -> 114 `i `uc
+-> -> 212 `i `uc
+-> -> 183 `i `uc
+-> -> 218 `i `uc
+-> -> 248 `i `uc
+-> -> 36 `i `uc
+-> -> 212 `i `uc
+-> -> 187 `i `uc
+-> -> 90 `i `uc
+-> -> 146 `i `uc
+-> -> 78 `i `uc
+-> -> 142 `i `uc
+-> -> 235 `i `uc
+-> -> 88 `i `uc
+-> -> 128 `i `uc
+-> -> 157 `i `uc
+-> -> 185 `i `uc
+-> -> 144 `i `uc
+-> -> 86 `i `uc
+-> -> 212 `i `uc
+-> -> 215 `i `uc
+-> -> 72 `i `uc
+-> -> 86 `i `uc
+-> -> 212 `i `uc
+-> -> 64 `i `uc
+-> -> 215 `i `uc
+-> -> 90 `i `uc
+-> -> 113 `i `uc
+-> -> 28 `i `uc
+-> -> 233 `i `uc
+-> -> 36 `i `uc
+-> -> 182 `i `uc
+-> -> 212 `i `uc
+-> -> 182 `i `uc
+-> -> 164 `i `uc
+-> -> 140 `i `uc
+-> -> 107 `i `uc
+-> -> 85 `i `uc
+-> -> 0 `i `uc
+-> -> 181 `i `uc
+-> -> 90 `i `uc
+-> -> 181 `i `uc
+-> -> 36 `i `uc
+-> -> 229 `i `uc
+-> -> 78 `i `uc
+-> -> 234 `i `uc
+-> -> 192 `i `uc
+-> -> 145 `i `uc
+-> -> 18 `i `uc
+-> -> 213 `i `uc
+-> -> 192 `i `uc
+-> -> 84 `i `uc
+-> -> 240 `i `uc
+-> -> 144 `i `uc
+-> -> 199 `i `uc
+-> -> 240 `i `uc
+-> -> 147 `i `uc
+-> -> 94 `i `uc
+-> -> 113 `i `uc
+-> -> 128 `i `uc
+-> -> 37 `i `uc
+-> -> 222 `i `uc
+-> -> 94 `i `uc
+-> -> 48 `i `uc
+-> -> 110 `i `uc
+-> -> 128 `i `uc
+-> -> 119 `i `uc
+-> -> 156 `i `uc
+-> -> 147 `i `uc
+-> -> 90 `i `uc
+-> -> 184 `i `uc
+-> -> 69 `i `uc
+-> -> 96 `i `uc
+-> -> 146 `i `uc
+-> -> 234 `i `uc
+-> -> 170 `i `uc
+-> -> 64 `i `uc
+-> -> 213 `i `uc
+-> -> 106 `i `uc
+-> -> 214 `i `uc
+-> -> 128 `i `uc
+-> -> 85 `i `uc
+-> -> 0 `i `uc
+-> -> 215 `i `uc
+-> -> 64 `i `uc
+-> -> 117 `i `uc
+-> -> 144 `i `uc
+-> -> 232 `i `uc
+-> -> 113 `i `uc
+-> -> 224 `i `uc
+-> -> 186 `i `uc
+-> -> 64 `i `uc
+-> -> 181 `i `uc
+-> -> 128 `i `uc
+-> -> 181 `i `uc
+-> -> 0 `i `uc
+-> -> 141 `i `uc
+-> -> 84 `i `uc
+-> -> 170 `i `uc
+-> -> 128 `i `uc
+-> -> 172 `i `uc
+-> -> 224 `i `uc
+-> -> 229 `i `uc
+-> -> 112 `i `uc
+-> -> 106 `i `uc
+-> -> 38 `i `uc
+-> -> 252 `i `uc
+-> -> 200 `i `uc
+-> -> 172 `i `uc
+-> -> 90 `i `uc
+..
+]
+"21
+[; ;./Picopixel.h: 21: const GFXglyph PicopixelGlyphs[] = {{0, 0, 0, 2, 0, 1},
+[v _PicopixelGlyphs `CS286 ~T0 @X0 -> 95 `i e ]
+[i _PicopixelGlyphs
+:U ..
+:U ..
+-> -> 0 `i `us
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -> 1 `i `c
+..
+:U ..
+-> -> 0 `i `us
+-> -> 1 `i `uc
+-> -> 5 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 1 `i `us
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 2 `i `us
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 6 `i `us
+-> -> 3 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 9 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 11 `i `us
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 14 `i `us
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 15 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 17 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 19 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 21 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 23 `i `us
+-> -> 2 `i `uc
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -> 0 `i `c
+..
+:U ..
+-> -> 24 `i `us
+-> -> 3 `i `uc
+-> -> 1 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 25 `i `us
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -> 0 `i `c
+..
+:U ..
+-> -> 26 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 28 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 30 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 32 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 34 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 36 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 38 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 40 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 42 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 44 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 46 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 48 `i `us
+-> -> 1 `i `uc
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 49 `i `us
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 50 `i `us
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 51 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 53 `i `us
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 54 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 56 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 58 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 60 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 62 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 64 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 66 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 68 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 70 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 72 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 74 `i `us
+-> -> 1 `i `uc
+-> -> 5 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 75 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 77 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 79 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 81 `i `us
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 85 `i `us
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 88 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 90 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 92 `i `us
+-> -> 3 `i `uc
+-> -> 6 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 95 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 97 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 99 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 101 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 103 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 105 `i `us
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 109 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 111 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 113 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 115 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 117 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 119 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 121 `i `us
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 122 `i `us
+-> -> 4 `i `uc
+-> -> 1 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -> 1 `i `c
+..
+:U ..
+-> -> 123 `i `us
+-> -> 2 `i `uc
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 124 `i `us
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 126 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 128 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 130 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 132 `i `us
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 134 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 136 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 138 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 140 `i `us
+-> -> 1 `i `uc
+-> -> 5 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 141 `i `us
+-> -> 2 `i `uc
+-> -> 6 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 143 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 145 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 147 `i `us
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 149 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 151 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 153 `i `us
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 155 `i `us
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 157 `i `us
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 158 `i `us
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 160 `i `us
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 162 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 164 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 166 `i `us
+-> -> 5 `i `uc
+-> -> 3 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 168 `i `us
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 170 `i `us
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 2 `i `c
+..
+:U ..
+-> -> 172 `i `us
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+:U ..
+-> -> 174 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 176 `i `us
+-> -> 1 `i `uc
+-> -> 6 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 177 `i `us
+-> -> 3 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `c
+-> -U -> 4 `i `c
+..
+:U ..
+-> -> 179 `i `us
+-> -> 4 `i `uc
+-> -> 2 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `c
+-> -U -> 3 `i `c
+..
+..
+]
+"117
+[; ;./Picopixel.h: 117: const GFXfont Picopixel = {(uint8_t *)PicopixelBitmaps,
+[v _Picopixel `CS287 ~T0 @X0 1 e ]
+[i _Picopixel
+:U ..
+:U ..
+-> &U _PicopixelBitmaps `*uc
+-> &U _PicopixelGlyphs `*S286
+-> -> 32 `i `us
+-> -> 126 `i `us
+-> -> 7 `i `uc
+..
+..
+]
+"54 main.c
+[; ;main.c: 54: uint8_t counter = 0;
+[v _counter `uc ~T0 @X0 1 e ]
+[i _counter
+-> -> 0 `i `uc
+]
+"55
+[; ;main.c: 55: uint8_t one_sec = 0;
+[v _one_sec `uc ~T0 @X0 1 e ]
+[i _one_sec
+-> -> 0 `i `uc
+]
+"56
+[; ;main.c: 56: uint8_t led_state = 0;
+[v _led_state `uc ~T0 @X0 1 e ]
+[i _led_state
+-> -> 0 `i `uc
+]
+"57
+[; ;main.c: 57: int8_t current_display = 0;
+[v _current_display `c ~T0 @X0 1 e ]
+[i _current_display
+-> -> 0 `i `c
+]
+"58
+[; ;main.c: 58: int8_t current_rotation = 1;
+[v _current_rotation `c ~T0 @X0 1 e ]
+[i _current_rotation
+-> -> 1 `i `c
+]
+"59
+[; ;main.c: 59: uint8_t flag_update_display = 1;
+[v _flag_update_display `uc ~T0 @X0 1 e ]
+[i _flag_update_display
+-> -> 1 `i `uc
+]
+"60
+[; ;main.c: 60: uint8_t flag_rotation = 1;
+[v _flag_rotation `uc ~T0 @X0 1 e ]
+[i _flag_rotation
+-> -> 1 `i `uc
+]
+"61
+[; ;main.c: 61: uint8_t not_retain_values = 1;
+[v _not_retain_values `uc ~T0 @X0 1 e ]
+[i _not_retain_values
+-> -> 1 `i `uc
+]
+[v F3340 `uc ~T0 @X0 -> 2 `i t ]
+"62
+[; ;main.c: 62: uint8_t position_text[8][2];
+[v _position_text `F3340 ~T0 @X0 -> 8 `i e ]
+"63
+[; ;main.c: 63: uint16_t previous_valus[8];
+[v _previous_valus `us ~T0 @X0 -> 8 `i e ]
+"64
+[; ;main.c: 64: float previous_valus_ft[3];
+[v _previous_valus_ft `f ~T0 @X0 -> 3 `i e ]
+"65
+[; ;main.c: 65: uint8_t update = 0;
+[v _update `uc ~T0 @X0 1 e ]
+[i _update
+-> -> 0 `i `uc
+]
+"66
+[; ;main.c: 66: float adc_err;
+[v _adc_err `f ~T0 @X0 1 e ]
+"68
+[; ;main.c: 68: void myTimer2ISR(void){
+[v _myTimer2ISR `(v ~T0 @X0 1 ef ]
+{
+[e :U _myTimer2ISR ]
+[f ]
+"69
+[; ;main.c: 69:     counter++;
+[e ++ _counter -> -> 1 `i `uc ]
+"70
+[; ;main.c: 70:     update++;
+[e ++ _update -> -> 1 `i `uc ]
+"72
+[; ;main.c: 72:     if(counter == 50)
+[e $ ! == -> _counter `i -> 50 `i 289  ]
+"73
+[; ;main.c: 73:     {
+{
+"74
+[; ;main.c: 74:         counter = 0;
+[e = _counter -> -> 0 `i `uc ]
+"75
+[; ;main.c: 75:         one_sec = 1;
+[e = _one_sec -> -> 1 `i `uc ]
+"76
+[; ;main.c: 76:     }
+}
+[e :U 289 ]
+"77
+[; ;main.c: 77: }
+[e :UE 288 ]
+}
+"78
+[; ;main.c: 78: char getStates(void)
+[v _getStates `(uc ~T0 @X0 1 ef ]
+"79
+[; ;main.c: 79: {
+{
+[e :U _getStates ]
+[f ]
+"80
+[; ;main.c: 80:     if (PORTAbits.RA7 == 1)
+[e $ ! == -> . . _PORTAbits 0 7 `i -> 1 `i 291  ]
+"81
+[; ;main.c: 81:         return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 290  ]
+[e :U 291 ]
+"82
+[; ;main.c: 82:     if (PORTAbits.RA6 == 1)
+[e $ ! == -> . . _PORTAbits 0 6 `i -> 1 `i 292  ]
+"83
+[; ;main.c: 83:         return 2;
+[e ) -> -> 2 `i `uc ]
+[e $UE 290  ]
+[e :U 292 ]
+"84
+[; ;main.c: 84:     if (PORTCbits.RC0 == 1)
+[e $ ! == -> . . _PORTCbits 0 0 `i -> 1 `i 293  ]
+"85
+[; ;main.c: 85:         return 3;
+[e ) -> -> 3 `i `uc ]
+[e $UE 290  ]
+[e :U 293 ]
+"86
+[; ;main.c: 86:     if (PORTCbits.RC1 == 1)
+[e $ ! == -> . . _PORTCbits 0 1 `i -> 1 `i 294  ]
+"87
+[; ;main.c: 87:         return 4;
+[e ) -> -> 4 `i `uc ]
+[e $UE 290  ]
+[e :U 294 ]
+"88
+[; ;main.c: 88: return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 290  ]
+"89
+[; ;main.c: 89: }
+[e :UE 290 ]
+}
+"90
+[; ;main.c: 90: void change_state(char state)
+[v _change_state `(v ~T0 @X0 1 ef1`uc ]
+"91
+[; ;main.c: 91: {
+{
+[e :U _change_state ]
+"90
+[; ;main.c: 90: void change_state(char state)
+[v _state `uc ~T0 @X0 1 r1 ]
+"91
+[; ;main.c: 91: {
+[f ]
+"92
+[; ;main.c: 92:     switch(state)
+[e $U 297  ]
+"93
+[; ;main.c: 93:     {
+{
+"94
+[; ;main.c: 94:         case 1: printf("b1");
+[e :U 298 ]
+[e ( _printf :s 1C ]
+"95
+[; ;main.c: 95:                 current_display--;
+[e -- _current_display -> -> 1 `i `c ]
+"96
+[; ;main.c: 96:                 if (current_display < 0)
+[e $ ! < -> _current_display `i -> 0 `i 299  ]
+"97
+[; ;main.c: 97:                     current_display = 5;
+[e = _current_display -> -> 5 `i `c ]
+[e :U 299 ]
+"98
+[; ;main.c: 98:                 break;
+[e $U 296  ]
+"99
+[; ;main.c: 99:         case 2: printf("b2");
+[e :U 300 ]
+[e ( _printf :s 2C ]
+"100
+[; ;main.c: 100:                 current_display++;
+[e ++ _current_display -> -> 1 `i `c ]
+"101
+[; ;main.c: 101:                 if (current_display > 5)
+[e $ ! > -> _current_display `i -> 5 `i 301  ]
+"102
+[; ;main.c: 102:                     current_display = 0;
+[e = _current_display -> -> 0 `i `c ]
+[e :U 301 ]
+"103
+[; ;main.c: 103:                 break;
+[e $U 296  ]
+"104
+[; ;main.c: 104:         case 3: printf("b3");
+[e :U 302 ]
+[e ( _printf :s 3C ]
+"105
+[; ;main.c: 105:                 current_rotation--;
+[e -- _current_rotation -> -> 1 `i `c ]
+"106
+[; ;main.c: 106:                 if (current_rotation < 0)
+[e $ ! < -> _current_rotation `i -> 0 `i 303  ]
+"107
+[; ;main.c: 107:                     current_rotation = 3;
+[e = _current_rotation -> -> 3 `i `c ]
+[e :U 303 ]
+"108
+[; ;main.c: 108:                 break;
+[e $U 296  ]
+"109
+[; ;main.c: 109:         case 4: printf("b4");
+[e :U 304 ]
+[e ( _printf :s 4C ]
+"110
+[; ;main.c: 110:                 current_rotation++;
+[e ++ _current_rotation -> -> 1 `i `c ]
+"111
+[; ;main.c: 111:                 if (current_rotation > 3)
+[e $ ! > -> _current_rotation `i -> 3 `i 305  ]
+"112
+[; ;main.c: 112:                     current_rotation = 0;
+[e = _current_rotation -> -> 0 `i `c ]
+[e :U 305 ]
+"113
+[; ;main.c: 113:                 break;
+[e $U 296  ]
+"114
+[; ;main.c: 114:         default:printf("b0");
+[e :U 306 ]
+[e ( _printf :s 5C ]
+"115
+[; ;main.c: 115:                 break;
+[e $U 296  ]
+"116
+[; ;main.c: 116:     }
+}
+[e $U 296  ]
+[e :U 297 ]
+[e [\ -> _state `i , $ -> 1 `i 298
+ , $ -> 2 `i 300
+ , $ -> 3 `i 302
+ , $ -> 4 `i 304
+ 306 ]
+[e :U 296 ]
+"117
+[; ;main.c: 117: }
+[e :UE 295 ]
+}
+"120
+[; ;main.c: 120: void update_display(int8_t cases)
+[v _update_display `(v ~T0 @X0 1 ef1`c ]
+"121
+[; ;main.c: 121: {
+{
+[e :U _update_display ]
+"120
+[; ;main.c: 120: void update_display(int8_t cases)
+[v _cases `c ~T0 @X0 1 r1 ]
+"121
+[; ;main.c: 121: {
+[f ]
+"122
+[; ;main.c: 122:     switch(cases)
+[e $U 309  ]
+"123
+[; ;main.c: 123:  {
+{
+"124
+[; ;main.c: 124:         case 0:
+[e :U 310 ]
+"125
+[; ;main.c: 125:             display_page1();
+[e ( _display_page1 ..  ]
+"126
+[; ;main.c: 126:             break;
+[e $U 308  ]
+"127
+[; ;main.c: 127:         case 1:
+[e :U 311 ]
+"128
+[; ;main.c: 128:             display_page1();
+[e ( _display_page1 ..  ]
+"129
+[; ;main.c: 129:             break;
+[e $U 308  ]
+"130
+[; ;main.c: 130:         case 2:
+[e :U 312 ]
+"131
+[; ;main.c: 131:             display_page2();
+[e ( _display_page2 ..  ]
+"132
+[; ;main.c: 132:             break;
+[e $U 308  ]
+"133
+[; ;main.c: 133:         case 3:
+[e :U 313 ]
+"134
+[; ;main.c: 134:             display_page3();
+[e ( _display_page3 ..  ]
+"135
+[; ;main.c: 135:             break;
+[e $U 308  ]
+"136
+[; ;main.c: 136:         case 4:
+[e :U 314 ]
+"137
+[; ;main.c: 137:             display_page4();
+[e ( _display_page4 ..  ]
+"138
+[; ;main.c: 138:             break;
+[e $U 308  ]
+"139
+[; ;main.c: 139:         case 5:
+[e :U 315 ]
+"140
+[; ;main.c: 140:             display_page4();
+[e ( _display_page4 ..  ]
+"141
+[; ;main.c: 141:             break;
+[e $U 308  ]
+"142
+[; ;main.c: 142:         default:
+[e :U 316 ]
+"143
+[; ;main.c: 143:             display_page1();
+[e ( _display_page1 ..  ]
+"144
+[; ;main.c: 144:     }
+}
+[e $U 308  ]
+[e :U 309 ]
+[e [\ -> _cases `i , $ -> 0 `i 310
+ , $ -> 1 `i 311
+ , $ -> 2 `i 312
+ , $ -> 3 `i 313
+ , $ -> 4 `i 314
+ , $ -> 5 `i 315
+ 316 ]
+[e :U 308 ]
+"145
+[; ;main.c: 145: }
+[e :UE 307 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"147
+[; ;main.c: 147: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"148
+[; ;main.c: 148: {
+{
+[e :U _main ]
+[f ]
+"149
+[; ;main.c: 149:     char button_state;
+[v _button_state `uc ~T0 @X0 1 a ]
+"150
+[; ;main.c: 150:     char last_button_state;
+[v _last_button_state `uc ~T0 @X0 1 a ]
+"151
+[; ;main.c: 151:     uint16_t result;
+[v _result `us ~T0 @X0 1 a ]
+"152
+[; ;main.c: 152:     OSCCON = 0x70;
+[e = _OSCCON -> -> 112 `i `uc ]
+"153
+[; ;main.c: 153:     TRISB = 0x00;
+[e = _TRISB -> -> 0 `i `uc ]
+"154
+[; ;main.c: 154:     TRISBbits.TRISB0 = 0;
+[e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
+"155
+[; ;main.c: 155:     TRISAbits.TRISA7 = 1;
+[e = . . _TRISAbits 0 7 -> -> 1 `i `uc ]
+"156
+[; ;main.c: 156:     TRISAbits.TRISA6 = 1;
+[e = . . _TRISAbits 0 6 -> -> 1 `i `uc ]
+"157
+[; ;main.c: 157:     TRISCbits.TRISC1 = 1;
+[e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
+"158
+[; ;main.c: 158:     TRISCbits.TRISC0 = 1;
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+"159
+[; ;main.c: 159:     TRISCbits.TRISC2 = 0;
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+"161
+[; ;main.c: 161:     TRISCbits.TRISC5 = 0;
+[e = . . _TRISCbits 0 5 -> -> 0 `i `uc ]
+"162
+[; ;main.c: 162:     TRISCbits.TRISC4 = 1;
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+"164
+[; ;main.c: 164:     LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"165
+[; ;main.c: 165:     LATCbits.LATC2 = 1;
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+"168
+[; ;main.c: 168:     EUSART1_Initialize();
+[e ( _EUSART1_Initialize ..  ]
+"169
+[; ;main.c: 169:     ADC_Initialize();
+[e ( _ADC_Initialize ..  ]
+"170
+[; ;main.c: 170:     SPI_Initialize();
+[e ( _SPI_Initialize ..  ]
+"171
+[; ;main.c: 171:     SPI_Open(SPI_DEFAULT);
+[e ( _SPI_Open (1 . `E2952 0 ]
+"172
+[; ;main.c: 172:  INTERRUPT_Initialize();
+[e ( _INTERRUPT_Initialize ..  ]
+"173
+[; ;main.c: 173:  TMR2_Initialize();
+[e ( _TMR2_Initialize ..  ]
+"174
+[; ;main.c: 174:     TMR2_SetInterruptHandler(myTimer2ISR);
+[e ( _TMR2_SetInterruptHandler (1 &U _myTimer2ISR ]
+"175
+[; ;main.c: 175:     printf("nauman\n\r");
+[e ( _printf :s 6C ]
+"176
+[; ;main.c: 176:     TFT_BlackTab_Initialize();
+[e ( _TFT_BlackTab_Initialize ..  ]
+"177
+[; ;main.c: 177:     fillScreen(0x0000);
+[e ( _fillScreen (1 -> -> 0 `i `us ]
+"178
+[; ;main.c: 178:     setRotation(1);
+[e ( _setRotation (1 -> -> 1 `i `uc ]
+"179
+[; ;main.c: 179:     setTextWrap(0);
+[e ( _setTextWrap (1 -> -> 0 `i `a ]
+"180
+[; ;main.c: 180:     setFont(&FreeSansBold9pt7b);
+[e ( _setFont (1 &U _FreeSansBold9pt7b ]
+"181
+[; ;main.c: 181:     display_default();
+[e ( _display_default ..  ]
+"182
+[; ;main.c: 182:     display_page1();
+[e ( _display_page1 ..  ]
+"183
+[; ;main.c: 183:     (INTCONbits.GIE = 1);
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"185
+[; ;main.c: 185:     (INTCONbits.PEIE = 1);
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"186
+[; ;main.c: 186:     while(1)
+[e :U 319 ]
+"187
+[; ;main.c: 187:     {
+{
+"188
+[; ;main.c: 188:         button_state = getStates();
+[e = _button_state ( _getStates ..  ]
+"189
+[; ;main.c: 189:         if (button_state != last_button_state)
+[e $ ! != -> _button_state `i -> _last_button_state `i 321  ]
+"190
+[; ;main.c: 190:         {
+{
+"191
+[; ;main.c: 191:             if(button_state > 0)
+[e $ ! > -> _button_state `i -> 0 `i 322  ]
+"192
+[; ;main.c: 192:             {
+{
+"193
+[; ;main.c: 193:                 change_state(button_state);
+[e ( _change_state (1 _button_state ]
+"194
+[; ;main.c: 194:                 if(button_state == 3 || button_state == 4 )
+[e $ ! || == -> _button_state `i -> 3 `i == -> _button_state `i -> 4 `i 323  ]
+"195
+[; ;main.c: 195:                 {
+{
+"196
+[; ;main.c: 196:                     setRotation((uint8_t)current_rotation);
+[e ( _setRotation (1 -> _current_rotation `uc ]
+"197
+[; ;main.c: 197:                     not_retain_values = 0;
+[e = _not_retain_values -> -> 0 `i `uc ]
+"198
+[; ;main.c: 198:                     if(current_rotation == 1 || current_rotation == 3)
+[e $ ! || == -> _current_rotation `i -> 1 `i == -> _current_rotation `i -> 3 `i 324  ]
+"199
+[; ;main.c: 199:                         flag_rotation = 1;
+[e = _flag_rotation -> -> 1 `i `uc ]
+[e $U 325  ]
+"200
+[; ;main.c: 200:                     else
+[e :U 324 ]
+"201
+[; ;main.c: 201:                         flag_rotation = 0;
+[e = _flag_rotation -> -> 0 `i `uc ]
+[e :U 325 ]
+"202
+[; ;main.c: 202:                     display_default();
+[e ( _display_default ..  ]
+"203
+[; ;main.c: 203:                 }
+}
+[e :U 323 ]
+"204
+[; ;main.c: 204:                 flag_update_display = 1;
+[e = _flag_update_display -> -> 1 `i `uc ]
+"205
+[; ;main.c: 205:             }
+}
+[e :U 322 ]
+"206
+[; ;main.c: 206:             last_button_state = button_state;
+[e = _last_button_state _button_state ]
+"207
+[; ;main.c: 207:         }
+}
+[e :U 321 ]
+"208
+[; ;main.c: 208:         if(update >= 5)
+[e $ ! >= -> _update `i -> 5 `i 326  ]
+"209
+[; ;main.c: 209:         {
+{
+"210
+[; ;main.c: 210:             result = ADC_GetConversion(channel_AN4);
+[e = _result ( _ADC_GetConversion (1 . `E2933 8 ]
+"211
+[; ;main.c: 211:             adc_err = ((result * (float)(5/1023.00))* 0.809);
+[e = _adc_err -> * -> * -> -> _result `ui `f -> / -> -> 5 `i `d .1023.00 `f `d .0.809 `f ]
+"213
+[; ;main.c: 213:             update_display(current_display);
+[e ( _update_display (1 _current_display ]
+"214
+[; ;main.c: 214:             not_retain_values = 1;
+[e = _not_retain_values -> -> 1 `i `uc ]
+"215
+[; ;main.c: 215:             update = 0;
+[e = _update -> -> 0 `i `uc ]
+"216
+[; ;main.c: 216:         }
+}
+[e :U 326 ]
+"218
+[; ;main.c: 218:     }
+}
+[e :U 318 ]
+[e $U 319  ]
+[e :U 320 ]
+"219
+[; ;main.c: 219:     return;
+[e $UE 317  ]
+"220
+[; ;main.c: 220: }
+[e :UE 317 ]
+}
+"223
+[; ;main.c: 223: void display_default(void){
+[v _display_default `(v ~T0 @X0 1 ef ]
+{
+[e :U _display_default ]
+[f ]
+"224
+[; ;main.c: 224:     uint8_t x0 = 5;
+[v _x0 `uc ~T0 @X0 1 a ]
+[e = _x0 -> -> 5 `i `uc ]
+"225
+[; ;main.c: 225:     uint8_t y0 = 5;
+[v _y0 `uc ~T0 @X0 1 a ]
+[e = _y0 -> -> 5 `i `uc ]
+"226
+[; ;main.c: 226:     fillScreen(0x0000);
+[e ( _fillScreen (1 -> -> 0 `i `us ]
+"227
+[; ;main.c: 227:     fillRoundRect(x0, y0, tft_width - 10,22, 1, 0x001F);
+[e ( _fillRoundRect (4 , , , , , _x0 _y0 -> - -> _tft_width `i -> 10 `i `uc -> -> 22 `i `uc -> -> 1 `i `uc -> -> 31 `i `us ]
+"229
+[; ;main.c: 229:     x0 = tft_width - 25;
+[e = _x0 -> - -> _tft_width `i -> 25 `i `uc ]
+"230
+[; ;main.c: 230:     y0 = 6;
+[e = _y0 -> -> 6 `i `uc ]
+"231
+[; ;main.c: 231:     drawRoundRect(x0,y0,12,15,3,0xFFFF);
+[e ( _drawRoundRect (4 , , , , , _x0 _y0 -> -> 12 `i `uc -> -> 15 `i `uc -> -> 3 `i `uc -> -> 65535 `ui `us ]
+"232
+[; ;main.c: 232:     drawFastVLine(x0+11,y0,15,0x001F);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> 11 `i `uc _y0 -> -> 15 `i `uc -> -> 31 `i `us ]
+"233
+[; ;main.c: 233:     drawFastVLine(x0+10,y0,15,0x001F);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> 10 `i `uc _y0 -> -> 15 `i `uc -> -> 31 `i `us ]
+"234
+[; ;main.c: 234:     fillTriangle(x0+10,y0+10,x0+10,y0+20,x0+15,y0+15,0xFFFF);
+[e ( _fillTriangle (4 , , , , , , -> + -> _x0 `i -> 10 `i `s -> + -> _y0 `i -> 10 `i `s -> + -> _x0 `i -> 10 `i `s -> + -> _y0 `i -> 20 `i `s -> + -> _x0 `i -> 15 `i `s -> + -> _y0 `i -> 15 `i `s -> -> 65535 `ui `us ]
+"237
+[; ;main.c: 237:     x0 = 12;
+[e = _x0 -> -> 12 `i `uc ]
+"238
+[; ;main.c: 238:     y0 = 6;
+[e = _y0 -> -> 6 `i `uc ]
+"239
+[; ;main.c: 239:     drawRoundRect(x0,y0,12,15,3,0xFFFF);
+[e ( _drawRoundRect (4 , , , , , _x0 _y0 -> -> 12 `i `uc -> -> 15 `i `uc -> -> 3 `i `uc -> -> 65535 `ui `us ]
+"240
+[; ;main.c: 240:     drawFastVLine(x0,y0,15,0x001F);
+[e ( _drawFastVLine (4 , , , _x0 _y0 -> -> 15 `i `uc -> -> 31 `i `us ]
+"241
+[; ;main.c: 241:     drawFastVLine(x0+1,y0,15,0x001F);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> 1 `i `uc _y0 -> -> 15 `i `uc -> -> 31 `i `us ]
+"242
+[; ;main.c: 242:     fillTriangle(x0+1,y0+10,x0+1,y0+20,x0-4,y0+15,0xFFFF);
+[e ( _fillTriangle (4 , , , , , , -> + -> _x0 `i -> 1 `i `s -> + -> _y0 `i -> 10 `i `s -> + -> _x0 `i -> 1 `i `s -> + -> _y0 `i -> 20 `i `s -> - -> _x0 `i -> 4 `i `s -> + -> _y0 `i -> 15 `i `s -> -> 65535 `ui `us ]
+"244
+[; ;main.c: 244:     x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"245
+[; ;main.c: 245:     y0 = tft_height - 22;
+[e = _y0 -> - -> _tft_height `i -> 22 `i `uc ]
+"246
+[; ;main.c: 246:     fillRoundRect(x0,y0, ((tft_width - 5)/2) - 5, 22, 1, 0x001F);
+[e ( _fillRoundRect (4 , , , , , _x0 _y0 -> - / - -> _tft_width `i -> 5 `i -> 2 `i -> 5 `i `uc -> -> 22 `i `uc -> -> 1 `i `uc -> -> 31 `i `us ]
+"247
+[; ;main.c: 247:     fillRoundRect(((tft_width - 5)/2) + 5, y0,((tft_width - 5)/2) - 5, 22, 1, 0x001F);
+[e ( _fillRoundRect (4 , , , , , -> + / - -> _tft_width `i -> 5 `i -> 2 `i -> 5 `i `uc _y0 -> - / - -> _tft_width `i -> 5 `i -> 2 `i -> 5 `i `uc -> -> 22 `i `uc -> -> 1 `i `uc -> -> 31 `i `us ]
+"249
+[; ;main.c: 249:     y0 = y0 + 14;
+[e = _y0 -> + -> _y0 `i -> 14 `i `uc ]
+"250
+[; ;main.c: 250:     char *txttwo = "PREV";
+[v _txttwo `*uc ~T0 @X0 1 a ]
+[e = _txttwo :s 7C ]
+"251
+[; ;main.c: 251:     char *txtone = "NEXT";
+[v _txtone `*uc ~T0 @X0 1 a ]
+[e = _txtone :s 8C ]
+"252
+[; ;main.c: 252:     if(flag_rotation)
+[e $ ! != -> _flag_rotation `i -> 0 `i 328  ]
+"253
+[; ;main.c: 253:     {
+{
+"254
+[; ;main.c: 254:         x0 = 18;
+[e = _x0 -> -> 18 `i `uc ]
+"255
+[; ;main.c: 255:         drawText( x0, y0+3, txttwo, 0xFFFF, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 -> + -> _y0 `i -> 3 `i `uc -> _txttwo `*Cuc -> -> 65535 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"256
+[; ;main.c: 256:         x0 = ((tft_width - 5)/2) + 18;
+[e = _x0 -> + / - -> _tft_width `i -> 5 `i -> 2 `i -> 18 `i `uc ]
+"257
+[; ;main.c: 257:         drawText( x0, y0+3, txtone, 0xFFFF, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 -> + -> _y0 `i -> 3 `i `uc -> _txtone `*Cuc -> -> 65535 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"258
+[; ;main.c: 258:     }
+}
+[e $U 329  ]
+"259
+[; ;main.c: 259:     else
+[e :U 328 ]
+"260
+[; ;main.c: 260:     {
+{
+"261
+[; ;main.c: 261:         x0 = 10;
+[e = _x0 -> -> 10 `i `uc ]
+"262
+[; ;main.c: 262:         drawText( x0, y0, txttwo, 0xFFFF, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txttwo `*Cuc -> -> 65535 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"263
+[; ;main.c: 263:         x0 = ((tft_width - 5)/2) + 10;
+[e = _x0 -> + / - -> _tft_width `i -> 5 `i -> 2 `i -> 10 `i `uc ]
+"264
+[; ;main.c: 264:         drawText( x0, y0, txtone, 0xFFFF, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txtone `*Cuc -> -> 65535 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"265
+[; ;main.c: 265:     }
+}
+[e :U 329 ]
+"266
+[; ;main.c: 266: }
+[e :UE 327 ]
+}
+"269
+[; ;main.c: 269: void display_page1(void)
+[v _display_page1 `(v ~T0 @X0 1 ef ]
+"270
+[; ;main.c: 270: {
+{
+[e :U _display_page1 ]
+[f ]
+"271
+[; ;main.c: 271:     uint8_t x0 = 5;
+[v _x0 `uc ~T0 @X0 1 a ]
+[e = _x0 -> -> 5 `i `uc ]
+"272
+[; ;main.c: 272:     uint8_t y0 = 5;
+[v _y0 `uc ~T0 @X0 1 a ]
+[e = _y0 -> -> 5 `i `uc ]
+"273
+[; ;main.c: 273:     uint8_t GP;
+[v _GP `uc ~T0 @X0 1 a ]
+"274
+[; ;main.c: 274:     float voltage,current,temp;
+[v _voltage `f ~T0 @X0 1 a ]
+[v _current `f ~T0 @X0 1 a ]
+[v _temp `f ~T0 @X0 1 a ]
+"275
+[; ;main.c: 275:     float watt,ohms,mAh,mWh;
+[v _watt `f ~T0 @X0 1 a ]
+[v _ohms `f ~T0 @X0 1 a ]
+[v _mAh `f ~T0 @X0 1 a ]
+[v _mWh `f ~T0 @X0 1 a ]
+"276
+[; ;main.c: 276:     uint16_t result[3];
+[v _result `us ~T0 @X0 -> 3 `i a ]
+"277
+[; ;main.c: 277:     char v0[6];
+[v _v0 `uc ~T0 @X0 -> 6 `i a ]
+"280
+[; ;main.c: 280:     if(flag_update_display)
+[e $ ! != -> _flag_update_display `i -> 0 `i 331  ]
+"281
+[; ;main.c: 281:     {
+{
+"282
+[; ;main.c: 282:         clean_writable_area();
+[e ( _clean_writable_area ..  ]
+"284
+[; ;main.c: 284:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"285
+[; ;main.c: 285:         y0 = 45;
+[e = _y0 -> -> 45 `i `uc ]
+"286
+[; ;main.c: 286:         position_text[0][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"287
+[; ;main.c: 287:         position_text[0][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"288
+[; ;main.c: 288:         drawChar(x0 + 54 ,y0,'V',0x07E0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> + -> _x0 `i -> 54 `i `uc _y0 -> -> 86 `ui `uc -> -> 2016 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"291
+[; ;main.c: 291:         uint8_t x1 = tft_width - 45;
+[v _x1 `uc ~T0 @X0 1 a ]
+[e = _x1 -> - -> _tft_width `i -> 45 `i `uc ]
+"292
+[; ;main.c: 292:         uint8_t y1 = y0-3;
+[v _y1 `uc ~T0 @X0 1 a ]
+[e = _y1 -> - -> _y0 `i -> 3 `i `uc ]
+"293
+[; ;main.c: 293:         drawCircle(x1,y1,4,0xFFE0);
+[e ( _drawCircle (4 , , , -> _x1 `s -> _y1 `s -> -> 4 `i `s -> -> 65504 `ui `us ]
+"294
+[; ;main.c: 294:         fillCircle(x1,y1,2,0xFFE0);
+[e ( _fillCircle (4 , , , -> _x1 `s -> _y1 `s -> -> 2 `i `s -> -> 65504 `ui `us ]
+"295
+[; ;main.c: 295:         fillRect(x1,y1-11,1,8,0xFFE0);
+[e ( _fillRect (4 , , , , _x1 -> - -> _y1 `i -> 11 `i `uc -> -> 1 `i `uc -> -> 8 `i `uc -> -> 65504 `ui `us ]
+"296
+[; ;main.c: 296:         drawRoundRect(x1-2,y1-13,5,11,1,0xFFE0);
+[e ( _drawRoundRect (4 , , , , , -> - -> _x1 `i -> 2 `i `uc -> - -> _y1 `i -> 13 `i `uc -> -> 5 `i `uc -> -> 11 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"297
+[; ;main.c: 297:         drawFastVLine(x1+3,y1-11,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 11 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"298
+[; ;main.c: 298:         drawFastVLine(x1+3,y1-9,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 9 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"299
+[; ;main.c: 299:         drawFastVLine(x1+3,y1-7,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 7 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"302
+[; ;main.c: 302:         drawCircle(tft_width - 20,y0 - 10,1,0xFFE0);
+[e ( _drawCircle (4 , , , -> - -> _tft_width `i -> 20 `i `s -> - -> _y0 `i -> 10 `i `s -> -> 1 `i `s -> -> 65504 `ui `us ]
+"303
+[; ;main.c: 303:         drawChar(tft_width - 19 ,y0,'C',0xFFE0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> - -> _tft_width `i -> 19 `i `uc _y0 -> -> 67 `ui `uc -> -> 65504 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"306
+[; ;main.c: 306:         position_text[1][0] = tft_width - 40;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> - -> _tft_width `i -> 40 `i `uc ]
+"307
+[; ;main.c: 307:         position_text[1][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"310
+[; ;main.c: 310:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"311
+[; ;main.c: 311:         y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"313
+[; ;main.c: 313:         position_text[2][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"314
+[; ;main.c: 314:         position_text[2][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"316
+[; ;main.c: 316:         drawChar(x0 + 54,y0,'A',0x059F, 0x0000,1);
+[e ( _drawChar (4 , , , , , -> + -> _x0 `i -> 54 `i `uc _y0 -> -> 65 `ui `uc -> -> 1439 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"319
+[; ;main.c: 319:         drawChar(tft_width - 40 ,y0,'P',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> - -> _tft_width `i -> 40 `i `uc _y0 -> -> 80 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"320
+[; ;main.c: 320:         drawChar(tft_width - 50 ,y0,'G',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> - -> _tft_width `i -> 50 `i `uc _y0 -> -> 71 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"322
+[; ;main.c: 322:         position_text[3][0] = tft_width - 25;
+[e = *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> - -> _tft_width `i -> 25 `i `uc ]
+"323
+[; ;main.c: 323:         position_text[3][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"326
+[; ;main.c: 326:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"327
+[; ;main.c: 327:         y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"328
+[; ;main.c: 328:         position_text[4][0] = 5;
+[e = *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> -> 5 `i `uc ]
+"329
+[; ;main.c: 329:         position_text[4][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"330
+[; ;main.c: 330:         drawChar(55,y0,'m',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 55 `i `uc _y0 -> -> 109 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"331
+[; ;main.c: 331:         drawChar(70,y0,'A',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 70 `i `uc _y0 -> -> 65 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"332
+[; ;main.c: 332:         drawChar(81,y0,'h',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 81 `i `uc _y0 -> -> 104 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"334
+[; ;main.c: 334:         if (flag_rotation)
+[e $ ! != -> _flag_rotation `i -> 0 `i 332  ]
+"335
+[; ;main.c: 335:         {
+{
+"336
+[; ;main.c: 336:             position_text[5][0] = tft_width - 65;
+[e = *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> - -> _tft_width `i -> 65 `i `uc ]
+"337
+[; ;main.c: 337:             position_text[5][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"338
+[; ;main.c: 338:             drawChar(tft_width - 15 ,y0,'0',0x001F, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> - -> _tft_width `i -> 15 `i `uc _y0 -> -> 48 `ui `uc -> -> 31 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"339
+[; ;main.c: 339:             drawFastHLine(tft_width - 15 ,y0,10,0x0000);
+[e ( _drawFastHLine (4 , , , -> - -> _tft_width `i -> 15 `i `uc _y0 -> -> 10 `i `uc -> -> 0 `i `us ]
+"340
+[; ;main.c: 340:             drawFastHLine(tft_width - 15 ,y0,4,0x001F);
+[e ( _drawFastHLine (4 , , , -> - -> _tft_width `i -> 15 `i `uc _y0 -> -> 4 `i `uc -> -> 31 `i `us ]
+"341
+[; ;main.c: 341:             drawFastHLine(tft_width - 9 ,y0,4,0x001F);
+[e ( _drawFastHLine (4 , , , -> - -> _tft_width `i -> 9 `i `uc _y0 -> -> 4 `i `uc -> -> 31 `i `us ]
+"342
+[; ;main.c: 342:         }
+}
+[e :U 332 ]
+"344
+[; ;main.c: 344:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"345
+[; ;main.c: 345:         y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"346
+[; ;main.c: 346:         position_text[6][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"347
+[; ;main.c: 347:         position_text[6][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"352
+[; ;main.c: 352:         drawChar(55,y0,'m',0xFFE0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 55 `i `uc _y0 -> -> 109 `ui `uc -> -> 65504 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"353
+[; ;main.c: 353:         drawChar(69,y0,'W',0xFFE0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 69 `i `uc _y0 -> -> 87 `ui `uc -> -> 65504 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"354
+[; ;main.c: 354:         drawChar(84,y0,'h',0xFFE0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 84 `i `uc _y0 -> -> 104 `ui `uc -> -> 65504 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"356
+[; ;main.c: 356:         if(flag_rotation)
+[e $ ! != -> _flag_rotation `i -> 0 `i 333  ]
+"357
+[; ;main.c: 357:         {
+{
+"358
+[; ;main.c: 358:             position_text[7][0] = tft_width - 65;
+[e = *U + &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> - -> _tft_width `i -> 65 `i `uc ]
+"359
+[; ;main.c: 359:             position_text[7][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"360
+[; ;main.c: 360:             drawChar(tft_width - 16 ,y0,'W',0xFFFF, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> - -> _tft_width `i -> 16 `i `uc _y0 -> -> 87 `ui `uc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"361
+[; ;main.c: 361:         }
+}
+[e $U 334  ]
+"362
+[; ;main.c: 362:         else
+[e :U 333 ]
+"363
+[; ;main.c: 363:         {
+{
+"364
+[; ;main.c: 364:             y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"365
+[; ;main.c: 365:             position_text[7][0] = 5;
+[e = *U + &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> -> 5 `i `uc ]
+"366
+[; ;main.c: 366:             position_text[7][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"368
+[; ;main.c: 368:             drawChar(63,y0,'W',0xFFFF, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 63 `i `uc _y0 -> -> 87 `ui `uc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"370
+[; ;main.c: 370:             y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"371
+[; ;main.c: 371:             position_text[5][0] = 5;
+[e = *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> -> 5 `i `uc ]
+"372
+[; ;main.c: 372:             position_text[5][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"374
+[; ;main.c: 374:             drawChar(68,y0,'0',0x001F, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 68 `i `uc _y0 -> -> 48 `ui `uc -> -> 31 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"375
+[; ;main.c: 375:             drawFastHLine(68 ,y0,10,0x0000);
+[e ( _drawFastHLine (4 , , , -> -> 68 `i `uc _y0 -> -> 10 `i `uc -> -> 0 `i `us ]
+"376
+[; ;main.c: 376:             drawFastHLine(68 ,y0,4,0x001F);
+[e ( _drawFastHLine (4 , , , -> -> 68 `i `uc _y0 -> -> 4 `i `uc -> -> 31 `i `us ]
+"377
+[; ;main.c: 377:             drawFastHLine(74,y0,4,0x001F);
+[e ( _drawFastHLine (4 , , , -> -> 74 `i `uc _y0 -> -> 4 `i `uc -> -> 31 `i `us ]
+"378
+[; ;main.c: 378:         }
+}
+[e :U 334 ]
+"379
+[; ;main.c: 379:         if (current_display == 1 )
+[e $ ! == -> _current_display `i -> 1 `i 335  ]
+"380
+[; ;main.c: 380:         {
+{
+"381
+[; ;main.c: 381:             GP = 2;
+[e = _GP -> -> 2 `i `uc ]
+"382
+[; ;main.c: 382:             mWh = 10782;
+[e = _mWh -> -> 10782 `i `f ]
+"384
+[; ;main.c: 384:             text2_display(position_text[3][0],position_text[3][1],GP,0xF800);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _GP -> -> 63488 `ui `us ]
+"386
+[; ;main.c: 386:             text6_display(position_text[6][0],position_text[6][1],mWh,0xFFE0);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _mWh -> -> 65504 `ui `us ]
+"387
+[; ;main.c: 387:         }
+}
+[e $U 336  ]
+"388
+[; ;main.c: 388:         else
+[e :U 335 ]
+"389
+[; ;main.c: 389:         {
+{
+"390
+[; ;main.c: 390:             GP = 1;
+[e = _GP -> -> 1 `i `uc ]
+"391
+[; ;main.c: 391:             mWh = 10782;
+[e = _mWh -> -> 10782 `i `f ]
+"393
+[; ;main.c: 393:             text2_display(position_text[3][0],position_text[3][1],GP,0xF800);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _GP -> -> 63488 `ui `us ]
+"395
+[; ;main.c: 395:             text6_display(position_text[6][0],position_text[6][1],mWh,0xFFE0);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 6 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _mWh -> -> 65504 `ui `us ]
+"396
+[; ;main.c: 396:         }
+}
+[e :U 336 ]
+"398
+[; ;main.c: 398:     }
+}
+[e :U 331 ]
+"401
+[; ;main.c: 401:     if (current_display == 1 )
+[e $ ! == -> _current_display `i -> 1 `i 337  ]
+"402
+[; ;main.c: 402:     {
+{
+"403
+[; ;main.c: 403:         result[0] = ADC_GetConversion(channel_AN2);
+[e = *U + &U _result * -> -> -> 0 `i `ui `ux -> -> # *U &U _result `ui `ux ( _ADC_GetConversion (1 . `E2933 6 ]
+"404
+[; ;main.c: 404:         _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"405
+[; ;main.c: 405:         result[1] = ADC_GetConversion(channel_AN1);
+[e = *U + &U _result * -> -> -> 1 `i `ui `ux -> -> # *U &U _result `ui `ux ( _ADC_GetConversion (1 . `E2933 5 ]
+"406
+[; ;main.c: 406:         _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"407
+[; ;main.c: 407:     }
+}
+[e $U 338  ]
+"408
+[; ;main.c: 408:     else
+[e :U 337 ]
+"409
+[; ;main.c: 409:     {
+{
+"410
+[; ;main.c: 410:         result[0] = ADC_GetConversion(channel_AN3);
+[e = *U + &U _result * -> -> -> 0 `i `ui `ux -> -> # *U &U _result `ui `ux ( _ADC_GetConversion (1 . `E2933 7 ]
+"411
+[; ;main.c: 411:         _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"412
+[; ;main.c: 412:         result[1] = ADC_GetConversion(channel_AN0);
+[e = *U + &U _result * -> -> -> 1 `i `ui `ux -> -> # *U &U _result `ui `ux ( _ADC_GetConversion (1 . `E2933 4 ]
+"413
+[; ;main.c: 413:         _delay((unsigned long)((1)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"414
+[; ;main.c: 414:     }
+}
+[e :U 338 ]
+"417
+[; ;main.c: 417:     result[2] = ADC_GetConversion(channel_AN4);
+[e = *U + &U _result * -> -> -> 2 `i `ui `ux -> -> # *U &U _result `ui `ux ( _ADC_GetConversion (1 . `E2933 8 ]
+"418
+[; ;main.c: 418:     if (result[2] != previous_valus[2] || flag_update_display)
+[e $ ! || != -> *U + &U _result * -> -> -> 2 `i `ui `ux -> -> # *U &U _result `ui `ux `ui -> *U + &U _previous_valus * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 339  ]
+"419
+[; ;main.c: 419:     {
+{
+"420
+[; ;main.c: 420:         previous_valus[2] = result[2];
+[e = *U + &U _previous_valus * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux *U + &U _result * -> -> -> 2 `i `ui `ux -> -> # *U &U _result `ui `ux ]
+"421
+[; ;main.c: 421:         temp = (result[2] * (float)(5/1023.00)) * 50.0 * adc_err;
+[e = _temp -> * * -> * -> -> *U + &U _result * -> -> -> 2 `i `ui `ux -> -> # *U &U _result `ui `ux `ui `f -> / -> -> 5 `i `d .1023.00 `f `d .50.0 -> _adc_err `d `f ]
+"422
+[; ;main.c: 422:         text2_display(position_text[1][0],position_text[1][1],(uint8_t)temp,0xFFE0);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> _temp `uc -> -> 65504 `ui `us ]
+"423
+[; ;main.c: 423:     }
+}
+[e :U 339 ]
+"425
+[; ;main.c: 425:     if ((result[0] != previous_valus[0]) || (result[1] != previous_valus[1]) || flag_update_display)
+[e $ ! || || != -> *U + &U _result * -> -> -> 0 `i `ui `ux -> -> # *U &U _result `ui `ux `ui -> *U + &U _previous_valus * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> *U + &U _result * -> -> -> 1 `i `ui `ux -> -> # *U &U _result `ui `ux `ui -> *U + &U _previous_valus * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 340  ]
+"426
+[; ;main.c: 426:     {
+{
+"428
+[; ;main.c: 428:         if ((result[0] != previous_valus[0]) || flag_update_display)
+[e $ ! || != -> *U + &U _result * -> -> -> 0 `i `ui `ux -> -> # *U &U _result `ui `ux `ui -> *U + &U _previous_valus * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 341  ]
+"429
+[; ;main.c: 429:         {
+{
+"430
+[; ;main.c: 430:             previous_valus[0] = result[0];
+[e = *U + &U _previous_valus * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux *U + &U _result * -> -> -> 0 `i `ui `ux -> -> # *U &U _result `ui `ux ]
+"431
+[; ;main.c: 431:             voltage = (result[0] * (float)(5/1023.00)) * adc_err;
+[e = _voltage * * -> -> *U + &U _result * -> -> -> 0 `i `ui `ux -> -> # *U &U _result `ui `ux `ui `f -> / -> -> 5 `i `d .1023.00 `f _adc_err ]
+"432
+[; ;main.c: 432:             text6_display(position_text[0][0],position_text[0][1],voltage,0x07E0);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _voltage -> -> 2016 `i `us ]
+"435
+[; ;main.c: 435:             mAh = mWh/voltage*10;
+[e = _mAh * / _mWh _voltage -> -> 10 `i `f ]
+"436
+[; ;main.c: 436:            text6_display(position_text[4][0],position_text[4][1],mAh,0xF800);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _mAh -> -> 63488 `ui `us ]
+"437
+[; ;main.c: 437:         }
+}
+[e :U 341 ]
+"440
+[; ;main.c: 440:         if ((result[1] != previous_valus[1]) || flag_update_display)
+[e $ ! || != -> *U + &U _result * -> -> -> 1 `i `ui `ux -> -> # *U &U _result `ui `ux `ui -> *U + &U _previous_valus * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 342  ]
+"441
+[; ;main.c: 441:         {
+{
+"442
+[; ;main.c: 442:             previous_valus[1] = result[1];
+[e = *U + &U _previous_valus * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux *U + &U _result * -> -> -> 1 `i `ui `ux -> -> # *U &U _result `ui `ux ]
+"443
+[; ;main.c: 443:             current = (result[1] * (float)(5/1023.00)) * adc_err;
+[e = _current * * -> -> *U + &U _result * -> -> -> 1 `i `ui `ux -> -> # *U &U _result `ui `ux `ui `f -> / -> -> 5 `i `d .1023.00 `f _adc_err ]
+"444
+[; ;main.c: 444:             text6_display(position_text[2][0],position_text[2][1],current,0x059F);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _current -> -> 1439 `i `us ]
+"445
+[; ;main.c: 445:         }
+}
+[e :U 342 ]
+"448
+[; ;main.c: 448:         ohms = voltage/current;
+[e = _ohms / _voltage _current ]
+"449
+[; ;main.c: 449:         text6_display(position_text[5][0],position_text[5][1],ohms,0x001F);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _ohms -> -> 31 `i `us ]
+"452
+[; ;main.c: 452:         watt = voltage * current;
+[e = _watt * _voltage _current ]
+"453
+[; ;main.c: 453:         text6_display(position_text[7][0],position_text[7][1],watt,0xFFFF);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 7 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _watt -> -> 65535 `ui `us ]
+"454
+[; ;main.c: 454:     }
+}
+[e :U 340 ]
+"455
+[; ;main.c: 455:     flag_update_display = 0;
+[e = _flag_update_display -> -> 0 `i `uc ]
+"456
+[; ;main.c: 456: }
+[e :UE 330 ]
+}
+"457
+[; ;main.c: 457: void display_page2(void){
+[v _display_page2 `(v ~T0 @X0 1 ef ]
+{
+[e :U _display_page2 ]
+[f ]
+"459
+[; ;main.c: 459:     uint8_t x0 = 5;
+[v _x0 `uc ~T0 @X0 1 a ]
+[e = _x0 -> -> 5 `i `uc ]
+"460
+[; ;main.c: 460:     uint8_t y0 = 5;
+[v _y0 `uc ~T0 @X0 1 a ]
+[e = _y0 -> -> 5 `i `uc ]
+"461
+[; ;main.c: 461:     char v0[6];
+[v _v0 `uc ~T0 @X0 -> 6 `i a ]
+"462
+[; ;main.c: 462:     float mWh,mAh,A;
+[v _mWh `f ~T0 @X0 1 a ]
+[v _mAh `f ~T0 @X0 1 a ]
+[v _A `f ~T0 @X0 1 a ]
+"463
+[; ;main.c: 463:     static uint8_t hour,min,sec;
+[v F3423 `uc ~T0 @X0 1 s hour ]
+[v F3424 `uc ~T0 @X0 1 s min ]
+[v F3425 `uc ~T0 @X0 1 s sec ]
+"465
+[; ;main.c: 465:     if(flag_update_display)
+[e $ ! != -> _flag_update_display `i -> 0 `i 344  ]
+"466
+[; ;main.c: 466:     {
+{
+"467
+[; ;main.c: 467:         clean_writable_area();
+[e ( _clean_writable_area ..  ]
+"469
+[; ;main.c: 469:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"470
+[; ;main.c: 470:         y0 = 45;
+[e = _y0 -> -> 45 `i `uc ]
+"471
+[; ;main.c: 471:         position_text[0][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"472
+[; ;main.c: 472:         position_text[0][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"474
+[; ;main.c: 474:         drawChar(60,y0,'m',0x07E0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 60 `i `uc _y0 -> -> 109 `ui `uc -> -> 2016 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"475
+[; ;main.c: 475:         drawChar(77,y0,'A',0x07E0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 77 `i `uc _y0 -> -> 65 `ui `uc -> -> 2016 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"476
+[; ;main.c: 476:         drawChar(94,y0,'h',0x07E0, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 94 `i `uc _y0 -> -> 104 `ui `uc -> -> 2016 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"479
+[; ;main.c: 479:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"480
+[; ;main.c: 480:         y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"481
+[; ;main.c: 481:         position_text[1][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"482
+[; ;main.c: 482:         position_text[1][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"484
+[; ;main.c: 484:         drawChar(60,y0,'m',0x059F, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 60 `i `uc _y0 -> -> 109 `ui `uc -> -> 1439 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"485
+[; ;main.c: 485:         drawChar(76,y0,'W',0x059F, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 76 `i `uc _y0 -> -> 87 `ui `uc -> -> 1439 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"486
+[; ;main.c: 486:         drawChar(94,y0,'h',0x059F, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 94 `i `uc _y0 -> -> 104 `ui `uc -> -> 1439 `i `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"489
+[; ;main.c: 489:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"490
+[; ;main.c: 490:         y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"491
+[; ;main.c: 491:         position_text[2][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"492
+[; ;main.c: 492:         position_text[2][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"494
+[; ;main.c: 494:         drawChar(28,y0,':',0xFFFF, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 28 `i `uc _y0 -> -> 58 `ui `uc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"496
+[; ;main.c: 496:         position_text[3][0] = 35;
+[e = *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> -> 35 `i `uc ]
+"497
+[; ;main.c: 497:         position_text[3][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"499
+[; ;main.c: 499:         drawChar(59 ,y0,':',0xFFFF, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 59 `i `uc _y0 -> -> 58 `ui `uc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"501
+[; ;main.c: 501:         position_text[4][0] = 66;
+[e = *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> -> 66 `i `uc ]
+"502
+[; ;main.c: 502:         position_text[4][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"506
+[; ;main.c: 506:         x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"507
+[; ;main.c: 507:         y0 = y0 + 15;
+[e = _y0 -> + -> _y0 `i -> 15 `i `uc ]
+"509
+[; ;main.c: 509:         position_text[5][0] = 20;
+[e = *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux -> -> 20 `i `uc ]
+"510
+[; ;main.c: 510:         position_text[5][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"512
+[; ;main.c: 512:         drawChar(70,y0,'A',0xFFFF, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 70 `i `uc _y0 -> -> 65 `ui `uc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"514
+[; ;main.c: 514:         drawChar(90,y0,'R',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 90 `i `uc _y0 -> -> 82 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"515
+[; ;main.c: 515:         drawChar(103,y0,'E',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 103 `i `uc _y0 -> -> 69 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"516
+[; ;main.c: 516:         drawChar(114,y0,'C',0xF800, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> -> 114 `i `uc _y0 -> -> 67 `ui `uc -> -> 63488 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"517
+[; ;main.c: 517:         if (not_retain_values)
+[e $ ! != -> _not_retain_values `i -> 0 `i 345  ]
+"518
+[; ;main.c: 518:         {
+{
+"519
+[; ;main.c: 519:             hour = 0;
+[e = F3423 -> -> 0 `i `uc ]
+"520
+[; ;main.c: 520:             min = 0;
+[e = F3424 -> -> 0 `i `uc ]
+"521
+[; ;main.c: 521:             sec = 0;
+[e = F3425 -> -> 0 `i `uc ]
+"522
+[; ;main.c: 522:         }
+}
+[e :U 345 ]
+"523
+[; ;main.c: 523:     }
+}
+[e :U 344 ]
+"526
+[; ;main.c: 526:         mAh = 10782;
+[e = _mAh -> -> 10782 `i `f ]
+"527
+[; ;main.c: 527:         if (mAh != previous_valus_ft[0] || flag_update_display)
+[e $ ! || != _mAh *U + &U _previous_valus_ft * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus_ft `ui `ux != -> _flag_update_display `i -> 0 `i 346  ]
+"528
+[; ;main.c: 528:         {
+{
+"529
+[; ;main.c: 529:             previous_valus_ft[0] = mAh;
+[e = *U + &U _previous_valus_ft * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus_ft `ui `ux _mAh ]
+"530
+[; ;main.c: 530:             text6_display(position_text[0][0],position_text[0][1],mWh,0x07E0);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _mWh -> -> 2016 `i `us ]
+"531
+[; ;main.c: 531:         }
+}
+[e :U 346 ]
+"533
+[; ;main.c: 533:         mWh = 10782;
+[e = _mWh -> -> 10782 `i `f ]
+"534
+[; ;main.c: 534:         if (mWh != previous_valus_ft[1] || flag_update_display)
+[e $ ! || != _mWh *U + &U _previous_valus_ft * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus_ft `ui `ux != -> _flag_update_display `i -> 0 `i 347  ]
+"535
+[; ;main.c: 535:         {
+{
+"536
+[; ;main.c: 536:             previous_valus_ft[1] = mWh;
+[e = *U + &U _previous_valus_ft * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus_ft `ui `ux _mWh ]
+"537
+[; ;main.c: 537:             text6_display(position_text[1][0],position_text[1][1],mWh,0x059F);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _mWh -> -> 1439 `i `us ]
+"538
+[; ;main.c: 538:         }
+}
+[e :U 347 ]
+"539
+[; ;main.c: 539:         A = 1.245;
+[e = _A -> .1.245 `f ]
+"540
+[; ;main.c: 540:         if (A != previous_valus_ft[2] || flag_update_display)
+[e $ ! || != _A *U + &U _previous_valus_ft * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus_ft `ui `ux != -> _flag_update_display `i -> 0 `i 348  ]
+"541
+[; ;main.c: 541:         {
+{
+"542
+[; ;main.c: 542:             previous_valus_ft[2] = A;
+[e = *U + &U _previous_valus_ft * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus_ft `ui `ux _A ]
+"543
+[; ;main.c: 543:             text6_display(position_text[5][0],position_text[5][1],A,0xFFFF);
+[e ( _text6_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 5 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _A -> -> 65535 `ui `us ]
+"544
+[; ;main.c: 544:         }
+}
+[e :U 348 ]
+"546
+[; ;main.c: 546:         if (one_sec || flag_update_display)
+[e $ ! || != -> _one_sec `i -> 0 `i != -> _flag_update_display `i -> 0 `i 349  ]
+"547
+[; ;main.c: 547:         {
+{
+"548
+[; ;main.c: 548:             one_sec = 0;
+[e = _one_sec -> -> 0 `i `uc ]
+"549
+[; ;main.c: 549:             sec++;
+[e ++ F3425 -> -> 1 `i `uc ]
+"550
+[; ;main.c: 550:             if (sec == 60)
+[e $ ! == -> F3425 `i -> 60 `i 350  ]
+"551
+[; ;main.c: 551:                 {
+{
+"552
+[; ;main.c: 552:                     sec = 0;
+[e = F3425 -> -> 0 `i `uc ]
+"553
+[; ;main.c: 553:                     min++;
+[e ++ F3424 -> -> 1 `i `uc ]
+"554
+[; ;main.c: 554:                 }
+}
+[e :U 350 ]
+"555
+[; ;main.c: 555:             if (min == 60)
+[e $ ! == -> F3424 `i -> 60 `i 351  ]
+"556
+[; ;main.c: 556:                 {
+{
+"557
+[; ;main.c: 557:                     min = 0;
+[e = F3424 -> -> 0 `i `uc ]
+"558
+[; ;main.c: 558:                     hour++;
+[e ++ F3423 -> -> 1 `i `uc ]
+"559
+[; ;main.c: 559:                 }
+}
+[e :U 351 ]
+"560
+[; ;main.c: 560:             if (hour == 24)
+[e $ ! == -> F3423 `i -> 24 `i 352  ]
+"561
+[; ;main.c: 561:                 {
+{
+"562
+[; ;main.c: 562:                     hour = 0;
+[e = F3423 -> -> 0 `i `uc ]
+"563
+[; ;main.c: 563:                 }
+}
+[e :U 352 ]
+"564
+[; ;main.c: 564:             if (hour != previous_valus[0] || flag_update_display)
+[e $ ! || != -> F3423 `ui -> *U + &U _previous_valus * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 353  ]
+"565
+[; ;main.c: 565:             {
+{
+"566
+[; ;main.c: 566:                 previous_valus[0] = hour;
+[e = *U + &U _previous_valus * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux -> F3423 `us ]
+"567
+[; ;main.c: 567:                 text2_display(position_text[2][0],position_text[2][1],hour,0xFFFF);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux F3423 -> -> 65535 `ui `us ]
+"568
+[; ;main.c: 568:             }
+}
+[e :U 353 ]
+"570
+[; ;main.c: 570:             if (min != previous_valus[1] || flag_update_display)
+[e $ ! || != -> F3424 `ui -> *U + &U _previous_valus * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 354  ]
+"571
+[; ;main.c: 571:             {
+{
+"572
+[; ;main.c: 572:                 previous_valus[1] = min;
+[e = *U + &U _previous_valus * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux -> F3424 `us ]
+"573
+[; ;main.c: 573:                 text2_display(position_text[3][0],position_text[3][1],min,0xFFFF);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 3 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux F3424 -> -> 65535 `ui `us ]
+"574
+[; ;main.c: 574:             }
+}
+[e :U 354 ]
+"576
+[; ;main.c: 576:             if (sec != previous_valus[2] || flag_update_display)
+[e $ ! || != -> F3425 `ui -> *U + &U _previous_valus * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 355  ]
+"577
+[; ;main.c: 577:             {
+{
+"578
+[; ;main.c: 578:                 previous_valus[2] = sec;
+[e = *U + &U _previous_valus * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux -> F3425 `us ]
+"579
+[; ;main.c: 579:                 text2_display(position_text[4][0],position_text[4][1],sec,0xFFFF);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 4 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux F3425 -> -> 65535 `ui `us ]
+"580
+[; ;main.c: 580:             }
+}
+[e :U 355 ]
+"581
+[; ;main.c: 581:         }
+}
+[e :U 349 ]
+"583
+[; ;main.c: 583:     flag_update_display = 0;
+[e = _flag_update_display -> -> 0 `i `uc ]
+"584
+[; ;main.c: 584: }
+[e :UE 343 ]
+}
+"585
+[; ;main.c: 585: void display_page3(void){
+[v _display_page3 `(v ~T0 @X0 1 ef ]
+{
+[e :U _display_page3 ]
+[f ]
+"586
+[; ;main.c: 586:     uint8_t x0 = 5;
+[v _x0 `uc ~T0 @X0 1 a ]
+[e = _x0 -> -> 5 `i `uc ]
+"587
+[; ;main.c: 587:     uint8_t y0 = 5;
+[v _y0 `uc ~T0 @X0 1 a ]
+[e = _y0 -> -> 5 `i `uc ]
+"588
+[; ;main.c: 588:     static uint8_t min,temp,bright;
+[v F3453 `uc ~T0 @X0 1 s min ]
+[v F3454 `uc ~T0 @X0 1 s temp ]
+[v F3455 `uc ~T0 @X0 1 s bright ]
+"589
+[; ;main.c: 589:     char v0[6];
+[v _v0 `uc ~T0 @X0 -> 6 `i a ]
+"590
+[; ;main.c: 590:     if(flag_update_display)
+[e $ ! != -> _flag_update_display `i -> 0 `i 357  ]
+"591
+[; ;main.c: 591:     {
+{
+"592
+[; ;main.c: 592:         clean_writable_area();
+[e ( _clean_writable_area ..  ]
+"593
+[; ;main.c: 593:         if(flag_rotation)
+[e $ ! != -> _flag_rotation `i -> 0 `i 358  ]
+"594
+[; ;main.c: 594:         {
+{
+"596
+[; ;main.c: 596:             x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"597
+[; ;main.c: 597:             y0 = 30;
+[e = _y0 -> -> 30 `i `uc ]
+"598
+[; ;main.c: 598:             drawRoundRect(x0,y0,tft_width - 10,tft_height - 56,3,0xFFFF);
+[e ( _drawRoundRect (4 , , , , , _x0 _y0 -> - -> _tft_width `i -> 10 `i `uc -> - -> _tft_height `i -> 56 `i `uc -> -> 3 `i `uc -> -> 65535 `ui `us ]
+"599
+[; ;main.c: 599:             drawFastVLine(x0 + 50,y0,tft_height - 56,0xFFFF);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> 50 `i `uc _y0 -> - -> _tft_height `i -> 56 `i `uc -> -> 65535 `ui `us ]
+"600
+[; ;main.c: 600:             drawFastHLine(x0,y0+(tft_height - 56)/3,tft_width - 10,0xFFFF);
+[e ( _drawFastHLine (4 , , , _x0 -> + -> _y0 `i / - -> _tft_height `i -> 56 `i -> 3 `i `uc -> - -> _tft_width `i -> 10 `i `uc -> -> 65535 `ui `us ]
+"601
+[; ;main.c: 601:             drawFastHLine(x0,y0+2*(tft_height - 56)/3,tft_width - 10,0xFFFF);
+[e ( _drawFastHLine (4 , , , _x0 -> + -> _y0 `i / * -> 2 `i - -> _tft_height `i -> 56 `i -> 3 `i `uc -> - -> _tft_width `i -> 10 `i `uc -> -> 65535 `ui `us ]
+"604
+[; ;main.c: 604:             x0 = 20;
+[e = _x0 -> -> 20 `i `uc ]
+"605
+[; ;main.c: 605:             y0 = 32;
+[e = _y0 -> -> 32 `i `uc ]
+"606
+[; ;main.c: 606:             drawRectWH(x0,y0,18,18,0xF800);
+[e ( _drawRectWH (4 , , , , _x0 _y0 -> -> 18 `i `uc -> -> 18 `i `uc -> -> 63488 `ui `us ]
+"607
+[; ;main.c: 607:             drawLine(x0,y0+9,x0+2,y0+9,0xF800);
+[e ( _drawLine (4 , , , , -> _x0 `s -> + -> _y0 `i -> 9 `i `s -> + -> _x0 `i -> 2 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 63488 `ui `us ]
+"608
+[; ;main.c: 608:             drawLine(x0+17,y0+9,x0+15,y0+9,0xF800);
+[e ( _drawLine (4 , , , , -> + -> _x0 `i -> 17 `i `s -> + -> _y0 `i -> 9 `i `s -> + -> _x0 `i -> 15 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 63488 `ui `us ]
+"609
+[; ;main.c: 609:             drawLine(x0+9,y0,x0+9,y0+2,0xF800);
+[e ( _drawLine (4 , , , , -> + -> _x0 `i -> 9 `i `s -> _y0 `s -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 2 `i `s -> -> 63488 `ui `us ]
+"610
+[; ;main.c: 610:             drawLine(x0+9,y0+17,x0+9,y0+15,0xF800);
+[e ( _drawLine (4 , , , , -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 17 `i `s -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 15 `i `s -> -> 63488 `ui `us ]
+"611
+[; ;main.c: 611:             drawFastVLine(x0+9,y0+9-5,5,0xF800);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> 9 `i `uc -> - + -> _y0 `i -> 9 `i -> 5 `i `uc -> -> 5 `i `uc -> -> 63488 `ui `us ]
+"612
+[; ;main.c: 612:             drawFastHLine(x0+9,y0+9,5,0xF800);
+[e ( _drawFastHLine (4 , , , -> + -> _x0 `i -> 9 `i `uc -> + -> _y0 `i -> 9 `i `uc -> -> 5 `i `uc -> -> 63488 `ui `us ]
+"615
+[; ;main.c: 615:             x0 = 58;
+[e = _x0 -> -> 58 `i `uc ]
+"616
+[; ;main.c: 616:             y0 = 47;
+[e = _y0 -> -> 47 `i `uc ]
+"617
+[; ;main.c: 617:             position_text[0][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"618
+[; ;main.c: 618:             position_text[0][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"620
+[; ;main.c: 620:             x0 = 81;
+[e = _x0 -> -> 81 `i `uc ]
+"621
+[; ;main.c: 621:             char *txtthree = "Minutes";
+[v _txtthree `*uc ~T0 @X0 1 a ]
+[e = _txtthree :s 9C ]
+"622
+[; ;main.c: 622:             drawText(x0, y0, txtthree, 0xF800, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txtthree `*Cuc -> -> 63488 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"625
+[; ;main.c: 625:             x0 = 30;
+[e = _x0 -> -> 30 `i `uc ]
+"626
+[; ;main.c: 626:             y0 = 64;
+[e = _y0 -> -> 64 `i `uc ]
+"627
+[; ;main.c: 627:             fillCircle(x0,y0,5,0x07E0);
+[e ( _fillCircle (4 , , , -> _x0 `s -> _y0 `s -> -> 5 `i `s -> -> 2016 `i `us ]
+"628
+[; ;main.c: 628:             drawFastVLine(x0,y0-10,3,0x07E0);
+[e ( _drawFastVLine (4 , , , _x0 -> - -> _y0 `i -> 10 `i `uc -> -> 3 `i `uc -> -> 2016 `i `us ]
+"629
+[; ;main.c: 629:             drawFastVLine(x0,y0+7,3,0x07E0);
+[e ( _drawFastVLine (4 , , , _x0 -> + -> _y0 `i -> 7 `i `uc -> -> 3 `i `uc -> -> 2016 `i `us ]
+"630
+[; ;main.c: 630:             drawFastHLine(x0-10,y0,3,0x07E0);
+[e ( _drawFastHLine (4 , , , -> - -> _x0 `i -> 10 `i `uc _y0 -> -> 3 `i `uc -> -> 2016 `i `us ]
+"631
+[; ;main.c: 631:             drawFastHLine(x0+7,y0,3,0x07E0);
+[e ( _drawFastHLine (4 , , , -> + -> _x0 `i -> 7 `i `uc _y0 -> -> 3 `i `uc -> -> 2016 `i `us ]
+"632
+[; ;main.c: 632:             drawLine(x0,y0,x0+9,y0+9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"633
+[; ;main.c: 633:             drawLine(x0,y0,x0+9,y0-9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> + -> _x0 `i -> 9 `i `s -> - -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"634
+[; ;main.c: 634:             drawLine(x0,y0,x0-9,y0+9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> - -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"635
+[; ;main.c: 635:             drawLine(x0,y0,x0-9,y0-9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> - -> _x0 `i -> 9 `i `s -> - -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"636
+[; ;main.c: 636:             drawCircle(x0,y0,6,0x0000);
+[e ( _drawCircle (4 , , , -> _x0 `s -> _y0 `s -> -> 6 `i `s -> -> 0 `i `us ]
+"639
+[; ;main.c: 639:             x0 = 58;
+[e = _x0 -> -> 58 `i `uc ]
+"640
+[; ;main.c: 640:             y0 = 69;
+[e = _y0 -> -> 69 `i `uc ]
+"641
+[; ;main.c: 641:             position_text[1][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"642
+[; ;main.c: 642:             position_text[1][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"643
+[; ;main.c: 643:             x0 = 81;
+[e = _x0 -> -> 81 `i `uc ]
+"644
+[; ;main.c: 644:             char *txtfive = "Bright";
+[v _txtfive `*uc ~T0 @X0 1 a ]
+[e = _txtfive :s 10C ]
+"645
+[; ;main.c: 645:             drawText(x0, y0, txtfive, 0x07E0, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txtfive `*Cuc -> -> 2016 `i `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"648
+[; ;main.c: 648:             uint8_t x1 = 30;
+[v _x1 `uc ~T0 @X0 1 a ]
+[e = _x1 -> -> 30 `i `uc ]
+"649
+[; ;main.c: 649:             uint8_t y1 = 92;
+[v _y1 `uc ~T0 @X0 1 a ]
+[e = _y1 -> -> 92 `i `uc ]
+"650
+[; ;main.c: 650:             drawCircle(x1,y1,4,0xFFE0);
+[e ( _drawCircle (4 , , , -> _x1 `s -> _y1 `s -> -> 4 `i `s -> -> 65504 `ui `us ]
+"651
+[; ;main.c: 651:             fillCircle(x1,y1,2,0xFFE0);
+[e ( _fillCircle (4 , , , -> _x1 `s -> _y1 `s -> -> 2 `i `s -> -> 65504 `ui `us ]
+"652
+[; ;main.c: 652:             fillRect(x1,y1-11,1,8,0xFFE0);
+[e ( _fillRect (4 , , , , _x1 -> - -> _y1 `i -> 11 `i `uc -> -> 1 `i `uc -> -> 8 `i `uc -> -> 65504 `ui `us ]
+"653
+[; ;main.c: 653:             drawRoundRect(x1-2,y1-13,5,11,1,0xFFE0);
+[e ( _drawRoundRect (4 , , , , , -> - -> _x1 `i -> 2 `i `uc -> - -> _y1 `i -> 13 `i `uc -> -> 5 `i `uc -> -> 11 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"654
+[; ;main.c: 654:             drawFastVLine(x1+3,y1-11,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 11 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"655
+[; ;main.c: 655:             drawFastVLine(x1+3,y1-9,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 9 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"656
+[; ;main.c: 656:             drawFastVLine(x1+3,y1-7,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 7 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"658
+[; ;main.c: 658:             x0 = 58;
+[e = _x0 -> -> 58 `i `uc ]
+"659
+[; ;main.c: 659:             y0 = 93;
+[e = _y0 -> -> 93 `i `uc ]
+"660
+[; ;main.c: 660:             position_text[2][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"661
+[; ;main.c: 661:             position_text[2][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"662
+[; ;main.c: 662:             x0 = 81;
+[e = _x0 -> -> 81 `i `uc ]
+"663
+[; ;main.c: 663:             char *txtfour = "Temp";
+[v _txtfour `*uc ~T0 @X0 1 a ]
+[e = _txtfour :s 11C ]
+"664
+[; ;main.c: 664:             drawText(x0, y0, txtfour, 0xFFE0, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txtfour `*Cuc -> -> 65504 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"665
+[; ;main.c: 665:         }
+}
+[e $U 359  ]
+"666
+[; ;main.c: 666:         else
+[e :U 358 ]
+"667
+[; ;main.c: 667:         {
+{
+"668
+[; ;main.c: 668:             x0 = 5;
+[e = _x0 -> -> 5 `i `uc ]
+"669
+[; ;main.c: 669:             y0 = 30;
+[e = _y0 -> -> 30 `i `uc ]
+"670
+[; ;main.c: 670:             drawRoundRect(x0,y0,tft_width - 10,tft_height - 56,3,0xFFFF);
+[e ( _drawRoundRect (4 , , , , , _x0 _y0 -> - -> _tft_width `i -> 10 `i `uc -> - -> _tft_height `i -> 56 `i `uc -> -> 3 `i `uc -> -> 65535 `ui `us ]
+"671
+[; ;main.c: 671:             drawFastVLine(x0 + 30,y0,tft_height - 56,0xFFFF);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> 30 `i `uc _y0 -> - -> _tft_height `i -> 56 `i `uc -> -> 65535 `ui `us ]
+"672
+[; ;main.c: 672:             drawFastHLine(x0,y0+(tft_height - 56)/3,tft_width - 10,0xFFFF);
+[e ( _drawFastHLine (4 , , , _x0 -> + -> _y0 `i / - -> _tft_height `i -> 56 `i -> 3 `i `uc -> - -> _tft_width `i -> 10 `i `uc -> -> 65535 `ui `us ]
+"673
+[; ;main.c: 673:             drawFastHLine(x0,y0+2*(tft_height - 56)/3,tft_width - 10,0xFFFF);
+[e ( _drawFastHLine (4 , , , _x0 -> + -> _y0 `i / * -> 2 `i - -> _tft_height `i -> 56 `i -> 3 `i `uc -> - -> _tft_width `i -> 10 `i `uc -> -> 65535 `ui `us ]
+"676
+[; ;main.c: 676:             x0 = 10;
+[e = _x0 -> -> 10 `i `uc ]
+"677
+[; ;main.c: 677:             y0 = 38;
+[e = _y0 -> -> 38 `i `uc ]
+"678
+[; ;main.c: 678:             drawRectWH(x0,y0,18,18,0xF800);
+[e ( _drawRectWH (4 , , , , _x0 _y0 -> -> 18 `i `uc -> -> 18 `i `uc -> -> 63488 `ui `us ]
+"679
+[; ;main.c: 679:             drawLine(x0,y0+9,x0+2,y0+9,0xF800);
+[e ( _drawLine (4 , , , , -> _x0 `s -> + -> _y0 `i -> 9 `i `s -> + -> _x0 `i -> 2 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 63488 `ui `us ]
+"680
+[; ;main.c: 680:             drawLine(x0+17,y0+9,x0+15,y0+9,0xF800);
+[e ( _drawLine (4 , , , , -> + -> _x0 `i -> 17 `i `s -> + -> _y0 `i -> 9 `i `s -> + -> _x0 `i -> 15 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 63488 `ui `us ]
+"681
+[; ;main.c: 681:             drawLine(x0+9,y0,x0+9,y0+2,0xF800);
+[e ( _drawLine (4 , , , , -> + -> _x0 `i -> 9 `i `s -> _y0 `s -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 2 `i `s -> -> 63488 `ui `us ]
+"682
+[; ;main.c: 682:             drawLine(x0+9,y0+17,x0+9,y0+15,0xF800);
+[e ( _drawLine (4 , , , , -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 17 `i `s -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 15 `i `s -> -> 63488 `ui `us ]
+"683
+[; ;main.c: 683:             drawFastVLine(x0+9,y0+9-5,5,0xF800);
+[e ( _drawFastVLine (4 , , , -> + -> _x0 `i -> 9 `i `uc -> - + -> _y0 `i -> 9 `i -> 5 `i `uc -> -> 5 `i `uc -> -> 63488 `ui `us ]
+"684
+[; ;main.c: 684:             drawFastHLine(x0+9,y0+9,5,0xF800);
+[e ( _drawFastHLine (4 , , , -> + -> _x0 `i -> 9 `i `uc -> + -> _y0 `i -> 9 `i `uc -> -> 5 `i `uc -> -> 63488 `ui `us ]
+"686
+[; ;main.c: 686:             x0 = 36;
+[e = _x0 -> -> 36 `i `uc ]
+"687
+[; ;main.c: 687:             y0 = 53;
+[e = _y0 -> -> 53 `i `uc ]
+"688
+[; ;main.c: 688:             position_text[0][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"689
+[; ;main.c: 689:             position_text[0][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"690
+[; ;main.c: 690:             x0 = 58;
+[e = _x0 -> -> 58 `i `uc ]
+"691
+[; ;main.c: 691:             char *txtthree = "Minute";
+[v _txtthree `*uc ~T0 @X0 1 a ]
+[e = _txtthree :s 12C ]
+"692
+[; ;main.c: 692:             drawText(x0, y0, txtthree, 0xF800, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txtthree `*Cuc -> -> 63488 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"694
+[; ;main.c: 694:             x0 = 20;
+[e = _x0 -> -> 20 `i `uc ]
+"695
+[; ;main.c: 695:             y0 = 80;
+[e = _y0 -> -> 80 `i `uc ]
+"696
+[; ;main.c: 696:             fillCircle(x0,y0,5,0x07E0);
+[e ( _fillCircle (4 , , , -> _x0 `s -> _y0 `s -> -> 5 `i `s -> -> 2016 `i `us ]
+"697
+[; ;main.c: 697:             drawFastVLine(x0,y0-10,3,0x07E0);
+[e ( _drawFastVLine (4 , , , _x0 -> - -> _y0 `i -> 10 `i `uc -> -> 3 `i `uc -> -> 2016 `i `us ]
+"698
+[; ;main.c: 698:             drawFastVLine(x0,y0+7,3,0x07E0);
+[e ( _drawFastVLine (4 , , , _x0 -> + -> _y0 `i -> 7 `i `uc -> -> 3 `i `uc -> -> 2016 `i `us ]
+"699
+[; ;main.c: 699:             drawFastHLine(x0-10,y0,3,0x07E0);
+[e ( _drawFastHLine (4 , , , -> - -> _x0 `i -> 10 `i `uc _y0 -> -> 3 `i `uc -> -> 2016 `i `us ]
+"700
+[; ;main.c: 700:             drawFastHLine(x0+7,y0,3,0x07E0);
+[e ( _drawFastHLine (4 , , , -> + -> _x0 `i -> 7 `i `uc _y0 -> -> 3 `i `uc -> -> 2016 `i `us ]
+"701
+[; ;main.c: 701:             drawLine(x0,y0,x0+9,y0+9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> + -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"702
+[; ;main.c: 702:             drawLine(x0,y0,x0+9,y0-9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> + -> _x0 `i -> 9 `i `s -> - -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"703
+[; ;main.c: 703:             drawLine(x0,y0,x0-9,y0+9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> - -> _x0 `i -> 9 `i `s -> + -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"704
+[; ;main.c: 704:             drawLine(x0,y0,x0-9,y0-9,0x07E0);
+[e ( _drawLine (4 , , , , -> _x0 `s -> _y0 `s -> - -> _x0 `i -> 9 `i `s -> - -> _y0 `i -> 9 `i `s -> -> 2016 `i `us ]
+"705
+[; ;main.c: 705:             drawCircle(x0,y0,6,0x0000);
+[e ( _drawCircle (4 , , , -> _x0 `s -> _y0 `s -> -> 6 `i `s -> -> 0 `i `us ]
+"707
+[; ;main.c: 707:             x0 = 36;
+[e = _x0 -> -> 36 `i `uc ]
+"708
+[; ;main.c: 708:             y0 = 85;
+[e = _y0 -> -> 85 `i `uc ]
+"709
+[; ;main.c: 709:             position_text[1][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"710
+[; ;main.c: 710:             position_text[1][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"711
+[; ;main.c: 711:             x0 = 58;
+[e = _x0 -> -> 58 `i `uc ]
+"712
+[; ;main.c: 712:             char *txtfive = "Bright";
+[v _txtfive `*uc ~T0 @X0 1 a ]
+[e = _txtfive :s 13C ]
+"713
+[; ;main.c: 713:             drawText(x0, y0, txtfive, 0x07E0, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txtfive `*Cuc -> -> 2016 `i `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"716
+[; ;main.c: 716:             uint8_t x1 = 20;
+[v _x1 `uc ~T0 @X0 1 a ]
+[e = _x1 -> -> 20 `i `uc ]
+"717
+[; ;main.c: 717:             uint8_t y1 = 122;
+[v _y1 `uc ~T0 @X0 1 a ]
+[e = _y1 -> -> 122 `i `uc ]
+"718
+[; ;main.c: 718:             drawCircle(x1,y1,4,0xFFE0);
+[e ( _drawCircle (4 , , , -> _x1 `s -> _y1 `s -> -> 4 `i `s -> -> 65504 `ui `us ]
+"719
+[; ;main.c: 719:             fillCircle(x1,y1,2,0xFFE0);
+[e ( _fillCircle (4 , , , -> _x1 `s -> _y1 `s -> -> 2 `i `s -> -> 65504 `ui `us ]
+"720
+[; ;main.c: 720:             fillRect(x1,y1-11,1,8,0xFFE0);
+[e ( _fillRect (4 , , , , _x1 -> - -> _y1 `i -> 11 `i `uc -> -> 1 `i `uc -> -> 8 `i `uc -> -> 65504 `ui `us ]
+"721
+[; ;main.c: 721:             drawRoundRect(x1-2,y1-13,5,11,1,0xFFE0);
+[e ( _drawRoundRect (4 , , , , , -> - -> _x1 `i -> 2 `i `uc -> - -> _y1 `i -> 13 `i `uc -> -> 5 `i `uc -> -> 11 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"722
+[; ;main.c: 722:             drawFastVLine(x1+3,y1-11,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 11 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"723
+[; ;main.c: 723:             drawFastVLine(x1+3,y1-9,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 9 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"724
+[; ;main.c: 724:             drawFastVLine(x1+3,y1-7,1,0xFFE0);
+[e ( _drawFastVLine (4 , , , -> + -> _x1 `i -> 3 `i `uc -> - -> _y1 `i -> 7 `i `uc -> -> 1 `i `uc -> -> 65504 `ui `us ]
+"727
+[; ;main.c: 727:             x0 = 36;
+[e = _x0 -> -> 36 `i `uc ]
+"728
+[; ;main.c: 728:             y0 = 120;
+[e = _y0 -> -> 120 `i `uc ]
+"729
+[; ;main.c: 729:             position_text[2][0] = x0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _x0 ]
+"730
+[; ;main.c: 730:             position_text[2][1] = y0;
+[e = *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux _y0 ]
+"731
+[; ;main.c: 731:             x0 = 58;
+[e = _x0 -> -> 58 `i `uc ]
+"732
+[; ;main.c: 732:             char *txtfour = "Temp";
+[v _txtfour `*uc ~T0 @X0 1 a ]
+[e = _txtfour :s 14C ]
+"733
+[; ;main.c: 733:             drawText(x0, y0, txtfour, 0xFFE0, 0xFFFF, 1);
+[e ( _drawText (4 , , , , , _x0 _y0 -> _txtfour `*Cuc -> -> 65504 `ui `us -> -> 65535 `ui `us -> -> 1 `i `uc ]
+"736
+[; ;main.c: 736:             min = 0;
+[e = F3453 -> -> 0 `i `uc ]
+"737
+[; ;main.c: 737:             bright = 0;
+[e = F3455 -> -> 0 `i `uc ]
+"738
+[; ;main.c: 738:             temp = 0;
+[e = F3454 -> -> 0 `i `uc ]
+"740
+[; ;main.c: 740:         }
+}
+[e :U 359 ]
+"741
+[; ;main.c: 741:     }
+}
+[e :U 357 ]
+"744
+[; ;main.c: 744:     if(one_sec){
+[e $ ! != -> _one_sec `i -> 0 `i 360  ]
+{
+"745
+[; ;main.c: 745:         min++;
+[e ++ F3453 -> -> 1 `i `uc ]
+"746
+[; ;main.c: 746:         bright++;
+[e ++ F3455 -> -> 1 `i `uc ]
+"747
+[; ;main.c: 747:         temp++;
+[e ++ F3454 -> -> 1 `i `uc ]
+"748
+[; ;main.c: 748:         one_sec = 0;
+[e = _one_sec -> -> 0 `i `uc ]
+"749
+[; ;main.c: 749:     }
+}
+[e :U 360 ]
+"751
+[; ;main.c: 751:     if (min != previous_valus[0] || flag_update_display)
+[e $ ! || != -> F3453 `ui -> *U + &U _previous_valus * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 361  ]
+"752
+[; ;main.c: 752:     {
+{
+"753
+[; ;main.c: 753:         previous_valus[0] = min;
+[e = *U + &U _previous_valus * -> -> -> 0 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux -> F3453 `us ]
+"754
+[; ;main.c: 754:         text2_display(position_text[0][0],position_text[0][1],min,0xF800);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 0 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux F3453 -> -> 63488 `ui `us ]
+"755
+[; ;main.c: 755:     }
+}
+[e :U 361 ]
+"757
+[; ;main.c: 757:     if (bright != previous_valus[1] || flag_update_display)
+[e $ ! || != -> F3455 `ui -> *U + &U _previous_valus * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 362  ]
+"758
+[; ;main.c: 758:     {
+{
+"759
+[; ;main.c: 759:         previous_valus[1] = bright;
+[e = *U + &U _previous_valus * -> -> -> 1 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux -> F3455 `us ]
+"760
+[; ;main.c: 760:         text2_display(position_text[1][0],position_text[1][1],bright,0x07E0);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 1 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux F3455 -> -> 2016 `i `us ]
+"761
+[; ;main.c: 761:     }
+}
+[e :U 362 ]
+"763
+[; ;main.c: 763:     if (temp != previous_valus[2] || flag_update_display)
+[e $ ! || != -> F3454 `ui -> *U + &U _previous_valus * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux `ui != -> _flag_update_display `i -> 0 `i 363  ]
+"764
+[; ;main.c: 764:     {
+{
+"765
+[; ;main.c: 765:         previous_valus[2] = temp;
+[e = *U + &U _previous_valus * -> -> -> 2 `i `ui `ux -> -> # *U &U _previous_valus `ui `ux -> F3454 `us ]
+"766
+[; ;main.c: 766:         text2_display(position_text[2][0],position_text[2][1],temp,0xFFE0);
+[e ( _text2_display (4 , , , *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux *U + &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _position_text * -> -> -> 2 `i `ui `ux -> * -> # *U &U *U &U _position_text `ui -> -> 2 `i `ui `ux `ui `ux F3454 -> -> 65504 `ui `us ]
+"767
+[; ;main.c: 767:     }
+}
+[e :U 363 ]
+"769
+[; ;main.c: 769:     flag_update_display = 0;
+[e = _flag_update_display -> -> 0 `i `uc ]
+"770
+[; ;main.c: 770: }
+[e :UE 356 ]
+}
+"771
+[; ;main.c: 771: void display_page4(void){
+[v _display_page4 `(v ~T0 @X0 1 ef ]
+{
+[e :U _display_page4 ]
+[f ]
+"772
+[; ;main.c: 772:     char v0[6];
+[v _v0 `uc ~T0 @X0 -> 6 `i a ]
+"773
+[; ;main.c: 773:     uint16_t result;
+[v _result `us ~T0 @X0 1 a ]
+"774
+[; ;main.c: 774:     float voltage;
+[v _voltage `f ~T0 @X0 1 a ]
+"775
+[; ;main.c: 775:     static uint8_t x0 = 5;
+[v F3489 `uc ~T0 @X0 1 s x0 ]
+[i F3489
+-> -> 5 `i `uc
+]
+"776
+[; ;main.c: 776:     static uint8_t y0 = 5;
+[v F3490 `uc ~T0 @X0 1 s y0 ]
+[i F3490
+-> -> 5 `i `uc
+]
+"777
+[; ;main.c: 777:     static uint8_t graph_y_min;
+[v F3491 `uc ~T0 @X0 1 s graph_y_min ]
+"778
+[; ;main.c: 778:     static uint8_t graph_y_max;
+[v F3492 `uc ~T0 @X0 1 s graph_y_max ]
+"779
+[; ;main.c: 779:     float k = 5.5;
+[v _k `f ~T0 @X0 1 a ]
+[e = _k -> .5.5 `f ]
+"780
+[; ;main.c: 780:     uint8_t value;
+[v _value `uc ~T0 @X0 1 a ]
+"781
+[; ;main.c: 781:     uint8_t i;
+[v _i `uc ~T0 @X0 1 a ]
+"782
+[; ;main.c: 782:     static uint8_t buffer_y[10];
+[v F3496 `uc ~T0 @X0 -> 10 `i s buffer_y ]
+"784
+[; ;main.c: 784:     if (flag_update_display)
+[e $ ! != -> _flag_update_display `i -> 0 `i 365  ]
+"785
+[; ;main.c: 785:     {
+{
+"786
+[; ;main.c: 786:         x0 = 25;
+[e = F3489 -> -> 25 `i `uc ]
+"787
+[; ;main.c: 787:         y0 = 30;
+[e = F3490 -> -> 30 `i `uc ]
+"788
+[; ;main.c: 788:         clean_writable_area();
+[e ( _clean_writable_area ..  ]
+"789
+[; ;main.c: 789:         setFont(&Picopixel);
+[e ( _setFont (1 &U _Picopixel ]
+"790
+[; ;main.c: 790:         snprintf(v0, 6, "%.2f", 5.00);
+[e ( _snprintf (2 , (. , , &U _v0 -> -> 6 `i `ui :s 15C .5.00 ]
+"791
+[; ;main.c: 791:         drawText(x0-20,y0+3,v0, 0xFFFF, 0x0000, 1);
+[e ( _drawText (4 , , , , , -> - -> F3489 `i -> 20 `i `uc -> + -> F3490 `i -> 3 `i `uc -> &U _v0 `*Cuc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"792
+[; ;main.c: 792:         drawChar(x0-5,y0+3,'V',0xFFFF, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> - -> F3489 `i -> 5 `i `uc -> + -> F3490 `i -> 3 `i `uc -> -> 86 `ui `uc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"793
+[; ;main.c: 793:         drawFastHLine(x0-1,y0+1,3,0xFFFF);
+[e ( _drawFastHLine (4 , , , -> - -> F3489 `i -> 1 `i `uc -> + -> F3490 `i -> 1 `i `uc -> -> 3 `i `uc -> -> 65535 `ui `us ]
+"794
+[; ;main.c: 794:         for ( i=0;i < 6;i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 6 `i 366  ]
+[e $U 367  ]
+[e :U 366 ]
+"795
+[; ;main.c: 795:         {
+{
+"796
+[; ;main.c: 796:             drawFastHLine(x0-1,y0+3+11*i,1,0xFFFF);
+[e ( _drawFastHLine (4 , , , -> - -> F3489 `i -> 1 `i `uc -> + + -> F3490 `i -> 3 `i * -> 11 `i -> _i `i `uc -> -> 1 `i `uc -> -> 65535 `ui `us ]
+"797
+[; ;main.c: 797:             drawFastHLine(x0-1,y0+5+11*i,1,0xFFFF);
+[e ( _drawFastHLine (4 , , , -> - -> F3489 `i -> 1 `i `uc -> + + -> F3490 `i -> 5 `i * -> 11 `i -> _i `i `uc -> -> 1 `i `uc -> -> 65535 `ui `us ]
+"798
+[; ;main.c: 798:             drawFastHLine(x0-1,y0+7+11*i,1,0xFFFF);
+[e ( _drawFastHLine (4 , , , -> - -> F3489 `i -> 1 `i `uc -> + + -> F3490 `i -> 7 `i * -> 11 `i -> _i `i `uc -> -> 1 `i `uc -> -> 65535 `ui `us ]
+"799
+[; ;main.c: 799:             drawFastHLine(x0-1,y0+9+11*i,1,0xFFFF);
+[e ( _drawFastHLine (4 , , , -> - -> F3489 `i -> 1 `i `uc -> + + -> F3490 `i -> 9 `i * -> 11 `i -> _i `i `uc -> -> 1 `i `uc -> -> 65535 `ui `us ]
+"800
+[; ;main.c: 800:             snprintf(v0, 6, "%.2f", 5.00 - 0.833*(i+1));
+[e ( _snprintf (2 , (. , , &U _v0 -> -> 6 `i `ui :s 16C - .5.00 * .0.833 -> + -> _i `i -> 1 `i `d ]
+"801
+[; ;main.c: 801:             drawText(x0-20,y0+3+11*(i+1),v0, 0xFFFF, 0x0000, 1);
+[e ( _drawText (4 , , , , , -> - -> F3489 `i -> 20 `i `uc -> + + -> F3490 `i -> 3 `i * -> 11 `i + -> _i `i -> 1 `i `uc -> &U _v0 `*Cuc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"802
+[; ;main.c: 802:             drawChar(x0-5,y0+3+11*(i+1),'V',0xFFFF, 0x0000, 1);
+[e ( _drawChar (4 , , , , , -> - -> F3489 `i -> 5 `i `uc -> + + -> F3490 `i -> 3 `i * -> 11 `i + -> _i `i -> 1 `i `uc -> -> 86 `ui `uc -> -> 65535 `ui `us -> -> 0 `i `us -> -> 1 `i `uc ]
+"803
+[; ;main.c: 803:             drawFastHLine(x0-1,y0+1+11*(i+1),3,0xFFFF);
+[e ( _drawFastHLine (4 , , , -> - -> F3489 `i -> 1 `i `uc -> + + -> F3490 `i -> 1 `i * -> 11 `i + -> _i `i -> 1 `i `uc -> -> 3 `i `uc -> -> 65535 `ui `us ]
+"804
+[; ;main.c: 804:         }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 6 `i 366  ]
+[e :U 367 ]
+}
+"805
+[; ;main.c: 805:         graph_y_min = y0 + 1;
+[e = F3491 -> + -> F3490 `i -> 1 `i `uc ]
+"807
+[; ;main.c: 807:         graph_y_max = y0 + 67;
+[e = F3492 -> + -> F3490 `i -> 67 `i `uc ]
+"809
+[; ;main.c: 809:         setFont(&FreeSansBold9pt7b);
+[e ( _setFont (1 &U _FreeSansBold9pt7b ]
+"810
+[; ;main.c: 810:         for (i = 0; i < 10; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 10 `i 369  ]
+[e $U 370  ]
+[e :U 369 ]
+"811
+[; ;main.c: 811:             buffer_y[i] = graph_y_max;
+[e = *U + &U F3496 * -> _i `ux -> -> # *U &U F3496 `ui `ux F3492 ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 10 `i 369  ]
+[e :U 370 ]
+}
+"812
+[; ;main.c: 812:         i = 0;
+[e = _i -> -> 0 `i `uc ]
+"813
+[; ;main.c: 813:     }
+}
+[e :U 365 ]
+"814
+[; ;main.c: 814:     if(current_display == 4)
+[e $ ! == -> _current_display `i -> 4 `i 372  ]
+"815
+[; ;main.c: 815:         result = ADC_GetConversion(channel_AN2);
+[e = _result ( _ADC_GetConversion (1 . `E2933 6 ]
+[e $U 373  ]
+"816
+[; ;main.c: 816:     else
+[e :U 372 ]
+"817
+[; ;main.c: 817:         result = ADC_GetConversion(channel_AN3);
+[e = _result ( _ADC_GetConversion (1 . `E2933 7 ]
+[e :U 373 ]
+"818
+[; ;main.c: 818:     voltage = result * (float)(5/1023.00) * adc_err ;
+[e = _voltage * * -> -> _result `ui `f -> / -> -> 5 `i `d .1023.00 `f _adc_err ]
+"819
+[; ;main.c: 819:     value = map ((float)result,0.0,1023.0,(float)graph_y_max,(float)graph_y_min);
+[e = _value -> ( _map (4 , , , , -> _result `f -> .0.0 `f -> .1023.0 `f -> F3492 `f -> F3491 `f `uc ]
+"820
+[; ;main.c: 820:     for (i = 0; i < 10 - 1; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i - -> 10 `i -> 1 `i 374  ]
+[e $U 375  ]
+[e :U 374 ]
+"821
+[; ;main.c: 821:         drawLine(x0+10*i,buffer_y[i],x0+10*(i+1),buffer_y[i+1],0x0000);
+[e ( _drawLine (4 , , , , -> + -> F3489 `i * -> 10 `i -> _i `i `s -> *U + &U F3496 * -> _i `ux -> -> # *U &U F3496 `ui `ux `s -> + -> F3489 `i * -> 10 `i + -> _i `i -> 1 `i `s -> *U + &U F3496 * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U F3496 `ui `ux `s -> -> 0 `i `us ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i - -> 10 `i -> 1 `i 374  ]
+[e :U 375 ]
+}
+"822
+[; ;main.c: 822:     for (i = 0; i < 10 -1;i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i - -> 10 `i -> 1 `i 377  ]
+[e $U 378  ]
+[e :U 377 ]
+"823
+[; ;main.c: 823:         {
+{
+"824
+[; ;main.c: 824:             buffer_y[i] = buffer_y[i+1];
+[e = *U + &U F3496 * -> _i `ux -> -> # *U &U F3496 `ui `ux *U + &U F3496 * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U F3496 `ui `ux ]
+"825
+[; ;main.c: 825:         }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i - -> 10 `i -> 1 `i 377  ]
+[e :U 378 ]
+}
+"826
+[; ;main.c: 826:     buffer_y[10 -1] = value;
+[e = *U + &U F3496 * -> -> - -> 10 `i -> 1 `i `ui `ux -> -> # *U &U F3496 `ui `ux _value ]
+"827
+[; ;main.c: 827:     for (i = 0; i < 10 -1 ; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i - -> 10 `i -> 1 `i 380  ]
+[e $U 381  ]
+[e :U 380 ]
+"828
+[; ;main.c: 828:         drawLine(x0+10*i,buffer_y[i],x0+10*(i+1),buffer_y[i+1],0xFFE0);
+[e ( _drawLine (4 , , , , -> + -> F3489 `i * -> 10 `i -> _i `i `s -> *U + &U F3496 * -> _i `ux -> -> # *U &U F3496 `ui `ux `s -> + -> F3489 `i * -> 10 `i + -> _i `i -> 1 `i `s -> *U + &U F3496 * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U F3496 `ui `ux `s -> -> 65504 `ui `us ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i - -> 10 `i -> 1 `i 380  ]
+[e :U 381 ]
+}
+"831
+[; ;main.c: 831:     flag_update_display = 0;
+[e = _flag_update_display -> -> 0 `i `uc ]
+"832
+[; ;main.c: 832: }
+[e :UE 364 ]
+}
+"834
+[; ;main.c: 834: int map(float x, float in_min, float in_max, float out_min, float out_max) {
+[v _map `(i ~T0 @X0 1 ef5`f`f`f`f`f ]
+{
+[e :U _map ]
+[v _x `f ~T0 @X0 1 r1 ]
+[v _in_min `f ~T0 @X0 1 r2 ]
+[v _in_max `f ~T0 @X0 1 r3 ]
+[v _out_min `f ~T0 @X0 1 r4 ]
+[v _out_max `f ~T0 @X0 1 r5 ]
+[f ]
+"836
+[; ;main.c: 836:    float a = x - in_min;
+[v _a `f ~T0 @X0 1 a ]
+[e = _a - _x _in_min ]
+"837
+[; ;main.c: 837:    float b = out_max - out_min;
+[v _b `f ~T0 @X0 1 a ]
+[e = _b - _out_max _out_min ]
+"838
+[; ;main.c: 838:    float c = in_max - in_min;
+[v _c `f ~T0 @X0 1 a ]
+[e = _c - _in_max _in_min ]
+"839
+[; ;main.c: 839:    float d = (a/c);
+[v _d `f ~T0 @X0 1 a ]
+[e = _d / _a _c ]
+"840
+[; ;main.c: 840:    float e = d * b + out_min;
+[v _e `f ~T0 @X0 1 a ]
+[e = _e + * _d _b _out_min ]
+"841
+[; ;main.c: 841:    return (int)e;
+[e ) -> _e `i ]
+[e $UE 383  ]
+"842
+[; ;main.c: 842: }
+[e :UE 383 ]
+}
+"844
+[; ;main.c: 844: void clean_writable_area(void){
+[v _clean_writable_area `(v ~T0 @X0 1 ef ]
+{
+[e :U _clean_writable_area ]
+[f ]
+"845
+[; ;main.c: 845:     fillRect(5,29,tft_width - 5,tft_height - 52,0x0000);
+[e ( _fillRect (4 , , , , -> -> 5 `i `uc -> -> 29 `i `uc -> - -> _tft_width `i -> 5 `i `uc -> - -> _tft_height `i -> 52 `i `uc -> -> 0 `i `us ]
+"846
+[; ;main.c: 846: }
+[e :UE 384 ]
+}
+"847
+[; ;main.c: 847: void text6_display(uint8_t x,uint8_t y,float value,uint16_t color)
+[v _text6_display `(v ~T0 @X0 1 ef4`uc`uc`f`us ]
+"848
+[; ;main.c: 848: {
+{
+[e :U _text6_display ]
+"847
+[; ;main.c: 847: void text6_display(uint8_t x,uint8_t y,float value,uint16_t color)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _value `f ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+"848
+[; ;main.c: 848: {
+[f ]
+"849
+[; ;main.c: 849:    char v0[6];
+[v _v0 `uc ~T0 @X0 -> 6 `i a ]
+"850
+[; ;main.c: 850:    fillRect(x,y-12,50,15,0x0000);
+[e ( _fillRect (4 , , , , _x -> - -> _y `i -> 12 `i `uc -> -> 50 `i `uc -> -> 15 `i `uc -> -> 0 `i `us ]
+"851
+[; ;main.c: 851:    snprintf(v0, 6, "%4f", value);
+[e ( _snprintf (2 , (. , , &U _v0 -> -> 6 `i `ui :s 17C -> _value `d ]
+"852
+[; ;main.c: 852:    drawText(x,y,v0, color, 0x0000, 1);
+[e ( _drawText (4 , , , , , _x _y -> &U _v0 `*Cuc _color -> -> 0 `i `us -> -> 1 `i `uc ]
+"853
+[; ;main.c: 853: }
+[e :UE 385 ]
+}
+"854
+[; ;main.c: 854: void text2_display(uint8_t x,uint8_t y,uint8_t value,uint16_t color)
+[v _text2_display `(v ~T0 @X0 1 ef4`uc`uc`uc`us ]
+"855
+[; ;main.c: 855: {
+{
+[e :U _text2_display ]
+"854
+[; ;main.c: 854: void text2_display(uint8_t x,uint8_t y,uint8_t value,uint16_t color)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _value `uc ~T0 @X0 1 r3 ]
+[v _color `us ~T0 @X0 1 r4 ]
+"855
+[; ;main.c: 855: {
+[f ]
+"856
+[; ;main.c: 856:    char v0[6];
+[v _v0 `uc ~T0 @X0 -> 6 `i a ]
+"857
+[; ;main.c: 857:    fillRect(x,y-13,20,15,0x0000);
+[e ( _fillRect (4 , , , , _x -> - -> _y `i -> 13 `i `uc -> -> 20 `i `uc -> -> 15 `i `uc -> -> 0 `i `us ]
+"858
+[; ;main.c: 858:    snprintf(v0, 6, "%2d", value);
+[e ( _snprintf (2 , (. , , &U _v0 -> -> 6 `i `ui :s 18C -> _value `i ]
+"859
+[; ;main.c: 859:    drawText(x,y,v0, color, 0x0000, 1);
+[e ( _drawText (4 , , , , , _x _y -> &U _v0 `*Cuc _color -> -> 0 `i `us -> -> 1 `i `uc ]
+"860
+[; ;main.c: 860: }
+[e :UE 386 ]
+}
+[p f _printf 8388608 ]
+[p f _snprintf 8495232 ]
+[a 10C 66 114 105 103 104 116 0 ]
+[a 13C 66 114 105 103 104 116 0 ]
+[a 9C 77 105 110 117 116 101 115 0 ]
+[a 11C 84 101 109 112 0 ]
+[a 14C 84 101 109 112 0 ]
+[a 17C 37 52 102 0 ]
+[a 15C 37 46 50 102 0 ]
+[a 16C 37 46 50 102 0 ]
+[a 12C 77 105 110 117 116 101 0 ]
+[a 18C 37 50 100 0 ]
+[a 7C 80 82 69 86 0 ]
+[a 8C 78 69 88 84 0 ]
+[a 4C 98 52 0 ]
+[a 3C 98 51 0 ]
+[a 2C 98 50 0 ]
+[a 1C 98 49 0 ]
+[a 5C 98 48 0 ]
+[a 6C 110 97 117 109 97 110 10 13 0 ]

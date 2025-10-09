@@ -1,0 +1,1598 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"11222 C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11222:     struct {
+[s S564 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S564 . RD WR WREN WRERR FREE LWLO NVMREGS ]
+"11231
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11231:     struct {
+[s S565 :6 `uc 1 :1 `uc 1 ]
+[n S565 . . CFGS ]
+"11221
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11221: typedef union {
+[u S563 `S564 1 `S565 1 ]
+[n S563 . . . ]
+"11236
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11236: extern volatile NVMCON1bits_t NVMCON1bits __attribute__((address(0x895)));
+[v _NVMCON1bits `VS563 ~T0 @X0 0 e@2197 ]
+"10237
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10237: extern volatile unsigned char NVMADRL __attribute__((address(0x891)));
+[v _NVMADRL `Vuc ~T0 @X0 0 e@2193 ]
+"10489
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10489: extern volatile unsigned char NVMADRH __attribute__((address(0x892)));
+[v _NVMADRH `Vuc ~T0 @X0 0 e@2194 ]
+"10739
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10739: extern volatile unsigned char NVMDATL __attribute__((address(0x893)));
+[v _NVMDATL `Vuc ~T0 @X0 0 e@2195 ]
+"10991
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10991: extern volatile unsigned char NVMDATH __attribute__((address(0x894)));
+[v _NVMDATH `Vuc ~T0 @X0 0 e@2196 ]
+"119
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 119:     struct {
+[s S13 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S13 . C DC Z nPD nTO ]
+"126
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 126:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . CARRY . ZERO ]
+"118
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 118: typedef union {
+[u S12 `S13 1 `S14 1 ]
+[n S12 . . . ]
+"132
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 132: extern volatile STATUSbits_t STATUSbits __attribute__((address(0x003)));
+[v _STATUSbits `VS12 ~T0 @X0 0 e@3 ]
+"358
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 358:     struct {
+[s S31 :1 `uc 1 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . INTEDG . PEIE GIE ]
+"357
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 357: typedef union {
+[u S30 `S31 1 ]
+[n S30 . . ]
+"365
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 365: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"11396
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11396: extern volatile unsigned char NVMCON2 __attribute__((address(0x896)));
+[v _NVMCON2 `Vuc ~T0 @X0 0 e@2198 ]
+"55 C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 55: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"75
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 75: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"95
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 95: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"115
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 115: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"178
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 178: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"198
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 198: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"222
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 222: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"242
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 242: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"262
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 262: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"314
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 314: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"334
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 334: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"354
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 354: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"387
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 387: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"437
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 437: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"487
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 487: __asm("PIR0 equ 010h");
+[; <" PIR0 equ 010h ;# ">
+"520
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 520: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"582
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 582: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"644
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 644: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"706
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 706: __asm("PIR4 equ 014h");
+[; <" PIR4 equ 014h ;# ">
+"768
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 768: __asm("TMR0L equ 015h");
+[; <" TMR0L equ 015h ;# ">
+"773
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 773: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"906
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 906: __asm("TMR0H equ 016h");
+[; <" TMR0H equ 016h ;# ">
+"911
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 911: __asm("PR0 equ 016h");
+[; <" PR0 equ 016h ;# ">
+"1060
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1060: __asm("T0CON0 equ 017h");
+[; <" T0CON0 equ 017h ;# ">
+"1125
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1125: __asm("T0CON1 equ 018h");
+[; <" T0CON1 equ 018h ;# ">
+"1202
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1202: __asm("TMR1 equ 019h");
+[; <" TMR1 equ 019h ;# ">
+"1209
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1209: __asm("TMR1L equ 019h");
+[; <" TMR1L equ 019h ;# ">
+"1229
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1229: __asm("TMR1H equ 01Ah");
+[; <" TMR1H equ 01Ah ;# ">
+"1249
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1249: __asm("T1CON equ 01Bh");
+[; <" T1CON equ 01Bh ;# ">
+"1321
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1321: __asm("T1GCON equ 01Ch");
+[; <" T1GCON equ 01Ch ;# ">
+"1391
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1391: __asm("TMR2 equ 01Dh");
+[; <" TMR2 equ 01Dh ;# ">
+"1411
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1411: __asm("PR2 equ 01Eh");
+[; <" PR2 equ 01Eh ;# ">
+"1431
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1431: __asm("T2CON equ 01Fh");
+[; <" T2CON equ 01Fh ;# ">
+"1502
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1502: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1547
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1547: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1597
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1597: __asm("PIE0 equ 090h");
+[; <" PIE0 equ 090h ;# ">
+"1630
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1630: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1692
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1692: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1754
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1754: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1816
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1816: __asm("PIE4 equ 094h");
+[; <" PIE4 equ 094h ;# ">
+"1878
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1878: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1937
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1937: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1944
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1944: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1964
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1964: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1984
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 1984: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"2070
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2070: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"2142
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2142: __asm("ADACT equ 09Fh");
+[; <" ADACT equ 09Fh ;# ">
+"2194
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2194: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"2239
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2239: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"2289
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2289: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2341
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2341: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2417
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2417: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2469
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2469: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2545
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2545: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2571
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2571: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2598
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2598: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2674
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2674: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2730
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2730: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2782
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2782: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2827
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2827: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"2877
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2877: __asm("RC1REG equ 0199h");
+[; <" RC1REG equ 0199h ;# ">
+"2882
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2882: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"2886
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2886: __asm("RCREG1 equ 0199h");
+[; <" RCREG1 equ 0199h ;# ">
+"2931
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2931: __asm("TX1REG equ 019Ah");
+[; <" TX1REG equ 019Ah ;# ">
+"2936
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2936: __asm("TXREG1 equ 019Ah");
+[; <" TXREG1 equ 019Ah ;# ">
+"2940
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2940: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"2985
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2985: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"2992
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2992: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"2997
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 2997: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"3001
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3001: __asm("SPBRG1 equ 019Bh");
+[; <" SPBRG1 equ 019Bh ;# ">
+"3005
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3005: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"3062
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3062: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"3067
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3067: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"3071
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3071: __asm("SPBRGH1 equ 019Ch");
+[; <" SPBRGH1 equ 019Ch ;# ">
+"3116
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3116: __asm("RC1STA equ 019Dh");
+[; <" RC1STA equ 019Dh ;# ">
+"3121
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3121: __asm("RCSTA1 equ 019Dh");
+[; <" RCSTA1 equ 019Dh ;# ">
+"3125
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3125: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3296
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3296: __asm("TX1STA equ 019Eh");
+[; <" TX1STA equ 019Eh ;# ">
+"3301
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3301: __asm("TXSTA1 equ 019Eh");
+[; <" TXSTA1 equ 019Eh ;# ">
+"3305
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3305: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3476
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3476: __asm("BAUD1CON equ 019Fh");
+[; <" BAUD1CON equ 019Fh ;# ">
+"3481
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3481: __asm("BAUDCON1 equ 019Fh");
+[; <" BAUDCON1 equ 019Fh ;# ">
+"3485
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3485: __asm("BAUDCTL1 equ 019Fh");
+[; <" BAUDCTL1 equ 019Fh ;# ">
+"3489
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3489: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3493
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3493: __asm("BAUDCTL equ 019Fh");
+[; <" BAUDCTL equ 019Fh ;# ">
+"3722
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3722: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3772
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3772: __asm("WPUC equ 020Eh");
+[; <" WPUC equ 020Eh ;# ">
+"3822
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3822: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3827
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 3827: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"4076
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4076: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"4081
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4081: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"4330
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4330: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"4335
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4335: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"4584
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4584: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"4589
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4589: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"4706
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4706: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"4711
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4711: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"4715
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4715: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"4719
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4719: __asm("SSP1CON equ 0215h");
+[; <" SSP1CON equ 0215h ;# ">
+"4976
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4976: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"4981
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 4981: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"5098
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5098: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"5103
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5103: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"5220
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5220: __asm("SSP2BUF equ 0219h");
+[; <" SSP2BUF equ 0219h ;# ">
+"5348
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5348: __asm("SSP2ADD equ 021Ah");
+[; <" SSP2ADD equ 021Ah ;# ">
+"5476
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5476: __asm("SSP2MSK equ 021Bh");
+[; <" SSP2MSK equ 021Bh ;# ">
+"5604
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5604: __asm("SSP2STAT equ 021Ch");
+[; <" SSP2STAT equ 021Ch ;# ">
+"5666
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5666: __asm("SSP2CON1 equ 021Dh");
+[; <" SSP2CON1 equ 021Dh ;# ">
+"5671
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5671: __asm("SSP2CON equ 021Dh");
+[; <" SSP2CON equ 021Dh ;# ">
+"5804
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5804: __asm("SSP2CON2 equ 021Eh");
+[; <" SSP2CON2 equ 021Eh ;# ">
+"5866
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5866: __asm("SSP2CON3 equ 021Fh");
+[; <" SSP2CON3 equ 021Fh ;# ">
+"5928
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5928: __asm("ODCONA equ 028Ch");
+[; <" ODCONA equ 028Ch ;# ">
+"5973
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 5973: __asm("ODCONC equ 028Eh");
+[; <" ODCONC equ 028Eh ;# ">
+"6023
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6023: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"6030
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6030: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"6050
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6050: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"6070
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6070: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"6135
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6135: __asm("CCP1CAP equ 0294h");
+[; <" CCP1CAP equ 0294h ;# ">
+"6181
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6181: __asm("CCPR2 equ 0295h");
+[; <" CCPR2 equ 0295h ;# ">
+"6188
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6188: __asm("CCPR2L equ 0295h");
+[; <" CCPR2L equ 0295h ;# ">
+"6208
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6208: __asm("CCPR2H equ 0296h");
+[; <" CCPR2H equ 0296h ;# ">
+"6228
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6228: __asm("CCP2CON equ 0297h");
+[; <" CCP2CON equ 0297h ;# ">
+"6293
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6293: __asm("CCP2CAP equ 0298h");
+[; <" CCP2CAP equ 0298h ;# ">
+"6339
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6339: __asm("CCPTMRS equ 029Fh");
+[; <" CCPTMRS equ 029Fh ;# ">
+"6427
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6427: __asm("SLRCONA equ 030Ch");
+[; <" SLRCONA equ 030Ch ;# ">
+"6472
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6472: __asm("SLRCONC equ 030Eh");
+[; <" SLRCONC equ 030Eh ;# ">
+"6522
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6522: __asm("CCPR3 equ 0311h");
+[; <" CCPR3 equ 0311h ;# ">
+"6529
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6529: __asm("CCPR3L equ 0311h");
+[; <" CCPR3L equ 0311h ;# ">
+"6549
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6549: __asm("CCPR3H equ 0312h");
+[; <" CCPR3H equ 0312h ;# ">
+"6569
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6569: __asm("CCP3CON equ 0313h");
+[; <" CCP3CON equ 0313h ;# ">
+"6634
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6634: __asm("CCP3CAP equ 0314h");
+[; <" CCP3CAP equ 0314h ;# ">
+"6680
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6680: __asm("CCPR4 equ 0315h");
+[; <" CCPR4 equ 0315h ;# ">
+"6687
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6687: __asm("CCPR4L equ 0315h");
+[; <" CCPR4L equ 0315h ;# ">
+"6707
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6707: __asm("CCPR4H equ 0316h");
+[; <" CCPR4H equ 0316h ;# ">
+"6727
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6727: __asm("CCP4CON equ 0317h");
+[; <" CCP4CON equ 0317h ;# ">
+"6792
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6792: __asm("CCP4CAP equ 0318h");
+[; <" CCP4CAP equ 0318h ;# ">
+"6838
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6838: __asm("INLVLA equ 038Ch");
+[; <" INLVLA equ 038Ch ;# ">
+"6888
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6888: __asm("INLVLC equ 038Eh");
+[; <" INLVLC equ 038Eh ;# ">
+"6938
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6938: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"6988
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 6988: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"7038
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7038: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"7088
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7088: __asm("IOCCP equ 0397h");
+[; <" IOCCP equ 0397h ;# ">
+"7138
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7138: __asm("IOCCN equ 0398h");
+[; <" IOCCN equ 0398h ;# ">
+"7188
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7188: __asm("IOCCF equ 0399h");
+[; <" IOCCF equ 0399h ;# ">
+"7238
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7238: __asm("CLKRCON equ 039Ah");
+[; <" CLKRCON equ 039Ah ;# ">
+"7303
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7303: __asm("MDCON equ 039Ch");
+[; <" MDCON equ 039Ch ;# ">
+"7343
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7343: __asm("MDSRC equ 039Dh");
+[; <" MDSRC equ 039Dh ;# ">
+"7389
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7389: __asm("MDCARH equ 039Eh");
+[; <" MDCARH equ 039Eh ;# ">
+"7448
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7448: __asm("MDCARL equ 039Fh");
+[; <" MDCARL equ 039Fh ;# ">
+"7507
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7507: __asm("TMR3 equ 0411h");
+[; <" TMR3 equ 0411h ;# ">
+"7514
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7514: __asm("TMR3L equ 0411h");
+[; <" TMR3L equ 0411h ;# ">
+"7534
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7534: __asm("TMR3H equ 0412h");
+[; <" TMR3H equ 0412h ;# ">
+"7554
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7554: __asm("T3CON equ 0413h");
+[; <" T3CON equ 0413h ;# ">
+"7626
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7626: __asm("T3GCON equ 0414h");
+[; <" T3GCON equ 0414h ;# ">
+"7696
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7696: __asm("TMR4 equ 0415h");
+[; <" TMR4 equ 0415h ;# ">
+"7716
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7716: __asm("PR4 equ 0416h");
+[; <" PR4 equ 0416h ;# ">
+"7736
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7736: __asm("T4CON equ 0417h");
+[; <" T4CON equ 0417h ;# ">
+"7807
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7807: __asm("TMR5 equ 0418h");
+[; <" TMR5 equ 0418h ;# ">
+"7814
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7814: __asm("TMR5L equ 0418h");
+[; <" TMR5L equ 0418h ;# ">
+"7834
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7834: __asm("TMR5H equ 0419h");
+[; <" TMR5H equ 0419h ;# ">
+"7854
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7854: __asm("T5CON equ 041Ah");
+[; <" T5CON equ 041Ah ;# ">
+"7926
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7926: __asm("T5GCON equ 041Bh");
+[; <" T5GCON equ 041Bh ;# ">
+"7996
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 7996: __asm("TMR6 equ 041Ch");
+[; <" TMR6 equ 041Ch ;# ">
+"8016
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8016: __asm("PR6 equ 041Dh");
+[; <" PR6 equ 041Dh ;# ">
+"8036
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8036: __asm("T6CON equ 041Eh");
+[; <" T6CON equ 041Eh ;# ">
+"8107
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8107: __asm("CCDCON equ 041Fh");
+[; <" CCDCON equ 041Fh ;# ">
+"8150
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8150: __asm("NCO1ACC equ 0498h");
+[; <" NCO1ACC equ 0498h ;# ">
+"8157
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8157: __asm("NCO1ACCL equ 0498h");
+[; <" NCO1ACCL equ 0498h ;# ">
+"8177
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8177: __asm("NCO1ACCH equ 0499h");
+[; <" NCO1ACCH equ 0499h ;# ">
+"8197
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8197: __asm("NCO1ACCU equ 049Ah");
+[; <" NCO1ACCU equ 049Ah ;# ">
+"8219
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8219: __asm("NCO1INC equ 049Bh");
+[; <" NCO1INC equ 049Bh ;# ">
+"8226
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8226: __asm("NCO1INCL equ 049Bh");
+[; <" NCO1INCL equ 049Bh ;# ">
+"8246
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8246: __asm("NCO1INCH equ 049Ch");
+[; <" NCO1INCH equ 049Ch ;# ">
+"8266
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8266: __asm("NCO1INCU equ 049Dh");
+[; <" NCO1INCU equ 049Dh ;# ">
+"8286
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8286: __asm("NCO1CON equ 049Eh");
+[; <" NCO1CON equ 049Eh ;# ">
+"8326
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8326: __asm("NCO1CLK equ 049Fh");
+[; <" NCO1CLK equ 049Fh ;# ">
+"8353
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8353: __asm("PWM5DCL equ 0617h");
+[; <" PWM5DCL equ 0617h ;# ">
+"8389
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8389: __asm("PWM5DCH equ 0618h");
+[; <" PWM5DCH equ 0618h ;# ">
+"8459
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8459: __asm("PWM5CON equ 0619h");
+[; <" PWM5CON equ 0619h ;# ">
+"8464
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8464: __asm("PWM5CON0 equ 0619h");
+[; <" PWM5CON0 equ 0619h ;# ">
+"8525
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8525: __asm("PWM6DCL equ 061Ah");
+[; <" PWM6DCL equ 061Ah ;# ">
+"8561
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8561: __asm("PWM6DCH equ 061Bh");
+[; <" PWM6DCH equ 061Bh ;# ">
+"8631
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8631: __asm("PWM6CON equ 061Ch");
+[; <" PWM6CON equ 061Ch ;# ">
+"8636
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8636: __asm("PWM6CON0 equ 061Ch");
+[; <" PWM6CON0 equ 061Ch ;# ">
+"8697
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8697: __asm("PWMTMRS equ 061Fh");
+[; <" PWMTMRS equ 061Fh ;# ">
+"8749
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8749: __asm("CWG1CLKCON equ 0691h");
+[; <" CWG1CLKCON equ 0691h ;# ">
+"8777
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8777: __asm("CWG1DAT equ 0692h");
+[; <" CWG1DAT equ 0692h ;# ">
+"8823
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8823: __asm("CWG1DBR equ 0693h");
+[; <" CWG1DBR equ 0693h ;# ">
+"8927
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 8927: __asm("CWG1DBF equ 0694h");
+[; <" CWG1DBF equ 0694h ;# ">
+"9031
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9031: __asm("CWG1CON0 equ 0695h");
+[; <" CWG1CON0 equ 0695h ;# ">
+"9132
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9132: __asm("CWG1CON1 equ 0696h");
+[; <" CWG1CON1 equ 0696h ;# ">
+"9210
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9210: __asm("CWG1AS0 equ 0697h");
+[; <" CWG1AS0 equ 0697h ;# ">
+"9330
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9330: __asm("CWG1AS1 equ 0698h");
+[; <" CWG1AS1 equ 0698h ;# ">
+"9374
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9374: __asm("CWG1STR equ 0699h");
+[; <" CWG1STR equ 0699h ;# ">
+"9486
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9486: __asm("CWG2CLKCON equ 0711h");
+[; <" CWG2CLKCON equ 0711h ;# ">
+"9514
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9514: __asm("CWG2DAT equ 0712h");
+[; <" CWG2DAT equ 0712h ;# ">
+"9560
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9560: __asm("CWG2DBR equ 0713h");
+[; <" CWG2DBR equ 0713h ;# ">
+"9664
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9664: __asm("CWG2DBF equ 0714h");
+[; <" CWG2DBF equ 0714h ;# ">
+"9768
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9768: __asm("CWG2CON0 equ 0715h");
+[; <" CWG2CON0 equ 0715h ;# ">
+"9869
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9869: __asm("CWG2CON1 equ 0716h");
+[; <" CWG2CON1 equ 0716h ;# ">
+"9947
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 9947: __asm("CWG2AS0 equ 0717h");
+[; <" CWG2AS0 equ 0717h ;# ">
+"10067
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10067: __asm("CWG2AS1 equ 0718h");
+[; <" CWG2AS1 equ 0718h ;# ">
+"10111
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10111: __asm("CWG2STR equ 0719h");
+[; <" CWG2STR equ 0719h ;# ">
+"10223
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10223: __asm("NVMADR equ 0891h");
+[; <" NVMADR equ 0891h ;# ">
+"10228
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10228: __asm("EEADR equ 0891h");
+[; <" EEADR equ 0891h ;# ">
+"10232
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10232: __asm("PMADR equ 0891h");
+[; <" PMADR equ 0891h ;# ">
+"10239
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10239: __asm("NVMADRL equ 0891h");
+[; <" NVMADRL equ 0891h ;# ">
+"10244
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10244: __asm("EEADRL equ 0891h");
+[; <" EEADRL equ 0891h ;# ">
+"10248
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10248: __asm("PMADRL equ 0891h");
+[; <" PMADRL equ 0891h ;# ">
+"10491
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10491: __asm("NVMADRH equ 0892h");
+[; <" NVMADRH equ 0892h ;# ">
+"10496
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10496: __asm("EEADRH equ 0892h");
+[; <" EEADRH equ 0892h ;# ">
+"10500
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10500: __asm("PMADRH equ 0892h");
+[; <" PMADRH equ 0892h ;# ">
+"10725
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10725: __asm("NVMDAT equ 0893h");
+[; <" NVMDAT equ 0893h ;# ">
+"10730
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10730: __asm("EEDAT equ 0893h");
+[; <" EEDAT equ 0893h ;# ">
+"10734
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10734: __asm("PMDAT equ 0893h");
+[; <" PMDAT equ 0893h ;# ">
+"10741
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10741: __asm("NVMDATL equ 0893h");
+[; <" NVMDATL equ 0893h ;# ">
+"10746
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10746: __asm("EEDATL equ 0893h");
+[; <" EEDATL equ 0893h ;# ">
+"10750
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10750: __asm("PMDATL equ 0893h");
+[; <" PMDATL equ 0893h ;# ">
+"10993
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10993: __asm("NVMDATH equ 0894h");
+[; <" NVMDATH equ 0894h ;# ">
+"10998
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 10998: __asm("EEDATH equ 0894h");
+[; <" EEDATH equ 0894h ;# ">
+"11002
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11002: __asm("PMDATH equ 0894h");
+[; <" PMDATH equ 0894h ;# ">
+"11209
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11209: __asm("NVMCON1 equ 0895h");
+[; <" NVMCON1 equ 0895h ;# ">
+"11214
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11214: __asm("EECON1 equ 0895h");
+[; <" EECON1 equ 0895h ;# ">
+"11218
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11218: __asm("PMCON1 equ 0895h");
+[; <" PMCON1 equ 0895h ;# ">
+"11398
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11398: __asm("NVMCON2 equ 0896h");
+[; <" NVMCON2 equ 0896h ;# ">
+"11403
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11403: __asm("EECON2 equ 0896h");
+[; <" EECON2 equ 0896h ;# ">
+"11407
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11407: __asm("PMCON2 equ 0896h");
+[; <" PMCON2 equ 0896h ;# ">
+"11500
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11500: __asm("PCON0 equ 089Bh");
+[; <" PCON0 equ 089Bh ;# ">
+"11557
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11557: __asm("PMD0 equ 0911h");
+[; <" PMD0 equ 0911h ;# ">
+"11602
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11602: __asm("PMD1 equ 0912h");
+[; <" PMD1 equ 0912h ;# ">
+"11664
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11664: __asm("PMD2 equ 0913h");
+[; <" PMD2 equ 0913h ;# ">
+"11704
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11704: __asm("PMD3 equ 0914h");
+[; <" PMD3 equ 0914h ;# ">
+"11766
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11766: __asm("PMD4 equ 0915h");
+[; <" PMD4 equ 0915h ;# ">
+"11800
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11800: __asm("PMD5 equ 0916h");
+[; <" PMD5 equ 0916h ;# ">
+"11844
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11844: __asm("CPUDOZE equ 0918h");
+[; <" CPUDOZE equ 0918h ;# ">
+"11909
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11909: __asm("OSCCON1 equ 0919h");
+[; <" OSCCON1 equ 0919h ;# ">
+"11979
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 11979: __asm("OSCCON2 equ 091Ah");
+[; <" OSCCON2 equ 091Ah ;# ">
+"12049
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12049: __asm("OSCCON3 equ 091Bh");
+[; <" OSCCON3 equ 091Bh ;# ">
+"12094
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12094: __asm("OSCSTAT1 equ 091Ch");
+[; <" OSCSTAT1 equ 091Ch ;# ">
+"12146
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12146: __asm("OSCEN equ 091Dh");
+[; <" OSCEN equ 091Dh ;# ">
+"12192
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12192: __asm("OSCTUNE equ 091Eh");
+[; <" OSCTUNE equ 091Eh ;# ">
+"12250
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12250: __asm("OSCFRQ equ 091Fh");
+[; <" OSCFRQ equ 091Fh ;# ">
+"12296
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12296: __asm("PPSLOCK equ 0E0Fh");
+[; <" PPSLOCK equ 0E0Fh ;# ">
+"12316
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12316: __asm("INTPPS equ 0E10h");
+[; <" INTPPS equ 0E10h ;# ">
+"12368
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12368: __asm("T0CKIPPS equ 0E11h");
+[; <" T0CKIPPS equ 0E11h ;# ">
+"12420
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12420: __asm("T1CKIPPS equ 0E12h");
+[; <" T1CKIPPS equ 0E12h ;# ">
+"12472
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12472: __asm("T1GPPS equ 0E13h");
+[; <" T1GPPS equ 0E13h ;# ">
+"12524
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12524: __asm("CCP1PPS equ 0E14h");
+[; <" CCP1PPS equ 0E14h ;# ">
+"12576
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12576: __asm("CCP2PPS equ 0E15h");
+[; <" CCP2PPS equ 0E15h ;# ">
+"12628
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12628: __asm("CCP3PPS equ 0E16h");
+[; <" CCP3PPS equ 0E16h ;# ">
+"12680
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12680: __asm("CCP4PPS equ 0E17h");
+[; <" CCP4PPS equ 0E17h ;# ">
+"12732
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12732: __asm("CWG1PPS equ 0E18h");
+[; <" CWG1PPS equ 0E18h ;# ">
+"12784
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12784: __asm("CWG2PPS equ 0E19h");
+[; <" CWG2PPS equ 0E19h ;# ">
+"12836
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12836: __asm("MDCIN1PPS equ 0E1Ah");
+[; <" MDCIN1PPS equ 0E1Ah ;# ">
+"12888
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12888: __asm("MDCIN2PPS equ 0E1Bh");
+[; <" MDCIN2PPS equ 0E1Bh ;# ">
+"12940
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12940: __asm("MDMINPPS equ 0E1Ch");
+[; <" MDMINPPS equ 0E1Ch ;# ">
+"12992
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 12992: __asm("SSP2CLKPPS equ 0E1Dh");
+[; <" SSP2CLKPPS equ 0E1Dh ;# ">
+"13044
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13044: __asm("SSP2DATPPS equ 0E1Eh");
+[; <" SSP2DATPPS equ 0E1Eh ;# ">
+"13096
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13096: __asm("SSP2SSPPS equ 0E1Fh");
+[; <" SSP2SSPPS equ 0E1Fh ;# ">
+"13148
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13148: __asm("SSP1CLKPPS equ 0E20h");
+[; <" SSP1CLKPPS equ 0E20h ;# ">
+"13200
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13200: __asm("SSP1DATPPS equ 0E21h");
+[; <" SSP1DATPPS equ 0E21h ;# ">
+"13252
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13252: __asm("SSP1SSPPS equ 0E22h");
+[; <" SSP1SSPPS equ 0E22h ;# ">
+"13304
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13304: __asm("RXPPS equ 0E24h");
+[; <" RXPPS equ 0E24h ;# ">
+"13356
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13356: __asm("TXPPS equ 0E25h");
+[; <" TXPPS equ 0E25h ;# ">
+"13408
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13408: __asm("CLCIN0PPS equ 0E28h");
+[; <" CLCIN0PPS equ 0E28h ;# ">
+"13460
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13460: __asm("CLCIN1PPS equ 0E29h");
+[; <" CLCIN1PPS equ 0E29h ;# ">
+"13512
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13512: __asm("CLCIN2PPS equ 0E2Ah");
+[; <" CLCIN2PPS equ 0E2Ah ;# ">
+"13564
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13564: __asm("CLCIN3PPS equ 0E2Bh");
+[; <" CLCIN3PPS equ 0E2Bh ;# ">
+"13616
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13616: __asm("T3CKIPPS equ 0E2Ch");
+[; <" T3CKIPPS equ 0E2Ch ;# ">
+"13636
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13636: __asm("T3GPPS equ 0E2Dh");
+[; <" T3GPPS equ 0E2Dh ;# ">
+"13656
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13656: __asm("T5CKIPPS equ 0E2Eh");
+[; <" T5CKIPPS equ 0E2Eh ;# ">
+"13676
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13676: __asm("T5GPPS equ 0E2Fh");
+[; <" T5GPPS equ 0E2Fh ;# ">
+"13696
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13696: __asm("RA0PPS equ 0E90h");
+[; <" RA0PPS equ 0E90h ;# ">
+"13748
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13748: __asm("RA1PPS equ 0E91h");
+[; <" RA1PPS equ 0E91h ;# ">
+"13800
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13800: __asm("RA2PPS equ 0E92h");
+[; <" RA2PPS equ 0E92h ;# ">
+"13852
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13852: __asm("RA4PPS equ 0E94h");
+[; <" RA4PPS equ 0E94h ;# ">
+"13904
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13904: __asm("RA5PPS equ 0E95h");
+[; <" RA5PPS equ 0E95h ;# ">
+"13956
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 13956: __asm("RC0PPS equ 0EA0h");
+[; <" RC0PPS equ 0EA0h ;# ">
+"14008
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14008: __asm("RC1PPS equ 0EA1h");
+[; <" RC1PPS equ 0EA1h ;# ">
+"14060
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14060: __asm("RC2PPS equ 0EA2h");
+[; <" RC2PPS equ 0EA2h ;# ">
+"14112
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14112: __asm("RC3PPS equ 0EA3h");
+[; <" RC3PPS equ 0EA3h ;# ">
+"14164
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14164: __asm("RC4PPS equ 0EA4h");
+[; <" RC4PPS equ 0EA4h ;# ">
+"14216
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14216: __asm("RC5PPS equ 0EA5h");
+[; <" RC5PPS equ 0EA5h ;# ">
+"14268
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14268: __asm("CLCDATA equ 0F0Fh");
+[; <" CLCDATA equ 0F0Fh ;# ">
+"14306
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14306: __asm("CLC1CON equ 0F10h");
+[; <" CLC1CON equ 0F10h ;# ">
+"14424
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14424: __asm("CLC1POL equ 0F11h");
+[; <" CLC1POL equ 0F11h ;# ">
+"14502
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14502: __asm("CLC1SEL0 equ 0F12h");
+[; <" CLC1SEL0 equ 0F12h ;# ">
+"14606
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14606: __asm("CLC1SEL1 equ 0F13h");
+[; <" CLC1SEL1 equ 0F13h ;# ">
+"14710
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14710: __asm("CLC1SEL2 equ 0F14h");
+[; <" CLC1SEL2 equ 0F14h ;# ">
+"14814
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14814: __asm("CLC1SEL3 equ 0F15h");
+[; <" CLC1SEL3 equ 0F15h ;# ">
+"14918
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 14918: __asm("CLC1GLS0 equ 0F16h");
+[; <" CLC1GLS0 equ 0F16h ;# ">
+"15030
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15030: __asm("CLC1GLS1 equ 0F17h");
+[; <" CLC1GLS1 equ 0F17h ;# ">
+"15142
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15142: __asm("CLC1GLS2 equ 0F18h");
+[; <" CLC1GLS2 equ 0F18h ;# ">
+"15254
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15254: __asm("CLC1GLS3 equ 0F19h");
+[; <" CLC1GLS3 equ 0F19h ;# ">
+"15366
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15366: __asm("CLC2CON equ 0F1Ah");
+[; <" CLC2CON equ 0F1Ah ;# ">
+"15484
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15484: __asm("CLC2POL equ 0F1Bh");
+[; <" CLC2POL equ 0F1Bh ;# ">
+"15562
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15562: __asm("CLC2SEL0 equ 0F1Ch");
+[; <" CLC2SEL0 equ 0F1Ch ;# ">
+"15666
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15666: __asm("CLC2SEL1 equ 0F1Dh");
+[; <" CLC2SEL1 equ 0F1Dh ;# ">
+"15770
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15770: __asm("CLC2SEL2 equ 0F1Eh");
+[; <" CLC2SEL2 equ 0F1Eh ;# ">
+"15874
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15874: __asm("CLC2SEL3 equ 0F1Fh");
+[; <" CLC2SEL3 equ 0F1Fh ;# ">
+"15978
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 15978: __asm("CLC2GLS0 equ 0F20h");
+[; <" CLC2GLS0 equ 0F20h ;# ">
+"16090
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16090: __asm("CLC2GLS1 equ 0F21h");
+[; <" CLC2GLS1 equ 0F21h ;# ">
+"16202
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16202: __asm("CLC2GLS2 equ 0F22h");
+[; <" CLC2GLS2 equ 0F22h ;# ">
+"16314
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16314: __asm("CLC2GLS3 equ 0F23h");
+[; <" CLC2GLS3 equ 0F23h ;# ">
+"16426
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16426: __asm("CLC3CON equ 0F24h");
+[; <" CLC3CON equ 0F24h ;# ">
+"16544
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16544: __asm("CLC3POL equ 0F25h");
+[; <" CLC3POL equ 0F25h ;# ">
+"16622
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16622: __asm("CLC3SEL0 equ 0F26h");
+[; <" CLC3SEL0 equ 0F26h ;# ">
+"16726
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16726: __asm("CLC3SEL1 equ 0F27h");
+[; <" CLC3SEL1 equ 0F27h ;# ">
+"16830
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16830: __asm("CLC3SEL2 equ 0F28h");
+[; <" CLC3SEL2 equ 0F28h ;# ">
+"16934
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 16934: __asm("CLC3SEL3 equ 0F29h");
+[; <" CLC3SEL3 equ 0F29h ;# ">
+"17038
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17038: __asm("CLC3GLS0 equ 0F2Ah");
+[; <" CLC3GLS0 equ 0F2Ah ;# ">
+"17150
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17150: __asm("CLC3GLS1 equ 0F2Bh");
+[; <" CLC3GLS1 equ 0F2Bh ;# ">
+"17262
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17262: __asm("CLC3GLS2 equ 0F2Ch");
+[; <" CLC3GLS2 equ 0F2Ch ;# ">
+"17374
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17374: __asm("CLC3GLS3 equ 0F2Dh");
+[; <" CLC3GLS3 equ 0F2Dh ;# ">
+"17486
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17486: __asm("CLC4CON equ 0F2Eh");
+[; <" CLC4CON equ 0F2Eh ;# ">
+"17604
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17604: __asm("CLC4POL equ 0F2Fh");
+[; <" CLC4POL equ 0F2Fh ;# ">
+"17682
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17682: __asm("CLC4SEL0 equ 0F30h");
+[; <" CLC4SEL0 equ 0F30h ;# ">
+"17786
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17786: __asm("CLC4SEL1 equ 0F31h");
+[; <" CLC4SEL1 equ 0F31h ;# ">
+"17890
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17890: __asm("CLC4SEL2 equ 0F32h");
+[; <" CLC4SEL2 equ 0F32h ;# ">
+"17994
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 17994: __asm("CLC4SEL3 equ 0F33h");
+[; <" CLC4SEL3 equ 0F33h ;# ">
+"18098
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18098: __asm("CLC4GLS0 equ 0F34h");
+[; <" CLC4GLS0 equ 0F34h ;# ">
+"18210
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18210: __asm("CLC4GLS1 equ 0F35h");
+[; <" CLC4GLS1 equ 0F35h ;# ">
+"18322
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18322: __asm("CLC4GLS2 equ 0F36h");
+[; <" CLC4GLS2 equ 0F36h ;# ">
+"18434
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18434: __asm("CLC4GLS3 equ 0F37h");
+[; <" CLC4GLS3 equ 0F37h ;# ">
+"18546
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18546: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"18578
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18578: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"18598
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18598: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"18618
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18618: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"18638
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18638: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"18658
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18658: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"18678
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18678: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"18698
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18698: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"18718
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18718: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"18738
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18738: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"18758
+[; ;C:/Users/nauma/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h: 18758: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: __eecpymem(volatile unsigned char *to, __eeprom unsigned char * from, unsigned char size)
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: }
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: 
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: 
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: }
+[v ___eecpymem `(v ~T0 @X0 1 ef3`*Vuc`*Euc`uc ]
+"7
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: {
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: 
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: unsigned int
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: 
+{
+[e :U ___eecpymem ]
+"6
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: __eecpymem(volatile unsigned char *to, __eeprom unsigned char * from, unsigned char size)
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: }
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: 
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: 
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 6: }
+[v _to `*Vuc ~T0 @X0 1 r1 ]
+[v _from `*Euc ~T0 @X0 1 r2 ]
+[v _size `uc ~T0 @X0 1 r3 ]
+"7
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: {
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: 
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: unsigned int
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 7: 
+[f ]
+"8
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 8:  volatile unsigned char *cp = to;
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 8: __itoee(__eeprom void *addr, unsigned int data)
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 8: double
+[v _cp `*Vuc ~T0 @X0 1 a ]
+[e = _cp _to ]
+"22
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 22:  while (NVMCON1bits.WR) {
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 22: 
+[e $U 922  ]
+[e :U 923 ]
+{
+"23
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 23:   continue;
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 23: double
+[e $U 922  ]
+"24
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 24:  }
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 24: __fltoee(__eeprom void *addr, double data)
+}
+[e :U 922 ]
+"22
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 22:  while (NVMCON1bits.WR) {
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 22: 
+[e $ != -> . . _NVMCON1bits 0 1 `i -> 0 `i 923  ]
+[e :U 924 ]
+"25
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 25:  NVMCON1bits.NVMREGS = 1;
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 25: {
+[e = . . _NVMCON1bits 0 6 -> -> 1 `i `uc ]
+"26
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 26:  NVMADRL = (unsigned char) from;
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 26:  __memcpyee(addr,(unsigned char *) &data,4);
+[e = _NVMADRL -> _from `uc ]
+"27
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 27:  NVMADRH = 0x70;
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 27:  return data;
+[e = _NVMADRH -> -> 112 `i `uc ]
+"28
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 28:  while (size--) {
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 28: }
+[e $U 925  ]
+[e :U 926 ]
+{
+"29
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 29:   NVMCON1bits.RD = 1;
+[e = . . _NVMCON1bits 0 0 -> -> 1 `i `uc ]
+"30
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 30:   *cp++ = NVMDATL;
+[e = *U ++ _cp * -> -> 1 `i `x -> -> # *U _cp `i `x _NVMDATL ]
+"31
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 31:   NVMADRL++;
+[e ++ _NVMADRL -> -> 1 `i `Vuc ]
+"32
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 32:  }
+}
+[e :U 925 ]
+"28
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 28:  while (size--) {
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 28: }
+[e $ != -> -- _size -> -> 1 `i `uc `i -> 0 `i 926  ]
+[e :U 927 ]
+"36
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 36: }
+[e :UE 921 ]
+}
+"39
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 39: __memcpyee(__eeprom unsigned char * to, const unsigned char *from, unsigned char size)
+[v ___memcpyee `(v ~T0 @X0 1 ef3`*Euc`*Cuc`uc ]
+"40
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 40: {
+{
+[e :U ___memcpyee ]
+"39
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 39: __memcpyee(__eeprom unsigned char * to, const unsigned char *from, unsigned char size)
+[v _to `*Euc ~T0 @X0 1 r1 ]
+[v _from `*Cuc ~T0 @X0 1 r2 ]
+[v _size `uc ~T0 @X0 1 r3 ]
+"40
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 40: {
+[f ]
+"41
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 41:  const unsigned char *ptr =from;
+[v _ptr `*Cuc ~T0 @X0 1 a ]
+[e = _ptr _from ]
+"69
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 69:  while (NVMCON1bits.WR) {
+[e $U 929  ]
+[e :U 930 ]
+{
+"70
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 70:   continue;
+[e $U 929  ]
+"71
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 71:  }
+}
+[e :U 929 ]
+"69
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 69:  while (NVMCON1bits.WR) {
+[e $ != -> . . _NVMCON1bits 0 1 `i -> 0 `i 930  ]
+[e :U 931 ]
+"72
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 72:  NVMCON1bits.NVMREGS = 1;
+[e = . . _NVMCON1bits 0 6 -> -> 1 `i `uc ]
+"73
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 73:  NVMADRL = (unsigned char) to - 1U;
+[e = _NVMADRL -> - -> -> _to `uc `ui -> 1 `ui `uc ]
+"74
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 74:  NVMADRH = 0x70;
+[e = _NVMADRH -> -> 112 `i `uc ]
+"75
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 75:  NVMDATH = 0;
+[e = _NVMDATH -> -> 0 `i `uc ]
+"76
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 76:  while (size--) {
+[e $U 932  ]
+[e :U 933 ]
+{
+"77
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 77:   while (NVMCON1bits.WR) {
+[e $U 935  ]
+[e :U 936 ]
+{
+"78
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 78:    continue;
+[e $U 935  ]
+"79
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 79:   }
+}
+[e :U 935 ]
+"77
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 77:   while (NVMCON1bits.WR) {
+[e $ != -> . . _NVMCON1bits 0 1 `i -> 0 `i 936  ]
+[e :U 937 ]
+"80
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 80:   NVMDATL = *ptr++;
+[e = _NVMDATL *U ++ _ptr * -> -> 1 `i `x -> -> # *U _ptr `i `x ]
+"81
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 81:   NVMADRL++;
+[e ++ _NVMADRL -> -> 1 `i `Vuc ]
+"82
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 82:   STATUSbits.CARRY = 0;
+[e = . . _STATUSbits 1 0 -> -> 0 `i `uc ]
+"83
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 83:   if (INTCONbits.GIE) {
+[e $ ! != -> . . _INTCONbits 0 3 `i -> 0 `i 938  ]
+{
+"84
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 84:    STATUSbits.CARRY = 1;
+[e = . . _STATUSbits 1 0 -> -> 1 `i `uc ]
+"85
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 85:   }
+}
+[e :U 938 ]
+"86
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 86:   NVMCON1bits.WREN = 1;
+[e = . . _NVMCON1bits 0 2 -> -> 1 `i `uc ]
+"87
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 87:   NVMCON2 = 0x55;
+[e = _NVMCON2 -> -> 85 `i `uc ]
+"88
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 88:   NVMCON2 = 0xAA;
+[e = _NVMCON2 -> -> 170 `i `uc ]
+"89
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 89:   NVMCON1bits.WR = 1;
+[e = . . _NVMCON1bits 0 1 -> -> 1 `i `uc ]
+"90
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 90:   while (NVMCON1bits.WR) {
+[e $U 939  ]
+[e :U 940 ]
+{
+"91
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 91:    continue;
+[e $U 939  ]
+"92
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 92:   }
+}
+[e :U 939 ]
+"90
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 90:   while (NVMCON1bits.WR) {
+[e $ != -> . . _NVMCON1bits 0 1 `i -> 0 `i 940  ]
+[e :U 941 ]
+"93
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 93:   NVMCON1bits.WREN = 0;
+[e = . . _NVMCON1bits 0 2 -> -> 0 `i `uc ]
+"94
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 94:   if (STATUSbits.CARRY) {
+[e $ ! != -> . . _STATUSbits 1 0 `i -> 0 `i 942  ]
+{
+"95
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 95:    INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
+"96
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 96:   }
+}
+[e :U 942 ]
+"97
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 97:  }
+}
+[e :U 932 ]
+"76
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 76:  while (size--) {
+[e $ != -> -- _size -> -> 1 `i `uc `i -> 0 `i 933  ]
+[e :U 934 ]
+"101
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 101: }
+[e :UE 928 ]
+}
+"104
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 104: __eetoc(__eeprom void *addr)
+[v ___eetoc `(uc ~T0 @X0 1 ef1`*Ev ]
+"105
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 105: {
+{
+[e :U ___eetoc ]
+"104
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 104: __eetoc(__eeprom void *addr)
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"105
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 105: {
+[f ]
+"106
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 106:  unsigned char data;
+[v _data `uc ~T0 @X0 1 a ]
+"107
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 107:  __eecpymem((unsigned char *) &data,addr,1);
+[e ( ___eecpymem (3 , , -> &U _data `*Vuc -> _addr `*Euc -> -> 1 `i `uc ]
+"108
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 108:  return data;
+[e ) _data ]
+[e $UE 943  ]
+"109
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 109: }
+[e :UE 943 ]
+}
+"112
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 112: __eetoi(__eeprom void *addr)
+[v ___eetoi `(ui ~T0 @X0 1 ef1`*Ev ]
+"113
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 113: {
+{
+[e :U ___eetoi ]
+"112
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 112: __eetoi(__eeprom void *addr)
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"113
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 113: {
+[f ]
+"114
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 114:  unsigned int data;
+[v _data `ui ~T0 @X0 1 a ]
+"115
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 115:  __eecpymem((unsigned char *) &data,addr,2);
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 2 `i `uc ]
+"116
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 116:  return data;
+[e ) _data ]
+[e $UE 944  ]
+"117
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c: 117: }
+[e :UE 944 ]
+}
+"119
+[p k ]
+"120
+[p n 2040 ]
+"122
+[v ___eetom `(um ~T0 @X0 1 ef1`*Ev ]
+"123
+{
+[e :U ___eetom ]
+"122
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"123
+[f ]
+"124
+[v _data `um ~T0 @X0 1 a ]
+"125
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 3 `i `uc ]
+"126
+[e ) _data ]
+[e $UE 945  ]
+"127
+[e :UE 945 ]
+}
+"128
+[p o ]
+"131
+[v ___eetol `(ul ~T0 @X0 1 ef1`*Ev ]
+"132
+{
+[e :U ___eetol ]
+"131
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"132
+[f ]
+"133
+[v _data `ul ~T0 @X0 1 a ]
+"134
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 4 `i `uc ]
+"135
+[e ) _data ]
+[e $UE 946  ]
+"136
+[e :UE 946 ]
+}
+"138
+[p k ]
+"139
+[p n 1516 ]
+"141
+[v ___eetoo `(uo ~T0 @X0 1 ef1`*Ev ]
+"142
+{
+[e :U ___eetoo ]
+"141
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"142
+[f ]
+"143
+[v _data `uo ~T0 @X0 1 a ]
+"144
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 8 `i `uc ]
+"145
+[e ) _data ]
+[e $UE 947  ]
+"146
+[e :UE 947 ]
+}
+"147
+[p o ]
+"150
+[v ___ctoee `(uc ~T0 @X0 1 ef2`*Ev`uc ]
+"151
+{
+[e :U ___ctoee ]
+"150
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+"151
+[f ]
+"152
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> &U _data `*Cuc -> -> 1 `i `uc ]
+"153
+[e ) _data ]
+[e $UE 948  ]
+"154
+[e :UE 948 ]
+}
+"157
+[v ___itoee `(ui ~T0 @X0 1 ef2`*Ev`ui ]
+"158
+{
+[e :U ___itoee ]
+"157
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `ui ~T0 @X0 1 r2 ]
+"158
+[f ]
+"159
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 2 `i `uc ]
+"160
+[e ) _data ]
+[e $UE 949  ]
+"161
+[e :UE 949 ]
+}
+"163
+[p k ]
+"164
+[p n 2040 ]
+"166
+[v ___mtoee `(um ~T0 @X0 1 ef2`*Ev`um ]
+"167
+{
+[e :U ___mtoee ]
+"166
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `um ~T0 @X0 1 r2 ]
+"167
+[f ]
+"168
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 3 `i `uc ]
+"169
+[e ) _data ]
+[e $UE 950  ]
+"170
+[e :UE 950 ]
+}
+"171
+[p o ]
+"174
+[v ___ltoee `(ul ~T0 @X0 1 ef2`*Ev`ul ]
+"175
+{
+[e :U ___ltoee ]
+"174
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `ul ~T0 @X0 1 r2 ]
+"175
+[f ]
+"176
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 4 `i `uc ]
+"177
+[e ) _data ]
+[e $UE 951  ]
+"178
+[e :UE 951 ]
+}
+"180
+[p k ]
+"181
+[p n 1516 ]
+"183
+[v ___otoee `(uo ~T0 @X0 1 ef2`*Ev`uo ]
+"184
+{
+[e :U ___otoee ]
+"183
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `uo ~T0 @X0 1 r2 ]
+"184
+[f ]
+"185
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 8 `i `uc ]
+"186
+[e ) _data ]
+[e $UE 952  ]
+"187
+[e :UE 952 ]
+}
+"188
+[p o ]
+"191
+[v ___eetoft `(f ~T0 @X0 1 ef1`*Ev ]
+"192
+{
+[e :U ___eetoft ]
+"191
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"192
+[f ]
+"193
+[v _data `f ~T0 @X0 1 a ]
+"194
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 3 `i `uc ]
+"195
+[e ) _data ]
+[e $UE 953  ]
+"196
+[e :UE 953 ]
+}
+"199
+[v ___eetofl `(d ~T0 @X0 1 ef1`*Ev ]
+"200
+{
+[e :U ___eetofl ]
+"199
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"200
+[f ]
+"201
+[v _data `d ~T0 @X0 1 a ]
+"202
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 4 `i `uc ]
+"203
+[e ) _data ]
+[e $UE 954  ]
+"204
+[e :UE 954 ]
+}
+"207
+[v ___fttoee `(f ~T0 @X0 1 ef2`*Ev`f ]
+"208
+{
+[e :U ___fttoee ]
+"207
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `f ~T0 @X0 1 r2 ]
+"208
+[f ]
+"209
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 3 `i `uc ]
+"210
+[e ) _data ]
+[e $UE 955  ]
+"211
+[e :UE 955 ]
+}
+"214
+[v ___fltoee `(d ~T0 @X0 1 ef2`*Ev`d ]
+"215
+{
+[e :U ___fltoee ]
+"214
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `d ~T0 @X0 1 r2 ]
+"215
+[f ]
+"216
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 4 `i `uc ]
+"217
+[e ) _data ]
+[e $UE 956  ]
+"218
+[e :UE 956 ]
+}

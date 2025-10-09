@@ -1,0 +1,1262 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF18326 ]
+[d frameptr 6 ]
+"78 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/i2c2_slave.c
+[e E6367 . `uc
+I2C2_IDLE 0
+I2C2_ADDR_TX 1
+I2C2_ADDR_RX 2
+I2C2_DATA_TX 3
+I2C2_DATA_RX 4
+]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fabsf.c
+[v _fabsf fabsf `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+[v i1___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+[v i1___flneg __flneg `(d  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+[v i1___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+[v i1___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+[v i1___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+[v i1___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+[v i1___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+[v i1__Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+[v i1___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"69 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"64 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/ccp1.c
+[v _CCP1_DefaultCallBack CCP1_DefaultCallBack `(v  1 s 1 CCP1_DefaultCallBack ]
+"80
+[v _CCP1_Initialize CCP1_Initialize `(v  1 e 1 0 ]
+"113
+[v _CCP1_CaptureISR CCP1_CaptureISR `(v  1 e 1 0 ]
+"128
+[v _CCP1_SetCallBack CCP1_SetCallBack `(v  1 e 1 0 ]
+"118 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/i2c2_slave.c
+[v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
+"126
+[v _I2C2_Open I2C2_Open `(v  1 e 1 0 ]
+"175
+[v _I2C2_Isr I2C2_Isr `(v  1 s 1 I2C2_Isr ]
+"234
+[v _I2C2_SlaveSetIsrHandler I2C2_SlaveSetIsrHandler `(v  1 e 1 0 ]
+"240
+[v _I2C2_SlaveSetReadIntHandler I2C2_SlaveSetReadIntHandler `(v  1 e 1 0 ]
+"244
+[v _I2C2_SlaveRdCallBack I2C2_SlaveRdCallBack `(v  1 s 1 I2C2_SlaveRdCallBack ]
+"266
+[v _I2C2_SlaveDefRdInterruptHandler I2C2_SlaveDefRdInterruptHandler `(v  1 s 1 I2C2_SlaveDefRdInterruptHandler ]
+"271
+[v _I2C2_SlaveSetWriteIntHandler I2C2_SlaveSetWriteIntHandler `(v  1 e 1 0 ]
+"275
+[v _I2C2_SlaveWrCallBack I2C2_SlaveWrCallBack `(v  1 s 1 I2C2_SlaveWrCallBack ]
+"294
+[v _I2C2_SlaveDefWrInterruptHandler I2C2_SlaveDefWrInterruptHandler `(v  1 s 1 I2C2_SlaveDefWrInterruptHandler ]
+"299
+[v _I2C2_SlaveSetAddrIntHandler I2C2_SlaveSetAddrIntHandler `(v  1 e 1 0 ]
+"303
+[v _I2C2_SlaveAddrCallBack I2C2_SlaveAddrCallBack `(v  1 s 1 I2C2_SlaveAddrCallBack ]
+"309
+[v _I2C2_SlaveDefAddrInterruptHandler I2C2_SlaveDefAddrInterruptHandler `(v  1 s 1 I2C2_SlaveDefAddrInterruptHandler ]
+"314
+[v _I2C2_SlaveSetWrColIntHandler I2C2_SlaveSetWrColIntHandler `(v  1 e 1 0 ]
+"326
+[v _I2C2_SlaveDefWrColInterruptHandler I2C2_SlaveDefWrColInterruptHandler `(v  1 s 1 I2C2_SlaveDefWrColInterruptHandler ]
+"330
+[v _I2C2_SlaveSetBusColIntHandler I2C2_SlaveSetBusColIntHandler `(v  1 e 1 0 ]
+"342
+[v _I2C2_SlaveDefBusColInterruptHandler I2C2_SlaveDefBusColInterruptHandler `(v  1 s 1 I2C2_SlaveDefBusColInterruptHandler ]
+"345
+[v _I2C2_SlaveOpen I2C2_SlaveOpen `T(a  1 s 1 I2C2_SlaveOpen ]
+"358
+[v _I2C2_SlaveClose I2C2_SlaveClose `T(v  1 s 1 I2C2_SlaveClose ]
+"366
+[v _I2C2_SlaveSetSlaveAddr I2C2_SlaveSetSlaveAddr `T(v  1 s 1 I2C2_SlaveSetSlaveAddr ]
+"371
+[v _I2C2_SlaveSetSlaveMask I2C2_SlaveSetSlaveMask `T(v  1 s 1 I2C2_SlaveSetSlaveMask ]
+"376
+[v _I2C2_SlaveEnableIrq I2C2_SlaveEnableIrq `T(v  1 s 1 I2C2_SlaveEnableIrq ]
+"381
+[v _I2C2_SlaveIsAddr I2C2_SlaveIsAddr `T(a  1 s 1 I2C2_SlaveIsAddr ]
+"386
+[v _I2C2_SlaveIsRead I2C2_SlaveIsRead `T(a  1 s 1 I2C2_SlaveIsRead ]
+"391
+[v _I2C2_SlaveClearIrq I2C2_SlaveClearIrq `T(v  1 s 1 I2C2_SlaveClearIrq ]
+"396
+[v _I2C2_SlaveReleaseClock I2C2_SlaveReleaseClock `T(v  1 s 1 I2C2_SlaveReleaseClock ]
+"416
+[v _I2C2_SlaveIsTxBufEmpty I2C2_SlaveIsTxBufEmpty `T(a  1 s 1 I2C2_SlaveIsTxBufEmpty ]
+"421
+[v _I2C2_SlaveIsRxBufFull I2C2_SlaveIsRxBufFull `T(a  1 s 1 I2C2_SlaveIsRxBufFull ]
+"426
+[v _I2C2_SlaveSendTxData I2C2_SlaveSendTxData `T(v  1 s 1 I2C2_SlaveSendTxData ]
+"431
+[v _I2C2_SlaveGetRxData I2C2_SlaveGetRxData `T(uc  1 s 1 I2C2_SlaveGetRxData ]
+"441
+[v _I2C2_SlaveSendAck I2C2_SlaveSendAck `T(v  1 s 1 I2C2_SlaveSendAck ]
+"447
+[v _I2C2_SlaveSendNack I2C2_SlaveSendNack `T(v  1 s 1 I2C2_SlaveSendNack ]
+"52 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"81
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"95
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"101
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+"74
+[v _PWM5_LoadDutyValue PWM5_LoadDutyValue `(v  1 e 1 0 ]
+"64 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"129
+[v _TMR0_interrupt TMR0_interrupt `(v  1 e 1 0 ]
+"63 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"114
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"62 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"80
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+"40 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\MCP9808.c
+[v _cal_temp cal_temp `(f  1 e 4 0 ]
+"45 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mssp1_host.c
+[v _stopI2C stopI2C `T(v  1 e 1 0 ]
+"55
+[v _startI2CWrite startI2CWrite `T(a  1 e 1 0 ]
+"79
+[v _startI2CRead startI2CRead `T(a  1 e 1 0 ]
+"103
+[v _MSSP_HostInit MSSP_HostInit `(v  1 e 1 0 ]
+"130
+[v _MSSP_RegisterSelectAndRead MSSP_RegisterSelectAndRead `(a  1 e 1 0 ]
+"215
+[v _MSSP_ReadByte MSSP_ReadByte `(a  1 e 1 0 ]
+"257
+[v _MSSP_WriteBlock MSSP_WriteBlock `(a  1 e 1 0 ]
+"277
+[v _MSSP_ReadBlock MSSP_ReadBlock `(a  1 e 1 0 ]
+"14 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\pid.c
+[v _VariableIntergralCoefficient VariableIntergralCoefficient `(f  1 e 4 0 ]
+"35
+[v _pos_PIDRegulation pos_PIDRegulation `(v  1 e 1 0 ]
+"71
+[v _set_pid_target set_pid_target `(v  1 e 1 0 ]
+[v i1_set_pid_target set_pid_target `(v  1 e 1 0 ]
+"76
+[v _init_pid init_pid `(v  1 e 1 0 ]
+"28 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\slave_service.c
+[v _update_slave_reg update_slave_reg `(v  1 e 1 0 ]
+[v i1_update_slave_reg update_slave_reg `(v  1 e 1 0 ]
+"106
+[v _update_offset_n_offFan_value update_offset_n_offFan_value `(v  1 e 1 0 ]
+"135 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X/mcc_generated_files/i2c2_slave.h
+[v _MSSP2_InterruptHandler MSSP2_InterruptHandler `*.37(v  1 e 2 0 ]
+"136
+[v _I2C2_SlaveRdInterruptHandler I2C2_SlaveRdInterruptHandler `*.37(v  1 e 2 0 ]
+"137
+[v _I2C2_SlaveWrInterruptHandler I2C2_SlaveWrInterruptHandler `*.37(v  1 e 2 0 ]
+"138
+[v _I2C2_SlaveAddrInterruptHandler I2C2_SlaveAddrInterruptHandler `*.37(v  1 e 2 0 ]
+"139
+[v _I2C2_SlaveBusColInterruptHandler I2C2_SlaveBusColInterruptHandler `*.37(v  1 e 2 0 ]
+"140
+[v _I2C2_SlaveWrColInterruptHandler I2C2_SlaveWrColInterruptHandler `*.37(v  1 e 2 0 ]
+"352 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16lf18326.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S107 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"365
+[u S112 . 1 `S107 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES112  1 e 1 @11 ]
+[s S263 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"498
+[u S268 . 1 `S263 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES268  1 e 1 @16 ]
+"518
+[v _PIR1 PIR1 `VEuc  1 e 1 @17 ]
+[s S141 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"535
+[u S150 . 1 `S141 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES150  1 e 1 @17 ]
+"580
+[v _PIR2 PIR2 `VEuc  1 e 1 @18 ]
+[s S183 . 1 `uc 1 NCO1IF 1 0 :1:0 
+`uc 1 TMR4IF 1 0 :1:1 
+`uc 1 BCL2IF 1 0 :1:2 
+`uc 1 SSP2IF 1 0 :1:3 
+`uc 1 NVMIF 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 TMR6IF 1 0 :1:7 
+]
+"597
+[u S192 . 1 `S183 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES192  1 e 1 @18 ]
+[s S225 . 1 `uc 1 CCP1IF 1 0 :1:0 
+`uc 1 CCP2IF 1 0 :1:1 
+`uc 1 CCP3IF 1 0 :1:2 
+`uc 1 CCP4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR5GIF 1 0 :1:5 
+`uc 1 CWG1IF 1 0 :1:6 
+`uc 1 CWG2IF 1 0 :1:7 
+]
+"721
+[u S234 . 1 `S225 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES234  1 e 1 @20 ]
+"766
+[v _TMR0L TMR0L `VEuc  1 e 1 @21 ]
+"904
+[v _TMR0H TMR0H `VEuc  1 e 1 @22 ]
+"1058
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @23 ]
+[s S493 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"1078
+[s S499 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S504 . 1 `S493 1 . 1 0 `S499 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES504  1 e 1 @23 ]
+"1123
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @24 ]
+"1207
+[v _TMR1L TMR1L `VEuc  1 e 1 @25 ]
+"1227
+[v _TMR1H TMR1H `VEuc  1 e 1 @26 ]
+"1247
+[v _T1CON T1CON `VEuc  1 e 1 @27 ]
+[s S723 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 T1SOSC 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"1269
+[s S730 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[u S736 . 1 `S723 1 . 1 0 `S730 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES736  1 e 1 @27 ]
+"1319
+[v _T1GCON T1GCON `VEuc  1 e 1 @28 ]
+[s S753 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"1339
+[s S761 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+]
+[u S764 . 1 `S753 1 . 1 0 `S761 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES764  1 e 1 @28 ]
+"1389
+[v _TMR2 TMR2 `VEuc  1 e 1 @29 ]
+"1409
+[v _PR2 PR2 `VEuc  1 e 1 @30 ]
+"1429
+[v _T2CON T2CON `VEuc  1 e 1 @31 ]
+[s S425 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"1450
+[s S429 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S437 . 1 `S425 1 . 1 0 `S429 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES437  1 e 1 @31 ]
+"1500
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1545
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S250 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"1608
+[u S255 . 1 `S250 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES255  1 e 1 @144 ]
+[s S120 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 BCL1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1645
+[u S129 . 1 `S120 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES129  1 e 1 @145 ]
+[s S162 . 1 `uc 1 NCO1IE 1 0 :1:0 
+`uc 1 TMR4IE 1 0 :1:1 
+`uc 1 BCL2IE 1 0 :1:2 
+`uc 1 SSP2IE 1 0 :1:3 
+`uc 1 NVMIE 1 0 :1:4 
+`uc 1 C1IE 1 0 :1:5 
+`uc 1 C2IE 1 0 :1:6 
+`uc 1 TMR6IE 1 0 :1:7 
+]
+"1707
+[u S171 . 1 `S162 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES171  1 e 1 @146 ]
+[s S204 . 1 `uc 1 CCP1IE 1 0 :1:0 
+`uc 1 CCP2IE 1 0 :1:1 
+`uc 1 CCP3IE 1 0 :1:2 
+`uc 1 CCP4IE 1 0 :1:3 
+`uc 1 TMR5IE 1 0 :1:4 
+`uc 1 TMR5GIE 1 0 :1:5 
+`uc 1 CWG1IE 1 0 :1:6 
+`uc 1 CWG2IE 1 0 :1:7 
+]
+"1831
+[u S213 . 1 `S204 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES213  1 e 1 @148 ]
+"1876
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2192
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S522 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"2207
+[u S529 . 1 `S522 1 . 1 0 ]
+[v _LATAbits LATAbits `VES529  1 e 1 @268 ]
+"2237
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2780
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2825
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3720
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3770
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"3820
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4074
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4582
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+[s S1038 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"4604
+[u S1047 . 1 `S1038 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES1047  1 e 1 @532 ]
+"4704
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S822 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4737
+[s S828 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S833 . 1 `S822 1 . 1 0 `S828 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES833  1 e 1 @533 ]
+"4974
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+[s S1071 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"4996
+[u S1080 . 1 `S1071 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES1080  1 e 1 @534 ]
+"5096
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
+"5218
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @537 ]
+"5346
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @538 ]
+"5474
+[v _SSP2MSK SSP2MSK `VEuc  1 e 1 @539 ]
+"5602
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @540 ]
+"5619
+[v _SSP2STATbits SSP2STATbits `VES1047  1 e 1 @540 ]
+"5664
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @541 ]
+"5689
+[v _SSP2CON1bits SSP2CON1bits `VES833  1 e 1 @541 ]
+"5802
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @542 ]
+"5819
+[v _SSP2CON2bits SSP2CON2bits `VES1080  1 e 1 @542 ]
+"5926
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5971
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6028
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"6048
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"6068
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+[s S635 . 1 `uc 1 CCP1MODE 1 0 :4:0 
+`uc 1 CCP1FMT 1 0 :1:4 
+`uc 1 CCP1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP1EN 1 0 :1:7 
+]
+"6088
+[s S641 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
+`uc 1 CCP1MODE1 1 0 :1:1 
+`uc 1 CCP1MODE2 1 0 :1:2 
+`uc 1 CCP1MODE3 1 0 :1:3 
+]
+[u S646 . 1 `S635 1 . 1 0 `S641 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES646  1 e 1 @659 ]
+"6133
+[v _CCP1CAP CCP1CAP `VEuc  1 e 1 @660 ]
+[s S579 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+"6360
+[s S584 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+[u S593 . 1 `S579 1 . 1 0 `S584 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES593  1 e 1 @671 ]
+"6425
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6470
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"6836
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"6886
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"8351
+[v _PWM5DCL PWM5DCL `VEuc  1 e 1 @1559 ]
+"8387
+[v _PWM5DCH PWM5DCH `VEuc  1 e 1 @1560 ]
+"8457
+[v _PWM5CON PWM5CON `VEuc  1 e 1 @1561 ]
+[s S355 . 1 `uc 1 P5TSEL 1 0 :2:0 
+`uc 1 P6TSEL 1 0 :2:2 
+]
+"8712
+[s S358 . 1 `uc 1 P5TSEL0 1 0 :1:0 
+`uc 1 P5TSEL1 1 0 :1:1 
+`uc 1 P6TSEL0 1 0 :1:2 
+`uc 1 P6TSEL1 1 0 :1:3 
+]
+[u S363 . 1 `S355 1 . 1 0 `S358 1 . 1 0 ]
+[v _PWMTMRSbits PWMTMRSbits `VES363  1 e 1 @1567 ]
+"11555
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"11600
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"11662
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"11702
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"11764
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"11798
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"11907
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12047
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"12144
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"12190
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"12248
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"12522
+[v _CCP1PPS CCP1PPS `VEuc  1 e 1 @3604 ]
+"12990
+[v _SSP2CLKPPS SSP2CLKPPS `VEuc  1 e 1 @3613 ]
+"13042
+[v _SSP2DATPPS SSP2DATPPS `VEuc  1 e 1 @3614 ]
+"13146
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3616 ]
+"13198
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3617 ]
+"13954
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3744 ]
+"14006
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @3745 ]
+"14058
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @3746 ]
+"14162
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3748 ]
+"14214
+[v _RC5PPS RC5PPS `VEuc  1 e 1 @3749 ]
+"50 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\main.c
+[v _time time `a  1 e 1 0 ]
+"52
+[v _Tol_max Tol_max `f  1 e 4 0 ]
+"53
+[v _Tol_min Tol_min `f  1 e 4 0 ]
+"55
+[v _Tol_1 Tol_1 `f  1 e 4 0 ]
+"56
+[v _Tol_2 Tol_2 `f  1 e 4 0 ]
+"58
+[v _MaxFanSpeed MaxFanSpeed `uc  1 e 1 0 ]
+"59
+[v _percent percent `f  1 e 4 0 ]
+"60
+[v _duty duty `us  1 e 2 0 ]
+"68
+[v _temperature temperature `f  1 e 4 0 ]
+"54 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/ccp1.c
+[v _CCP1_CallBack CCP1_CallBack `*.37(v  1 s 2 CCP1_CallBack ]
+"56
+[v _old_ccp old_ccp `us  1 e 2 0 ]
+"57
+[v _new_ccp new_ccp `us  1 e 2 0 ]
+"58
+[v _speed speed `us  1 e 2 0 ]
+"55 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/i2c2_slave.c
+[v _buffer_index buffer_index `uc  1 e 1 0 ]
+"59
+[v _rxBuf rxBuf `[14]uc  1 e 14 0 ]
+"60
+[v _rxBuf_idx rxBuf_idx `uc  1 e 1 0 ]
+"75
+[v _i2c2WrData i2c2WrData `VEuc  1 e 1 0 ]
+"76
+[v _i2c2RdData i2c2RdData `VEuc  1 e 1 0 ]
+"77
+[v _i2c2SlaveAddr i2c2SlaveAddr `VEuc  1 e 1 0 ]
+"78
+[v _i2c2SlaveState i2c2SlaveState `VEE6367  1 s 1 i2c2SlaveState ]
+"57 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"7 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\MCP9808.c
+[v _temp_data temp_data `[2]uc  1 e 2 0 ]
+[s S1229 . 36 `f 1 setpoint 4 0 `f 1 proportiongain 4 4 `f 1 integralgain 4 8 `f 1 derivativegain 4 12 `f 1 lasterror 4 16 `f 1 result 4 20 `f 1 integral 4 24 `f 1 errorabsmax 4 28 `f 1 errorabsmin 4 32 ]
+"3 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\pid.c
+[v _temp_ctrl temp_ctrl `S1229  1 e 36 0 ]
+"10 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\slave_service.c
+[v _slave_reg slave_reg `[18]uc  1 e 18 0 ]
+"16
+[v _offFan_temp offFan_temp `f  1 e 4 0 ]
+[v _offset_temp offset_temp `f  1 e 4 0 ]
+"25
+[v _SetTemp SetTemp `f  1 e 4 0 ]
+"69 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"124
+[v main@calc_duty calc_duty `us  1 a 2 33 ]
+"71
+[v main@temperature_temp temperature_temp `f  1 a 4 29 ]
+"145
+} 0
+"28 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\slave_service.c
+[v _update_slave_reg update_slave_reg `(v  1 e 1 0 ]
+{
+"30
+[v update_slave_reg@temp temp `f  1 a 4 0 ]
+"31
+[v update_slave_reg@temp_storage temp_storage `i  1 a 2 10 ]
+"32
+[v update_slave_reg@temp_storage1 temp_storage1 `i  1 a 2 8 ]
+"103
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 78 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 77 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 68 ]
+"70
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"35 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\pid.c
+[v _pos_PIDRegulation pos_PIDRegulation `(v  1 e 1 0 ]
+{
+[s S1229 . 36 `f 1 setpoint 4 0 `f 1 proportiongain 4 4 `f 1 integralgain 4 8 `f 1 derivativegain 4 12 `f 1 lasterror 4 16 `f 1 result 4 20 `f 1 integral 4 24 `f 1 errorabsmax 4 28 `f 1 errorabsmin 4 32 ]
+[v pos_PIDRegulation@vPID vPID `*.6S1229  1 a 1 wreg ]
+"37
+[v pos_PIDRegulation@thisError thisError `f  1 a 4 20 ]
+"38
+[v pos_PIDRegulation@factor factor `f  1 a 4 8 ]
+"35
+[v pos_PIDRegulation@vPID vPID `*.6S1229  1 a 1 wreg ]
+[v pos_PIDRegulation@processValue processValue `f  1 p 4 4 ]
+"40
+"35
+[v pos_PIDRegulation@vPID vPID `*.6S1229  1 a 1 24 ]
+"47
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1867 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1872 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1875 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1867 1 fAsBytes 4 0 `S1872 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1875  1 a 4 62 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 56 ]
+[s S1944 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1947 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1944 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1947  1 a 2 66 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 61 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 60 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 55 ]
+"8
+[v ___flmul@b b `d  1 p 4 42 ]
+[v ___flmul@a a `d  1 p 4 46 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"14 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\pid.c
+[v _VariableIntergralCoefficient VariableIntergralCoefficient `(f  1 e 4 0 ]
+{
+"16
+[v VariableIntergralCoefficient@factor factor `f  1 a 4 0 ]
+"14
+[v VariableIntergralCoefficient@error error `f  1 p 4 68 ]
+[v VariableIntergralCoefficient@absmax absmax `f  1 p 4 72 ]
+[v VariableIntergralCoefficient@absmin absmin `f  1 p 4 76 ]
+"32
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fabsf.c
+[v _fabsf fabsf `(f  1 e 4 0 ]
+{
+[u S2014 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v fabsf@u u `S2014  1 a 4 4 ]
+"4
+[v fabsf@x x `f  1 p 4 0 ]
+"5
+[v fabsf@F465 F465 `S2014  1 s 4 F465 ]
+"9
+} 0
+"76 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\pid.c
+[v _init_pid init_pid `(v  1 e 1 0 ]
+{
+"86
+} 0
+"71
+[v _set_pid_target set_pid_target `(v  1 e 1 0 ]
+{
+[v set_pid_target@settemp settemp `f  1 p 4 0 ]
+"74
+} 0
+"40 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\MCP9808.c
+[v _cal_temp cal_temp `(f  1 e 4 0 ]
+{
+"42
+[v cal_temp@re_temp re_temp `f  1 a 4 5 ]
+"43
+[v cal_temp@temp temp `uc  1 a 1 4 ]
+"69
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 34 ]
+[v ___flsub@b b `d  1 p 4 38 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 33 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 32 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 31 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 30 ]
+"10
+[v ___fladd@b b `d  1 p 4 14 ]
+[v ___fladd@a a `d  1 p 4 18 ]
+"237
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 8 ]
+[v ___flge@ff2 ff2 `d  1 p 4 12 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 62 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 55 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 60 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 67 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 66 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 59 ]
+"8
+[v ___fldiv@a a `d  1 p 4 42 ]
+[v ___fldiv@b b `d  1 p 4 46 ]
+"185
+} 0
+"50 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"95
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"62 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"80
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+{
+"84
+} 0
+"63 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"64 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"58 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"101 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"55 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"116
+} 0
+"81 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"103 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mssp1_host.c
+[v _MSSP_HostInit MSSP_HostInit `(v  1 e 1 0 ]
+{
+"128
+} 0
+"126 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/i2c2_slave.c
+[v _I2C2_Open I2C2_Open `(v  1 e 1 0 ]
+{
+"138
+} 0
+"271
+[v _I2C2_SlaveSetWriteIntHandler I2C2_SlaveSetWriteIntHandler `(v  1 e 1 0 ]
+{
+[v I2C2_SlaveSetWriteIntHandler@handler handler `*.37(v  1 p 2 0 ]
+"273
+} 0
+"314
+[v _I2C2_SlaveSetWrColIntHandler I2C2_SlaveSetWrColIntHandler `(v  1 e 1 0 ]
+{
+[v I2C2_SlaveSetWrColIntHandler@handler handler `*.37(v  1 p 2 0 ]
+"316
+} 0
+"371
+[v _I2C2_SlaveSetSlaveMask I2C2_SlaveSetSlaveMask `T(v  1 s 1 I2C2_SlaveSetSlaveMask ]
+{
+[v I2C2_SlaveSetSlaveMask@maskAddr maskAddr `uc  1 a 1 wreg ]
+[v I2C2_SlaveSetSlaveMask@maskAddr maskAddr `uc  1 a 1 wreg ]
+"373
+[v I2C2_SlaveSetSlaveMask@maskAddr maskAddr `uc  1 a 1 0 ]
+"374
+} 0
+"366
+[v _I2C2_SlaveSetSlaveAddr I2C2_SlaveSetSlaveAddr `T(v  1 s 1 I2C2_SlaveSetSlaveAddr ]
+{
+[v I2C2_SlaveSetSlaveAddr@slaveAddr slaveAddr `uc  1 a 1 wreg ]
+[v I2C2_SlaveSetSlaveAddr@slaveAddr slaveAddr `uc  1 a 1 wreg ]
+"368
+[v I2C2_SlaveSetSlaveAddr@slaveAddr slaveAddr `uc  1 a 1 0 ]
+"369
+} 0
+"240
+[v _I2C2_SlaveSetReadIntHandler I2C2_SlaveSetReadIntHandler `(v  1 e 1 0 ]
+{
+[v I2C2_SlaveSetReadIntHandler@handler handler `*.37(v  1 p 2 0 ]
+"242
+} 0
+"234
+[v _I2C2_SlaveSetIsrHandler I2C2_SlaveSetIsrHandler `(v  1 e 1 0 ]
+{
+[v I2C2_SlaveSetIsrHandler@handler handler `*.37(v  1 p 2 0 ]
+"237
+} 0
+"330
+[v _I2C2_SlaveSetBusColIntHandler I2C2_SlaveSetBusColIntHandler `(v  1 e 1 0 ]
+{
+[v I2C2_SlaveSetBusColIntHandler@handler handler `*.37(v  1 p 2 0 ]
+"332
+} 0
+"299
+[v _I2C2_SlaveSetAddrIntHandler I2C2_SlaveSetAddrIntHandler `(v  1 e 1 0 ]
+{
+[v I2C2_SlaveSetAddrIntHandler@handler handler `*.37(v  1 p 2 0 ]
+"301
+} 0
+"345
+[v _I2C2_SlaveOpen I2C2_SlaveOpen `T(a  1 s 1 I2C2_SlaveOpen ]
+{
+"356
+} 0
+"376
+[v _I2C2_SlaveEnableIrq I2C2_SlaveEnableIrq `T(v  1 s 1 I2C2_SlaveEnableIrq ]
+{
+"379
+} 0
+"118
+[v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
+{
+"124
+} 0
+"80 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/ccp1.c
+[v _CCP1_Initialize CCP1_Initialize `(v  1 e 1 0 ]
+{
+"111
+} 0
+"128
+[v _CCP1_SetCallBack CCP1_SetCallBack `(v  1 e 1 0 ]
+{
+[v CCP1_SetCallBack@customCallBack customCallBack `*.37(v  1 p 2 0 ]
+"130
+} 0
+"74 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/pwm5.c
+[v _PWM5_LoadDutyValue PWM5_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM5_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"81
+} 0
+"52 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"89
+} 0
+"129 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/tmr0.c
+[v _TMR0_interrupt TMR0_interrupt `(v  1 e 1 0 ]
+{
+"154
+} 0
+"175 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/i2c2_slave.c
+[v _I2C2_Isr I2C2_Isr `(v  1 s 1 I2C2_Isr ]
+{
+"231
+} 0
+"275
+[v _I2C2_SlaveWrCallBack I2C2_SlaveWrCallBack `(v  1 s 1 I2C2_SlaveWrCallBack ]
+{
+"292
+} 0
+"396
+[v _I2C2_SlaveReleaseClock I2C2_SlaveReleaseClock `T(v  1 s 1 I2C2_SlaveReleaseClock ]
+{
+"399
+} 0
+"244
+[v _I2C2_SlaveRdCallBack I2C2_SlaveRdCallBack `(v  1 s 1 I2C2_SlaveRdCallBack ]
+{
+"247
+[v I2C2_SlaveRdCallBack@ch ch `uc  1 a 1 36 ]
+"264
+} 0
+"106 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\slave_service.c
+[v _update_offset_n_offFan_value update_offset_n_offFan_value `(v  1 e 1 0 ]
+{
+"108
+[v update_offset_n_offFan_value@temp temp `uc  1 a 1 34 ]
+"160
+} 0
+"28
+[v i1_update_slave_reg update_slave_reg `(v  1 e 1 0 ]
+{
+"30
+[v i1update_slave_reg@temp temp `f  1 a 4 12 ]
+"31
+[v i1update_slave_reg@temp_storage temp_storage `i  1 a 2 22 ]
+"32
+[v i1update_slave_reg@temp_storage1 temp_storage1 `i  1 a 2 20 ]
+"103
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v i1___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v i1___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v i1___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v i1___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v i1___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v i1___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v i1___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v i1___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v i1___fltol@exp1 exp1 `uc  1 a 1 10 ]
+[v i1___fltol@sign1 sign1 `uc  1 a 1 9 ]
+"43
+[v i1___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v i1___flsub __flsub `(d  1 e 4 0 ]
+{
+[v i1___flsub@a a `d  1 p 4 46 ]
+[v i1___flsub@b b `d  1 p 4 50 ]
+"250
+} 0
+"10
+[v i1___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v i1___fladd@grs grs `uc  1 a 1 45 ]
+"15
+[v i1___fladd@bexp bexp `uc  1 a 1 44 ]
+"16
+[v i1___fladd@aexp aexp `uc  1 a 1 43 ]
+"13
+[v i1___fladd@signs signs `uc  1 a 1 42 ]
+"10
+[v i1___fladd@b b `d  1 p 4 26 ]
+[v i1___fladd@a a `d  1 p 4 30 ]
+"237
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
+[v i1___flneg __flneg `(d  1 e 4 0 ]
+{
+[v i1___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v i1___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1867 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1872 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1875 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1867 1 fAsBytes 4 0 `S1872 1 fAsWords 4 0 ]
+[v i1___flmul@prod prod `S1875  1 a 4 74 ]
+"12
+[v i1___flmul@grs grs `ul  1 a 4 68 ]
+[s S1944 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1947 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1944 1 nAsBytes 2 0 ]
+[v i1___flmul@temp temp `S1947  1 a 2 78 ]
+"10
+[v i1___flmul@bexp bexp `uc  1 a 1 73 ]
+"11
+[v i1___flmul@aexp aexp `uc  1 a 1 72 ]
+"9
+[v i1___flmul@sign sign `uc  1 a 1 67 ]
+"8
+[v i1___flmul@b b `d  1 p 4 54 ]
+[v i1___flmul@a a `d  1 p 4 58 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v i1__Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v i1__Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v i1__Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v i1__Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v i1__Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v i1__Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v i1__Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v i1___flge __flge `(b  1 e 0 0 ]
+{
+[v i1___flge@ff1 ff1 `d  1 p 4 0 ]
+[v i1___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v i1___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v i1___awdiv@sign sign `uc  1 a 1 6 ]
+[v i1___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v i1___awdiv@divisor divisor `i  1 p 2 0 ]
+[v i1___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"71 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\pid.c
+[v i1_set_pid_target set_pid_target `(v  1 e 1 0 ]
+{
+[v i1set_pid_target@settemp settemp `f  1 p 4 0 ]
+"74
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v i1___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v i1___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v i1___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v i1___fldiv@new_exp new_exp `i  1 a 2 18 ]
+"19
+[v i1___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v i1___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v i1___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v i1___fldiv@a a `d  1 p 4 0 ]
+[v i1___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"266 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/i2c2_slave.c
+[v _I2C2_SlaveDefRdInterruptHandler I2C2_SlaveDefRdInterruptHandler `(v  1 s 1 I2C2_SlaveDefRdInterruptHandler ]
+{
+"268
+} 0
+"416
+[v _I2C2_SlaveIsTxBufEmpty I2C2_SlaveIsTxBufEmpty `T(a  1 s 1 I2C2_SlaveIsTxBufEmpty ]
+{
+"419
+} 0
+"421
+[v _I2C2_SlaveIsRxBufFull I2C2_SlaveIsRxBufFull `T(a  1 s 1 I2C2_SlaveIsRxBufFull ]
+{
+"424
+} 0
+"386
+[v _I2C2_SlaveIsRead I2C2_SlaveIsRead `T(a  1 s 1 I2C2_SlaveIsRead ]
+{
+"389
+} 0
+"381
+[v _I2C2_SlaveIsAddr I2C2_SlaveIsAddr `T(a  1 s 1 I2C2_SlaveIsAddr ]
+{
+"384
+} 0
+"391
+[v _I2C2_SlaveClearIrq I2C2_SlaveClearIrq `T(v  1 s 1 I2C2_SlaveClearIrq ]
+{
+"394
+} 0
+"303
+[v _I2C2_SlaveAddrCallBack I2C2_SlaveAddrCallBack `(v  1 s 1 I2C2_SlaveAddrCallBack ]
+{
+"307
+} 0
+"309
+[v _I2C2_SlaveDefAddrInterruptHandler I2C2_SlaveDefAddrInterruptHandler `(v  1 s 1 I2C2_SlaveDefAddrInterruptHandler ]
+{
+"311
+} 0
+"431
+[v _I2C2_SlaveGetRxData I2C2_SlaveGetRxData `T(uc  1 s 1 I2C2_SlaveGetRxData ]
+{
+"434
+} 0
+"113 C:\Users\MAJOKA\OneDrive\Desktop\Fan Control\Fan_Control_A2.X\mcc_generated_files/ccp1.c
+[v _CCP1_CaptureISR CCP1_CaptureISR `(v  1 e 1 0 ]
+{
+[s S661 . 2 `uc 1 ccpr1l 1 0 `uc 1 ccpr1h 1 1 ]
+"115
+[s S664 . 2 `us 1 ccpr1_16Bit 2 0 ]
+[u S666 CCPR1Reg_tag 2 `S661 1 . 2 0 `S664 1 . 2 0 ]
+[v CCP1_CaptureISR@module module `S666  1 a 2 10 ]
+"126
+} 0
+"64
+[v _CCP1_DefaultCallBack CCP1_DefaultCallBack `(v  1 s 1 CCP1_DefaultCallBack ]
+{
+[v CCP1_DefaultCallBack@capturedValue capturedValue `us  1 p 2 6 ]
+"78
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0

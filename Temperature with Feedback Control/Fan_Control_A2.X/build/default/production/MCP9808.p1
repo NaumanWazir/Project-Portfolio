@@ -1,0 +1,140 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"108 ./mssp1_host.h
+[; ;./mssp1_host.h: 108:     _Bool MSSP_WriteBlock(uint8_t deviceADDR, uint8_t* blockMem, uint8_t memSize);
+[v _MSSP_WriteBlock `(a ~T0 @X0 0 ef3`uc`*uc`uc ]
+"68
+[; ;./mssp1_host.h: 68:     _Bool MSSP_RegisterSelectAndRead(uint8_t deviceADDR, uint8_t registerADDR, uint8_t* blockMem, uint8_t memSize);
+[v _MSSP_RegisterSelectAndRead `(a ~T0 @X0 0 ef4`uc`uc`*uc`uc ]
+"119
+[; ;./mssp1_host.h: 119:     _Bool MSSP_ReadBlock(uint8_t deviceADDR, uint8_t* blockMem, uint8_t memSize);
+[v _MSSP_ReadBlock `(a ~T0 @X0 0 ef3`uc`*uc`uc ]
+"8 MCP9808.c
+[; ;MCP9808.c: 8: extern float offset_temp,offFan_temp;
+[v _offset_temp `f ~T0 @X0 0 e ]
+"7 MCP9808.c
+[; ;MCP9808.c: 7: uint8_t temp_data[2];
+[v _temp_data `uc ~T0 @X0 -> 2 `i e ]
+"10
+[; ;MCP9808.c: 10: void MCP9808_init(void)
+[v _MCP9808_init `(v ~T0 @X0 1 ef ]
+"11
+[; ;MCP9808.c: 11: {
+{
+[e :U _MCP9808_init ]
+[f ]
+[v F404 `uc ~T0 @X0 -> 2 `i s ]
+[i F404
+:U ..
+"12
+[; ;MCP9808.c: 12:     uint8_t cfg_data[2] = {0x08,0x03};
+-> -> 8 `i `uc
+-> -> 3 `i `uc
+..
+]
+[v _cfg_data `uc ~T0 @X0 -> 2 `i a ]
+[e = _cfg_data F404 ]
+"14
+[; ;MCP9808.c: 14:     MSSP_WriteBlock(0x18, cfg_data,2);
+[e ( _MSSP_WriteBlock (3 , , -> -> 24 `i `uc &U _cfg_data -> -> 2 `i `uc ]
+"15
+[; ;MCP9808.c: 15:     MSSP_RegisterSelectAndRead(0x18,0x05,temp_data,2);
+[e ( _MSSP_RegisterSelectAndRead (4 , , , -> -> 24 `i `uc -> -> 5 `i `uc &U _temp_data -> -> 2 `i `uc ]
+"16
+[; ;MCP9808.c: 16: }
+[e :UE 3 ]
+}
+"18
+[; ;MCP9808.c: 18: void Read_temp_MCP(void)
+[v _Read_temp_MCP `(v ~T0 @X0 1 ef ]
+"19
+[; ;MCP9808.c: 19: {
+{
+[e :U _Read_temp_MCP ]
+[f ]
+"37
+[; ;MCP9808.c: 37:     MSSP_ReadBlock(0x18,temp_data,2);
+[e ( _MSSP_ReadBlock (3 , , -> -> 24 `i `uc &U _temp_data -> -> 2 `i `uc ]
+"38
+[; ;MCP9808.c: 38: }
+[e :UE 4 ]
+}
+"40
+[; ;MCP9808.c: 40: float cal_temp(void)
+[v _cal_temp `(f ~T0 @X0 1 ef ]
+"41
+[; ;MCP9808.c: 41: {
+{
+[e :U _cal_temp ]
+[f ]
+"42
+[; ;MCP9808.c: 42:     float re_temp;
+[v _re_temp `f ~T0 @X0 1 a ]
+"43
+[; ;MCP9808.c: 43:     uint8_t temp;
+[v _temp `uc ~T0 @X0 1 a ]
+"45
+[; ;MCP9808.c: 45:     if((temp_data[0]&0x10)==0x10)
+[e $ ! == & -> *U + &U _temp_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _temp_data `ui `ux `i -> 16 `i -> 16 `i 6  ]
+"46
+[; ;MCP9808.c: 46:     {
+{
+"47
+[; ;MCP9808.c: 47:         temp=temp_data[0]&0x0F;
+[e = _temp -> & -> *U + &U _temp_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _temp_data `ui `ux `i -> 15 `i `uc ]
+"48
+[; ;MCP9808.c: 48:         re_temp= 256-(temp*16+((float)(temp_data[1])/16));
+[e = _re_temp - -> -> 256 `i `f + -> * -> _temp `i -> 16 `i `f / -> *U + &U _temp_data * -> -> -> 1 `i `ui `ux -> -> # *U &U _temp_data `ui `ux `f -> -> 16 `i `f ]
+"50
+[; ;MCP9808.c: 50:     }
+}
+[e $U 7  ]
+"51
+[; ;MCP9808.c: 51:     else
+[e :U 6 ]
+"52
+[; ;MCP9808.c: 52:     {
+{
+"53
+[; ;MCP9808.c: 53:         temp=temp_data[0]&0x0F;
+[e = _temp -> & -> *U + &U _temp_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _temp_data `ui `ux `i -> 15 `i `uc ]
+"54
+[; ;MCP9808.c: 54:         re_temp= temp*16+((float)(temp_data[1])/16);
+[e = _re_temp + -> * -> _temp `i -> 16 `i `f / -> *U + &U _temp_data * -> -> -> 1 `i `ui `ux -> -> # *U &U _temp_data `ui `ux `f -> -> 16 `i `f ]
+"55
+[; ;MCP9808.c: 55:     }
+}
+[e :U 7 ]
+"59
+[; ;MCP9808.c: 59:     if(re_temp<45)
+[e $ ! < _re_temp -> -> 45 `i `f 8  ]
+"60
+[; ;MCP9808.c: 60:     {
+{
+"61
+[; ;MCP9808.c: 61:         re_temp=re_temp+1;
+[e = _re_temp + _re_temp -> -> 1 `i `f ]
+"62
+[; ;MCP9808.c: 62:     }
+}
+[e $U 9  ]
+"63
+[; ;MCP9808.c: 63:     else
+[e :U 8 ]
+"64
+[; ;MCP9808.c: 64:     {
+{
+"65
+[; ;MCP9808.c: 65:         re_temp=re_temp+offset_temp;
+[e = _re_temp + _re_temp _offset_temp ]
+"66
+[; ;MCP9808.c: 66:     }
+}
+[e :U 9 ]
+"68
+[; ;MCP9808.c: 68:    return re_temp;
+[e ) _re_temp ]
+[e $UE 5  ]
+"69
+[; ;MCP9808.c: 69: }
+[e :UE 5 ]
+}

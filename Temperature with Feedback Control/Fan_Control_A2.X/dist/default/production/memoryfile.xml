@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\Fan_Control_A2.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>16384</length>
+      <used>9648</used>
+      <free>6736</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>2048</length>
+      <used>377</used>
+      <free>1671</free>
+    </memory>
+  </executable>
+</project>
