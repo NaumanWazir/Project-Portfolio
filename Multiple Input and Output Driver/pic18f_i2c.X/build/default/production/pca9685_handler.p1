@@ -1,0 +1,140 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F471 `(v ~T0 @X0 0 tf ]
+"56 ./mcc_generated_files/examples/i2c1_master_example.h
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 56: void I2C1_Write1ByteRegister(i2c1_address_t address, uint8_t reg, uint8_t data);
+[v _I2C1_Write1ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"34 ./mcc_generated_files/delay.h
+[; ;./mcc_generated_files/delay.h: 34: void DELAY_milliseconds(uint16_t milliseconds);
+[v _DELAY_milliseconds `(v ~T0 @X0 0 ef1`us ]
+"5 ./pca9685_handler.h
+[; ;./pca9685_handler.h: 5: const uint8_t PCA9685_software_reset = 0x06;
+[v _PCA9685_software_reset `Cuc ~T0 @X0 1 e ]
+[i _PCA9685_software_reset
+-> -> 6 `i `uc
+]
+"6
+[; ;./pca9685_handler.h: 6: const uint8_t MODE1 = 0x00;
+[v _MODE1 `Cuc ~T0 @X0 1 e ]
+[i _MODE1
+-> -> 0 `i `uc
+]
+"7
+[; ;./pca9685_handler.h: 7: const uint8_t MODE2 = 0x01;
+[v _MODE2 `Cuc ~T0 @X0 1 e ]
+[i _MODE2
+-> -> 1 `i `uc
+]
+"8
+[; ;./pca9685_handler.h: 8: const uint8_t PRE_SCALE_ADDRESS = 0xFE;
+[v _PRE_SCALE_ADDRESS `Cuc ~T0 @X0 1 e ]
+[i _PRE_SCALE_ADDRESS
+-> -> 254 `i `uc
+]
+"9
+[; ;./pca9685_handler.h: 9: const uint8_t LED0 = 0x06;
+[v _LED0 `Cuc ~T0 @X0 1 e ]
+[i _LED0
+-> -> 6 `i `uc
+]
+"10
+[; ;./pca9685_handler.h: 10: const uint8_t ALL_CH_ON_L_reg = 0xFA;
+[v _ALL_CH_ON_L_reg `Cuc ~T0 @X0 1 e ]
+[i _ALL_CH_ON_L_reg
+-> -> 250 `i `uc
+]
+"11
+[; ;./pca9685_handler.h: 11: const uint8_t ALL_CH_ON_H_reg = 0xFB;
+[v _ALL_CH_ON_H_reg `Cuc ~T0 @X0 1 e ]
+[i _ALL_CH_ON_H_reg
+-> -> 251 `i `uc
+]
+"12
+[; ;./pca9685_handler.h: 12: const uint8_t ALL_CH_OFF_L_reg = 0xFC;
+[v _ALL_CH_OFF_L_reg `Cuc ~T0 @X0 1 e ]
+[i _ALL_CH_OFF_L_reg
+-> -> 252 `i `uc
+]
+"13
+[; ;./pca9685_handler.h: 13: const uint8_t ALL_CH_OFF_H_reg = 0xFD;
+[v _ALL_CH_OFF_H_reg `Cuc ~T0 @X0 1 e ]
+[i _ALL_CH_OFF_H_reg
+-> -> 253 `i `uc
+]
+"213 ./mcc_generated_files/examples/../i2c1_master.h
+[; ;./mcc_generated_files/examples/../i2c1_master.h: 213: void (*MSSP1_InterruptHandler)(void);
+[v _MSSP1_InterruptHandler `*F471 ~T0 @X0 1 e ]
+"5 pca9685_handler.c
+[; ;pca9685_handler.c: 5: void PCA9685_init(uint8_t address){
+[v _PCA9685_init `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _PCA9685_init ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[f ]
+"6
+[; ;pca9685_handler.c: 6:     I2C1_Write1ByteRegister(address,MODE1,0b00110001);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _MODE1 -> -> 49 `i `uc ]
+"7
+[; ;pca9685_handler.c: 7:     I2C1_Write1ByteRegister(address,PRE_SCALE_ADDRESS,0x03);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _PRE_SCALE_ADDRESS -> -> 3 `i `uc ]
+"8
+[; ;pca9685_handler.c: 8:     I2C1_Write1ByteRegister(address,MODE1,0b10100001);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _MODE1 -> -> 161 `i `uc ]
+"9
+[; ;pca9685_handler.c: 9:     I2C1_Write1ByteRegister(address,MODE2,0b00000100);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _MODE2 -> -> 4 `i `uc ]
+"10
+[; ;pca9685_handler.c: 10:     DELAY_milliseconds(1);
+[e ( _DELAY_milliseconds (1 -> -> 1 `i `us ]
+"11
+[; ;pca9685_handler.c: 11: }
+[e :UE 4 ]
+}
+"12
+[; ;pca9685_handler.c: 12: void Set_All(uint8_t address,uint16_t pwm){
+[v _Set_All `(v ~T0 @X0 1 ef2`uc`us ]
+{
+[e :U _Set_All ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[v _pwm `us ~T0 @X0 1 r2 ]
+[f ]
+"14
+[; ;pca9685_handler.c: 14:     I2C1_Write1ByteRegister(address,ALL_CH_ON_L_reg,0);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _ALL_CH_ON_L_reg -> -> 0 `i `uc ]
+"16
+[; ;pca9685_handler.c: 16:     I2C1_Write1ByteRegister(address,ALL_CH_ON_H_reg,0);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _ALL_CH_ON_H_reg -> -> 0 `i `uc ]
+"18
+[; ;pca9685_handler.c: 18:     I2C1_Write1ByteRegister(address,ALL_CH_OFF_L_reg,pwm & 0xFF);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _ALL_CH_OFF_L_reg -> & -> _pwm `ui -> -> 255 `i `ui `uc ]
+"20
+[; ;pca9685_handler.c: 20:     I2C1_Write1ByteRegister(address,ALL_CH_OFF_H_reg,(pwm >> 8) & 0xFF);
+[e ( _I2C1_Write1ByteRegister (3 , , _address _ALL_CH_OFF_H_reg -> & >> -> _pwm `ui -> 8 `i -> -> 255 `i `ui `uc ]
+"21
+[; ;pca9685_handler.c: 21: }
+[e :UE 5 ]
+}
+"23
+[; ;pca9685_handler.c: 23: void Set_Channel(uint8_t address,uint16_t pwm,uint8_t Channel){
+[v _Set_Channel `(v ~T0 @X0 1 ef3`uc`us`uc ]
+{
+[e :U _Set_Channel ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[v _pwm `us ~T0 @X0 1 r2 ]
+[v _Channel `uc ~T0 @X0 1 r3 ]
+[f ]
+"25
+[; ;pca9685_handler.c: 25:     I2C1_Write1ByteRegister(address,LED0 + 4 * Channel ,0);
+[e ( _I2C1_Write1ByteRegister (3 , , _address -> + -> _LED0 `i * -> 4 `i -> _Channel `i `uc -> -> 0 `i `uc ]
+"27
+[; ;pca9685_handler.c: 27:     I2C1_Write1ByteRegister(address,LED0 + 1 + 4 * Channel,0);
+[e ( _I2C1_Write1ByteRegister (3 , , _address -> + + -> _LED0 `i -> 1 `i * -> 4 `i -> _Channel `i `uc -> -> 0 `i `uc ]
+"29
+[; ;pca9685_handler.c: 29:     I2C1_Write1ByteRegister(address,LED0 + 2 + 4 * Channel,pwm & 0xFF);
+[e ( _I2C1_Write1ByteRegister (3 , , _address -> + + -> _LED0 `i -> 2 `i * -> 4 `i -> _Channel `i `uc -> & -> _pwm `ui -> -> 255 `i `ui `uc ]
+"31
+[; ;pca9685_handler.c: 31:     I2C1_Write1ByteRegister(address,LED0 + 3 + 4 * Channel,(pwm >> 8) & 0xFF);
+[e ( _I2C1_Write1ByteRegister (3 , , _address -> + + -> _LED0 `i -> 3 `i * -> 4 `i -> _Channel `i `uc -> & >> -> _pwm `ui -> 8 `i -> -> 255 `i `ui `uc ]
+"32
+[; ;pca9685_handler.c: 32: }
+[e :UE 6 ]
+}

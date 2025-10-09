@@ -1,0 +1,237 @@
+/**
+  Generated Main Source File
+
+  Company:
+    Microchip Technology Inc.
+
+  File Name:
+    main.c
+
+  Summary:
+    This is the main file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
+
+  Description:
+    This header file provides implementations for driver APIs for all modules selected in the GUI.
+    Generation Information :
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.8
+        Device            :  PIC18F46K22
+        Driver Version    :  2.00
+*/
+
+/*
+    (c) 2018 Microchip Technology Inc. and its subsidiaries. 
+    
+    Subject to your compliance with these terms, you may use Microchip software and any 
+    derivatives exclusively with Microchip products. It is your responsibility to comply with third party 
+    license terms applicable to your use of third party software (including open source software) that 
+    may accompany Microchip software.
+    
+    THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER 
+    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY 
+    IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS 
+    FOR A PARTICULAR PURPOSE.
+    
+    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
+    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP 
+    HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO 
+    THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL 
+    CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
+    OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
+    SOFTWARE.
+*/
+
+#include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/examples/i2c1_master_example.h"
+/*
+                         Main application
+ */
+////////////////////////////////////////////////////////////////////////////////
+#define Write_address 0x80  // I2C address for PCA9865 with no solder bridges
+#define Read_address Write_address+1
+#define PCA9685_software_reset 0x06
+//#define RESET   0x01        // Reset the device
+#define MODE1   0x00        // 0x00 location for Mode1 register address
+#define MODE2   0x01        // 0x01 location for Mode2 reigster address
+#define PRE_SCALE_ADDRESS 0xFE
+#define LED0    0x06        // location for start of LED0 registers
+#define ALL_CH_ON_L_reg   0xFA
+#define ALL_CH_ON_H_reg   0xFB
+#define ALL_CH_OFF_L_reg  0xFC
+#define ALL_CH_OFF_H_reg  0xFD
+
+////////////////////////////////////////////////////////////////////////////////
+// Prototype functions - functions at end
+void PCA9685_init();
+void PCA9685_send(unsigned int value, unsigned char led);
+void PCA9685AllLedOff();
+unsigned char PCA9685_read_byte(unsigned char chip_register);
+void PCA9685_write_byte(unsigned char chip_register, unsigned char value);
+void PCA9685_write_word(unsigned char chip_register, unsigned int word_value);
+void PCA9685_soft_reset();
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+volatile uint8_t main_loop = 0;
+
+void timer_isr(){
+
+    main_loop = 1;
+}
+
+void main(void)
+{    
+    unsigned char              n = 0;   // LED flash
+    unsigned int            loop = 0;   // loop counter
+    unsigned int             pwm = 0;
+    unsigned int                 x=0;
+    // Initialize the device
+    SYSTEM_Initialize();
+    TMR0_SetInterruptHandler(timer_isr);
+    PCA9685_init();
+    // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
+    // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global and Peripheral Interrupts
+    // Use the following macros to:
+
+    // Enable the Global Interrupts
+    INTERRUPT_GlobalInterruptEnable();
+
+    // Disable the Global Interrupts
+    //INTERRUPT_GlobalInterruptDisable();
+
+    // Enable the Peripheral Interrupts
+    INTERRUPT_PeripheralInterruptEnable();
+
+    // Disable the Peripheral Interrupts
+    //INTERRUPT_PeripheralInterruptDisable();
+    printf("Program Start\n\r");
+    
+    I2C1_Write1ByteRegister(Write_address,0xFA,0x99);
+    //DELAY_milliseconds(1);
+    //LED0_ON_H 
+    I2C1_Write1ByteRegister(Write_address,0xFB,0x01);
+    //DELAY_milliseconds(1);
+    //LED0_OFF_L
+    I2C1_Write1ByteRegister(Write_address,0xFC,0xCC);
+    //DELAY_milliseconds(1);
+    //LED0_OFF_H
+    I2C1_Write1ByteRegister(Write_address,0xFD,0x04);
+    
+    while (1)
+    {
+        if(main_loop)
+        {
+            LED_Toggle();
+            main_loop = 0;
+        }
+    }
+}
+/**
+ End of File
+*/
+////////////////////////////////////////////////////////////////////////////////
+// Functions
+// Init the chip with pwm frequency and MODE2 settings
+void PCA9685_init(){
+     
+    I2C1_Write1ByteRegister(Write_address,MODE1,0b00110001);
+    DELAY_milliseconds(1);
+    
+    I2C1_Write1ByteRegister(Write_address,PRE_SCALE_ADDRESS,0x3C);
+    DELAY_milliseconds(1);
+    
+    I2C1_Write1ByteRegister(Write_address,MODE1,0b10100001);
+    DELAY_milliseconds(1);
+     
+    I2C1_Write1ByteRegister(Write_address,MODE2,0b00000100);
+    DELAY_milliseconds(1);
+}
+// Send pulse length[0-4095] to selected LED/SERVO[0-15]
+void PCA9685_send(unsigned int value, unsigned char led){
+     unsigned char pulse_length;// temp variable for PWM
+     
+    /*LED0_ON_H = 1h; LED0_ON_L = 99h (LED start turn on after this delay count to
+409)
+LED on time = 20 % = 819.2 ~ 819 counts.
+LED off time = 4CCh (decimal 410 + 819 ? 1 = 1228)
+LED0_OFF_H = 4h; LED0_OFF_L = CCh (LED start turn off after this count to 1228)*/
+     
+    //LED_ON_L 
+    I2C1_Write1ByteRegister(Write_address,LED0 + 4 * led,0x99);
+    //DELAY_milliseconds(1);
+    //LED0_ON_H 
+    I2C1_Write1ByteRegister(Write_address,LED0 + 1 + 4 * led,0x01);
+    //DELAY_milliseconds(1);
+    //LED0_OFF_L
+    I2C1_Write1ByteRegister(Write_address,LED0 + 2 + 4 * led,0xCC);
+    //DELAY_milliseconds(1);
+    //LED0_OFF_H
+    I2C1_Write1ByteRegister(Write_address,LED0 + 3 + 4 * led,0x04);
+    //DELAY_milliseconds(1);
+    
+    
+     /*I2C1_start();              // Start
+     I2C1_Wr(Write_address);    // address of selected pca9685
+     I2C1_Wr(LED0 + 4 * led);   // select slected LED ADDRESS
+     I2C1_Wr(0x00);             // LED_ON_L
+     I2C1_Wr(0x00);             // LED_ON_H
+     pulse_length = value;      // PWM value lo byte
+     I2C1_Wr(pulse_length);     // LED_OFF_L
+     pulse_length = value>>8;   // pwm 16 bit long, now shift upper 8 to lower 8
+     I2C1_Wr(pulse_length);     // LED_OFF_H
+     I2C1_stop();               // stop
+      */
+}
+void PCA9685AllLedOff(){
+    uint8_t data[4];
+    data[0] =  Write_address;
+    data[1] =  ALL_CH_OFF_L_reg;
+    data[2] =  0b00000000;
+    data[3] =  0b00010000;
+    I2C1_WriteNBytes(Write_address,data,4);
+    /*I2C1_start();              // atart
+     I2C1_Wr(Write_address);    // select pca9685
+     I2C1_Wr(ALL_CH_OFF_L_reg); // All LEDs Off regiter
+     I2C1_Wr(0b00000000);       // low byte
+     I2C1_Wr(0b00010000);       // high byte, bit4 set so full_off see page 21
+     I2C1_stop();               // Stop*/
+}
+// Read a byte and return it's value
+unsigned char PCA9685_read_byte(unsigned char chip_register){
+    unsigned char temp = 0x00;
+    temp = I2C1_Read1ByteRegister(Write_address,chip_register);
+    /*I2C1_Start();
+    I2C1_Wr(Write_address);
+    I2C1_Wr(chip_register);
+    I2C1_Start();
+    I2C1_Wr(Read_address);
+    temp = I2C1_Rd(0);
+    I2C1_Stop();*/
+    return temp;
+}
+void PCA9685_write_byte(unsigned char chip_register, unsigned char value){
+    I2C1_Write1ByteRegister(Write_address,chip_register,value);
+    /*I2C1_Start();
+     I2C1_Wr(Write_address);
+     I2C1_Wr(chip_register);
+     I2C1_Wr(value);
+     I2C1_Stop();*/
+}
+// Write 16bits to chip_register, increments automatically from lo to hi byte
+void PCA9685_write_word(unsigned char chip_register, unsigned int word_value){
+     unsigned char hb = 0x00;
+     unsigned char lb = 0x00;
+     lb = (word_value & 0x00FF);
+     hb = ((word_value & 0xFF00) >> 0x08);
+     PCA9685_write_byte(chip_register,lb);
+     PCA9685_write_byte((chip_register+1),hb);
+}
+// Soft re-set
+void PCA9685_soft_reset(){
+    I2C1_Write1ByteRegister(0x00,PCA9685_software_reset,0);
+    /*I2C1_Start();
+    I2C1_Wr(0x00);
+    I2C1_Wr(PCA9685_software_reset);
+    I2C1_Stop();*/
+}
