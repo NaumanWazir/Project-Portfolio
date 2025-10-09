@@ -1,0 +1,33 @@
+Operational Description:
+This is a flash joule heating device. This device will charge a bank of capacitors and discharge the capacitors under the control of a human operator.
+The MCU in this project will monitor two input buttons ( "CHARGING" and "FIRE") from an operator's station, and 
+two other inputs: one input from a negative pressure controller, and one input from a voltage controller. 
+It will utilize the 1602 lcd screen with I2C communication to monitor the operational status of the program. T
+here are to be six outputs: "Power" indicator LED, "Charging" (PWM) indicator LED, "Fire" indicator LED, an "SCR" fire signal, "Control Relay1," and "Control Relay 2."
+
+
+Upon power up (startup): 
+The output for the Power LED will be HIGH.
+The lcd screen will display:
+Page 1. CYBORTRONX, centered on the first line.
+Page 2. FLASH JOULE, centered on the first line and HEATING, centered on the second line.
+Page 3. Date of revision MM/DD/YYYY, centered on the first line.
+Page 4. WAITING, centered on the first line and FOR INPUT, centered on the second line. Delay can be used on the startup.
+
+
+When the MCU gets a LOW input signal from the Charging button, the Charging LED will slowly strobe. 
+The lcd screen will update to SYSTEM, centered on the first line and CHARGING, centered on the second line. 
+Outputs for Control Relay 1 and Control Relay 2 will be HIGH. 
+
+The MCU will monitor inputs from the negative pressure controller and the voltage controller. 
+When the MCU receives a HIGH signal from both the pressure controller and the voltage controller at the same time, 
+the Charging LED output PWM will be 100%, the lcd screen will update to SYSTEM, centered on the first line and READY TO FIRE, centered on the second line. 
+The Fire LED will flash every 1000 milliseconds. 
+
+
+Once the system is ready to fire, the MCU will monitor a LOW input from the FIRE button. 
+When the MCU receives input from the FIRE button, Control Relay 1 and Control Relay 2 outputs will be LOW. 
+Fire LED will flash every 250 milliseconds for 2000 milliseconds, and then the SCR fire output will be HIGH for 200 milliseconds.
+
+
+After the system has fired, the system will return to the Page 4  lcd screen display, and the charging sequence will repeat.
