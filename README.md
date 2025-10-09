@@ -62,7 +62,7 @@ Each project has its own folder with a dedicated **README.md** outlining:
 - [Multiple Input and Output Driver](./Multiple%20Input%20and%20Output%20Driver)  
 - [Electronic Dice](./Electronic%20Dice)  
 - [Sound Generator Toy](./Sound%20Generator%20Toy)  
-- [6-Phase Automatic Change Over Controller](./6-Phase%20Automatic%20Change%20Over%20Controller)  
+- [6-Phase Automatic Change Over Controller](./6%20Phase%20Automatic%20Change%20Over%20Controller)  
 - [PIC18 UART Bootloader](./PIC18%20UART%20Bootloader)  
 - [Wireless Bridge for Sony Remote Control Panel (NDA)](./Wireless%20Bridge%20for%20Sony%20Remote%20Control%20Panel%20(NDA))  
 - [Reaction-Based Reflex Game](./Reaction-Based%20Reflex%20Game)  
