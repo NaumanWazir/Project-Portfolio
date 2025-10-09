@@ -1,0 +1,20 @@
+build/default/production/mcc_generated_files/bootloader/library/core/ftp/bl_ftp.p1:  \
+mcc_generated_files/bootloader/library/core/ftp/bl_ftp.c  \
+mcc_generated_files/bootloader/library/core/ftp/bl_ftp.h  \
+mcc_generated_files/bootloader/library/core/ftp/../bl_result_type.h  \
+mcc_generated_files/bootloader/library/core/ftp/../bl_core.h  \
+mcc_generated_files/bootloader/library/core/ftp/../bl_config.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/pins.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../nvm/nvm.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../com_adapter/com_adapter.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../com_adapter/../../../system/system.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/config_bits.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/../system/clock.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/../uart/eusart1.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/../uart/../system/system.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/../uart/uart_drv_interface.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/../uart/uart_types.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/../uart/eusart2.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../system/../system/interrupt.h  \
+mcc_generated_files/bootloader/library/core/ftp/../bl_app_verify.h  \
+mcc_generated_files/bootloader/library/core/ftp/../../../../timer/delay.h 

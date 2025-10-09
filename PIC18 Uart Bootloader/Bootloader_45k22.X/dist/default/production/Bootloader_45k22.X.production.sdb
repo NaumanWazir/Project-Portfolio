@@ -1,0 +1,1530 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"77 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/example/bl_example.c
+[e E6247 . `uc
+BOOTLOADER 0
+APPLICATION 1
+ERROR_STATE 2
+]
+"85
+[e E36 . `uc
+BL_PASS 129
+BL_BUSY 60
+BL_FAIL 195
+BL_ERROR_COMMUNICATION_FAIL 24
+BL_ERROR_FRAME_VALIDATION_FAIL 255
+BL_ERROR_BUFFER_OVERLOAD 189
+BL_ERROR_INVALID_ARGUMENTS 231
+BL_ERROR_UNKNOWN_COMMAND 66
+BL_ERROR_ADDRESS_OUT_OF_RANGE 36
+BL_ERROR_COMMAND_PROCESSING 126
+BL_ERROR_VERIFICATION_FAIL 219
+]
+"108
+[e E6241 . `uc
+EXAMPLE_OK 0
+EXAMPLE_FAIL 1
+]
+"88 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/com_adapter/com_adapter.c
+[e E6610 . `uc
+COM_PASS 231
+COM_FAIL 195
+COM_INVALID_ARG 150
+COM_BUFFER_ERROR 105
+COM_BUSY 24
+COM_TRANSPORT_FAILURE 60
+]
+"228 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/ftp/bl_ftp.c
+[e E6224 . `uc
+UNLOCK_BOOTLOADER 1
+WRITE_FLASH 2
+]
+"265
+[e E6832 . `uc
+FTP_PROTOCOL_VERSION 1
+FTP_TRANSFER_PARAMETERS 2
+FTP_TIMEOUT_INFO 3
+]
+"300
+[e E6172 . `uc
+BL_PASS 129
+BL_BUSY 60
+BL_FAIL 195
+BL_ERROR_COMMUNICATION_FAIL 24
+BL_ERROR_FRAME_VALIDATION_FAIL 255
+BL_ERROR_BUFFER_OVERLOAD 189
+BL_ERROR_INVALID_ARGUMENTS 231
+BL_ERROR_UNKNOWN_COMMAND 66
+BL_ERROR_ADDRESS_OUT_OF_RANGE 36
+BL_ERROR_COMMAND_PROCESSING 126
+BL_ERROR_VERIFICATION_FAIL 219
+]
+"305
+[e E6779 . `uc
+COM_PASS 231
+COM_FAIL 195
+COM_INVALID_ARG 150
+COM_BUFFER_ERROR 105
+COM_BUSY 24
+COM_TRANSPORT_FAILURE 60
+]
+"358
+[e E6824 . `uc
+FTP_INTEGRITY_CHECK_ERROR 0
+FTP_COMMAND_TOO_LONG_ERROR 1
+]
+"359
+[e E6807 . `uc
+FTP_COMMAND_SUCCESS 1
+FTP_COMMAND_NOT_SUPPORTED 2
+FTP_COMMAND_NOT_AUTHORIZED 3
+FTP_TRANSPORT_FAILURE 4
+FTP_ABORT_TRANSFER 5
+]
+"460
+[e E6814 . `uc
+FTP_GENERIC_ERROR 0
+FTP_INVALID_FILE_ERROR 1
+FTP_INVALID_DEVICE_ID_ERROR 2
+FTP_ADDRESS_ERROR 3
+FTP_ERASE_ERROR 4
+FTP_WRITE_ERROR 5
+FTP_READ_ERROR 6
+FTP_APP_VERSION_ERROR 7
+]
+"479
+[e E6800 . `uc
+FTP_GET_CLIENT_INFO 1
+FTP_START_TRANSFER 2
+FTP_WRITE_CHUNK 3
+FTP_GET_IMAGE_STATE 4
+FTP_END_TRANSFER 5
+]
+"110 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_core.c
+[e E36 . `uc
+BL_PASS 129
+BL_BUSY 60
+BL_FAIL 195
+BL_ERROR_COMMUNICATION_FAIL 24
+BL_ERROR_FRAME_VALIDATION_FAIL 255
+BL_ERROR_BUFFER_OVERLOAD 189
+BL_ERROR_INVALID_ARGUMENTS 231
+BL_ERROR_UNKNOWN_COMMAND 66
+BL_ERROR_ADDRESS_OUT_OF_RANGE 36
+BL_ERROR_COMMAND_PROCESSING 126
+BL_ERROR_VERIFICATION_FAIL 219
+]
+"140
+[e E6078 . `uc
+BL_MEM_PASS 0
+BL_MEM_FAIL 1
+BL_MEM_INVALID_ARG 2
+]
+"301
+[e E6026 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"155 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_memory.c
+[e E6046 . `uc
+BL_MEM_PASS 0
+BL_MEM_FAIL 1
+BL_MEM_INVALID_ARG 2
+]
+"189
+[e E6011 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"65 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_app_verify.c
+[e E36 . `uc
+BL_PASS 129
+BL_BUSY 60
+BL_FAIL 195
+BL_ERROR_COMMUNICATION_FAIL 24
+BL_ERROR_FRAME_VALIDATION_FAIL 255
+BL_ERROR_BUFFER_OVERLOAD 189
+BL_ERROR_INVALID_ARGUMENTS 231
+BL_ERROR_UNKNOWN_COMMAND 66
+BL_ERROR_ADDRESS_OUT_OF_RANGE 36
+BL_ERROR_COMMAND_PROCESSING 126
+BL_ERROR_VERIFICATION_FAIL 219
+]
+"52 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/nvm/src/nvm.c
+[e E6011 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"47 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/system.c
+[e E6580 . `uc
+BL_PASS 129
+BL_BUSY 60
+BL_FAIL 195
+BL_ERROR_COMMUNICATION_FAIL 24
+BL_ERROR_FRAME_VALIDATION_FAIL 255
+BL_ERROR_BUFFER_OVERLOAD 189
+BL_ERROR_INVALID_ARGUMENTS 231
+BL_ERROR_UNKNOWN_COMMAND 66
+BL_ERROR_ADDRESS_OUT_OF_RANGE 36
+BL_ERROR_COMMAND_PROCESSING 126
+BL_ERROR_VERIFICATION_FAIL 219
+]
+"189 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\main.c
+[e E6610 . `uc
+EXAMPLE_OK 0
+EXAMPLE_FAIL 1
+]
+"1177 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"164 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"81 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/example/bl_example.c
+[v _BL_Example BL_Example `(v  1 e 1 0 ]
+"108
+[v _BL_ExampleInitialize BL_ExampleInitialize `(E6241  1 e 1 0 ]
+"136
+[v _ForcedEntryCheck ForcedEntryCheck `(a  1 s 1 ForcedEntryCheck ]
+"76 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/com_adapter/com_adapter.c
+[v _FrameCheckCalculate FrameCheckCalculate `(uc  1 s 1 FrameCheckCalculate ]
+"88
+[v _DataSend DataSend `(E6610  1 s 1 DataSend ]
+"124
+[v _DataReceive DataReceive `(E6610  1 s 1 DataReceive ]
+"162
+[v _COM_FrameTransfer COM_FrameTransfer `(E6610  1 e 1 0 ]
+"278
+[v _COM_FrameSet COM_FrameSet `(E6610  1 e 1 0 ]
+"349
+[v _COM_Initialize COM_Initialize `(E6610  1 e 1 0 ]
+"45 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_app_verify.c
+[v _ChecksumCalculate ChecksumCalculate `(v  1 s 1 ChecksumCalculate ]
+"65
+[v _ChecksumValidate ChecksumValidate `(E36  1 s 1 ChecksumValidate ]
+"110 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_core.c
+[v _BL_BootCommandProcess BL_BootCommandProcess `(E6172  1 e 1 0 ]
+"155
+[v _BL_ApplicationStart BL_ApplicationStart `(v  1 e 1 0 ]
+"174
+[v _BL_Initialize BL_Initialize `(E6172  1 e 1 0 ]
+"183
+[v _BootloaderProcessorUnlock BootloaderProcessorUnlock `(E36  1 s 1 BootloaderProcessorUnlock ]
+"299
+[v _DownloadAreaErase DownloadAreaErase `(v  1 s 1 DownloadAreaErase ]
+"45 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_memory.c
+[v _BL_MemoryUnlockKeysInit BL_MemoryUnlockKeysInit `(v  1 e 1 0 ]
+"53
+[v _BL_MemoryUnlockKeysClear BL_MemoryUnlockKeysClear `(v  1 e 1 0 ]
+"207
+[v _BL_FlashWrite BL_FlashWrite `(E6078  1 e 1 0 ]
+"300 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/ftp/bl_ftp.c
+[v _FTP_Task FTP_Task `(E36  1 e 1 0 ]
+"426
+[v _OperationalBlockExecute OperationalBlockExecute `(E6172  1 s 1 OperationalBlockExecute ]
+"484
+[v _AbortCodeGet AbortCodeGet `(E6814  1 s 1 AbortCodeGet ]
+"507
+[v _TransportFailureCodeGet TransportFailureCodeGet `(E6824  1 s 1 TransportFailureCodeGet ]
+"525
+[v _ParserDataReset ParserDataReset `(v  1 s 1 ParserDataReset ]
+"550
+[v _ResponseSet ResponseSet `(v  1 s 1 ResponseSet ]
+"583
+[v _ClientInfoResponseSet ClientInfoResponseSet `(v  1 s 1 ClientInfoResponseSet ]
+"617
+[v _FTP_Initialize FTP_Initialize `(E36  1 e 1 0 ]
+"42 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+"47
+[v _NVM_IsBusy NVM_IsBusy `(a  1 e 1 0 ]
+"52
+[v _NVM_StatusGet NVM_StatusGet `(E6011  1 e 1 0 ]
+"64
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+"69
+[v _NVM_UnlockKeySet NVM_UnlockKeySet `(v  1 e 1 0 ]
+"76
+[v _NVM_UnlockKeyClear NVM_UnlockKeyClear `(v  1 e 1 0 ]
+"82
+[v _FLASH_Read FLASH_Read `(uc  1 e 1 0 ]
+"102
+[v _FLASH_RowWrite FLASH_RowWrite `(E6011  1 e 1 0 ]
+"165
+[v _FLASH_PageErase FLASH_PageErase `(E6026  1 e 1 0 ]
+"221
+[v _FLASH_PageAddressGet FLASH_PageAddressGet `(ul  1 e 4 0 ]
+"228
+[v _FLASH_PageOffsetGet FLASH_PageOffsetGet `(us  1 e 2 0 ]
+"285
+[v _DeviceID_Read DeviceID_Read `(us  1 e 2 0 ]
+"37 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"83
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"92
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"96
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"109
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"118
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"122
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"135
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"144
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"148
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"39 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"37 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/timer/src/delay.c
+[v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
+"94 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"115
+[v _EUSART1_Deinitialize EUSART1_Deinitialize `(v  1 e 1 0 ]
+"136
+[v _EUSART1_TransmitEnable EUSART1_TransmitEnable `T(v  1 e 1 0 ]
+"141
+[v _EUSART1_TransmitDisable EUSART1_TransmitDisable `T(v  1 e 1 0 ]
+"166
+[v _EUSART1_AutoBaudSet EUSART1_AutoBaudSet `T(v  1 e 1 0 ]
+"178
+[v _EUSART1_AutoBaudQuery EUSART1_AutoBaudQuery `T(a  1 e 1 0 ]
+"193
+[v _EUSART1_IsRxReady EUSART1_IsRxReady `(a  1 e 1 0 ]
+"198
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+"203
+[v _EUSART1_IsTxDone EUSART1_IsTxDone `(a  1 e 1 0 ]
+"208
+[v _EUSART1_ErrorGet EUSART1_ErrorGet `(ui  1 e 2 0 ]
+"213
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"235
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"240
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+"245
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+"252
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"260
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"94 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"115
+[v _EUSART2_Deinitialize EUSART2_Deinitialize `(v  1 e 1 0 ]
+"136
+[v _EUSART2_TransmitEnable EUSART2_TransmitEnable `T(v  1 e 1 0 ]
+"141
+[v _EUSART2_TransmitDisable EUSART2_TransmitDisable `T(v  1 e 1 0 ]
+"166
+[v _EUSART2_AutoBaudSet EUSART2_AutoBaudSet `T(v  1 e 1 0 ]
+"178
+[v _EUSART2_AutoBaudQuery EUSART2_AutoBaudQuery `T(a  1 e 1 0 ]
+"193
+[v _EUSART2_IsRxReady EUSART2_IsRxReady `(a  1 e 1 0 ]
+"198
+[v _EUSART2_IsTxReady EUSART2_IsTxReady `(a  1 e 1 0 ]
+"203
+[v _EUSART2_IsTxDone EUSART2_IsTxDone `(a  1 e 1 0 ]
+"208
+[v _EUSART2_ErrorGet EUSART2_ErrorGet `(ui  1 e 2 0 ]
+"213
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+"235
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+"246
+[v _putch putch `(v  1 e 1 0 ]
+"252
+[v _EUSART2_DefaultFramingErrorCallback EUSART2_DefaultFramingErrorCallback `(v  1 s 1 EUSART2_DefaultFramingErrorCallback ]
+"257
+[v _EUSART2_DefaultOverrunErrorCallback EUSART2_DefaultOverrunErrorCallback `(v  1 s 1 EUSART2_DefaultOverrunErrorCallback ]
+"264
+[v _EUSART2_FramingErrorCallbackRegister EUSART2_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"272
+[v _EUSART2_OverrunErrorCallbackRegister EUSART2_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"97
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"147
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"198
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"260
+[v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
+"2719
+[v _WPUB WPUB `VEuc  1 e 1 @3937 ]
+"2781
+[v _IOCB IOCB `VEuc  1 e 1 @3938 ]
+"4288
+[v _BAUDCON2 BAUDCON2 `VEuc  1 e 1 @3952 ]
+[s S1743 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4330
+[s S1752 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+]
+[s S2279 . 1 `uc 1 ABDEN2 1 0 :1:0 
+`uc 1 WUE2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG162 1 0 :1:3 
+`uc 1 SCKP2 1 0 :1:4 
+`uc 1 DTRXP2 1 0 :1:5 
+`uc 1 RCIDL2 1 0 :1:6 
+`uc 1 ABDOVF2 1 0 :1:7 
+]
+[s S2288 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP2 1 0 :1:4 
+`uc 1 RXDTP2 1 0 :1:5 
+`uc 1 RCMT2 1 0 :1:6 
+]
+[u S2293 . 1 `S1743 1 . 1 0 `S1752 1 . 1 0 `S2279 1 . 1 0 `S2288 1 . 1 0 ]
+[v _BAUDCON2bits BAUDCON2bits `VES2293  1 e 1 @3952 ]
+"4550
+[v _RCSTA2 RCSTA2 `VEuc  1 e 1 @3953 ]
+[s S1624 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4595
+[s S1633 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S2167 . 1 `uc 1 RX9D2 1 0 :1:0 
+`uc 1 OERR2 1 0 :1:1 
+`uc 1 FERR2 1 0 :1:2 
+`uc 1 ADDEN2 1 0 :1:3 
+`uc 1 CREN2 1 0 :1:4 
+`uc 1 SREN2 1 0 :1:5 
+`uc 1 RX92 1 0 :1:6 
+`uc 1 SPEN2 1 0 :1:7 
+]
+[s S2176 . 1 `uc 1 RCD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_92 1 0 :1:6 
+]
+[s S2180 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+[u S2183 . 1 `S1624 1 . 1 0 `S1633 1 . 1 0 `S2167 1 . 1 0 `S2176 1 . 1 0 `S2180 1 . 1 0 ]
+[v _RCSTA2bits RCSTA2bits `VES2183  1 e 1 @3953 ]
+"4838
+[v _TXSTA2 TXSTA2 `VEuc  1 e 1 @3954 ]
+[s S1694 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4875
+[s S2227 . 1 `uc 1 TX9D2 1 0 :1:0 
+`uc 1 TRMT2 1 0 :1:1 
+`uc 1 BRGH2 1 0 :1:2 
+`uc 1 SENDB2 1 0 :1:3 
+`uc 1 SYNC2 1 0 :1:4 
+`uc 1 TXEN2 1 0 :1:5 
+`uc 1 TX92 1 0 :1:6 
+`uc 1 CSRC2 1 0 :1:7 
+]
+[s S2236 . 1 `uc 1 TXD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_92 1 0 :1:6 
+]
+[u S2240 . 1 `S1694 1 . 1 0 `S2227 1 . 1 0 `S2236 1 . 1 0 ]
+[v _TXSTA2bits TXSTA2bits `VES2240  1 e 1 @3954 ]
+"5090
+[v _TXREG2 TXREG2 `VEuc  1 e 1 @3955 ]
+"5128
+[v _RCREG2 RCREG2 `VEuc  1 e 1 @3956 ]
+"5166
+[v _SPBRG2 SPBRG2 `VEuc  1 e 1 @3957 ]
+"5204
+[v _SPBRGH2 SPBRGH2 `VEuc  1 e 1 @3958 ]
+[s S99 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"6365
+[s S108 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S115 . 1 `uc 1 C12IN0M 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C2INP 1 0 :1:2 
+`uc 1 C1INP 1 0 :1:3 
+`uc 1 C1OUT 1 0 :1:4 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S122 . 1 `uc 1 C12IN0N 1 0 :1:0 
+`uc 1 C12IN1N 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+]
+[s S129 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S132 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFN 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SRQ 1 0 :1:4 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S138 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S143 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 DACOUT 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S148 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SS1 1 0 :1:5 
+]
+[s S151 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS1 1 0 :1:5 
+]
+[s S154 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 nSS1 1 0 :1:5 
+]
+[s S157 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRNQ 1 0 :1:5 
+]
+[s S160 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S164 . 1 `S99 1 . 1 0 `S108 1 . 1 0 `S115 1 . 1 0 `S122 1 . 1 0 `S129 1 . 1 0 `S132 1 . 1 0 `S138 1 . 1 0 `S143 1 . 1 0 `S148 1 . 1 0 `S151 1 . 1 0 `S154 1 . 1 0 `S157 1 . 1 0 `S160 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES164  1 e 1 @3968 ]
+"7560
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S40 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"7587
+[s S49 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S58 . 1 `S40 1 . 1 0 `S49 1 . 1 0 ]
+[v _LATAbits LATAbits `VES58  1 e 1 @3977 ]
+"7672
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"7784
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"7896
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"8008
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"8060
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"8282
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8504
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8726
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"8948
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"9064
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S1826 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"9513
+[s S1834 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S1839 . 1 `S1826 1 . 1 0 `S1834 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1839  1 e 1 @3998 ]
+[s S2325 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 TMR5GIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"10036
+[s S2334 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S2339 . 1 `S2325 1 . 1 0 `S2334 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES2339  1 e 1 @4004 ]
+[s S904 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"10190
+[s S913 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S916 . 1 `S904 1 . 1 0 `S913 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES916  1 e 1 @4006 ]
+"10235
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"10255
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"10275
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"10345
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+"10398
+[s S1636 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S1645 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1649 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1652 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S1655 . 1 `S1624 1 . 1 0 `S1633 1 . 1 0 `S1636 1 . 1 0 `S1645 1 . 1 0 `S1649 1 . 1 0 `S1652 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES1655  1 e 1 @4011 ]
+"10801
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"10842
+[s S1703 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1712 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S1716 . 1 `S1694 1 . 1 0 `S1703 1 . 1 0 `S1712 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES1716  1 e 1 @4012 ]
+"11176
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"11254
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"11332
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"11410
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4016 ]
+"12374
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4024 ]
+"12438
+[s S1755 . 1 `uc 1 ABDEN1 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG161 1 0 :1:3 
+`uc 1 SCKP1 1 0 :1:4 
+`uc 1 DTRXP1 1 0 :1:5 
+`uc 1 RCIDL1 1 0 :1:6 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S1764 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S1769 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+`uc 1 RXDTP1 1 0 :1:5 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S1774 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S1777 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S1780 . 1 `S1743 1 . 1 0 `S1752 1 . 1 0 `S1755 1 . 1 0 `S1764 1 . 1 0 `S1769 1 . 1 0 `S1774 1 . 1 0 `S1777 1 . 1 0 ]
+[v _BAUDCON1bits BAUDCON1bits `VES1780  1 e 1 @4024 ]
+[s S1089 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"15837
+[s S1091 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S1094 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S1097 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S1100 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S1103 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S1112 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S1118 . 1 `S1089 1 . 1 0 `S1091 1 . 1 0 `S1094 1 . 1 0 `S1097 1 . 1 0 `S1100 1 . 1 0 `S1103 1 . 1 0 `S1112 1 . 1 0 ]
+[v _RCONbits RCONbits `VES1118  1 e 1 @4048 ]
+"15955
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"16012
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16417
+[v _BSR BSR `VEuc  1 e 1 @4064 ]
+[s S1228 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"16757
+[s S1237 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S1246 . 1 `S1228 1 . 1 0 `S1237 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES1246  1 e 1 @4080 ]
+[s S1183 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"16847
+[s S1186 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S1195 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S1198 . 1 `S1183 1 . 1 0 `S1186 1 . 1 0 `S1195 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES1198  1 e 1 @4081 ]
+[s S939 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16924
+[s S948 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S957 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S961 . 1 `S939 1 . 1 0 `S948 1 . 1 0 `S957 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES961  1 e 1 @4082 ]
+"17056
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"17085
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"17105
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"17125
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"17217
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"153 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"46 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\main.c
+[v _applicationFooter applicationFooter `CVEus  1 e 2 @12350 ]
+"77 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/example/bl_example.c
+[v _BootState BootState `E6247  1 s 1 BootState ]
+[s S268 . 3 `uc 1 EscapeCharacter 1 0 `uc 1 StartOfPacketCharacter 1 1 `uc 1 EndOfPacketCharacter 1 2 ]
+"65 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/com_adapter/com_adapter.c
+[v _ftpSpecialCharacters ftpSpecialCharacters `S268  1 s 3 ftpSpecialCharacters ]
+"71
+[v _MaxBufferLength MaxBufferLength `us  1 s 2 MaxBufferLength ]
+"62 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_core.c
+[v _bootloaderCoreUnlocked bootloaderCoreUnlocked `a  1 s 1 bootloaderCoreUnlocked ]
+"63
+[v _firstTimeIn firstTimeIn `a  1 s 1 firstTimeIn ]
+"40 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_memory.c
+[v _erasePageKey erasePageKey `us  1 s 2 erasePageKey ]
+"41
+[v _readKey readKey `us  1 s 2 readKey ]
+"42
+[v _byteWordWriteKey byteWordWriteKey `us  1 s 2 byteWordWriteKey ]
+"43
+[v _rowWriteKey rowWriteKey `us  1 s 2 rowWriteKey ]
+"205
+[v _writeBuffer writeBuffer `[64]uc  1 s 64 writeBuffer ]
+"215 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/ftp/bl_ftp.c
+[v _FTP_RECEIVE_BUFFER FTP_RECEIVE_BUFFER `[74]uc  1 s 74 FTP_RECEIVE_BUFFER ]
+"216
+[v _FTP_RESPONSE_BUFFER FTP_RESPONSE_BUFFER `[19]uc  1 s 19 FTP_RESPONSE_BUFFER ]
+"217
+[v _FTP_RETRY_BUFFER FTP_RETRY_BUFFER `[19]uc  1 s 19 FTP_RETRY_BUFFER ]
+[s S457 . 6 `us 1 receiveIndex 2 0 `us 1 bufferLength 2 2 `*.39uc 1 bufferPtr 2 4 ]
+"222
+[v _ftpRetrySender ftpRetrySender `S457  1 s 6 ftpRetrySender ]
+"228
+[v _ftpCommandReceiver ftpCommandReceiver `S457  1 s 6 ftpCommandReceiver ]
+"234
+[v _ftpResponseSender ftpResponseSender `S457  1 s 6 ftpResponseSender ]
+[s S469 . 5 `uc 1 lastSequenceNumber 1 0 `uc 1 currentSequenceNumber 1 1 `uc 1 nextSequenceNumber 1 2 `a 1 responseRequired 1 3 `a 1 resendRequired 1 4 ]
+"240
+[v _ftpHelper ftpHelper `S469  1 s 5 ftpHelper ]
+[s S475 . 3 `us 1 maxPayloadSize 2 0 `uc 1 numberOfPacketBuffers 1 2 ]
+"248
+[v _discoveryData discoveryData `S475  1 s 3 discoveryData ]
+[s S478 . 3 `uc 1 major 1 0 `uc 1 minor 1 1 `uc 1 patch 1 2 ]
+"253
+[v _ftpVersionData ftpVersionData `S478  1 s 3 ftpVersionData ]
+[s S482 . 3 `uc 1 commandCode 1 0 `us 1 timeoutValue 2 1 ]
+"259
+[v _generalCommandTimeoutData generalCommandTimeoutData `S482  1 s 3 generalCommandTimeoutData ]
+"39 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/nvm/src/nvm.c
+[v _unlockKeyLow unlockKeyLow `VNEuc  1 s 1 unlockKeyLow ]
+"40
+[v _unlockKeyHigh unlockKeyHigh `VNEuc  1 s 1 unlockKeyHigh ]
+"38 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S310 . 48 `*.37(v 1 Initialize 2 0 `*.37(v 1 Deinitialize 2 2 `*.37(uc 1 Read 2 4 `*.37(v 1 Write 2 6 `*.37(a 1 IsRxReady 2 8 `*.37(a 1 IsTxReady 2 10 `*.37(a 1 IsTxDone 2 12 `*.37(v 1 TransmitEnable 2 14 `*.37(v 1 TransmitDisable 2 16 `*.37(v 1 AutoBaudSet 2 18 `*.37(a 1 AutoBaudQuery 2 20 `*.37(a 1 AutoBaudEventEnableGet 2 22 `*.37(v 1 BRGCountSet 2 24 `*.37(ul 1 BRGCountGet 2 26 `*.37(v 1 BaudRateSet 2 28 `*.37(ul 1 BaudRateGet 2 30 `*.37(ui 1 ErrorGet 2 32 `*.37(v 1 TxCompleteCallbackRegister 2 34 `*.37(v 1 RxCompleteCallbackRegister 2 36 `*.37(v 1 TxCollisionCallbackRegister 2 38 `*.37(v 1 FramingErrorCallbackRegister 2 40 `*.37(v 1 OverrunErrorCallbackRegister 2 42 `*.37(v 1 ParityErrorCallbackRegister 2 44 `*.37(v 1 EventCallbackRegister 2 46 ]
+"47 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _UART1 UART1 `CS310  1 e 48 0 ]
+[s S1601 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"77
+[u S1606 . 2 `S1601 1 . 1 0 `ui 1 status 2 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES1606  1 e 2 0 ]
+"83
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"84
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"77 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _eusart2RxLastError eusart2RxLastError `VES1606  1 e 2 0 ]
+"83
+[v _EUSART2_FramingErrorHandler EUSART2_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"84
+[v _EUSART2_OverrunErrorHandler EUSART2_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"164 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"228
+} 0
+"39 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"48
+} 0
+"38 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"42 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+{
+"45
+} 0
+"42 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"144
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"146
+} 0
+"118
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"120
+} 0
+"92
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"94
+} 0
+"37 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"46
+} 0
+"108 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/example/bl_example.c
+[v _BL_ExampleInitialize BL_ExampleInitialize `(E6241  1 e 1 0 ]
+{
+"111
+[v BL_ExampleInitialize@initStatus initStatus `E36  1 a 1 4 ]
+"134
+} 0
+"136
+[v _ForcedEntryCheck ForcedEntryCheck `(a  1 s 1 ForcedEntryCheck ]
+{
+"140
+[v ForcedEntryCheck@i i `uc  1 a 1 1 ]
+"138
+[v ForcedEntryCheck@result result `a  1 a 1 0 ]
+"151
+} 0
+"617 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/ftp/bl_ftp.c
+[v _FTP_Initialize FTP_Initialize `(E36  1 e 1 0 ]
+{
+"620
+[v FTP_Initialize@comInitStatus comInitStatus `E6779  1 a 1 3 ]
+"622
+} 0
+"349 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/com_adapter/com_adapter.c
+[v _COM_Initialize COM_Initialize `(E6610  1 e 1 0 ]
+{
+"351
+[v COM_Initialize@result result `E6610  1 a 1 2 ]
+"349
+[v COM_Initialize@maximumBufferLength maximumBufferLength `us  1 p 2 0 ]
+"363
+} 0
+"81 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/example/bl_example.c
+[v _BL_Example BL_Example `(v  1 e 1 0 ]
+{
+"106
+} 0
+"300 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/ftp/bl_ftp.c
+[v _FTP_Task FTP_Task `(E36  1 e 1 0 ]
+{
+"358
+[v FTP_Task@transportCode transportCode `E6824  1 a 1 0 ]
+"305
+[v FTP_Task@comResult comResult `E6779  1 a 1 2 ]
+"304
+[v FTP_Task@processResult processResult `E6172  1 a 1 1 ]
+"385
+} 0
+"507
+[v _TransportFailureCodeGet TransportFailureCodeGet `(E6824  1 s 1 TransportFailureCodeGet ]
+{
+[v TransportFailureCodeGet@targetStatus targetStatus `E6172  1 a 1 wreg ]
+"509
+[v TransportFailureCodeGet@transportCode transportCode `E6824  1 a 1 3 ]
+"507
+[v TransportFailureCodeGet@targetStatus targetStatus `E6172  1 a 1 wreg ]
+"509
+[v TransportFailureCodeGet@targetStatus targetStatus `E6172  1 a 1 2 ]
+"523
+} 0
+"525
+[v _ParserDataReset ParserDataReset `(v  1 s 1 ParserDataReset ]
+{
+"527
+[v ParserDataReset@i i `us  1 a 2 0 ]
+"535
+} 0
+"426
+[v _OperationalBlockExecute OperationalBlockExecute `(E6172  1 s 1 OperationalBlockExecute ]
+{
+"460
+[v OperationalBlockExecute@abortCode abortCode `E6814  1 a 1 90 ]
+"428
+[v OperationalBlockExecute@processResult processResult `E6172  1 a 1 91 ]
+"482
+} 0
+"550
+[v _ResponseSet ResponseSet `(v  1 s 1 ResponseSet ]
+{
+"563
+[v ResponseSet@i i `uc  1 a 1 8 ]
+[s S457 . 6 `us 1 receiveIndex 2 0 `us 1 bufferLength 2 2 `*.39uc 1 bufferPtr 2 4 ]
+"550
+[v ResponseSet@responseData responseData `*.30S457  1 p 1 0 ]
+[v ResponseSet@responsePayload responsePayload `*.39uc  1 p 2 1 ]
+[v ResponseSet@responseStatus responseStatus `E6807  1 p 1 3 ]
+[v ResponseSet@responsePayloadLength responsePayloadLength `us  1 p 2 4 ]
+"567
+} 0
+"583
+[v _ClientInfoResponseSet ClientInfoResponseSet `(v  1 s 1 ClientInfoResponseSet ]
+{
+[s S457 . 6 `us 1 receiveIndex 2 0 `us 1 bufferLength 2 2 `*.39uc 1 bufferPtr 2 4 ]
+[v ClientInfoResponseSet@responseData responseData `*.30S457  1 p 1 0 ]
+"615
+} 0
+"174 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_core.c
+[v _BL_Initialize BL_Initialize `(E6172  1 e 1 0 ]
+{
+"181
+} 0
+"110
+[v _BL_BootCommandProcess BL_BootCommandProcess `(E6172  1 e 1 0 ]
+{
+"140
+[v BL_BootCommandProcess@memoryStatus memoryStatus `E6078  1 a 1 84 ]
+[s S701 . 8 `us 1 eraseUnlockKey 2 0 `us 1 readUnlockKey 2 2 `us 1 byteWordWriteUnlockKey 2 4 `us 1 rowWriteUnlockKey 2 6 ]
+"121
+[v BL_BootCommandProcess@userProvidedKeys userProvidedKeys `S701  1 a 8 76 ]
+[s S467 . 4 `ul 1 startAddress 4 0 ]
+"114
+[v BL_BootCommandProcess@commandHeader commandHeader `S467  1 a 4 86 ]
+"112
+[v BL_BootCommandProcess@bootCommandStatus bootCommandStatus `E36  1 a 1 85 ]
+"110
+[v BL_BootCommandProcess@bootDataPtr bootDataPtr `*.39uc  1 p 2 56 ]
+[v BL_BootCommandProcess@bufferLength bufferLength `us  1 p 2 58 ]
+"119
+[v BL_BootCommandProcess@F6839 F6839 `S701  1 s 8 F6839 ]
+"153
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.30v  1 a 1 34 ]
+"5
+[v printf@fmt fmt `*.31Cuc  1 p 1 29 ]
+"13
+} 0
+"1817 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.31uc  1 a 1 28 ]
+[s S3017 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S3017  1 p 2 24 ]
+[v vfprintf@fmt fmt `*.31Cuc  1 p 1 26 ]
+[v vfprintf@ap ap `*.30*.30v  1 p 1 27 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S3030 . 4 `l 1 sint 4 0 `ul 1 uint 4 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S3030  1 a 4 17 ]
+"1179
+[v vfpfcnvrt@c c `uc  1 a 1 23 ]
+[v vfpfcnvrt@cp cp `*.31uc  1 a 1 22 ]
+"1194
+[v vfpfcnvrt@x x `uc  1 a 1 21 ]
+[s S3017 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.39S3017  1 p 2 11 ]
+[v vfpfcnvrt@fmt fmt `*.30*.31uc  1 p 1 13 ]
+[v vfpfcnvrt@ap ap `*.30*.30v  1 p 1 14 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[u S2996 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2999 _IO_FILE 12 `S2996 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputc@fp fp `*.39S2999  1 p 2 4 ]
+"24
+} 0
+"246 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 1 ]
+"250
+} 0
+"183 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_core.c
+[v _BootloaderProcessorUnlock BootloaderProcessorUnlock `(E36  1 s 1 BootloaderProcessorUnlock ]
+{
+"286
+[v BootloaderProcessorUnlock@startAddress startAddress `ul  1 a 4 52 ]
+"183
+[v BootloaderProcessorUnlock@bufferPtr bufferPtr `*.39uc  1 p 2 34 ]
+"296
+} 0
+"299
+[v _DownloadAreaErase DownloadAreaErase `(v  1 s 1 DownloadAreaErase ]
+{
+"302
+[v DownloadAreaErase@address address `ul  1 a 4 30 ]
+"304
+[v DownloadAreaErase@unlockKey unlockKey `us  1 a 2 27 ]
+"301
+[v DownloadAreaErase@errorStatus errorStatus `E6026  1 a 1 29 ]
+"299
+[v DownloadAreaErase@startAddress startAddress `ul  1 p 4 21 ]
+[v DownloadAreaErase@pageEraseUnlockKey pageEraseUnlockKey `us  1 p 2 25 ]
+"316
+} 0
+"285 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/nvm/src/nvm.c
+[v _DeviceID_Read DeviceID_Read `(us  1 e 2 0 ]
+{
+"290
+[v DeviceID_Read@tablePointer tablePointer `ul  1 a 4 17 ]
+"287
+[v DeviceID_Read@deivceID deivceID `us  1 a 2 15 ]
+"285
+[v DeviceID_Read@address address `um  1 p 3 0 ]
+"319
+} 0
+"45 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_memory.c
+[v _BL_MemoryUnlockKeysInit BL_MemoryUnlockKeysInit `(v  1 e 1 0 ]
+{
+[s S701 . 8 `us 1 eraseUnlockKey 2 0 `us 1 readUnlockKey 2 2 `us 1 byteWordWriteUnlockKey 2 4 `us 1 rowWriteUnlockKey 2 6 ]
+[v BL_MemoryUnlockKeysInit@keys keys `S701  1 p 8 0 ]
+"51
+} 0
+"53
+[v _BL_MemoryUnlockKeysClear BL_MemoryUnlockKeysClear `(v  1 e 1 0 ]
+{
+"59
+} 0
+"207
+[v _BL_FlashWrite BL_FlashWrite `(E6078  1 e 1 0 ]
+{
+"213
+[v BL_FlashWrite@pageStartAddress pageStartAddress `ul  1 a 4 39 ]
+"211
+[v BL_FlashWrite@index index `us  1 a 2 37 ]
+"212
+[v BL_FlashWrite@counter counter `us  1 a 2 35 ]
+"210
+[v BL_FlashWrite@offset offset `us  1 a 2 33 ]
+"209
+[v BL_FlashWrite@result result `E6046  1 a 1 43 ]
+"207
+[v BL_FlashWrite@address address `ul  1 p 4 21 ]
+[v BL_FlashWrite@buffer buffer `*.39uc  1 p 2 25 ]
+[v BL_FlashWrite@length length `ui  1 p 2 27 ]
+"318
+} 0
+"69 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_UnlockKeySet NVM_UnlockKeySet `(v  1 e 1 0 ]
+{
+[v NVM_UnlockKeySet@unlockKey unlockKey `us  1 p 2 0 ]
+"74
+} 0
+"76
+[v _NVM_UnlockKeyClear NVM_UnlockKeyClear `(v  1 e 1 0 ]
+{
+"80
+} 0
+"52
+[v _NVM_StatusGet NVM_StatusGet `(E6011  1 e 1 0 ]
+{
+"62
+} 0
+"64
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+{
+"67
+} 0
+"47
+[v _NVM_IsBusy NVM_IsBusy `(a  1 e 1 0 ]
+{
+"50
+} 0
+"102
+[v _FLASH_RowWrite FLASH_RowWrite `(E6011  1 e 1 0 ]
+{
+"104
+[v FLASH_RowWrite@flashDataCount flashDataCount `uc  1 a 1 7 ]
+"110
+[v FLASH_RowWrite@globalInterruptBitValue globalInterruptBitValue `uc  1 a 1 6 ]
+"102
+[v FLASH_RowWrite@address address `ul  1 p 4 0 ]
+[v FLASH_RowWrite@dataBuffer dataBuffer `*.39uc  1 p 2 4 ]
+"163
+} 0
+"82
+[v _FLASH_Read FLASH_Read `(uc  1 e 1 0 ]
+{
+"85
+[v FLASH_Read@tablePointer tablePointer `ul  1 a 4 16 ]
+"82
+[v FLASH_Read@address address `ul  1 p 4 0 ]
+"100
+} 0
+"228
+[v _FLASH_PageOffsetGet FLASH_PageOffsetGet `(us  1 e 2 0 ]
+{
+[v FLASH_PageOffsetGet@address address `ul  1 p 4 0 ]
+"231
+} 0
+"165
+[v _FLASH_PageErase FLASH_PageErase `(E6026  1 e 1 0 ]
+{
+"168
+[v FLASH_PageErase@tablePointer tablePointer `ul  1 a 4 17 ]
+"171
+[v FLASH_PageErase@globalInterruptBitValue globalInterruptBitValue `uc  1 a 1 16 ]
+"165
+[v FLASH_PageErase@address address `ul  1 p 4 0 ]
+"219
+} 0
+"221
+[v _FLASH_PageAddressGet FLASH_PageAddressGet `(ul  1 e 4 0 ]
+{
+[v FLASH_PageAddressGet@address address `ul  1 p 4 0 ]
+"226
+} 0
+"484 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/ftp/bl_ftp.c
+[v _AbortCodeGet AbortCodeGet `(E6814  1 s 1 AbortCodeGet ]
+{
+[v AbortCodeGet@targetStatus targetStatus `E6172  1 a 1 wreg ]
+"486
+[v AbortCodeGet@abortCode abortCode `E6814  1 a 1 3 ]
+"484
+[v AbortCodeGet@targetStatus targetStatus `E6172  1 a 1 wreg ]
+"486
+[v AbortCodeGet@targetStatus targetStatus `E6172  1 a 1 2 ]
+"505
+} 0
+"162 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/com_adapter/com_adapter.c
+[v _COM_FrameTransfer COM_FrameTransfer `(E6610  1 e 1 0 ]
+{
+"213
+[v COM_FrameTransfer@workPtr workPtr `*.39uc  1 a 2 15 ]
+"214
+[v COM_FrameTransfer@lowByte lowByte `uc  1 a 1 18 ]
+"209
+[v COM_FrameTransfer@startOfWord startOfWord `*.39uc  1 a 2 20 ]
+"210
+[v COM_FrameTransfer@frameCheckSequence frameCheckSequence `uc  1 a 1 19 ]
+"205
+[v COM_FrameTransfer@fcs fcs `uc  1 a 1 17 ]
+"164
+[v COM_FrameTransfer@nextByte nextByte `uc  1 a 1 23 ]
+"165
+[v COM_FrameTransfer@processResult processResult `E6610  1 a 1 22 ]
+"162
+[v COM_FrameTransfer@receiveBufferPtr receiveBufferPtr `*.39uc  1 p 2 8 ]
+[v COM_FrameTransfer@receiveIndexPtr receiveIndexPtr `*.30us  1 p 1 10 ]
+"180
+[v COM_FrameTransfer@isReceiveWindowOpen isReceiveWindowOpen `a  1 s 1 isReceiveWindowOpen ]
+"181
+[v COM_FrameTransfer@isEscapedByte isEscapedByte `a  1 s 1 isEscapedByte ]
+"275
+} 0
+"124
+[v _DataReceive DataReceive `(E6610  1 s 1 DataReceive ]
+{
+"134
+[v DataReceive@byteIndex byteIndex `us  1 a 2 6 ]
+"126
+[v DataReceive@status status `E6610  1 a 1 5 ]
+"124
+[v DataReceive@data data `*.30uc  1 p 1 2 ]
+[v DataReceive@length length `ui  1 p 2 3 ]
+"159
+} 0
+"213 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"233
+} 0
+"213 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+{
+"233
+} 0
+"193 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_IsRxReady EUSART1_IsRxReady `(a  1 e 1 0 ]
+{
+"196
+} 0
+"193 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_IsRxReady EUSART2_IsRxReady `(a  1 e 1 0 ]
+{
+"196
+} 0
+"94 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"94 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"272
+[v _EUSART2_OverrunErrorCallbackRegister EUSART2_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART2_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 0 ]
+"278
+} 0
+"264
+[v _EUSART2_FramingErrorCallbackRegister EUSART2_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART2_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 0 ]
+"270
+} 0
+"115 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Deinitialize EUSART1_Deinitialize `(v  1 e 1 0 ]
+{
+"122
+} 0
+"115 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_Deinitialize EUSART2_Deinitialize `(v  1 e 1 0 ]
+{
+"122
+} 0
+"245 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+{
+"250
+} 0
+"257 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_DefaultOverrunErrorCallback EUSART2_DefaultOverrunErrorCallback `(v  1 s 1 EUSART2_DefaultOverrunErrorCallback ]
+{
+"262
+} 0
+"240 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+{
+"243
+} 0
+"252 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_DefaultFramingErrorCallback EUSART2_DefaultFramingErrorCallback `(v  1 s 1 EUSART2_DefaultFramingErrorCallback ]
+{
+"255
+} 0
+"260 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 0 ]
+"266
+} 0
+"252
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 0 ]
+"258
+} 0
+"278 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/com_adapter/com_adapter.c
+[v _COM_FrameSet COM_FrameSet `(E6610  1 e 1 0 ]
+{
+"296
+[v COM_FrameSet@sentByteCount sentByteCount `us  1 a 2 16 ]
+"295
+[v COM_FrameSet@nextByte nextByte `uc  1 a 1 19 ]
+"289
+[v COM_FrameSet@frameCheck frameCheck `us  1 a 2 14 ]
+"280
+[v COM_FrameSet@processResult processResult `E6610  1 a 1 18 ]
+"278
+[v COM_FrameSet@responseBufferPtr responseBufferPtr `*.39uc  1 p 2 8 ]
+[v COM_FrameSet@responseLength responseLength `us  1 p 2 10 ]
+"346
+} 0
+"76
+[v _FrameCheckCalculate FrameCheckCalculate `(uc  1 s 1 FrameCheckCalculate ]
+{
+"78
+[v FrameCheckCalculate@numBytesChecksummed numBytesChecksummed `uc  1 a 1 4 ]
+"79
+[v FrameCheckCalculate@checksum checksum `uc  1 a 1 3 ]
+"76
+[v FrameCheckCalculate@ftpData ftpData `*.39uc  1 p 2 0 ]
+[v FrameCheckCalculate@bufferLength bufferLength `uc  1 p 1 2 ]
+"86
+} 0
+"88
+[v _DataSend DataSend `(E6610  1 s 1 DataSend ]
+{
+"98
+[v DataSend@byteIndex byteIndex `us  1 a 2 6 ]
+"90
+[v DataSend@status status `E6610  1 a 1 5 ]
+"88
+[v DataSend@data data `*.30uc  1 p 1 2 ]
+[v DataSend@length length `ui  1 p 2 3 ]
+"122
+} 0
+"235 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+"237
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"238
+} 0
+"235 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+"237
+[v EUSART2_Write@txData txData `uc  1 a 1 0 ]
+"238
+} 0
+"198 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+{
+"201
+} 0
+"198 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_IsTxReady EUSART2_IsTxReady `(a  1 e 1 0 ]
+{
+"201
+} 0
+"203 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_IsTxDone EUSART1_IsTxDone `(a  1 e 1 0 ]
+{
+"206
+} 0
+"203 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_IsTxDone EUSART2_IsTxDone `(a  1 e 1 0 ]
+{
+"206
+} 0
+"208 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_ErrorGet EUSART1_ErrorGet `(ui  1 e 2 0 ]
+{
+"211
+} 0
+"208 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/uart/src/eusart2.c
+[v _EUSART2_ErrorGet EUSART2_ErrorGet `(ui  1 e 2 0 ]
+{
+"211
+} 0
+"155 E:\PIC18F_bootloader_ESP32\updated_pic18f45k22\Bootloader_45k22.X\mcc_generated_files/bootloader/library/core/bl_core.c
+[v _BL_ApplicationStart BL_ApplicationStart `(v  1 e 1 0 ]
+{
+"172
+} 0

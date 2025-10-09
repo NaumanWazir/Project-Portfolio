@@ -1,0 +1,4 @@
+"./lcd.obj"
+"./msp430g2xx3_P1_04.obj"
+"../lnk_msp430g2553.cmd"
+-llibc.a
