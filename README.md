@@ -35,7 +35,7 @@ Each project has its own folder with a dedicated **README.md** outlining:
 
 ### On-Job Projects
 - [Control Card & Power Supply Design for Dynamically Tuned Gyroscopes](./Control%20card%20%26%20Power%20Supply%20design%20for%20Dynamically%20Tune%20Gyroscopes)  
-- [GSM-Based Power Monitoring and Control Unit](./GSM%20Based%20Power%20Monitoring%20and%20Control%20Unit)  
+- [GSM-Based Power Monitoring and Control Unit](./GSM%20based%20Power%20Monitoring%20and%20Control%20Unit)  
 - [Fault-Tolerant Integrated Navigation System](./Fault%20Tolerant%20Integrated%20Navigation%20System)  
 - [FOG-Based INS for Sub Orbital Flight](./FOG%20Based%20INS%20for%20Sub%20Orbital%20Flight)  
 - [Inertial Navigation System](./Inertial%20Navigation%20System)  
@@ -44,29 +44,29 @@ Each project has its own folder with a dedicated **README.md** outlining:
 - [On-Board Computer (OBC) using RISC-V](./On-Board%20Computer%20(OBC)%20using%20RISC-V)  
 
 ### Final Year / Academic Projects
-- [High-Speed Transformer-less Sine Wave UPS](./High-Speed%20Transformer-less%20Sine%20Wave%20UPS)  
-- [RISC-V Co-Processor](./RISC-V%20Co-Processor)  
+- [High-Speed Transformer-less Sine Wave UPS](./High%20Speed%20Transformer-less%20Sine%20Wave%20UPS)  
+- [RISC-V Co-Processor](./RISC-V%20Coprocessor)  
 
 ### Freelance Projects
 - [BBQ Blower Firmware](./BBQ%20Blower%20Firmware)  
 - [Labview Drivers](./Labview%20Drivers)  
 - [Flash Joule Heating Controller](./Flash%20Joule%20Heating%20Controller)  
-- [Hex LED Intensity Controller](./Hex%20LED%20Intensity%20Controller)  
-- [EEZIMOVER (NDA)](./EEZIMOVER%20(NDA))  
+- [Hex LED Intensity Controller](./Hex%20Led%20Intensity%20Controller)  
+- [EEZIMOVER (NDA)](./EEZIMOVER)  
 - [Temperature Regulator with Feedback Control](./Temperature%20with%20Feedback%20Control)  
-- [Footpod Firmware Development (NDA)](./Footpod%20Firmware%20Development%20(NDA))  
+- [Footpod Firmware Development (NDA)](./Footpod)  
 - [Automatic Pill Dispenser](./Automatic%20Pill%20Dispensor)  
-- [Movesense Custom Firmware (NDA)](./Movesense%20Custom%20Firmware%20(NDA))  
+- [Movesense Custom Firmware (NDA)](./Movesense%20Custom%20Firmware)  
 - [Motor PID Control](./Motor%20PID%20Control)  
-- [Prototype Testing for CurveAssure (NDA)](./Prototype%20Testing%20for%20CurveAssure%20(NDA))  
+- [Prototype Testing for CurveAssure (NDA)](./Prototype%20Testing%20for%20CurveAssure)  
 - [Multiple Input and Output Driver](./Multiple%20Input%20and%20Output%20Driver)  
 - [Electronic Dice](./Electronic%20Dice)  
 - [Sound Generator Toy](./Sound%20Generator%20Toy)  
 - [6-Phase Automatic Change Over Controller](./6%20Phase%20Automatic%20Change%20Over%20Controller)  
-- [PIC18 UART Bootloader](./PIC18%20UART%20Bootloader)  
-- [Wireless Bridge for Sony Remote Control Panel (NDA)](./Wireless%20Bridge%20for%20Sony%20Remote%20Control%20Panel%20(NDA))  
-- [Reaction-Based Reflex Game](./Reaction-Based%20Reflex%20Game)  
-- [Tally Light Indicator (NDA)](./Tally%20Light%20Indicator)  
+- [PIC18 UART Bootloader](./PIC18%20Uart%20Bootloader)  
+- [Wireless Bridge for Sony Remote Control Panel (NDA)](./Wireless%20Bridge%20for%20Sony%20Remote%20Control%20Panel)  
+- [Reaction-Based Reflex Game](./Reaction%20based%20reflex%20game)  
+- [Tally Light Indicator (NDA)](./Tally%20light%20Indicator)  
 - [USB Power Meter](./USB%20Power%20Meter)  
 
 ---
