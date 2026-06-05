@@ -33,7 +33,7 @@ Each project has its own folder with a dedicated **README.md** outlining:
 
 ## Project Categories
 
-### On-Job Projects
+### On-Job Projects (SUPARCO)
 - [Control Card & Power Supply Design for Dynamically Tuned Gyroscopes](./Control%20card%20%26%20Power%20Supply%20design%20for%20Dynamically%20Tune%20Gyroscopes)  
 - [GSM-Based Power Monitoring and Control Unit](./GSM%20based%20Power%20Monitoring%20and%20Control%20Unit)  
 - [Fault-Tolerant Integrated Navigation System](./Fault%20Tolerant%20Integrated%20Navigation%20System)  
@@ -42,6 +42,13 @@ Each project has its own folder with a dedicated **README.md** outlining:
 - [Integrated Inertial Navigation System](./Integrated%20Inertial%20Navigation%20System)  
 - [Multiple Sensor Integration for Fairing Separation](./Multiple%20Sensor%20Integration%20for%20Fairing%20Separation)  
 - [On-Board Computer (OBC) using RISC-V](./On-Board%20Computer%20(OBC)%20using%20RISC-V)  
+
+### On-Job Projects (NTU)
+- [Hailo AI module with Zynq MpSOC Ultrascale](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
+- [Large Language Model (LLM) Protection](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
+- [ZEDAC Algorithm Optimization](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
+- [ZEDAC Memory Protection Code for Runtime Memory](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
+- [ZEDAC voter module for AI Model Protection](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
 
 ### Final Year / Academic Projects
 - [High-Speed Transformer-less Sine Wave UPS](./High%20Speed%20Transformer-less%20Sine%20Wave%20UPS)  
