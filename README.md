@@ -44,11 +44,11 @@ Each project has its own folder with a dedicated **README.md** outlining:
 - [On-Board Computer (OBC) using RISC-V](./On-Board%20Computer%20(OBC)%20using%20RISC-V)  
 
 ### On-Job Projects (NTU)
-- [Hailo AI module with Zynq MpSOC Ultrascale](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
-- [Large Language Model (LLM) Protection](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
-- [ZEDAC Algorithm Optimization](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
-- [ZEDAC Memory Protection Code for Runtime Memory](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
-- [ZEDAC voter module for AI Model Protection](./Control%20Card%20%26%20Power%20Supply%20Design%20for%20Dynamically%20Tuned%20Gyroscopes)  
+- [Hailo AI module with Zynq MpSOC Ultrascale](./Hailo%20AI%20module%20with%20Zynq%20MpSOC%20Ultrascale)  
+- [Large Language Model (LLM) Protection](./Large%20Language%20Model%20(LLM)%20Protection)  
+- [ZEDAC Algorithm Optimization](./ZEDAC%20Algorithm%20Optimization)  
+- [ZEDAC Memory Protection Code for Runtime Memory](./ZEDAC%20Memory%20Protection%20Code%20for%20Runtime%20Memory)  
+- [ZEDAC voter module for AI Model Protection](./ZEDAC%20voter%20module%20for%20AI%20Model%20Protection) 
 
 ### Final Year / Academic Projects
 - [High-Speed Transformer-less Sine Wave UPS](./High%20Speed%20Transformer-less%20Sine%20Wave%20UPS)  
